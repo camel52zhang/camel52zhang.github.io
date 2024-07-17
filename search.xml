@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Hello World</title>
+      <link href="/posts/4a17b156.html"/>
+      <url>/posts/4a17b156.html</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo页面添加音乐播放列表</title>
       <link href="/posts/5b7683e5.html"/>
       <url>/posts/5b7683e5.html</url>
@@ -17,19 +30,6 @@
             <tag> Hexo </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="/posts/4a17b156.html"/>
-      <url>/posts/4a17b156.html</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
       
     </entry>
     
@@ -61,6 +61,411 @@
     </entry>
     
     
+    
+    <entry>
+      <title>Hexo教程相关网址备份</title>
+      <link href="/posts/61476.html"/>
+      <url>/posts/61476.html</url>
+      
+        <content type="html"><![CDATA[<p>1，next主教程</p><p><a href="https://theme-next.iissnan.com/getting-started.html">https://theme-next.iissnan.com/getting-started.html</a></p><p>2，Hexo之Next主题美化代码</p><p><a href="https://cloud.tencent.com/developer/article/2201625">https://cloud.tencent.com/developer/article/2201625</a><span id="more"></span></p><p>3，next文章样式美化</p><p><a href="https://marmalade.vip/nextthemebeautify3.html">https://marmalade.vip/nextthemebeautify3.html</a></p><p>4，在每篇文章末尾添加“本文结束”标记；添加文章置顶功能</p><p><a href="https://marmalade.vip/nextthemebeautify1.html">https://marmalade.vip/nextthemebeautify1.html</a></p><p>5，RGB颜色值与十六进制颜色码转换工具</p><p><a href="https://www.sioe.cn/yingyong/yanse-rgb-16/">https://www.sioe.cn/yingyong/yanse-rgb-16/</a></p><p>6，NexT 行内代码背景颜色设置</p><p><a href="https://zengfanyongcn.github.io/2022/04/17/code-background/">https://zengfanyongcn.github.io/2022/04/17/code-background/</a></p><p>7，next主题highlight的对应效果</p><p><a href="https://theme-next.js.org/highlight/">https://theme-next.js.org/highlight/</a></p><p>8，next主题官网</p><p><a href="https://theme-next.js.org/">https://theme-next.js.org/</a></p><p>9，NexT 主题自定义侧边栏图标</p><p><a href="https://zengfanyongcn.github.io/2022/04/20/NexT-sidebar-icon/">https://zengfanyongcn.github.io/2022/04/20/NexT-sidebar-icon/</a></p><p><a href="https://zengfanyongcn.github.io/2022/04/15/NexT-config/">https://zengfanyongcn.github.io/2022/04/15/NexT-config/</a></p><p>10，代码高亮</p><p><a href="https://hexo.io/zh-cn/docs/syntax-highlight.html">https://hexo.io/zh-cn/docs/syntax-highlight.html</a></p><p>11，Hexo主页</p><p><a href="https://hexo.io/zh-cn/">https://hexo.io/zh-cn/</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Hexo-next </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo-next添加点击显示爱心功能</title>
+      <link href="/posts/10103.html"/>
+      <url>/posts/10103.html</url>
+      
+        <content type="html"><![CDATA[<h4 id="1，在这个-blog-zhangzz-themes-next-source-js文件夹新建文件click-love-js，粘贴一下代码："><a href="#1，在这个-blog-zhangzz-themes-next-source-js文件夹新建文件click-love-js，粘贴一下代码：" class="headerlink" title="1，在这个\blog\zhangzz\themes\next\source\js文件夹新建文件click_love.js，粘贴一下代码："></a>1，在这个\blog\zhangzz\themes\next\source\js文件夹新建文件click_love.js，粘贴一下代<span id="more"></span>码：</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br></pre></td><td class="code"><pre><span class="line">//点击显示爱心功能</span><br><span class="line">!(function (e, t, a) &#123;</span><br><span class="line">  function n() &#123;</span><br><span class="line">    c(</span><br><span class="line">      &quot;.heart&#123;width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);&#125;.heart:after,.heart:before&#123;content: &#x27;&#x27;;width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;&#125;.heart:after&#123;top: -5px;&#125;.heart:before&#123;left: -5px;&#125;&quot;</span><br><span class="line">    ),</span><br><span class="line">      o(),</span><br><span class="line">      r()</span><br><span class="line">  &#125;</span><br><span class="line">  function r() &#123;</span><br><span class="line">    for (var e = 0; e &lt; d.length; e++)</span><br><span class="line">      d[e].alpha &lt;= 0</span><br><span class="line">        ? (t.body.removeChild(d[e].el), d.splice(e, 1))</span><br><span class="line">        : (d[e].y--,</span><br><span class="line">          (d[e].scale += 0.004),</span><br><span class="line">          (d[e].alpha -= 0.013),</span><br><span class="line">          (d[e].el.style.cssText =</span><br><span class="line">            &#x27;left:&#x27; +</span><br><span class="line">            d[e].x +</span><br><span class="line">            &#x27;px;top:&#x27; +</span><br><span class="line">            d[e].y +</span><br><span class="line">            &#x27;px;opacity:&#x27; +</span><br><span class="line">            d[e].alpha +</span><br><span class="line">            &#x27;;transform:scale(&#x27; +</span><br><span class="line">            d[e].scale +</span><br><span class="line">            &#x27;,&#x27; +</span><br><span class="line">            d[e].scale +</span><br><span class="line">            &#x27;) rotate(45deg);background:&#x27; +</span><br><span class="line">            d[e].color +</span><br><span class="line">            &#x27;;z-index:99999&#x27;))</span><br><span class="line">    requestAnimationFrame(r)</span><br><span class="line">  &#125;</span><br><span class="line">  function o() &#123;</span><br><span class="line">    var t = &#x27;function&#x27; == typeof e.onclick &amp;&amp; e.onclick</span><br><span class="line">    e.onclick = function (e) &#123;</span><br><span class="line">      t &amp;&amp; t(), i(e)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  function i(e) &#123;</span><br><span class="line">    var a = t.createElement(&#x27;div&#x27;)</span><br><span class="line">    ;(a.className = &#x27;heart&#x27;),</span><br><span class="line">      d.push(&#123;</span><br><span class="line">        el: a,</span><br><span class="line">        x: e.clientX - 5,</span><br><span class="line">        y: e.clientY - 5,</span><br><span class="line">        scale: 1,</span><br><span class="line">        alpha: 1,</span><br><span class="line">        color: s(),</span><br><span class="line">      &#125;),</span><br><span class="line">      t.body.appendChild(a)</span><br><span class="line">  &#125;</span><br><span class="line">  function c(e) &#123;</span><br><span class="line">    var a = t.createElement(&#x27;style&#x27;)</span><br><span class="line">    a.type = &#x27;text/css&#x27;</span><br><span class="line">    try &#123;</span><br><span class="line">      a.appendChild(t.createTextNode(e))</span><br><span class="line">    &#125; catch (t) &#123;</span><br><span class="line">      a.styleSheet.cssText = e</span><br><span class="line">    &#125;</span><br><span class="line">    t.getElementsByTagName(&#x27;head&#x27;)[0].appendChild(a)</span><br><span class="line">  &#125;</span><br><span class="line">  function s() &#123;</span><br><span class="line">    return (</span><br><span class="line">      &#x27;rgb(&#x27; +</span><br><span class="line">      ~~(255 * Math.random()) +</span><br><span class="line">      &#x27;,&#x27; +</span><br><span class="line">      ~~(255 * Math.random()) +</span><br><span class="line">      &#x27;,&#x27; +</span><br><span class="line">      ~~(255 * Math.random()) +</span><br><span class="line">      &#x27;)&#x27;</span><br><span class="line">    )</span><br><span class="line">  &#125;</span><br><span class="line">  var d = []</span><br><span class="line">  ;(e.requestAnimationFrame = (function () &#123;</span><br><span class="line">    return (</span><br><span class="line">      e.requestAnimationFrame ||</span><br><span class="line">      e.webkitRequestAnimationFrame ||</span><br><span class="line">      e.mozRequestAnimationFrame ||</span><br><span class="line">      e.oRequestAnimationFrame ||</span><br><span class="line">      e.msRequestAnimationFrame ||</span><br><span class="line">      function (e) &#123;</span><br><span class="line">        setTimeout(e, 1e3 / 60)</span><br><span class="line">      &#125;</span><br><span class="line">    )</span><br><span class="line">  &#125;)()),</span><br><span class="line">    n()</span><br><span class="line">&#125;)(window, document)</span><br><span class="line"></span><br></pre></td></tr></table></figure><h4 id="2，在这个-blog-zhangzz-themes-next-layout文件内打开-layout-njk，在最后背粘贴以下内容："><a href="#2，在这个-blog-zhangzz-themes-next-layout文件内打开-layout-njk，在最后背粘贴以下内容：" class="headerlink" title="2，在这个\blog\zhangzz\themes\next\layout文件内打开_layout.njk，在最后背粘贴以下内容："></a>2，在这个\blog\zhangzz\themes\next\layout文件内打开_layout.njk，在最后背粘贴以下内容：</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;/js/click_love.js&quot;&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure><h4 id="3，执行以下代码看效果"><a href="#3，执行以下代码看效果" class="headerlink" title="3，执行以下代码看效果"></a>3，执行以下代码看效果</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+            <tag> Next </tag>
+            
+            <tag> Hexo-next </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>收藏的Windows操作系统和软件网</title>
+      <link href="/posts/20897.html"/>
+      <url>/posts/20897.html</url>
+      
+        <content type="html"><![CDATA[<p>纯净系统下载网站<br><a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a><br><a href="https://hellowindows.cn/">https://hellowindows.cn/</a><span id="more"></span><br><a href="https://latest10.win/">https://latest10.win/</a><br><a href="https://www.sysmini.com/">https://www.sysmini.com/</a><br><a href="https://msdn.sjjzm.com/win10.html">https://msdn.sjjzm.com/win10.html</a><br><a href="https://www.newxitong.com/">https://www.newxitong.com/</a></p><p>软件下载网站：<br><a href="https://www.hezibuluo.com/">https://www.hezibuluo.com/</a></p><p>油小猴（插件网站）<br><a href="https://www.youxiaohou.com/">https://www.youxiaohou.com/</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Windows </tag>
+            
+            <tag> 纯净系统 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PVE扩容和直通代码及硬盘直通</title>
+      <link href="/posts/31267.html"/>
+      <url>/posts/31267.html</url>
+      
+        <content type="html"><![CDATA[<h4 id="一、PVE-扩容命令（这一步可以不做）"><a href="#一、PVE-扩容命令（这一步可以不做）" class="headerlink" title="一、PVE 扩容命令（这一步可以不做）"></a>一、PVE 扩容命令（这一步可以不做）</h4><h5 id="1、删除local-lvm"><a href="#1、删除local-lvm" class="headerlink" title="1、删除local-lvm"></a>1、删除local-lvm</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lvremove pve/data  #回车 【 y 】确认</span><br></pre></td></tr></table></figure><h5 id="2、把local-lvm存储空间分配给local"><a href="#2、把local-lvm存储空间分配给local" class="headerlink" title="2、把local-lvm存储空间分配给local"></a>2、把local-lvm存储空间分配给local<span id="more"></span></h5><figure class="highlight plaintext"><figcaption><span>pve/data  #回车 【 y 】确认</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">lvextend -l +100%FREE -r pve/root</span><br><span class="line">resize2fs /dev/mapper/pve-root</span><br></pre></td></tr></table></figure><h4 id="二、网卡直通"><a href="#二、网卡直通" class="headerlink" title="二、网卡直通"></a>二、网卡直通</h4><h5 id="1、打开PVE节点的shell，输入命令："><a href="#1、打开PVE节点的shell，输入命令：" class="headerlink" title="1、打开PVE节点的shell，输入命令："></a>1、打开PVE节点的shell，输入命令：</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano /etc/default/grub</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">GRUB_CMDLINE_LINUX_DEFAULT=&quot;quiet&quot;</span><br><span class="line">改为：</span><br><span class="line">GRUB_CMDLINE_LINUX_DEFAULT=&quot;quiet intel_iommu=on video=efifb:off&quot;</span><br><span class="line">编辑完文件后按 【 Ctrl + X 】 【  Y  】  回车 </span><br><span class="line">update-grub</span><br></pre></td></tr></table></figure><h5 id="2、继续输入以下命令"><a href="#2、继续输入以下命令" class="headerlink" title="2、继续输入以下命令"></a>2、继续输入以下命令</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano /etc/modules</span><br></pre></td></tr></table></figure><p>在文件下面添加新内容</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">vfio</span><br><span class="line">vfio_iommu_type1</span><br><span class="line">vfio_pci</span><br><span class="line">vfio_virqfd</span><br></pre></td></tr></table></figure><p>编辑完文件后按【 Ctrl + X 】 【  Y  】  回车 </p><h5 id="3、最后更新配置信息并重启PVE主机"><a href="#3、最后更新配置信息并重启PVE主机" class="headerlink" title="3、最后更新配置信息并重启PVE主机"></a>3、最后更新配置信息并重启PVE主机</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">update-grub</span><br><span class="line">update-initramfs -u -k all</span><br><span class="line">reboot</span><br></pre></td></tr></table></figure><h4 id="三、安装img镜像格式需要通过代码安装"><a href="#三、安装img镜像格式需要通过代码安装" class="headerlink" title="三、安装img镜像格式需要通过代码安装"></a>三、安装img镜像格式需要通过代码安装</h4><h5 id="1，qm-importdisk-101（虚拟机号牌）-文件路径-local-PVE扩容才用这个命令"><a href="#1，qm-importdisk-101（虚拟机号牌）-文件路径-local-PVE扩容才用这个命令" class="headerlink" title="1，qm importdisk 101（虚拟机号牌） 文件路径  local   #PVE扩容才用这个命令"></a>1，qm importdisk 101（虚拟机号牌） 文件路径  local   #PVE扩容才用这个命令</h5><p>例如OpenWrt文件路径:&#x2F;var&#x2F;lib&#x2F;vz&#x2F;template&#x2F;iso&#x2F;password_openwrt-x86-64-efi.img，输入以下命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qm importdisk 101 /var/lib/vz/template/iso/password_openwrt-x86-64-efi.img local</span><br></pre></td></tr></table></figure><h5 id="2，qm-importdisk-101（虚拟机号牌）-文件路径-local-第一布PVE没扩容的话用这个命令"><a href="#2，qm-importdisk-101（虚拟机号牌）-文件路径-local-第一布PVE没扩容的话用这个命令" class="headerlink" title="2，qm importdisk 101（虚拟机号牌） 文件路径  local   #第一布PVE没扩容的话用这个命令"></a>2，qm importdisk 101（虚拟机号牌） 文件路径  local   #第一布PVE没扩容的话用这个命令</h5><p>例如OpenWrt文件路径:&#x2F;var&#x2F;lib&#x2F;vz&#x2F;template&#x2F;iso&#x2F;password_openwrt-x86-64-efi.img，输入以下命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qm importdisk 101 /var/lib/vz/template/iso/password_openwrt-x86-64-efi.img local-lvm</span><br></pre></td></tr></table></figure><h4 id="四、硬盘直通"><a href="#四、硬盘直通" class="headerlink" title="四、硬盘直通"></a>四、硬盘直通</h4><h5 id="A-用finalshell登录PVE，输入以下命令"><a href="#A-用finalshell登录PVE，输入以下命令" class="headerlink" title="A, 用finalshell登录PVE，输入以下命令"></a>A, 用finalshell登录PVE，输入以下命令</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls /dev/disk/by-id</span><br></pre></td></tr></table></figure><h5 id="B-找到未使用硬盘的ID"><a href="#B-找到未使用硬盘的ID" class="headerlink" title="B, 找到未使用硬盘的ID"></a>B, 找到未使用硬盘的ID</h5><h6 id="1，西数4T硬盘1，完成后显示sata2"><a href="#1，西数4T硬盘1，完成后显示sata2" class="headerlink" title="1，西数4T硬盘1，完成后显示sata2"></a>1，西数4T硬盘1，完成后显示sata2</h6><p>ata-WDC_WD40EFAX-68JH4N1_WD-WX22D817ZDDJ<br>输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qm set 102 -sata2 /dev/disk/by-id/ata-WDC_WD40EFAX-68JH4N1_WD-WX22D817ZDDJ</span><br></pre></td></tr></table></figure><h6 id="2，西数4T硬盘2，完成后显示sata3"><a href="#2，西数4T硬盘2，完成后显示sata3" class="headerlink" title="2，西数4T硬盘2，完成后显示sata3"></a>2，西数4T硬盘2，完成后显示sata3</h6><p>ata-WDC_WD40EFAX-68JH4N1_WD-WX32D810KASS</p><p>输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qm set 102 -sata3 /dev/disk/by-id/ata-WDC_WD40EFAX-68JH4N1_WD-WX32D810KASS</span><br></pre></td></tr></table></figure><h6 id="3，东芝14T硬盘，完成后显示sata4"><a href="#3，东芝14T硬盘，完成后显示sata4" class="headerlink" title="3，东芝14T硬盘，完成后显示sata4"></a>3，东芝14T硬盘，完成后显示sata4</h6><p>ata-TOSHIBA_MG07ACA14TE_2170A04PF94G<br>然后输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qm set 102 -sata4 /dev/disk/by-id/ata-TOSHIBA_MG07ACA14TE_2170A04PF94G</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> PVE </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>idm序列号永久激活码2024</title>
+      <link href="/posts/58955.html"/>
+      <url>/posts/58955.html</url>
+      
+        <content type="html"><![CDATA[<p>idm序列号永久激活码2024：</p><p>TUTR2-i2nHo-GQBC6-ZECwH</p><p>3ZV2M-XQVN1-H0AMJ-B1MRX</p><span id="more"></span><p>56ECU-E6CY3-FMNLR-ZA787</p><p>5505O-M38P8-NHRL2-XAKWJ</p><p>KCC05-BJ2L2-ZM95G-6SFJ4</p><p>1QK5Z-4EQIM-XH4RD-BLXKT</p><p>TGG94-HRKYT-NIE2X-8A9MT</p><p>NCU51-ZEXKM-414SK-HM247</p><p>83NFH-WM0FW-GJRQ3-WQ8HL</p><p>A3RJ1-3X8AT-85C48-ET4YN</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> idm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo-next主题设置abbrlink插件生成永久链接</title>
+      <link href="/posts/40339.html"/>
+      <url>/posts/40339.html</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://smms.app/image/AlBDdTaSpX3CjQo" target="_blank"><img src="https://s2.loli.net/2024/07/13/AlBDdTaSpX3CjQo.jpg" width=100%></a></p><h3 id="按照abbrlink插件"><a href="#按照abbrlink插件" class="headerlink" title="按照abbrlink插件"></a>按照abbrlink插件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-abbrlink --save</span><br></pre></td></tr></table></figure><h3 id="配置-修改-config-yml配置文件"><a href="#配置-修改-config-yml配置文件" class="headerlink" title="配置 - 修改_config.yml配置文件"></a>配置 - 修改<code>_config.yml</code>配置文<span id="more"></span>件</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">#permalink: :year/:month/:day/:title/   #此处是默认，注释掉</span><br><span class="line">#permalink_defaults:         #此处是默认，也注释掉</span><br><span class="line">permalink: posts/:abbrlink.html  # 使用此处代替，也可以直接使用 :/abbrlink</span><br></pre></td></tr></table></figure><h3 id="修改-config-next-yml配置文件，在尾部添加以下内容"><a href="#修改-config-next-yml配置文件，在尾部添加以下内容" class="headerlink" title="修改_config.next.yml配置文件，在尾部添加以下内容"></a>修改<code>_config.next.yml</code>配置文件，在尾部添加以下内容</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">## abbrlink config</span><br><span class="line">abbrlink:</span><br><span class="line">  alg: crc32      #support crc16(default) and crc32 进制</span><br><span class="line">  rep: hex        #support dec(default) and hex  算法</span><br><span class="line">  drafts: false   #(true)Process draft,(false)Do not process draft. false(default) </span><br><span class="line">  ## Generate categories from directory-tree</span><br><span class="line">  ## depth: the max_depth of directory-tree you want to generate, should &gt; 0</span><br><span class="line">  auto_category:</span><br><span class="line">     enable: true  #true(default)</span><br><span class="line">     depth:        #3(default)</span><br><span class="line">     over_write: false </span><br><span class="line">  auto_title: false #enable auto title, it can auto fill the title by path</span><br><span class="line">  auto_date: false #enable auto date, it can auto fill the date by time today</span><br><span class="line">  force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>然后运行以下代码测试效果</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure><p>没问题的话就使用以下代码部署</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo-next主题如何添加动态背景</title>
+      <link href="/posts/59765.html"/>
+      <url>/posts/59765.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="安装依赖"><a href="#安装依赖" class="headerlink" title="安装依赖"></a>安装依赖</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 使用 npm</span><br><span class="line">npm install --save canvas-nest.js</span><br></pre></td></tr></table></figure><h3 id="设置"><a href="#设置" class="headerlink" title="设置"></a>设置</h3><p>修改_layout.njk，路径在\blog\zhangzz\themes\next\layout文件<span id="more"></span>夹内</p><p>在<code>&lt; /body&gt;</code>之前添加以下代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if theme.canvas_nest %&#125;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure><h3 id="修改配置文件"><a href="#修改配置文件" class="headerlink" title="修改配置文件"></a>修改配置文件</h3><p>根目录打开_config.next.yml，在里面添加如下代码：(可以放在最后面)</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># --------------------------------------------------------------</span><br><span class="line"># background settings</span><br><span class="line"># --------------------------------------------------------------</span><br><span class="line"># add canvas-nest effect</span><br><span class="line"># see detail from https://github.com/hustcc/canvas-nest.js</span><br><span class="line">canvas_nest: true</span><br></pre></td></tr></table></figure><p>然后运行以下代码看效果看效果</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure><h3 id="如果感觉线条太细，可以按以下改粗一些"><a href="#如果感觉线条太细，可以按以下改粗一些" class="headerlink" title="如果感觉线条太细，可以按以下改粗一些"></a>如果感觉线条太细，可以按以下改粗一些</h3><p>把_layout.njk里的以下代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if theme.canvas_nest %&#125;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot; src=&quot;//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure><p>改为</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;% if theme.canvas_nest %&#125;</span><br><span class="line">&lt;script type=&quot;text/javascript&quot;</span><br><span class="line">color=&quot;0,0,255&quot; opacity=&#x27;0.7&#x27; zIndex=&quot;-2&quot; count=&quot;99&quot; src=&quot;//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js&quot;&gt;&lt;/script&gt;</span><br><span class="line">&#123;% endif %&#125;</span><br></pre></td></tr></table></figure><p>然后再运行以下代码看效果看效果</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure><h3 id="配置项说明"><a href="#配置项说明" class="headerlink" title="配置项说明"></a>配置项说明</h3><ul><li><code>color</code> ：线条颜色, 默认: <code>&#39;0,0,0&#39;</code>；三个数字分别为(R,G,B)</li><li><code>opacity</code>: 线条透明度（0~1）, 默认: <code>0.5</code></li><li><code>count</code>: 线条的总数量, 默认: <code>150</code></li><li><code>zIndex:</code> 背景的z-index属性，css属性用于控制所在层的位置, 默认: <code>-1</code></li></ul><p>原教程地址：<a href="http://shenzekun.cn/hexo%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E5%8A%A8%E6%80%81%E8%83%8C%E6%99%AF.html">Moorez</a>，感谢大佬！！</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hexo博客搜索引擎优化</title>
+      <link href="/posts/57522.html"/>
+      <url>/posts/57522.html</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://pengtech.net/hexo/blog_seo_optimize">鹏叔的技术博客</a>上的内容，还没来的赢看，先收藏</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>在Ubuntu上安装php7.2、php7.3、php7.4</title>
+      <link href="/posts/45579.html"/>
+      <url>/posts/45579.html</url>
+      
+        <content type="html"><![CDATA[<p>一个大神写的，非常棒，地址分享如下：<br><a href="https://www.cnblogs.com/niuben/p/13329434.html">https://www.cnblogs.com/niuben/p/13329434.html</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Ubuntu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>旧电脑打造成自己的Windows版NAS系统</title>
+      <link href="/posts/8175.html"/>
+      <url>/posts/8175.html</url>
+      
+        <content type="html"><![CDATA[<p>纯属借鉴分享，感谢大佬！</p><p>老电脑拿来这样用还是不错的，可以远程用来备份手机里的图片和电脑里的东西，远程也可以查<span id="more"></span>看，非常划算，当然有钱的另说，链接如下</p><p><a href="https://blog.csdn.net/weixin_44786530/article/details/129685671">https://blog.csdn.net/weixin_44786530/article/details/129685671</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> nas </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 旧电脑nas </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>服务端frps.ini配置文件</title>
+      <link href="/posts/38537.html"/>
+      <url>/posts/38537.html</url>
+      
+        <content type="html"><![CDATA[<p>服务端frps.ini配置：</p><p>编辑服务器命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi frps.ini</span><br></pre></td></tr></table></figure><p>编辑服务器内容<br>[common]<br>bind_port &#x3D; 7000 #客户端和服务端连接的接口，后边客户端配<span id="more"></span>置也要用到，但端口需要在服务器里放行<br>vhost_http_port &#x3D; 5800 #本地http端口，反向代理http主机时使用<br>vhost_https_port &#x3D; 5801 #本地https端口，反向代理https主机时使用<br>token &#x3D; 123456 #身份验证<br>dashboard_port &#x3D; 7500 #服务器仪表盘端口，配置完成后可以通过浏览器访问x.x.x.x:7500，但端口需要在服务器里放行<br>dashboard_user &#x3D; admin #服务器仪表盘用户名<br>dashboard_pwd &#x3D; admin #服务器仪表盘密码</p><p>启动服务器端服务器</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./frps -c ./frps.ini</span><br></pre></td></tr></table></figure><p>服务端配置systemctl来控制frps，创建frps.service服务命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /lib/systemd/system/frps.service</span><br></pre></td></tr></table></figure><p>在frps.service服务里添加以下内容：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=frps service</span><br><span class="line">After=network.target syslog.target</span><br><span class="line">Wants=network.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">Type=smiple</span><br><span class="line">ExecStart=/root/frp/frps -c /root/frp/frps.ini #此位置的路径一定要正确</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure><p>保存</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ESC</span><br></pre></td></tr></table></figure><p>退出</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">:wq</span><br></pre></td></tr></table></figure><p>启动frps服务</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start frps</span><br></pre></td></tr></table></figure><p>frps服务开机自启动</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl enable frps</span><br></pre></td></tr></table></figure><p>停止frps服务：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop frps</span><br></pre></td></tr></table></figure><p>查看frps状态：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl status frps</span><br></pre></td></tr></table></figure><p>防火墙开放端口</p><h1 id="添加监听端口"><a href="#添加监听端口" class="headerlink" title="添加监听端口"></a>添加监听端口</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo firewall-cmd --permanent --add-port=7000/tcp</span><br></pre></td></tr></table></figure><h1 id="添加管理后台端口"><a href="#添加管理后台端口" class="headerlink" title="添加管理后台端口"></a>添加管理后台端口</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo firewall-cmd --permanent --add-port=7500/tcp</span><br><span class="line">sudo firewall-cmd --reload</span><br></pre></td></tr></table></figure><p>重新启动</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reboot</span><br></pre></td></tr></table></figure><p>检测是否启动</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps auxw</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 内网穿透 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> frp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>FRP服务端一键安装脚本</title>
+      <link href="/posts/36634.html"/>
+      <url>/posts/36634.html</url>
+      
+        <content type="html"><![CDATA[<p>FRP服务端一键安装脚本：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget --no-check-certificate https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh</span><br><span class="line">chmod 700 ./install-frps.sh</span><br><span class="line">./install-frps.sh install</span><br></pre></td></tr></table></figure><span id="more"></span><p>卸载命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./install-frps.sh uninstall</span><br></pre></td></tr></table></figure><p>更新FRP命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./install-frps.sh update</span><br></pre></td></tr></table></figure><p>FRP常用命令：<br>开启FRP</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">frps start</span><br></pre></td></tr></table></figure><p>停止FRP：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Frps stop</span><br></pre></td></tr></table></figure><p>重启FRP</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">frps restart</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 内网穿透 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> frp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Windows下kiftd开机自启动</title>
+      <link href="/posts/17197.html"/>
+      <url>/posts/17197.html</url>
+      
+        <content type="html"><![CDATA[<p>java -jar kiftd-1.1.0-RELEASE.jar -start</p><p>1，用记事本写启动脚本，保存为bat文件，内容如<span id="more"></span>下</p><p>d:<br>cd D:\Program Files\kiftd-v1.1.0-release<br>java -jar kiftd-1.1.0-RELEASE.jar -start</p><p>可以放在D盘的上述目录里。</p><p>2，在系统里配置这个bat文件开机启动，参考教程如下：<br><a href="https://blog.csdn.net/cal_room2032/article/details/106114622">https://blog.csdn.net/cal_room2032/article/details/106114622</a></p><p>也可以写好bat文件放到开机启动文件夹里，方法如下：<br>1，同时按住WIN键加R键，弹出窗口输入shell:startup<br>2、把写好的bat开机启动文件复制到弹出的文件夹中即开机启动</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> ftp </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> kiftd </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>客户端frpc.ini配置</title>
+      <link href="/posts/36108.html"/>
+      <url>/posts/36108.html</url>
+      
+        <content type="html"><![CDATA[<p>linux里客户端frpc.ini配置<br>编辑服务器命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi frpc.ini</span><br></pre></td></tr></table></figure><p>编辑服务器内<span id="more"></span>容<br>[common]<br>server_addr &#x3D; x.X.X.X #公网IP<br>server_port &#x3D; 7000<br>token &#x3D; 123456</p><p>[ssh]<br>type &#x3D; tcp<br>local_ip &#x3D; 192.168.0.101<br>local_port &#x3D; 22<br>remote_port &#x3D; 6001</p><p>[SMB] #Windows的文件共享协议默认端口<br>type &#x3D; tcp<br>local_ip &#x3D; 192.168.0.101<br>local_port &#x3D; 445<br>remote_port &#x3D; 6002</p><p>[RDP] #远程桌面默认端口协议<br>type &#x3D; tcp<br>local_ip &#x3D; 192.168.0.101<br>local_port &#x3D; 3389<br>remote_port &#x3D; 6003</p><p>[nastest_http]<br>type &#x3D; http<br>local_ip &#x3D; 192.168.0.101<br>local_port &#x3D; 5800<br>custom_domains &#x3D; xxx.xxx.com</p><p>[liannas9259_http]<br>type &#x3D; http<br>local_ip &#x3D; 192.168.0.102<br>local_port &#x3D; 5005<br>custom_domains &#x3D; xxx.xxx.com</p><p>linux里启动服务器端服务器</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./frpc -c ./frpc.ini</span><br></pre></td></tr></table></figure><p>客户配置systemctl来控制frpc，创建frpc.service服务命令：<br>vi &#x2F;lib&#x2F;systemd&#x2F;system&#x2F;frpc.service<br>在frps.service服务里添加以下内容：<br>[Unit]<br>Description&#x3D;frpc service<br>After&#x3D;network.target syslog.target<br>Wants&#x3D;network.target</p><p>[Service]<br>Type&#x3D;smiple<br>ExecStart&#x3D;&#x2F;root&#x2F;frp&#x2F;frpc -c &#x2F;root&#x2F;frp&#x2F;frpc.ini #注意此处是frps实际安装目录</p><p>[Install]<br>WantedBy&#x3D;multi-user.target</p><p>保存<br>ESC<br>退出<br>:wq<br>启动frpc服务</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start frpc</span><br></pre></td></tr></table></figure><p>frpc服务开机自启动</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl enable frpc</span><br></pre></td></tr></table></figure><p>停止frpc服务：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop frpc</span><br></pre></td></tr></table></figure><p>查看frpc状态：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl status frpc</span><br></pre></td></tr></table></figure><p>重新启动</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reboot</span><br></pre></td></tr></table></figure><p>检测是否启动</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps auxw</span><br></pre></td></tr></table></figure><p>Window里cmd里运行frpc客户端<br>frpc.exe -c .&#x2F;frpc.ini<br>验证服务端是否启动成功</p><p>解压tar -zxvf frp_0.13.0_linux_amd64.tar.gz</p><p>cmd里运行frpc客户端</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">frpc.exe -c ./frpc.ini</span><br></pre></td></tr></table></figure><p>***Windows里其他运行方法<br>使用Powershell进入以下命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cd e:\vultr_test\frpc</span><br></pre></td></tr></table></figure><p>执行</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./frpc -c ./frpc.ini</span><br></pre></td></tr></table></figure><p>执行后不要关闭命令窗口，此时可以在局域网外使用浏览器或相应应用访问相应IP地址加端口x.x.x.x:xx（IP为服务器的公网IP，端口为自定义的remote_port）。<br>客户端后台运行及开机自启动<br>frpc运行时始终有一个命令行窗口运行在前台，影响美观，我们可以使用一个批处理文件来将其运行在后台，而且可以双击执行，每次打开frpc就不用再自己输入命令了。<br>在任何一个文件夹新建一个文本文件并命名为frpc.bat,然后编辑，粘贴以下内容并保存：<br>@echo off<br>if “%1” &#x3D;&#x3D; “h” goto begin<br>mshta vbscript:createobject(“wscript.shell”).run(“””%~nx0”” h”,0)(window.close)&amp;&amp;exit<br>:begin<br>REM<br>cd C:\frp<br>frpc -c frpc.ini<br>exit</p><p>保存后放在C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp文件夹里既可自动启动<br>或通过win+R，打开运行，输入“shell:startup”，打开Windows启动文件夹，将.bat快捷文件粘贴到Windows启动文件夹中</p><p>或编写.vbs脚本放到Windows启动文件夹里<br>1、编写.vbs脚本<br>set ws&#x3D;WScript.CreateObject(“WScript.Shell”)<br>ws.Run “D:\cs.bat &#x2F;start”,0<br>(注：①可以用txt文件编写然后再将.txt后缀修改为.vbs；②“D:\cs.bat ”为文件路径）<br>2、将vbs文件放到“启动”文件夹里（打开启动文件夹步骤同方法一）</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 内网穿透 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> frp </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HEVC 图片视频扩展程序</title>
+      <link href="/posts/51381.html"/>
+      <url>/posts/51381.html</url>
+      
+        <content type="html"><![CDATA[<p>HEVC 视频图片浏览下载地址：</p><p><a href="http://r777t32407.zicp.fun/externalLinksController/downloadFileByKey/Microsoft.HEVCVideoExtension_2.0.61931.0_neutral_~_8wekyb3d8bbwe.AppxBundle?dkey=cc0cc2a9-817c-40cf-87ba-d22450775b8d">hevc下载</a></p><p>下载<span id="more"></span>后安装</p><p>参考方法：<br>访问 <a href="https://store.rg-adguard.net/">https://store.rg-adguard.net</a> 选择Productld输入 9n4wgh0z6vhq搜索，在搜索结果选择适合自己系统的版本下载，双击安装</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Adobe reader 或Adobe acrobat 显示“正在准备文档以供阅读”的取消方式</title>
+      <link href="/posts/19809.html"/>
+      <url>/posts/19809.html</url>
+      
+        <content type="html"><![CDATA[<p>找到文件安装目录C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\plug_ins里的Accessibility.api删除即可</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Adobe-acrobat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关闭 “若要接收后续 google chrome 更新” 的提醒</title>
+      <link href="/posts/63835.html"/>
+      <url>/posts/63835.html</url>
+      
+        <content type="html"><![CDATA[<p>按快捷键 win + R弹出的窗口输入regedit进入注册表，找到HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies新建项Google，然后在Google下新建项Chrome，然后在Chrome右侧目录里新建DWORD(32-位）值（D),名字改为SuppressUnsupportedOSWarning，然<span id="more"></span>后双击SuppressUnsupportedOSWarning把数值数据改为1即可<br>完整目录就是HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies&#x2F;Google&#x2F;Chrome。</p><p>同样方式可以关闭edge浏览器的提醒，只是在HKEY_LOCAL_MACHINE&#x2F;SOFTWARE&#x2F;Policies&#x2F;Microsoft&#x2F;Edge目录里操作</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PVE虚拟系统黑群晖硬盘直通的方法</title>
+      <link href="/posts/10997.html"/>
+      <url>/posts/10997.html</url>
+      
+        <content type="html"><![CDATA[<p>PVE虚拟系统黑群晖硬盘直通的方法：<br>点击PVE然后点击Shell，然后输入命令查看设备序列号，然后找到相关的硬盘设备复制下来设备号，再次输入直通命令来直通硬盘，相关命令如下：</p><span id="more"></span><p>直通代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">qm importdisk 100 复制的内容 local-lvm</span><br><span class="line">查看设备序列号：ls -l /dev/disk/by-id/</span><br><span class="line">选择直通的硬盘：qm set 102 -sata2 /dev/disk/by-id/复制的内容</span><br></pre></td></tr></table></figure><p>输入命令的时候一定要注意门牌号和硬盘的序号，不能输错或者输重复<br>完成后重新启动pve系统</p><p>举例：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qm set 102 -sata2 /dev/disk/by-id/ata-WDC_WD40EFAX-68JH4N1_WD-WX22D817ZDDJ #其中ata-WDC_WD40EFAX-68JH4N1_WD-WX22D817ZDDJ为相关硬盘的序号</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qm set 102 -sata3 /dev/disk/by-id/ata-WDC_WD40EFAX-68JH4N1_WD-WX32D810KASS #其中ata-WDC_WD40EFAX-68JH4N1_WD-WX32D810KASS为相关硬盘的序号</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 虚拟机 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> pve </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Ubuntu开通SSH和root登录方法</title>
+      <link href="/posts/45054.html"/>
+      <url>/posts/45054.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="Ubuntu开通SSH和root登录方法"><a href="#Ubuntu开通SSH和root登录方法" class="headerlink" title="Ubuntu开通SSH和root登录方法"></a>Ubuntu开通SSH和root登录方法</h2><h3 id="Ubuntu开通SSH方法"><a href="#Ubuntu开通SSH方法" class="headerlink" title="Ubuntu开通SSH方法"></a>Ubuntu开通SSH方法</h3><p>开通SSH登录方法：<br>1，必须切换成为root用户</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo -i</span><br></pre></td></tr></table></figure><span id="more"></span><p>2，先更新软件列表和更新软件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure><p>3，先更新软件列表和更新软件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get upgrade</span><br></pre></td></tr></table></figure><p>4，安装ssh</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt-get install ssh</span><br></pre></td></tr></table></figure><p>5，启动ssh服务</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo /etc/init.d/ssh start</span><br></pre></td></tr></table></figure><p>6，检查是否有ssh环境</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps -e | grep ssh</span><br></pre></td></tr></table></figure><h3 id="开通root登录SSH权限"><a href="#开通root登录SSH权限" class="headerlink" title="开通root登录SSH权限"></a>开通root登录SSH权限</h3><p>1， 使用普通用户登录后切换root</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo -i</span><br></pre></td></tr></table></figure><p>2，创建root管理员密码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">passwd root</span><br></pre></td></tr></table></figure><p>3，开启root登录</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -i &#x27;s/^#?PermitRootLogin.*/PermitRootLogin yes/g&#x27; /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure><p>4，开启密码验证</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo sed -i &#x27;s/^#?PasswordAuthentication.*/PasswordAuthentication yes/g&#x27; /etc/ssh/sshd_config</span><br></pre></td></tr></table></figure><p>5，重启ssh服务</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">service sshd restart</span><br></pre></td></tr></table></figure><p>6，检查是否有ssh环境</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps -e | grep ssh</span><br></pre></td></tr></table></figure><hr><p>————————————————<br>原文链接：<a href="https://syjn.blogspot.com/2023/08/openwrtvmwareubuntuopenwrtx96-max.html">https://syjn.blogspot.com/2023/08/openwrtvmwareubuntuopenwrtx96-max.html</a> 感谢！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 虚拟机 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Ubuntu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
     
@@ -70,7 +475,51 @@
       <link href="/Gallery/index.html"/>
       <url>/Gallery/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main"><figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://s2.loli.net/2024/07/17/VRxOTwHpKED3hy7.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/Gallery/wallpaper'></a>  </figcaption>  </figure>  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://s2.loli.net/2024/07/17/Lf14CpMAu5SHyG3.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">漫威</div>  <p>一些漫威图片</p>  <a href='/Gallery/marvel'></a>  </figcaption>  </figure>  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://s2.loli.net/2024/07/17/yxjYDIdp942ZuXq.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">Your favorite</div>  <p>关于Your favorite的图片</p>  <a href='/Gallery/yourgirl'></a>  </figcaption>  </figure>  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://s2.loli.net/2024/07/17/2WnR3tQUr7XebEk.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">My appreciated</div>  <p>关于My appreciated的图片</p>  <a href='/Gallery/mygirl'></a>  </figcaption>  </figure>  </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>漫威</title>
+      <link href="/Gallery/marvel.html"/>
+      <url>/Gallery/marvel.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-container" data-type="data" data-button="">      <div class="gallery-data">[{"url":"https://s2.loli.net/2024/07/17/57iFRkhLnbxV8uq.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/s5dWcfko3HGCm6Z.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/xInJhXeMQkpHBGR.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/9ZxgNVy2rWdb6Yn.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/BFYoRajdbwQNtx9.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/PjNtkV4RrsCMfbm.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/2AWnh5FwJuRbgt4.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/IER741wJVHOjr8K.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/GFJkutrKQyTb9La.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/CbA4zHoVxj6Nec8.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/5SOG3ADPWTzuCtF.png","alt":""},{"url":"https://s2.loli.net/2024/07/17/5v1BEqH8nwPzpXm.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/Onmij3xcJQg8tFw.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/fFKjbd6pXevilD5.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/ziZeb7SJkMRWTjK.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/jtTxlwbGQvYVrSe.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/Ct613DXyVcbT9oK.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/BWXbuoPKk8v9UNE.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/5FWRH2wfxc347pK.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/WKcJjteiAlVRyvx.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/kwbfurSQmCBxnpF.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/4aqIodEpj9fzrwH.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/Axrv8P9olSZOtUD.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/KmiMUTeuwvVzY7P.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/q6Z2R4LrcPfFV5o.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/qL6dsjHrQZ9unmY.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/GojNKWbJH4u8xcw.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/RDmCOBwtrhns7PQ.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/REPrztDmWAFjU4C.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/MXpIuDoZRx8TVL9.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/ERgvVOWNdYF3eG5.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/RnoDdyBWrStQlvw.jpg","alt":""}]</div>      <div class="gallery-items">      </div>    </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>mygirl</title>
+      <link href="/Gallery/mygirl.html"/>
+      <url>/Gallery/mygirl.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-container" data-type="data" data-button="">      <div class="gallery-data">[{"url":"https://s2.loli.net/2024/07/17/iQ8YxwEyl3eGqWz.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/sWKLBfZ6azeUJb7.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/jnm3YkVUQyMOIqf.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/HYtjIf7W93uiGbX.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/qPSkLQpmgBTFWOA.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/Pl1vrQIMatungkq.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/WKr6bLX9SudCxg8.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/v53ucdJ8eqtNHSQ.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/Cq63w7xZFcjVEDL.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/HZ1fJ3uYyUviScb.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/CiG5Uhp1sB7xRYb.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/5uDsG6WZ4z1wHFm.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/1B9ZyHPKizFWjE7.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/vTofhEsipzLxWDR.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/VCvEfxBmyYkXw4M.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/QWJAwyKBx87tXPv.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/uejLMIy1zsQdVXn.png","alt":""},{"url":"https://s2.loli.net/2024/07/17/PM3c26hiLWHECkv.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/Dk9t6wP2SBJbihv.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/SBmVHCIzGtiN3Rl.png","alt":""},{"url":"https://s2.loli.net/2024/07/17/4u9n1UAkhFf8d32.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/mpiyjJOCLrRUezM.jpg","alt":""}]</div>      <div class="gallery-items">      </div>    </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>墙纸</title>
+      <link href="/Gallery/wallpaper.html"/>
+      <url>/Gallery/wallpaper.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-container" data-type="data" data-button="">      <div class="gallery-data">[{"url":"https://s2.loli.net/2024/07/17/6nZh7OWDBgxVyqH.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/xry3hG2tq5oMRm7.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/uzSWVx18tjnTO7K.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/mildz9vfEF78qwX.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/zeHgEJOSChKI9qR.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/DNzEUcAj3riMgfw.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/UjcSqFHKZ1niBdr.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/AzembuQIVa2gPwF.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/i2CAa7XwILd6mOE.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/5TyAVYnR472cj8D.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/mD1NaWjUgI32whJ.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/UfXIzAa4QSo89gH.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/qluP4FU2pQZtVYS.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/3pxgSMIiEfkz6yD.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/HdbKpvJNhox1462.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/e9hC35ZjVUQ8LFG.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/1HVI2oXNuRDKrJc.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/axHt8V3vCmuWfze.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/TDIakbcChimxtQp.png","alt":""},{"url":"https://s2.loli.net/2024/07/17/svF7Injwz84aDPL.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/dfVizhaJ5P83sWe.jpg","alt":""},{"url":"https://s2.loli.net/2024/07/17/KQLc1A3xNsFYXC6.jpg","alt":""}]</div>      <div class="gallery-items">      </div>    </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>yourgirl</title>
+      <link href="/Gallery/yourgirl.html"/>
+      <url>/Gallery/yourgirl.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-container" data-type="data" data-button="">      <div class="gallery-data">[{"url":"https://s2.loli.net/2024/07/17/6oQpI2TltcE8WGN.jpg","alt":"yg1.jpg"},{"url":"https://s2.loli.net/2024/07/17/FLUhWlKvxs9IORf.jpg","alt":"yg2.jpg"},{"url":"https://s2.loli.net/2024/07/17/62lb1wc4r8xzNkm.jpg","alt":"yg3.jpg"},{"url":"https://s2.loli.net/2024/07/17/TqQZRLvGpnJW47f.jpg","alt":"yg4.png"},{"url":"https://s2.loli.net/2024/07/17/MYSK9pxTsmwNHO3.jpg","alt":"yg5.jpg"},{"url":"https://s2.loli.net/2024/07/17/GPQltaT2ROJ7CxL.jpg","alt":"yg6.jpg"},{"url":"https://s2.loli.net/2024/07/17/BSVgihersjYRkoP.jpg","alt":"yg7.jpg"},{"url":"https://s2.loli.net/2024/07/17/suDIdzbev4PWXQG.jpg","alt":"yg8.jpg"},{"url":"https://s2.loli.net/2024/07/17/u4AjWC3fpq9nOlR.jpg","alt":"yg9.jpg"},{"url":"https://s2.loli.net/2024/07/17/qp7w5S6HQlXaeKG.jpg","alt":"yg10.jpg"},{"url":"https://s2.loli.net/2024/07/17/YXxvsSuQfFeEVyk.jpg","alt":"yg11.jpg"},{"url":"https://s2.loli.net/2024/07/17/Dfpq9u6cre3dwyS.jpg","alt":"yg12.jpg"},{"url":"https://s2.loli.net/2024/07/17/6tvhkfrb8xo3AXc.jpg","alt":"yg13.jpg"},{"url":"https://s2.loli.net/2024/07/17/lwEGidS1nNC9ckO.jpg","alt":"yg14.jpg"},{"url":"https://s2.loli.net/2024/07/17/RvKTmduPxEHeZI4.jpg","alt":"yg15.jpg"},{"url":"https://s2.loli.net/2024/07/17/8I5YjyZClpkoE9W.jpg","alt":"yg16.png"},{"url":"https://s2.loli.net/2024/07/17/WByDq9H1KfVaZcu.jpg","alt":"yg17.jpg"},{"url":"https://s2.loli.net/2024/07/17/zTNfwsbvBp8XSq1.jpg","alt":"yg18.jpg"},{"url":"https://s2.loli.net/2024/07/17/rN2omVltbiLUs63.png","alt":"yg19.png"},{"url":"https://s2.loli.net/2024/07/17/MU35lHJNqBrm2gd.jpg","alt":"yg20.jpg"},{"url":"https://s2.loli.net/2024/07/17/KAip2MSYRVJXcen.jpg","alt":"yg21.jpg"},{"url":"https://s2.loli.net/2024/07/17/ayUtQo6OjnkSzIG.jpg","alt":"yg22.jpg"},{"url":"https://s2.loli.net/2024/07/17/wVaGxKT7CXpBHEz.jpg","alt":"yg23.jpg"},{"url":"https://s2.loli.net/2024/07/17/3pmFOx8vuUWsfnE.jpg","alt":"yg24.jpg"},{"url":"https://s2.loli.net/2024/07/17/5NURdu6PJ4xZMnt.jpg","alt":"yg25.jpg"},{"url":"https://s2.loli.net/2024/07/17/bLfacHOAmIYCriE.png","alt":"yg26.png"},{"url":"https://s2.loli.net/2024/07/17/VHDXLgv2peZkSTs.png","alt":"yg27.png"},{"url":"https://s2.loli.net/2024/07/17/CqT571OhgDyGKPs.png","alt":"yg28.png"},{"url":"https://s2.loli.net/2024/07/17/5RYsckyEgatHGjM.jpg","alt":"yg29.jpg"},{"url":"https://s2.loli.net/2024/07/17/eD5B4bSrtoY9yEv.jpg","alt":"yg30.jpg"},{"url":"https://s2.loli.net/2024/07/17/cehMoKwqui49PmN.jpg","alt":"yg31.jpg"},{"url":"https://s2.loli.net/2024/07/17/NGLpybewHZIDqBx.png","alt":"yg32.png"},{"url":"https://s2.loli.net/2024/07/17/Pgfmb3zyuCQGd2R.png","alt":"yg33.png"},{"url":"https://s2.loli.net/2024/07/17/G96TRNw7FvYMbkD.png","alt":"yg34.png"},{"url":"https://s2.loli.net/2024/07/17/MoDIaOnLF2jBPSR.jpg","alt":"yg35.jpg"},{"url":"https://s2.loli.net/2024/07/17/POM8Y5T6VIzCrJ7.jpg","alt":"yg36.jpg"},{"url":"https://s2.loli.net/2024/07/17/fvOmI4be3kB9QE5.jpg","alt":"yg37.jpg"},{"url":"https://s2.loli.net/2024/07/17/fIFY86RetAWo1JM.jpg","alt":"yg38.jpg"},{"url":"https://s2.loli.net/2024/07/17/eWDYOfywTVFKEMZ.jpg","alt":"yg39.jpg"}]</div>      <div class="gallery-items">      </div>    </div>]]></content>
       
     </entry>
     
@@ -114,7 +563,7 @@
       <link href="/css/custom.css"/>
       <url>/css/custom.css</url>
       
-        <content type="html"><![CDATA[/* @font-face {  font-family: Candyhome;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/Candyhome.ttf);  font-display: swap;  font-weight: lighter;} */@font-face {  font-family: ZhuZiAYuanJWD;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);  font-display: swap;  font-weight: lighter;}div#menus {  font-family: "ZhuZiAYuanJWD";}h1#site-title {  font-family: ZhuZiAYuanJWD;  font-size: 3em !important;}a.article-title,a.blog-slider__title,a.categoryBar-list-link,h1.post-title {  font-family: ZhuZiAYuanJWD;}.iconfont {  font-family: "iconfont" !important;  font-size: 3em;  /* 可以定义图标大小 */  font-style: normal;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}/* 时间轴生肖icon */svg.icon {  /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */  width: 1em;  height: 1em;  /* width和height定义图标的默认宽度和高度*/  vertical-align: -0.15em;  fill: currentColor;  overflow: hidden;}.icon-zhongbiao::before {  color: #f7c768;}/* bilibli番剧插件 */#article-container .bangumi-tab.bangumi-active {  background: var(--anzhiyu-theme);  color: var(--anzhiyu-ahoverbg);  border-radius: 10px;}a.bangumi-tab:hover {  text-decoration: none !important;}.bangumi-button:hover {  background: var(--anzhiyu-theme) !important;  border-radius: 10px !important;  color: var(--anzhiyu-ahoverbg) !important;}a.bangumi-button.bangumi-nextpage:hover {  text-decoration: none !important;}.bangumi-button {  padding: 5px 10px !important;}a.bangumi-tab {  padding: 5px 10px !important;}svg.icon.faa-tada {  font-size: 1.1em;}.bangumi-info-item {  border-right: 1px solid #f2b94b;}.bangumi-info-item span {  color: #f2b94b;}.bangumi-info-item em {  color: #f2b94b;}/* 解决artitalk的图标问题 */#uploadSource > svg {  width: 1.19em;  height: 1.5em;}/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */#page-header:not(.not-top-img):before {  background-color: transparent !important;}/* 首页文章卡片 */#recent-posts > .recent-post-item {  background: rgba(255, 255, 255, 0.9);}/* 首页侧栏卡片 */#aside-content .card-widget {  background: rgba(255, 255, 255, 0.9);}/* 文章页面正文背景 */div#post {  background: rgba(255, 255, 255, 0.9);}/* 分页页面 */div#page {  background: rgba(255, 255, 255, 0.9);}/* 归档页面 */div#archive {  background: rgba(255, 255, 255, 0.9);}/* 标签页面 */div#tag {  background: rgba(255, 255, 255, 0.9);}/* 分类页面 */div#category {  background: rgba(255, 255, 255, 0.9);}/*夜间模式伪类遮罩层透明*/[data-theme="dark"] #recent-posts > .recent-post-item {  background: #121212;}[data-theme="dark"] .card-widget {  background: #121212 !important;}[data-theme="dark"] div#post {  background: #121212 !important;}[data-theme="dark"] div#tag {  background: #121212 !important;}[data-theme="dark"] div#archive {  background: #121212 !important;}[data-theme="dark"] div#page {  background: #121212 !important;}[data-theme="dark"] div#category {  background: #121212 !important;}[data-theme="dark"] div#category {  background: transparent !important;}/* 页脚透明 */#footer {  background: transparent !important;}/* 头图透明 */#page-header {  background: transparent !important;}#rightside > div > button {  border-radius: 5px;}/* 滚动条 */::-webkit-scrollbar {  width: 10px;  height: 10px;}::-webkit-scrollbar-thumb {  background-color: #3b70fc;  border-radius: 2em;}::-webkit-scrollbar-corner {  background-color: transparent;}::-moz-selection {  color: #fff;  background-color: #3b70fc;}/* 音乐播放器 *//* .aplayer .aplayer-lrc {  display: none !important;} */.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {  left: -66px !important;  transition: all 0.3s;  /* 默认情况下缩进左侧66px，只留一点箭头部分 */}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {  left: 0 !important;  transition: all 0.3s;  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */}.aplayer.aplayer-fixed {  z-index: 999999 !important;}/* 评论框  */.vwrap {  box-shadow: 2px 2px 5px #bbb;  background: rgba(255, 255, 255, 0.3);  border-radius: 8px;  padding: 30px;  margin: 30px 0px 30px 0px;}/* 设置评论框 */.vcard {  box-shadow: 2px 2px 5px #bbb;  background: rgba(255, 255, 255, 0.3);  border-radius: 8px;  padding: 30px;  margin: 30px 0px 0px 0px;}/* md网站下划线 */#article-container a:hover {  text-decoration: none !important;}#article-container #hpp_talk p img {  display: inline;}/* 404页面 */#error-wrap {  position: absolute;  top: 40%;  right: 0;  left: 0;  margin: 0 auto;  padding: 0 1rem;  max-width: 1000px;  transform: translate(0, -50%);}#error-wrap .error-content {  display: flex;  flex-direction: row;  justify-content: center;  align-items: center;  margin: 0 1rem;  height: 18rem;  border-radius: 8px;  background: var(--card-bg);  box-shadow: var(--card-box-shadow);  transition: all 0.3s;}#error-wrap .error-content .error-img {  box-flex: 1;  flex: 1;  height: 100%;  border-top-left-radius: 8px;  border-bottom-left-radius: 8px;  background-color: #3b70fc;  background-position: center;  background-size: cover;}#error-wrap .error-content .error-info {  box-flex: 1;  flex: 1;  padding: 0.5rem;  text-align: center;  font-size: 14px;  font-family: Titillium Web, "PingFang SC", "Hiragino Sans GB", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;}#error-wrap .error-content .error-info .error_title {  margin-top: -4rem;  font-size: 9em;}#error-wrap .error-content .error-info .error_subtitle {  margin-top: -3.5rem;  word-break: break-word;  font-size: 1.6em;}#error-wrap .error-content .error-info a {  display: inline-block;  margin-top: 0.5rem;  padding: 0.3rem 1.5rem;  background: var(--btn-bg);  color: var(--btn-color);}#body-wrap.error .aside-list {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  bottom: 0px;  position: absolute;  padding: 1rem;  width: 100%;  overflow: scroll;}#body-wrap.error .aside-list .aside-list-group {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  max-width: 1200px;  margin: 0 auto;}#body-wrap.error .aside-list .aside-list-item {  padding: 0.5rem;}#body-wrap.error .aside-list .aside-list-item img {  width: 100%;  object-fit: cover;  border-radius: 12px;}#body-wrap.error .aside-list .aside-list-item .thumbnail {  overflow: hidden;  width: 230px;  height: 143px;  background: var(--anzhiyu-card-bg);  display: flex;}#body-wrap.error .aside-list .aside-list-item .content .title {  -webkit-line-clamp: 2;  overflow: hidden;  display: -webkit-box;  -webkit-box-orient: vertical;  line-height: 1.5;  justify-content: center;  align-items: flex-end;  align-content: center;  padding-top: 0.5rem;  color: white;}#body-wrap.error .aside-list .aside-list-item .content time {  display: none;}/* 代码框主题 */#article-container figure.highlight {  border-radius: 10px;}]]></content>
+        <content type="html"><![CDATA[/* @font-face {  font-family: Candyhome;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/Candyhome.ttf);  font-display: swap;  font-weight: lighter;} */@font-face {  font-family: ZhuZiAYuanJWD;  src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/ZhuZiAWan.woff2);  font-display: swap;  font-weight: lighter;}div#menus {  font-family: "ZhuZiAYuanJWD";}h1#site-title {  font-family: ZhuZiAYuanJWD;  font-size: 3em !important;}a.article-title,a.blog-slider__title,a.categoryBar-list-link,h1.post-title {  font-family: ZhuZiAYuanJWD;}.iconfont {  font-family: "iconfont" !important;  font-size: 3em;  /* 可以定义图标大小 */  font-style: normal;  -webkit-font-smoothing: antialiased;  -moz-osx-font-smoothing: grayscale;}/* 时间轴生肖icon */svg.icon {  /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */  width: 1em;  height: 1em;  /* width和height定义图标的默认宽度和高度*/  vertical-align: -0.15em;  fill: currentColor;  overflow: hidden;}.icon-zhongbiao::before {  color: #f7c768;}/* bilibli番剧插件 */#article-container .bangumi-tab.bangumi-active {  background: var(--anzhiyu-theme);  color: var(--anzhiyu-ahoverbg);  border-radius: 10px;}a.bangumi-tab:hover {  text-decoration: none !important;}.bangumi-button:hover {  background: var(--anzhiyu-theme) !important;  border-radius: 10px !important;  color: var(--anzhiyu-ahoverbg) !important;}a.bangumi-button.bangumi-nextpage:hover {  text-decoration: none !important;}.bangumi-button {  padding: 5px 10px !important;}a.bangumi-tab {  padding: 5px 10px !important;}svg.icon.faa-tada {  font-size: 1.1em;}.bangumi-info-item {  border-right: 1px solid #f2b94b;}.bangumi-info-item span {  color: #f2b94b;}.bangumi-info-item em {  color: #f2b94b;}/* 解决artitalk的图标问题 */#uploadSource > svg {  width: 1.19em;  height: 1.5em;}/*top-img黑色透明玻璃效果移除，不建议加，除非你执着于完全一图流或者背景图对比色明显 */#page-header:not(.not-top-img):before {  background-color: transparent !important;}/* 首页文章卡片 */#recent-posts > .recent-post-item {  background: rgba(255, 255, 255, 0.9);}/* 首页侧栏卡片 */#aside-content .card-widget {  background: rgba(255, 255, 255, 0.9);}/* 文章页面正文背景 */div#post {  background: rgba(255, 255, 255, 0.9);}/* 分页页面 */div#page {  background: rgba(255, 255, 255, 0.9);}/* 归档页面 */div#archive {  background: rgba(255, 255, 255, 0.9);}/* 标签页面 */div#tag {  background: rgba(255, 255, 255, 0.9);}/* 分类页面 */div#category {  background: rgba(255, 255, 255, 0.9);}/*夜间模式伪类遮罩层透明*/[data-theme="dark"] #recent-posts > .recent-post-item {  background: #121212;}[data-theme="dark"] .card-widget {  background: #121212 !important;}[data-theme="dark"] div#post {  background: #121212 !important;}[data-theme="dark"] div#tag {  background: #121212 !important;}[data-theme="dark"] div#archive {  background: #121212 !important;}[data-theme="dark"] div#page {  background: #121212 !important;}[data-theme="dark"] div#category {  background: #121212 !important;}[data-theme="dark"] div#category {  background: transparent !important;}/* 页脚透明 */#footer {  background: transparent !important;}/* 头图透明 */#page-header {  background: transparent !important;}#rightside > div > button {  border-radius: 5px;}/* 滚动条 */::-webkit-scrollbar {  width: 10px;  height: 10px;}::-webkit-scrollbar-thumb {  background-color: #3b70fc;  border-radius: 2em;}::-webkit-scrollbar-corner {  background-color: transparent;}::-moz-selection {  color: #fff;  background-color: #3b70fc;}/* 音乐播放器 *//* .aplayer .aplayer-lrc {  display: none !important;} */.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {  left: -66px !important;  transition: all 0.3s;  /* 默认情况下缩进左侧66px，只留一点箭头部分 */}.aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {  left: 0 !important;  transition: all 0.3s;  /* 鼠标悬停是左侧缩进归零，完全显示按钮 */}.aplayer.aplayer-fixed {  z-index: 999999 !important;}/* 评论框  */.vwrap {  box-shadow: 2px 2px 5px #bbb;  background: rgba(255, 255, 255, 0.3);  border-radius: 8px;  padding: 30px;  margin: 30px 0px 30px 0px;}/* 设置评论框 */.vcard {  box-shadow: 2px 2px 5px #bbb;  background: rgba(255, 255, 255, 0.3);  border-radius: 8px;  padding: 30px;  margin: 30px 0px 0px 0px;}/* md网站下划线 */#article-container a:hover {  text-decoration: none !important;}#article-container #hpp_talk p img {  display: inline;}/* 404页面 */#error-wrap {  position: absolute;  top: 40%;  right: 0;  left: 0;  margin: 0 auto;  padding: 0 1rem;  max-width: 1000px;  transform: translate(0, -50%);}#error-wrap .error-content {  display: flex;  flex-direction: row;  justify-content: center;  align-items: center;  margin: 0 1rem;  height: 18rem;  border-radius: 8px;  background: var(--card-bg);  box-shadow: var(--card-box-shadow);  transition: all 0.3s;}#error-wrap .error-content .error-img {  box-flex: 1;  flex: 1;  height: 100%;  border-top-left-radius: 8px;  border-bottom-left-radius: 8px;  background-color: #3b70fc;  background-position: center;  background-size: cover;}#error-wrap .error-content .error-info {  box-flex: 1;  flex: 1;  padding: 0.5rem;  text-align: center;  font-size: 14px;  font-family: Titillium Web, "PingFang SC", "Hiragino Sans GB", "Microsoft JhengHei", "Microsoft YaHei", sans-serif;}#error-wrap .error-content .error-info .error_title {  margin-top: -4rem;  font-size: 9em;}#error-wrap .error-content .error-info .error_subtitle {  margin-top: -3.5rem;  word-break: break-word;  font-size: 1.6em;}#error-wrap .error-content .error-info a {  display: inline-block;  margin-top: 0.5rem;  padding: 0.3rem 1.5rem;  background: var(--btn-bg);  color: var(--btn-color);}#body-wrap.error .aside-list {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  bottom: 0px;  position: absolute;  padding: 1rem;  width: 100%;  overflow: scroll;}#body-wrap.error .aside-list .aside-list-group {  display: flex;  flex-direction: row;  flex-wrap: nowrap;  max-width: 1200px;  margin: 0 auto;}#body-wrap.error .aside-list .aside-list-item {  padding: 0.5rem;}#body-wrap.error .aside-list .aside-list-item img {  width: 100%;  object-fit: cover;  border-radius: 12px;}#body-wrap.error .aside-list .aside-list-item .thumbnail {  overflow: hidden;  width: 230px;  height: 143px;  background: var(--anzhiyu-card-bg);  display: flex;}#body-wrap.error .aside-list .aside-list-item .content .title {  -webkit-line-clamp: 2;  overflow: hidden;  display: -webkit-box;  -webkit-box-orient: vertical;  line-height: 1.5;  justify-content: center;  align-items: flex-end;  align-content: center;  padding-top: 0.5rem;  color: white;}#body-wrap.error .aside-list .aside-list-item .content time {  display: none;}/* 代码框主题 */#article-container figure.highlight {  border-radius: 10px;}/* 引入iconfont */@import "//at.alicdn.com/t/c/font_4622335_yxuxlwsim1f.css";/* 菜单栏图标大小自定义，动态图标是svg.icon的标签，加上一些样式来限制图标的大小和颜色等 */svg.menu_icon {  width: 1.28em;  height: 1.28em;  vertical-align: -0.15em;  fill: currentColor;  overflow: hidden;}/* 侧边social栏图标的大小自定义 */svg.social_icon {  width: 1.20em;  height: 1.20em;  vertical-align: -0.15em;  fill: currentColor;  overflow: hidden;}/* 全局宽度 */.layout {  max-width: 1350px;}/* 侧边卡片栏宽度 */.aside-content {  max-width: 308px;  min-width: 290px;}/* 平板尺寸自适应(不启用侧边栏宽度限制) */@media screen and (max-width: 900px) {  .aside-content {    max-width: none !important;    padding: 0 5px 0 5px;  }}]]></content>
       
     </entry>
     
@@ -147,7 +596,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-xXCVlCMt" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="523845661" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="500px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-uXPiNNMm" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="12315604486" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="500px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
       
     </entry>
     

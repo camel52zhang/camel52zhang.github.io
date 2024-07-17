@@ -368,3 +368,43 @@ div#category {
 #article-container figure.highlight {
   border-radius: 10px;
 }
+
+/* 引入iconfont */
+@import "//at.alicdn.com/t/c/font_4622335_yxuxlwsim1f.css";
+
+/* 菜单栏图标大小自定义，动态图标是svg.icon的标签，加上一些样式来限制图标的大小和颜色等 */
+svg.menu_icon {
+  width: 1.28em;
+  height: 1.28em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/* 侧边social栏图标的大小自定义 */
+svg.social_icon {
+  width: 1.20em;
+  height: 1.20em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+
+/* 全局宽度 */
+.layout {
+  max-width: 1350px;
+}
+
+/* 侧边卡片栏宽度 */
+.aside-content {
+  max-width: 308px;
+  min-width: 290px;
+}
+
+/* 平板尺寸自适应(不启用侧边栏宽度限制) */
+@media screen and (max-width: 900px) {
+  .aside-content {
+    max-width: none !important;
+    padding: 0 5px 0 5px;
+  }
+}
