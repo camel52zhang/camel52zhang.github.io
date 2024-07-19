@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-07-19T06:30:25.522Z</updated>
+  <updated>2024-07-19T14:08:22.604Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>旁路由基于IPV6配置wireguardVPN</title>
+    <link href="http://example.com/posts/d90ac5d4.html"/>
+    <id>http://example.com/posts/d90ac5d4.html</id>
+    <published>2024-07-19T13:07:13.000Z</published>
+    <updated>2024-07-19T14:08:22.604Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="家里旁路由Openwrt（IP：192-168-2-2-里的docker配置的wireguard"><a href="#家里旁路由Openwrt（IP：192-168-2-2-里的docker配置的wireguard" class="headerlink" title="家里旁路由Openwrt（IP：192.168.2.2)里的docker配置的wireguard"></a>家里旁路由Openwrt（IP：192.168.2.2)里的docker配置的wireguard</h3><p>finalshell登录openwrt后输入以下命令，</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">  --name=wg-easy \</span><br><span class="line">  -e LANG=de \</span><br><span class="line">  -e WG_HOST=aaa.aaa.com \</span><br><span class="line">  -e PASSWORD=123456789 \</span><br><span class="line">  -e WG_DEFAULT_DNS=114.114.114.114,223.5.5.5 \</span><br><span class="line">  -v ~/.wg-easy:/etc/wireguard \</span><br><span class="line">  -p 51820:51820/udp \</span><br><span class="line">  -p 51821:51821/tcp \</span><br><span class="line">  --cap-add=NET_ADMIN \</span><br><span class="line">  --cap-add=SYS_MODULE \</span><br><span class="line">  --sysctl=&quot;net.ipv6.conf.all.disable_ipv6=0&quot; \</span><br><span class="line">  --sysctl=&quot;net.ipv6.conf.all.forwarding=1&quot; \</span><br><span class="line">  --restart unless-stopped \</span><br><span class="line">  ghcr.io/wg-easy/wg-easy</span><br></pre></td></tr></table></figure><p>其中两个地方需要动，一个是-e WG_HOST=，对应ddns解析的域名，一个是  -e PASSWORD=，输入相应的<psw>密码</psw>，其他都不用动</p><h3 id="配置wireguard需要用到私钥，公钥和预共享公钥，获取方法如下："><a href="#配置wireguard需要用到私钥，公钥和预共享公钥，获取方法如下：" class="headerlink" title="配置wireguard需要用到私钥，公钥和预共享公钥，获取方法如下："></a>配置wireguard需要用到私钥，公钥和预共享公钥，获取方法如下：</h3><p>在Windows PowerShell里输入以下命令，回车后输入密码登录</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh root@192.168.2.2</span><br></pre></td></tr></table></figure><p>然后输入：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wg -h</span><br></pre></td></tr></table></figure><p>可以看到获得私钥，预共享公钥的方法</p><p>输入wg genkey就可以得到私钥<br>输入wg genpsk就可以得到预共享公钥</p><p>获取公钥的方法：</p><p>在Windows PowerShell里输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;qCjfXQaCoVN9ZzFo06UFeL/bpqbVN6mufMF9PkRGqUA=&quot; | wg pubkey</span><br></pre></td></tr></table></figure><p>回车后的结果就能看到公钥了</p><h3 id="openwrt旁路由的wireguard配置"><a href="#openwrt旁路由的wireguard配置" class="headerlink" title="openwrt旁路由的wireguard配置"></a>openwrt旁路由的wireguard配置</h3><p class='p gray'>家里盘路由192.168.2.2服务器端设置：</p><p>接口名字：wg0<br>PrivateKey私钥：qCjfXQaCoVN9ZzFo06UFeL/bpqbVN6mufMF9PkRGqUA=<br>PublicKey公钥：4/0guz3HwkN54Zyo7yk776ryEsi6GXPdtkhCXmtZhBU=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>监听端口：20002<br>IP地址：192.168.111.3/24</p><p class='p gray'>公司旁路由Wireguard配置</p><p>旁路由10.168.11.2服务器端设置：<br>接口：wg1<br>PrivateKey私钥：aCWd0vn00iF6er85yPtfCOmO0rRQfQyrjqCykoRrT3I=<br>PublicKey公钥：tb8oBQ6AnHvOfKeigZL71my6aoKpFti1Akm7kI5J4FA=<br>监听端口：20002<br>IP地址：192.168.111.2/24</p><hr><mark class="hl-label pink">设置后不要忘记在防火墙自定义放行：</mark> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">iptables -t nat -A POSTROUTING -s 192.168.111.0/24 -o br-lan -j MASQUERADE</span><br></pre></td></tr></table></figure><p class='p red'>注意此条防火墙网段 192.168.111.0/24 需和服务端 IP 网段保持一致.</p><p>注意20002端口需要在<span class='p blue'>防火墙-通信规则</span>里加入来打开路由器的20002端口，同时<wavy>在ikuai主路由</wavy>也做一下<mark class="hl-label red">端口映射</mark> ，映射旁路由的20002端口，同时把wireguard的接口对应的<mark class="hl-label blue">防火墙</mark> 设置为lan，不然只能外网不能内网</p><hr><p class='p green'>家里旁路由192.168.2.2配置peer</p><p>PublicKey公钥（公司的）：tb8oBQ6AnHvOfKeigZL71my6aoKpFti1Akm7kI5J4FA=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>允许的 IP：192.168.111.0/24,10.168.11.0/24<br>路由允许的 IP：打勾<br>端点主机：aaa.aaa.com<br>端点端口：20002<br>持续 Keep-Alive：默认</p><p class='p green'>公司旁路由10.168.11.2配置peer</p><p>PublicKey公钥（家里的）：4/0guz3HwkN54Zyo7yk776ryEsi6GXPdtkhCXmtZhBU=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>允许的 IP：192.168.111.0/24,192.168.2.0/24<br>路由允许的 IP：打勾<br>端点主机：aaa.aaa.com<br>端点端口：20002<br>持续 Keep-Alive：默认</p><p class='p green'>小米9pro服务端peer设置：</p><p>连接公司网络的~~<br>PublicKey公钥（小米9pro自己的）：Gd9UtzkVoSCnq3YbHPMkeQZAzZHBky/a8lEvT1zOJXw=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>允许的 IP：192.168.111.101/32<br>勾选路由允许的IP<br>其实设置默认</p><p class='p green'>小米9pro客户端设置：</p><p>本地（Interface）<br>名称：wg_gsvpn<br>PublicKey公钥（小米9pro自己的）：Gd9UtzkVoSCnq3YbHPMkeQZAzZHBky/a8lEvT1zOJXw=<br>局域网IP地址：192.168.111.101/32<br>DNS服务器：192.168.111.2<br>远程（Peer）<br>PublicKey公钥（旁路由10.168.11.2的）：tb8oBQ6AnHvOfKeigZL71my6aoKpFti1Akm7kI5J4FA=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>对端：aaa.aaa.com:20002<br>路由的IP地址（段）：0.0.0.0/0</p><p class='p green'>家里电脑</p><p>服务端peer配置：<br>家里电脑IP是192.168.2.242<br>PublicKey公钥（家里电脑的）：r5aMYQMfJdnUVhpp3MxdQXSQ1XEr39VE5ABKSbm05Vo=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>允许的 IP：192.168.111.103/32<br>勾选路由允许的IP<br>其实设置默认</p><p>家里电脑端配置<br>名称：wg_gsvpn<br>PublicKey公钥（家里电脑的）：r5aMYQMfJdnUVhpp3MxdQXSQ1XEr39VE5ABKSbm05Vo=<br>[Interface]<br>PrivateKey = 6KlC3vdJdX2sA3HXuRxTTF8Mb9JkxkvDb0xIuFb6kGI=<br>Address = 192.168.111.103/32<br>DNS = 192.168.111.2<br>[Peer]<br>PublicKey = tb8oBQ6AnHvOfKeigZL71my6aoKpFti1Akm7kI5J4FA=<br>PresharedKey = 1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>AllowedIPs = 10.168.11.0/24,192.168.111.0/24<br>Endpoint = aaa.aaa.com:20002<br>PersistentKeepalive = 0</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;家里旁路由Openwrt（IP：192-168-2-2-里的docker配置的wireguard&quot;&gt;&lt;a href=&quot;#家里旁路由Openwrt（IP：192-168-2-2-里的docker配置的wireguard&quot; class=&quot;headerlink&quot; tit</summary>
+      
+    
+    
+    
+    
+    <category term="wireguard VPN" scheme="http://example.com/tags/wireguard-VPN/"/>
+    
+    <category term="Wireguard" scheme="http://example.com/tags/Wireguard/"/>
+    
+    <category term="VPN" scheme="http://example.com/tags/VPN/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo-butterfly外挂标签</title>
     <link href="http://example.com/posts/55804d48.html"/>
     <id>http://example.com/posts/55804d48.html</id>
     <published>2024-07-19T06:17:29.000Z</published>
-    <updated>2024-07-19T06:30:25.522Z</updated>
+    <updated>2024-07-19T12:45:35.644Z</updated>
     
     <content type="html"><![CDATA[<p>外挂安装标签<a href="https://www.fomal.cc/posts/5389e93f.html">教程</a>，感谢fomal大佬</p><p>1，安装插件,在博客根目录<code>[BlogRoot]</code>下打开终端，运行以下指令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-butterfly-tag-plugins-plus --save</span><br></pre></td></tr></table></figure><p>2，考虑到hexo自带的markdown渲染插件<code>hexo-renderer-marked</code>与外挂标签语法的兼容性较差，建议您将其替换成<a href="https://www.npmjs.com/package/hexo-renderer-kramed">hexo-renderer-kramed</a></p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm uninstall hexo-renderer-marked --save</span><br><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure><p>3，添加配置信息，以下为写法示例<br>在站点配置文件<code>_config.yml</code>或者主题配置文件<code>_config.butterfly.yml</code>中添加</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"># tag-plugins-plus</span><br><span class="line"># see https://akilar.top/posts/615e2dec/</span><br><span class="line">tag_plugins:</span><br><span class="line">  enable: true # 开关</span><br><span class="line">  priority: 5 #过滤器优先权</span><br><span class="line">  issues: false #issues标签依赖注入开关</span><br><span class="line">  link:</span><br><span class="line">    placeholder: /img/link.png #link_card标签默认的图标图片</span><br><span class="line">  CDN:</span><br><span class="line">    anima: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css #动画标签anima的依赖</span><br><span class="line">    jquery: https://npm.elemecdn.com/jquery@latest/dist/jquery.min.js #issues标签依赖</span><br><span class="line">    issues: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/issues.js #issues标签依赖</span><br><span class="line">    iconfont: //at.alicdn.com/t/font_2032782_8d5kxvn09md.js #参看https://akilar.top/posts/d2ebecef/</span><br><span class="line">    carousel: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js</span><br><span class="line">    tag_plugins_css: https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css</span><br></pre></td></tr></table></figure><p>具体样式和写法可见：<a href="https://www.fomal.cc/posts/2013454d.html">Markdown语法与外挂标签写法汇总</a></p><p>或参考安知鱼大佬的外挂标签用法<a href="https://blog.anheyu.com/posts/d50a.html">教程</a></p>]]></content>
     
@@ -452,29 +478,6 @@
     
     
     <category term="frp" scheme="http://example.com/tags/frp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HEVC 图片视频扩展程序</title>
-    <link href="http://example.com/posts/51381.html"/>
-    <id>http://example.com/posts/51381.html</id>
-    <published>2024-06-25T12:24:17.000Z</published>
-    <updated>2024-07-18T14:56:01.962Z</updated>
-    
-    <content type="html"><![CDATA[<p>HEVC 视频图片浏览下载地址：</p><p><a href="http://r777t32407.zicp.fun/externalLinksController/downloadFileByKey/Microsoft.HEVCVideoExtension_2.0.61931.0_neutral_~_8wekyb3d8bbwe.AppxBundle?dkey=cc0cc2a9-817c-40cf-87ba-d22450775b8d">hevc下载</a></p><p>下载<span id="more"></span>后安装</p><p>参考方法：<br>访问 <a href="https://store.rg-adguard.net/">https://store.rg-adguard.net</a> 选择Productld输入 9n4wgh0z6vhq搜索，在搜索结果选择适合自己系统的版本下载，双击安装</p>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;HEVC 视频图片浏览下载地址：&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://r777t32407.zicp.fun/externalLinksController/downloadFileByKey/Microsoft.HEVCVideoExtension_2.0.61931.0_neutral_~_8wekyb3d8bbwe.AppxBundle?dkey=cc0cc2a9-817c-40cf-87ba-d22450775b8d&quot;&gt;hevc下载&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;下载</summary>
-    
-    
-    
-    
-    <category term="HEVC" scheme="http://example.com/tags/HEVC/"/>
-    
-    <category term="图片视频扩展程序" scheme="http://example.com/tags/%E5%9B%BE%E7%89%87%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F/"/>
     
   </entry>
   

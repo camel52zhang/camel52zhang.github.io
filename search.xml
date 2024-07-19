@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title>旁路由基于IPV6配置wireguardVPN</title>
+      <link href="/posts/d90ac5d4.html"/>
+      <url>/posts/d90ac5d4.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="家里旁路由Openwrt（IP：192-168-2-2-里的docker配置的wireguard"><a href="#家里旁路由Openwrt（IP：192-168-2-2-里的docker配置的wireguard" class="headerlink" title="家里旁路由Openwrt（IP：192.168.2.2)里的docker配置的wireguard"></a>家里旁路由Openwrt（IP：192.168.2.2)里的docker配置的wireguard</h3><p>finalshell登录openwrt后输入以下命令，</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">  --name=wg-easy \</span><br><span class="line">  -e LANG=de \</span><br><span class="line">  -e WG_HOST=aaa.aaa.com \</span><br><span class="line">  -e PASSWORD=123456789 \</span><br><span class="line">  -e WG_DEFAULT_DNS=114.114.114.114,223.5.5.5 \</span><br><span class="line">  -v ~/.wg-easy:/etc/wireguard \</span><br><span class="line">  -p 51820:51820/udp \</span><br><span class="line">  -p 51821:51821/tcp \</span><br><span class="line">  --cap-add=NET_ADMIN \</span><br><span class="line">  --cap-add=SYS_MODULE \</span><br><span class="line">  --sysctl=&quot;net.ipv6.conf.all.disable_ipv6=0&quot; \</span><br><span class="line">  --sysctl=&quot;net.ipv6.conf.all.forwarding=1&quot; \</span><br><span class="line">  --restart unless-stopped \</span><br><span class="line">  ghcr.io/wg-easy/wg-easy</span><br></pre></td></tr></table></figure><p>其中两个地方需要动，一个是-e WG_HOST=，对应ddns解析的域名，一个是  -e PASSWORD=，输入相应的<psw>密码</psw>，其他都不用动</p><h3 id="配置wireguard需要用到私钥，公钥和预共享公钥，获取方法如下："><a href="#配置wireguard需要用到私钥，公钥和预共享公钥，获取方法如下：" class="headerlink" title="配置wireguard需要用到私钥，公钥和预共享公钥，获取方法如下："></a>配置wireguard需要用到私钥，公钥和预共享公钥，获取方法如下：</h3><p>在Windows PowerShell里输入以下命令，回车后输入密码登录</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh root@192.168.2.2</span><br></pre></td></tr></table></figure><p>然后输入：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wg -h</span><br></pre></td></tr></table></figure><p>可以看到获得私钥，预共享公钥的方法</p><p>输入wg genkey就可以得到私钥<br>输入wg genpsk就可以得到预共享公钥</p><p>获取公钥的方法：</p><p>在Windows PowerShell里输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;qCjfXQaCoVN9ZzFo06UFeL/bpqbVN6mufMF9PkRGqUA=&quot; | wg pubkey</span><br></pre></td></tr></table></figure><p>回车后的结果就能看到公钥了</p><h3 id="openwrt旁路由的wireguard配置"><a href="#openwrt旁路由的wireguard配置" class="headerlink" title="openwrt旁路由的wireguard配置"></a>openwrt旁路由的wireguard配置</h3><p class='p gray'>家里盘路由192.168.2.2服务器端设置：</p><p>接口名字：wg0<br>PrivateKey私钥：qCjfXQaCoVN9ZzFo06UFeL/bpqbVN6mufMF9PkRGqUA=<br>PublicKey公钥：4/0guz3HwkN54Zyo7yk776ryEsi6GXPdtkhCXmtZhBU=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>监听端口：20002<br>IP地址：192.168.111.3/24</p><p class='p gray'>公司旁路由Wireguard配置</p><p>旁路由10.168.11.2服务器端设置：<br>接口：wg1<br>PrivateKey私钥：aCWd0vn00iF6er85yPtfCOmO0rRQfQyrjqCykoRrT3I=<br>PublicKey公钥：tb8oBQ6AnHvOfKeigZL71my6aoKpFti1Akm7kI5J4FA=<br>监听端口：20002<br>IP地址：192.168.111.2/24</p><hr><mark class="hl-label pink">设置后不要忘记在防火墙自定义放行：</mark> <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">iptables -t nat -A POSTROUTING -s 192.168.111.0/24 -o br-lan -j MASQUERADE</span><br></pre></td></tr></table></figure><p class='p red'>注意此条防火墙网段 192.168.111.0/24 需和服务端 IP 网段保持一致.</p><p>注意20002端口需要在<span class='p blue'>防火墙-通信规则</span>里加入来打开路由器的20002端口，同时<wavy>在ikuai主路由</wavy>也做一下<mark class="hl-label red">端口映射</mark> ，映射旁路由的20002端口，同时把wireguard的接口对应的<mark class="hl-label blue">防火墙</mark> 设置为lan，不然只能外网不能内网</p><hr><p class='p green'>家里旁路由192.168.2.2配置peer</p><p>PublicKey公钥（公司的）：tb8oBQ6AnHvOfKeigZL71my6aoKpFti1Akm7kI5J4FA=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>允许的 IP：192.168.111.0/24,10.168.11.0/24<br>路由允许的 IP：打勾<br>端点主机：aaa.aaa.com<br>端点端口：20002<br>持续 Keep-Alive：默认</p><p class='p green'>公司旁路由10.168.11.2配置peer</p><p>PublicKey公钥（家里的）：4/0guz3HwkN54Zyo7yk776ryEsi6GXPdtkhCXmtZhBU=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>允许的 IP：192.168.111.0/24,192.168.2.0/24<br>路由允许的 IP：打勾<br>端点主机：aaa.aaa.com<br>端点端口：20002<br>持续 Keep-Alive：默认</p><p class='p green'>小米9pro服务端peer设置：</p><p>连接公司网络的~~<br>PublicKey公钥（小米9pro自己的）：Gd9UtzkVoSCnq3YbHPMkeQZAzZHBky/a8lEvT1zOJXw=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>允许的 IP：192.168.111.101/32<br>勾选路由允许的IP<br>其实设置默认</p><p class='p green'>小米9pro客户端设置：</p><p>本地（Interface）<br>名称：wg_gsvpn<br>PublicKey公钥（小米9pro自己的）：Gd9UtzkVoSCnq3YbHPMkeQZAzZHBky/a8lEvT1zOJXw=<br>局域网IP地址：192.168.111.101/32<br>DNS服务器：192.168.111.2<br>远程（Peer）<br>PublicKey公钥（旁路由10.168.11.2的）：tb8oBQ6AnHvOfKeigZL71my6aoKpFti1Akm7kI5J4FA=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>对端：aaa.aaa.com:20002<br>路由的IP地址（段）：0.0.0.0/0</p><p class='p green'>家里电脑</p><p>服务端peer配置：<br>家里电脑IP是192.168.2.242<br>PublicKey公钥（家里电脑的）：r5aMYQMfJdnUVhpp3MxdQXSQ1XEr39VE5ABKSbm05Vo=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>允许的 IP：192.168.111.103/32<br>勾选路由允许的IP<br>其实设置默认</p><p>家里电脑端配置<br>名称：wg_gsvpn<br>PublicKey公钥（家里电脑的）：r5aMYQMfJdnUVhpp3MxdQXSQ1XEr39VE5ABKSbm05Vo=<br>[Interface]<br>PrivateKey = 6KlC3vdJdX2sA3HXuRxTTF8Mb9JkxkvDb0xIuFb6kGI=<br>Address = 192.168.111.103/32<br>DNS = 192.168.111.2<br>[Peer]<br>PublicKey = tb8oBQ6AnHvOfKeigZL71my6aoKpFti1Akm7kI5J4FA=<br>PresharedKey = 1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>AllowedIPs = 10.168.11.0/24,192.168.111.0/24<br>Endpoint = aaa.aaa.com:20002<br>PersistentKeepalive = 0</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> wireguard VPN </tag>
+            
+            <tag> Wireguard </tag>
+            
+            <tag> VPN </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hexo-butterfly外挂标签</title>
       <link href="/posts/55804d48.html"/>
       <url>/posts/55804d48.html</url>
@@ -668,7 +691,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-zLBUZtoU" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="12315604486" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="500px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-rXUfoxSj" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="12315604486" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="500px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
       
     </entry>
     
