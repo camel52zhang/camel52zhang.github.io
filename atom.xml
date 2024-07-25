@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-07-22T14:17:15.917Z</updated>
+  <updated>2024-07-25T14:00:28.855Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,59 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>OpenWrt二级路由IPV6设置</title>
+    <link href="http://example.com/posts/7b51278d.html"/>
+    <id>http://example.com/posts/7b51278d.html</id>
+    <published>2024-07-25T13:47:19.000Z</published>
+    <updated>2024-07-25T14:00:28.855Z</updated>
+    
+    <content type="html"><![CDATA[<p>主路由<mark class="hl-label pink">红米AX6000</mark> ：192.168.2.1<br>二级路由<mark class="hl-label pink">红米AX6S</mark> 刷的Openwrt：192.168.20.1</p><p>用<mark class="hl-label red">FinalShell</mark> 登陆<u>二级路由</u>，输入以下命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/config/dhcp</span><br></pre></td></tr></table></figure><p>然后修改为以下设置：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">config dhcp &#x27;lan&#x27;</span><br><span class="line">        option interface &#x27;lan&#x27;</span><br><span class="line">        option start &#x27;50&#x27;</span><br><span class="line">        option limit &#x27;200&#x27;</span><br><span class="line">        option leasetime &#x27;12h&#x27;</span><br><span class="line">        option ra &#x27;relay&#x27;</span><br><span class="line">        option dhcpv6 &#x27;relay&#x27;</span><br><span class="line">        option ndp &#x27;relay&#x27;</span><br><span class="line">        option ra_management &#x27;1&#x27;</span><br><span class="line"></span><br><span class="line">config dhcp &#x27;wan&#x27;</span><br><span class="line">        option interface &#x27;wan&#x27;</span><br><span class="line">        option ignore &#x27;1&#x27;</span><br><span class="line"></span><br><span class="line">config dhcp &#x27;wan6&#x27;</span><br><span class="line">        option interface &#x27;wan&#x27;</span><br><span class="line">        option ra &#x27;relay&#x27;</span><br><span class="line">        option dhcpv6 &#x27;relay&#x27;</span><br><span class="line">        option ndp &#x27;relay&#x27;</span><br><span class="line">        option master &#x27;1&#x27;</span><br></pre></td></tr></table></figure><p>修改后<span class='p red'>重启路由器</span>，然后进入<u>路由器接口</u>再设置<wavy>lan口IPV6</wavy>的<emp>路由通告模式</emp>为<span class='p blue'>“服务器模式”</span>就可以正常IPV6了</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;主路由&lt;mark class=&quot;hl-label pink&quot;&gt;红米AX6000&lt;/mark&gt; ：192.168.2.1&lt;br&gt;二级路由&lt;mark class=&quot;hl-label pink&quot;&gt;红米AX6S&lt;/mark&gt; 刷的Openwrt：192.168.20.1&lt;/p&gt;
+&lt;</summary>
+      
+    
+    
+    
+    
+    <category term="OpenWrt" scheme="http://example.com/tags/OpenWrt/"/>
+    
+    <category term="二级路由" scheme="http://example.com/tags/%E4%BA%8C%E7%BA%A7%E8%B7%AF%E7%94%B1/"/>
+    
+    <category term="IPV6" scheme="http://example.com/tags/IPV6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Redmi_AC2100 Openwrt固件23.05安装passwall的操作步骤</title>
+    <link href="http://example.com/posts/e539a68.html"/>
+    <id>http://example.com/posts/e539a68.html</id>
+    <published>2024-07-25T13:02:17.000Z</published>
+    <updated>2024-07-25T14:04:37.691Z</updated>
+    
+    <content type="html"><![CDATA[<p>登录：<a href="http://openwrt.lan/cgi-bin/luci/">http://openwrt.lan/cgi-bin/luci/</a> 或 192.168.31.1<br>用户名密码：root/<psw>123456</psw><br>wifi2.4g：kaifar_AC2100_2.4G<br>wifi5.0g：kaifar_AC2100_5G<br><psw>123456789asd</psw></p><h2 id="固件23-05安装成功后进行以下步骤"><a href="#固件23-05安装成功后进行以下步骤" class="headerlink" title="固件23.05安装成功后进行以下步骤:"></a><mark class="hl-label blue">Openwrt</mark> 固件23.05安装成功后进行以下步骤:</h2><h3 id="一，换源，换以下源，并用-注释掉option-check-signature"><a href="#一，换源，换以下源，并用-注释掉option-check-signature" class="headerlink" title="一，换源，换以下源，并用#注释掉option check_signature"></a>一，换源，换以下源，并用#注释掉<code>option check_signature</code></h3><mark class="hl-label red">红米AC2100</mark> 中国科技大学源（23.05.0版本）<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">src/gz openwrt_core https://openwrt.proxy.ustclug.org/releases/23.05.0/targets/ramips/mt7621/packages/</span><br><span class="line">src/gz openwrt_base https://mirror-03.infra.openwrt.org/releases/23.05.0/packages/mipsel_24kc/base/</span><br><span class="line">src/gz openwrt_luci https://mirror-03.infra.openwrt.org/releases/23.05.0/packages/mipsel_24kc/luci/</span><br><span class="line">src/gz openwrt_packages https://mirror-03.infra.openwrt.org/releases/23.05.0/packages/mipsel_24kc/packages/</span><br><span class="line">src/gz openwrt_routing https://mirror-03.infra.openwrt.org/releases/23.05.0/packages/mipsel_24kc/routing/</span><br><span class="line">src/gz openwrt_telephony https://mirror-03.infra.openwrt.org/releases/23.05.0/packages/mipsel_24kc/telephony/</span><br></pre></td></tr></table></figure><mark class="hl-label red">红米AC2100</mark>  kiddin9源（23.05.0版本）<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">src/gz kiddin9_core https://dl.openwrt.ai/packages-23.05/mipsel_24kc/kiddin9/</span><br><span class="line">src/gz kiddin9_base https://dl.openwrt.ai/packages-23.05/mipsel_24kc/base/</span><br><span class="line">src/gz kiddin9_luci https://dl.openwrt.ai/packages-23.05/mipsel_24kc/luci/</span><br><span class="line">src/gz kiddin9_packages https://dl.openwrt.ai/packages-23.05/mipsel_24kc/packages/</span><br><span class="line">src/gz kiddin9_routing https://dl.openwrt.ai/packages-23.05/mipsel_24kc/routing/</span><br><span class="line">src/gz kiddin9_telephony https://dl.openwrt.ai/packages-23.05/mipsel_24kc/telephony/</span><br></pre></td></tr></table></figure><p>换源后在<span class='p blue'>FinalShell</span>执行以下命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">opkg update</span><br></pre></td></tr></table></figure><h3 id="二，在安装中文插件luci-i18n-base-zh-cn-git-24-137-59920-b342a45-all-ipk-安装命令如下"><a href="#二，在安装中文插件luci-i18n-base-zh-cn-git-24-137-59920-b342a45-all-ipk-安装命令如下" class="headerlink" title="二，在安装中文插件luci-i18n-base-zh-cn_git-24.137.59920-b342a45_all.ipk,安装命令如下"></a>二，在<span class='p blue'>FinalShell</span>安装中文插件<code>luci-i18n-base-zh-cn_git-24.137.59920-b342a45_all.ipk</code>,安装命令如下</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">opkg install luci-i18n-base-zh-cn_git-24.137.59920-b342a45_all.ipk</span><br></pre></td></tr></table></figure><h3 id="三，安装后提示有缺失插件，下边是缺失的插件，在执行下边安装命令"><a href="#三，安装后提示有缺失插件，下边是缺失的插件，在执行下边安装命令" class="headerlink" title="三，安装后提示有缺失插件，下边是缺失的插件，在执行下边安装命令"></a>三，安装后提示有缺失插件，下边是缺失的插件，在<span class='p blue'>FinalShell</span>执行下边安装命令</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">opkg install iptables kmod-nft-socket kmod-nft-tproxy ipset ipt2socks iptables iptables-mod-conntrack-extra iptables-mod-iprange iptables-mod-socket iptables-mod-tproxy kmod-ipt-nat</span><br></pre></td></tr></table></figure><h3 id="四，移除dnsmasq并安装dnsmasq-full，在执行下边命令"><a href="#四，移除dnsmasq并安装dnsmasq-full，在执行下边命令" class="headerlink" title="四，移除dnsmasq并安装dnsmasq-full，在执行下边命令"></a>四，移除<code>dnsmasq</code>并安装<code>dnsmasq-full</code>，在<span class='p blue'>FinalShell</span>执行下边命令</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">opkg remove dnsmasq &amp;&amp; opkg install dnsmasq-full</span><br></pre></td></tr></table></figure><p>安装后在<code>/etc/config/</code>文件家里生成一个文件<code>dhcp-opkg</code>，这个是多余的，删除掉，保留<code>/etc/config/dhcp</code>既可，其他不用改</p><h3 id="五，通过WinSCP上传相关插件，分批上传至-tmp-tmp文件夹，分批在执行安装命令opkg-install-ipk，分批安装后立即在-tmp-tmp文件夹分批删除上传的插件，相关插件安装完成后再安装自身插件，一定要按这个步骤操作，不然会报错，分批上传的原因是的空间太小了。"><a href="#五，通过WinSCP上传相关插件，分批上传至-tmp-tmp文件夹，分批在执行安装命令opkg-install-ipk，分批安装后立即在-tmp-tmp文件夹分批删除上传的插件，相关插件安装完成后再安装自身插件，一定要按这个步骤操作，不然会报错，分批上传的原因是的空间太小了。" class="headerlink" title="五，通过WinSCP上传相关插件，分批上传至/tmp/tmp文件夹，分批在执行安装命令opkg install *.ipk，分批安装后立即在/tmp/tmp文件夹分批删除上传的插件，相关插件安装完成后再安装自身插件，一定要按这个步骤操作，不然会报错，分批上传的原因是的空间太小了。"></a>五，通过<code>WinSCP</code>上传<mark class="hl-label pink">passwall</mark> 相关插件，分批上传至<code>/tmp/tmp</code>文件夹，分批在<span class='p blue'>FinalShell</span>执行安装命令opkg install *.ipk，分批安装后立即在<code>/tmp/tmp</code>文件夹分批删除上传的插件，<mark class="hl-label pink">passwall</mark> 相关插件安装完成后再安装<mark class="hl-label pink">passwall</mark> 自身插件，一定要按这个步骤操作，不然会报错，分批上传的原因是<mark class="hl-label red">红米AC2100</mark> 的空间太小了。</h3>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;登录：&lt;a href=&quot;http://openwrt.lan/cgi-bin/luci/&quot;&gt;http://openwrt.lan/cgi-bin/luci/&lt;/a&gt; 或 192.168.31.1&lt;br&gt;用户名密码：root/&lt;psw&gt;123456&lt;/psw&gt;&lt;br&gt;wifi</summary>
+      
+    
+    
+    
+    
+    <category term="OpenWrt" scheme="http://example.com/tags/OpenWrt/"/>
+    
+    <category term="redmi_AC2100" scheme="http://example.com/tags/redmi-AC2100/"/>
+    
+    <category term="Passwall" scheme="http://example.com/tags/Passwall/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo-butterfly一图流教程</title>
@@ -441,52 +494,6 @@
     
     
     <category term="旧电脑nas" scheme="http://example.com/tags/%E6%97%A7%E7%94%B5%E8%84%91nas/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>服务端frps.ini配置文件</title>
-    <link href="http://example.com/posts/38537.html"/>
-    <id>http://example.com/posts/38537.html</id>
-    <published>2024-06-25T13:48:07.000Z</published>
-    <updated>2024-07-18T15:06:28.247Z</updated>
-    
-    <content type="html"><![CDATA[<p>服务端frps.ini配置：</p><p>编辑服务器命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi frps.ini</span><br></pre></td></tr></table></figure><p>编辑服务器内容<br>[common]<br>bind_port = 7000 #客户端和服务端连接的接口，后边客户端配<span id="more"></span>置也要用到，但端口需要在服务器里放行<br>vhost_http_port = 5800 #本地http端口，反向代理http主机时使用<br>vhost_https_port = 5801 #本地https端口，反向代理https主机时使用<br>token = 123456 #身份验证<br>dashboard_port = 7500 #服务器仪表盘端口，配置完成后可以通过浏览器访问x.x.x.x:7500，但端口需要在服务器里放行<br>dashboard_user = admin #服务器仪表盘用户名<br>dashboard_pwd = admin #服务器仪表盘密码</p><p>启动服务器端服务器</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./frps -c ./frps.ini</span><br></pre></td></tr></table></figure><p>服务端配置systemctl来控制frps，创建frps.service服务命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /lib/systemd/system/frps.service</span><br></pre></td></tr></table></figure><p>在frps.service服务里添加以下内容：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">[Unit]</span><br><span class="line">Description=frps service</span><br><span class="line">After=network.target syslog.target</span><br><span class="line">Wants=network.target</span><br><span class="line"></span><br><span class="line">[Service]</span><br><span class="line">Type=smiple</span><br><span class="line">ExecStart=/root/frp/frps -c /root/frp/frps.ini #此位置的路径一定要正确</span><br><span class="line"></span><br><span class="line">[Install]</span><br><span class="line">WantedBy=multi-user.target</span><br></pre></td></tr></table></figure><p>保存</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ESC</span><br></pre></td></tr></table></figure><p>退出</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">:wq</span><br></pre></td></tr></table></figure><p>启动frps服务</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl start frps</span><br></pre></td></tr></table></figure><p>frps服务开机自启动</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl enable frps</span><br></pre></td></tr></table></figure><p>停止frps服务：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl stop frps</span><br></pre></td></tr></table></figure><p>查看frps状态：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">systemctl status frps</span><br></pre></td></tr></table></figure><p>防火墙开放端口</p><h1 id="添加监听端口"><a href="#添加监听端口" class="headerlink" title="添加监听端口"></a>添加监听端口</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo firewall-cmd --permanent --add-port=7000/tcp</span><br></pre></td></tr></table></figure><h1 id="添加管理后台端口"><a href="#添加管理后台端口" class="headerlink" title="添加管理后台端口"></a>添加管理后台端口</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo firewall-cmd --permanent --add-port=7500/tcp</span><br><span class="line">sudo firewall-cmd --reload</span><br></pre></td></tr></table></figure><p>重新启动</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">reboot</span><br></pre></td></tr></table></figure><p>检测是否启动</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ps auxw</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;服务端frps.ini配置：&lt;/p&gt;
-&lt;p&gt;编辑服务器命令&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;vi frps.ini&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-&lt;p&gt;编辑服务器内容&lt;br&gt;[common]&lt;br&gt;bind_port = 7000 #客户端和服务端连接的接口，后边客户端配</summary>
-    
-    
-    
-    <category term="内网穿透" scheme="http://example.com/categories/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
-    
-    
-    <category term="frp" scheme="http://example.com/tags/frp/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>FRP服务端一键安装脚本</title>
-    <link href="http://example.com/posts/36634.html"/>
-    <id>http://example.com/posts/36634.html</id>
-    <published>2024-06-25T13:45:17.000Z</published>
-    <updated>2024-07-18T14:55:09.546Z</updated>
-    
-    <content type="html"><![CDATA[<p>FRP服务端一键安装脚本：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">wget --no-check-certificate https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh</span><br><span class="line">chmod 700 ./install-frps.sh</span><br><span class="line">./install-frps.sh install</span><br></pre></td></tr></table></figure><span id="more"></span><p>卸载命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./install-frps.sh uninstall</span><br></pre></td></tr></table></figure><p>更新FRP命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">./install-frps.sh update</span><br></pre></td></tr></table></figure><p>FRP常用命令：<br>开启FRP</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">frps start</span><br></pre></td></tr></table></figure><p>停止FRP：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Frps stop</span><br></pre></td></tr></table></figure><p>重启FRP</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">frps restart</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-    <summary type="html">&lt;p&gt;FRP服务端一键安装脚本：&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;wget --no-check-certificate https://raw.githubusercontent.com/clangcn/onekey-install-shell/master/frps/install-frps.sh -O ./install-frps.sh&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;chmod 700 ./install-frps.sh&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;./install-frps.sh install&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</summary>
-    
-    
-    
-    <category term="内网穿透" scheme="http://example.com/categories/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
-    
-    
-    <category term="frp" scheme="http://example.com/tags/frp/"/>
     
   </entry>
   
