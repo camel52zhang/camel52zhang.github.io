@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.xiagao.site/google033108e216642404.html</loc>
+    
+    <lastmod>2024-07-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.xiagao.site/posts/10103.html</loc>
     
     <lastmod>2024-07-27</lastmod>
@@ -527,14 +536,14 @@
   </url>
   
   <url>
-    <loc>https://blog.xiagao.site/tags/%E4%B8%80%E5%9B%BE%E6%B5%81/</loc>
+    <loc>https://blog.xiagao.site/tags/kiftd/</loc>
     <lastmod>2024-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.xiagao.site/tags/kiftd/</loc>
+    <loc>https://blog.xiagao.site/tags/%E4%B8%80%E5%9B%BE%E6%B5%81/</loc>
     <lastmod>2024-07-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
