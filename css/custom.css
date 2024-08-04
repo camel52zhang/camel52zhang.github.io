@@ -497,11 +497,11 @@ svg.social_icon {
 #aside-content > .card-widget.card-info {
   background: linear-gradient(
     -45deg,
-    #e8d8b9,
-    #eccec5,
-    #a3e9eb,
-    #bdbdf0,
-    #eec1ea
+    #f7e9ce,
+    #f3dcd5,
+    #d1ebec,
+    #e0e0e4,
+    #e0f5e4
   );
   box-shadow: 0 0 5px rgb(66, 68, 68);
   position: relative;
