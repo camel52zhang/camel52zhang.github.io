@@ -497,11 +497,11 @@ svg.social_icon {
 #aside-content > .card-widget.card-info {
   background: linear-gradient(
     -45deg,
-    #f7e9ce,
-    #f3dcd5,
-    #d1ebec,
-    #e0e0e4,
-    #e0f5e4
+    #b1b0ae,
+    #f5d2c6,
+    #ccccc5,
+    #ebf7ef,
+    #eaf1ec
   );
   box-shadow: 0 0 5px rgb(66, 68, 68);
   position: relative;
@@ -642,4 +642,16 @@ h6::before {
   color: var(--theme-color);
   -webkit-animation: ccc 6s linear infinite;
   animation: ccc 6s linear infinite;
+}
+
+/* 分类磁贴1.0（小冰）黑暗模式适配适配 */
+/* 一般状态 */
+[data-theme="dark"] .magnet_link_context {
+  background: #1e1e1e;
+  color: antiquewhite;
+}
+/* 鼠标悬浮状态 */
+[data-theme="dark"] .magnet_link_context:hover {
+  background: #3ecdf1;
+  color: #f2f2f2;
 }
