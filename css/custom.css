@@ -1,3 +1,102 @@
+/* 颜色 */
+:root {
+  --camelz-theme-op: #4259ef23;
+  --camelz-gray-op: #9999992b;
+  --camelz-theme-top: var(--camelz-theme);
+  --camelz-white: #fff;
+  --camelz-white-op: rgba(255, 255, 255, 0.2);
+  --camelz-black: #000;
+  --camelz-black-op: rgba(0, 0, 0, 0.2);
+  --camelz-none: rgba(0, 0, 0, 0);
+  --camelz-gray: #999999;
+  --camelz-yellow: #ffc93e;
+  --camelz-border-radius: 8px;
+  --camelz-main: var(--camelz-theme);
+  --camelz-main-op: var(--camelz-theme-op);
+  --camelz-shadow-theme: 0 8px 12px -3px var(--camelz-theme-op);
+  --camelz-shadow-main: 0 8px 12px -3px var(--camelz-main-op);
+  --camelz-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
+  --camelz-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, 0.2);
+  --camelz-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
+  --camelz-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);
+  --camelz-shadow-red: 0 8px 12px -3px #ee7d7936;
+  --camelz-shadow-green: 0 8px 12px -3px #87ee7936;
+  --camelz-shadow-border: 0 8px 16px -4px #2c2d300c;
+  --camelz-shadow-blackdeep: 0 2px 16px -3px rgba(0, 0, 0, 0.15);
+  --camelz-logo-color: linear-gradient(215deg, #4584ff 30%, #ff7676 70%);
+  --style-border: 1px solid var(--camelz-card-border);
+  --camelz-blue-main: #3b70fc;
+  --style-border-hover: 1px solid var(--camelz-main);
+  --style-border-dashed: 1px dashed var(--camelz-theme-op);
+  --style-border-avatar: 4px solid var(--camelz-background);
+  --style-border-always: 1px solid var(--camelz-card-border);
+  --style-border-none: 1px solid transparent;
+  --camelz-white-acrylic1: #fefeff !important;
+  --camelz-white-acrylic2: #fcfdff !important;
+  --camelz-black-acrylic2: #08080a !important;
+  --camelz-black-acrylic1: #0b0b0e !important;
+  --camelz-main-none: #b8b8b800 !important;
+}
+
+[data-theme="light"] {
+  --camelz-theme: #3b70fc;
+  --camelz-theme-deep: #1856fb;
+  --camelz-theme-op: #4259ef23;
+  --camelz-blue: #3b70fc;
+  --camelz-red: #d8213c;
+  --camelz-pink: #ff7c7c;
+  --camelz-green: #57bd6a;
+  --camelz-fontcolor: #363636;
+  --camelz-background: #f7f9fe;
+  --camelz-reverse: #000;
+  --camelz-maskbg: rgba(255, 255, 255, 0.6);
+  --camelz-maskbgdeep: rgba(255, 255, 255, 0.85);
+  --camelz-hovertext: var(--camelz-theme);
+  --camelz-ahoverbg: #f7f7fa;
+  --camelz-lighttext: var(--camelz-main);
+  --camelz-secondtext: rgba(60, 60, 67, 0.6);
+  --camelz-scrollbar: rgba(60, 60, 67, 0.4);
+  --camelz-card-btn-bg: #edf0f7;
+  --camelz-post-blockquote-bg: #fafcff;
+  --camelz-post-tabs-bg: #f2f5f8;
+  --camelz-secondbg: #f1f3f8;
+  --camelz-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
+  --camelz-card-bg: #fff;
+  --camelz-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --camelz-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --camelz-card-border: #e3e8f7;
+}
+
+[data-theme="dark"] {
+  --global-bg: #191919;
+  --camelz-theme: #0084ff;
+  --camelz-theme-deep: #0076e5;
+  --camelz-theme-op: #0084ff23;
+  --camelz-blue: #0084ff;
+  --camelz-red: #ff3842;
+  --camelz-pink: #ff7c7c;
+  --camelz-green: #57bd6a;
+  --camelz-fontcolor: #f7f7fa;
+  --camelz-background: #18171d;
+  --camelz-reverse: #fff;
+  --camelz-maskbg: rgba(0, 0, 0, 0.6);
+  --camelz-maskbgdeep: rgba(0, 0, 0, 0.85);
+  --camelz-hovertext: #0a84ff;
+  --camelz-ahoverbg: #fff;
+  --camelz-lighttext: #f2b94b;
+  --camelz-secondtext: #a1a2b8;
+  --camelz-scrollbar: rgba(200, 200, 223, 0.4);
+  --camelz-card-btn-bg: #30343f;
+  --camelz-post-blockquote-bg: #000;
+  --camelz-post-tabs-bg: #121212;
+  --camelz-secondbg: #30343f;
+  --camelz-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
+  --camelz-card-bg: #1d1b26;
+  --camelz-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --camelz-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+  --camelz-card-border: #42444a;
+}
+
 /* 页脚与头图透明 */
 #footer {
   background: transparent !important;
@@ -143,4 +242,19 @@ h6::before {
     width: fit-content;
     left: 50%;
     transform: translateX(-50%);
+}
+
+/* 博客底部运行时间 */
+div#runtime {
+    width: fit-content;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: var(--theme-color);  /* rgba(0, 0, 0, 0.7);这是大佬默认参数，我改了 */
+	margin: auto;  /* 设置居中显示 */
+}
+
+[data-theme="dark"] div#runtime {
+    color: var(--theme-color);  /* #28b4c8; */
+    /* box-shadow: 0 0 5px rgba(28, 69, 218, 0.71);这是大佬默认参数，我注释掉了 */
 }
