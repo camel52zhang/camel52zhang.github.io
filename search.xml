@@ -4,6 +4,166 @@
   
     
     <entry>
+      <title>idm序列号永久激活码2024</title>
+      <link href="/posts/efa0047c.html"/>
+      <url>/posts/efa0047c.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="idm序列号永久激活码2024："><a href="#idm序列号永久激活码2024：" class="headerlink" title="idm序列号永久激活码2024："></a>idm序列号永久激活码2024：</h3><p>TUTR2-i2nHo-GQBC6-ZECwH</p><p>3ZV2M-XQVN1-H0AMJ-B1MRX<br><span id="more"></span><br>56ECU-E6CY3-FMNLR-ZA787</p><p>5505O-M38P8-NHRL2-XAKWJ</p><p>KCC05-BJ2L2-ZM95G-6SFJ4</p><p>1QK5Z-4EQIM-XH4RD-BLXKT</p><p>TGG94-HRKYT-NIE2X-8A9MT</p><p>NCU51-ZEXKM-414SK-HM247</p><p>83NFH-WM0FW-GJRQ3-WQ8HL</p><p>A3RJ1-3X8AT-85C48-ET4YN</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> idm </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> idm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>HEVC 图片视频扩展程序</title>
+      <link href="/posts/cd6cac20.html"/>
+      <url>/posts/cd6cac20.html</url>
+      
+        <content type="html"><![CDATA[<p>HEVC 视频图片浏览下载地址：</p><p><a href="http://r777t32407.zicp.fun/externalLinksController/downloadFileByKey/Microsoft.HEVCVideoExtension_2.0.61931.0_neutral_~_8wekyb3d8bbwe.AppxBundle?dkey=cc0cc2a9-817c-40cf-87ba-d22450775b8d">hevc下载</a></p><p>下载<span id="more"></span>后安装</p><p>参考方法：<br>访问 <a href="https://store.rg-adguard.net/">https://store.rg-adguard.net</a> 选择Productld输入 9n4wgh0z6vhq搜索，在搜索结果选择适合自己系统的版本下载，双击安装</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows图片视频扩展程序 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HEVC </tag>
+            
+            <tag> 图片视频扩展程序 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Adobe reader 或Adobe acrobat 显示“正在准备文档以供阅读”的取消方式</title>
+      <link href="/posts/bc737475.html"/>
+      <url>/posts/bc737475.html</url>
+      
+        <content type="html"><![CDATA[<p>找到文件安装目录C:\Program Files (x86)\Adobe\Acrobat 10.0\Acrobat\plug_ins里的Accessibility.api删除即可</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Adobe-acrobat </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PVE扩容和直通代码及硬盘直通</title>
+      <link href="/posts/b2104617.html"/>
+      <url>/posts/b2104617.html</url>
+      
+        <content type="html"><![CDATA[<h4 id="一、PVE-扩容命令（这一步可以不做）"><a href="#一、PVE-扩容命令（这一步可以不做）" class="headerlink" title="一、PVE 扩容命令（这一步可以不做）"></a>一、PVE 扩容命令（这一步可以不做）</h4><h5 id="1、删除local-lvm"><a href="#1、删除local-lvm" class="headerlink" title="1、删除local-lvm"></a>1、删除local-lvm</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">lvremove pve/data  #回车 【 y 】确认</span><br></pre></td></tr></table></figure><h5 id="2、把local-lvm存储空间分配给local"><a href="#2、把local-lvm存储空间分配给local" class="headerlink" title="2、把local-lvm存储空间分配给local"></a>2、把local-lvm存储空间分配给local<span id="more"></span></h5><figure class="highlight plaintext"><figcaption><span>pve/data  #回车 【 y 】确认</span></figcaption><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">lvextend -l +100%FREE -r pve/root</span><br><span class="line">resize2fs /dev/mapper/pve-root</span><br></pre></td></tr></table></figure><h4 id="二、网卡直通"><a href="#二、网卡直通" class="headerlink" title="二、网卡直通"></a>二、网卡直通</h4><h5 id="1、打开PVE节点的shell，输入命令："><a href="#1、打开PVE节点的shell，输入命令：" class="headerlink" title="1、打开PVE节点的shell，输入命令："></a>1、打开PVE节点的shell，输入命令：</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano /etc/default/grub</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">GRUB_CMDLINE_LINUX_DEFAULT=&quot;quiet&quot;</span><br><span class="line">改为：</span><br><span class="line">GRUB_CMDLINE_LINUX_DEFAULT=&quot;quiet intel_iommu=on video=efifb:off&quot;</span><br><span class="line">编辑完文件后按 【 Ctrl + X 】 【  Y  】  回车 </span><br><span class="line">update-grub</span><br></pre></td></tr></table></figure><h5 id="2、继续输入以下命令"><a href="#2、继续输入以下命令" class="headerlink" title="2、继续输入以下命令"></a>2、继续输入以下命令</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano /etc/modules</span><br></pre></td></tr></table></figure><p>在文件下面添加新内容</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">vfio</span><br><span class="line">vfio_iommu_type1</span><br><span class="line">vfio_pci</span><br><span class="line">vfio_virqfd</span><br></pre></td></tr></table></figure><p>编辑完文件后按【 Ctrl + X 】 【  Y  】  回车 </p><h5 id="3、最后更新配置信息并重启PVE主机"><a href="#3、最后更新配置信息并重启PVE主机" class="headerlink" title="3、最后更新配置信息并重启PVE主机"></a>3、最后更新配置信息并重启PVE主机</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">update-grub</span><br><span class="line">update-initramfs -u -k all</span><br><span class="line">reboot</span><br></pre></td></tr></table></figure><h4 id="三、安装img镜像格式需要通过代码安装"><a href="#三、安装img镜像格式需要通过代码安装" class="headerlink" title="三、安装img镜像格式需要通过代码安装"></a>三、安装img镜像格式需要通过代码安装</h4><h5 id="1，qm-importdisk-101（虚拟机号牌）-文件路径-local-PVE扩容才用这个命令"><a href="#1，qm-importdisk-101（虚拟机号牌）-文件路径-local-PVE扩容才用这个命令" class="headerlink" title="1，qm importdisk 101（虚拟机号牌） 文件路径  local   #PVE扩容才用这个命令"></a>1，qm importdisk 101（虚拟机号牌） 文件路径  local   #PVE扩容才用这个命令</h5><p>例如OpenWrt文件路径:/var/lib/vz/template/iso/password_openwrt-x86-64-efi.img，输入以下命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qm importdisk 101 /var/lib/vz/template/iso/password_openwrt-x86-64-efi.img local</span><br></pre></td></tr></table></figure><h5 id="2，qm-importdisk-101（虚拟机号牌）-文件路径-local-第一布PVE没扩容的话用这个命令"><a href="#2，qm-importdisk-101（虚拟机号牌）-文件路径-local-第一布PVE没扩容的话用这个命令" class="headerlink" title="2，qm importdisk 101（虚拟机号牌） 文件路径  local   #第一布PVE没扩容的话用这个命令"></a>2，qm importdisk 101（虚拟机号牌） 文件路径  local   #第一布PVE没扩容的话用这个命令</h5><p>例如OpenWrt文件路径:/var/lib/vz/template/iso/password_openwrt-x86-64-efi.img，输入以下命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qm importdisk 101 /var/lib/vz/template/iso/password_openwrt-x86-64-efi.img local-lvm</span><br></pre></td></tr></table></figure><h4 id="四、硬盘直通"><a href="#四、硬盘直通" class="headerlink" title="四、硬盘直通"></a>四、硬盘直通</h4><h5 id="A-用finalshell登录PVE，输入以下命令"><a href="#A-用finalshell登录PVE，输入以下命令" class="headerlink" title="A, 用finalshell登录PVE，输入以下命令"></a>A, 用finalshell登录PVE，输入以下命令</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ls /dev/disk/by-id</span><br></pre></td></tr></table></figure><h5 id="B-找到未使用硬盘的ID"><a href="#B-找到未使用硬盘的ID" class="headerlink" title="B, 找到未使用硬盘的ID"></a>B, 找到未使用硬盘的ID</h5><h6 id="1，西数4T硬盘1，完成后显示sata2"><a href="#1，西数4T硬盘1，完成后显示sata2" class="headerlink" title="1，西数4T硬盘1，完成后显示sata2"></a>1，西数4T硬盘1，完成后显示sata2</h6><p>ata-WDC_WD40EFAX-68JH4N1_WD-WX22D817ZDDJ<br>输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qm set 102 -sata2 /dev/disk/by-id/ata-WDC_WD40EFAX-68JH4N1_WD-WX22D817ZDDJ</span><br></pre></td></tr></table></figure><h6 id="2，西数4T硬盘2，完成后显示sata3"><a href="#2，西数4T硬盘2，完成后显示sata3" class="headerlink" title="2，西数4T硬盘2，完成后显示sata3"></a>2，西数4T硬盘2，完成后显示sata3</h6><p>ata-WDC_WD40EFAX-68JH4N1_WD-WX32D810KASS</p><p>输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qm set 102 -sata3 /dev/disk/by-id/ata-WDC_WD40EFAX-68JH4N1_WD-WX32D810KASS</span><br></pre></td></tr></table></figure><h6 id="3，东芝14T硬盘，完成后显示sata4"><a href="#3，东芝14T硬盘，完成后显示sata4" class="headerlink" title="3，东芝14T硬盘，完成后显示sata4"></a>3，东芝14T硬盘，完成后显示sata4</h6><p>ata-TOSHIBA_MG07ACA14TE_2170A04PF94G<br>然后输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qm set 102 -sata4 /dev/disk/by-id/ata-TOSHIBA_MG07ACA14TE_2170A04PF94G</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> PVE-虚拟机 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PVE </tag>
+            
+            <tag> 虚拟机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>旁路由基于IPV6配置wireguardVPN</title>
+      <link href="/posts/d90ac5d4.html"/>
+      <url>/posts/d90ac5d4.html</url>
+      
+        <content type="html"><![CDATA[<h3 id="家里旁路由Openwrt（IP：192-168-2-2-里的docker配置的wireguard"><a href="#家里旁路由Openwrt（IP：192-168-2-2-里的docker配置的wireguard" class="headerlink" title="家里旁路由Openwrt（IP：192.168.2.2)里的docker配置的wireguard"></a>家里旁路由Openwrt（IP：192.168.2.2)里的docker配置的wireguard</h3><p>finalshell登录openwrt后输入以下命令，</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">docker run -d \</span><br><span class="line">  --name=wg-easy \</span><br><span class="line">  -e LANG=de \</span><br><span class="line">  -e WG_HOST=aaa.aaa.com \</span><br><span class="line">  -e PASSWORD=123456789 \</span><br><span class="line">  -e WG_DEFAULT_DNS=114.114.114.114,223.5.5.5 \</span><br><span class="line">  -v ~/.wg-easy:/etc/wireguard \</span><br><span class="line">  -p 51820:51820/udp \</span><br><span class="line">  -p 51821:51821/tcp \</span><br><span class="line">  --cap-add=NET_ADMIN \</span><br><span class="line">  --cap-add=SYS_MODULE \</span><br><span class="line">  --sysctl=&quot;net.ipv6.conf.all.disable_ipv6=0&quot; \</span><br><span class="line">  --sysctl=&quot;net.ipv6.conf.all.forwarding=1&quot; \</span><br><span class="line">  --restart unless-stopped \</span><br><span class="line">  ghcr.io/wg-easy/wg-easy</span><br></pre></td></tr></table></figure><p>其中两个地方需要动，一个是-e WG_HOST=，对应ddns解析的域名，一个是  -e PASSWORD=，输入相应的<psw>密码</psw>，其他都不用动</p><h3 id="配置wireguard需要用到私钥，公钥和预共享公钥，获取方法如下："><a href="#配置wireguard需要用到私钥，公钥和预共享公钥，获取方法如下：" class="headerlink" title="配置wireguard需要用到私钥，公钥和预共享公钥，获取方法如下："></a>配置wireguard需要用到私钥，公钥和预共享公钥，获取方法如下：</h3><p>在Windows PowerShell里输入以下命令，回车后输入密码登录</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh root@192.168.2.2</span><br></pre></td></tr></table></figure><p>然后输入：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wg -h</span><br></pre></td></tr></table></figure><p>可以看到获得私钥，预共享公钥的方法</p><p>输入wg genkey就可以得到私钥<br>输入wg genpsk就可以得到预共享公钥</p><p>获取公钥的方法：</p><p>在Windows PowerShell里输入</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;qCjfXQaCoVN9ZzFo06UFeL/bpqbVN6mufMF9PkRGqUA=&quot; | wg pubkey</span><br></pre></td></tr></table></figure><p>回车后的结果就能看到公钥了</p><h3 id="openwrt旁路由的wireguard配置"><a href="#openwrt旁路由的wireguard配置" class="headerlink" title="openwrt旁路由的wireguard配置"></a>openwrt旁路由的wireguard配置</h3><p class='p gray'>家里盘路由192.168.2.2服务器端设置：</p><p>接口名字：wg0<br>PrivateKey私钥：qCjfXQaCoVN9ZzFo06UFeL/bpqbVN6mufMF9PkRGqUA=<br>PublicKey公钥：4/0guz3HwkN54Zyo7yk776ryEsi6GXPdtkhCXmtZhBU=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>监听端口：20002<br>IP地址：192.168.111.3/24</p><p class='p gray'>公司旁路由Wireguard配置</p><p>旁路由10.168.11.2服务器端设置：<br>接口：wg1<br>PrivateKey私钥：aCWd0vn00iF6er85yPtfCOmO0rRQfQyrjqCykoRrT3I=<br>PublicKey公钥：tb8oBQ6AnHvOfKeigZL71my6aoKpFti1Akm7kI5J4FA=<br>监听端口：20002<br>IP地址：192.168.111.2/24</p><hr><mark class="hl-label pink">设置后不要忘记在防火墙自定义放行：</mark><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">iptables -t nat -A POSTROUTING -s 192.168.111.0/24 -o br-lan -j MASQUERADE</span><br></pre></td></tr></table></figure><p class='p red'>注意此条防火墙网段 192.168.111.0/24 需和服务端 IP 网段保持一致.</p><p>注意20002端口需要在<span class='p blue'>防火墙-通信规则</span>里加入来打开路由器的20002端口，同时<wavy>在ikuai主路由</wavy>也做一下<mark class="hl-label red">端口映射</mark>，映射旁路由的20002端口，同时把wireguard的接口对应的<mark class="hl-label blue">防火墙</mark>设置为lan，不然只能外网不能内网</p><hr><p class='p green'>家里旁路由192.168.2.2配置peer</p><p>PublicKey公钥（公司的）：tb8oBQ6AnHvOfKeigZL71my6aoKpFti1Akm7kI5J4FA=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>允许的 IP：192.168.111.0/24,10.168.11.0/24<br>路由允许的 IP：打勾<br>端点主机：aaa.aaa.com<br>端点端口：20002<br>持续 Keep-Alive：默认</p><p class='p green'>公司旁路由10.168.11.2配置peer</p><p>PublicKey公钥（家里的）：4/0guz3HwkN54Zyo7yk776ryEsi6GXPdtkhCXmtZhBU=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>允许的 IP：192.168.111.0/24,192.168.2.0/24<br>路由允许的 IP：打勾<br>端点主机：aaa.aaa.com<br>端点端口：20002<br>持续 Keep-Alive：默认</p><p class='p green'>小米9pro服务端peer设置：</p><p>连接公司网络的~~<br>PublicKey公钥（小米9pro自己的）：Gd9UtzkVoSCnq3YbHPMkeQZAzZHBky/a8lEvT1zOJXw=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>允许的 IP：192.168.111.101/32<br>勾选路由允许的IP<br>其实设置默认</p><p class='p green'>小米9pro客户端设置：</p><p>本地（Interface）<br>名称：wg_gsvpn<br>PublicKey公钥（小米9pro自己的）：Gd9UtzkVoSCnq3YbHPMkeQZAzZHBky/a8lEvT1zOJXw=<br>局域网IP地址：192.168.111.101/32<br>DNS服务器：192.168.111.2<br>远程（Peer）<br>PublicKey公钥（旁路由10.168.11.2的）：tb8oBQ6AnHvOfKeigZL71my6aoKpFti1Akm7kI5J4FA=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>对端：aaa.aaa.com:20002<br>路由的IP地址（段）：0.0.0.0/0</p><p class='p green'>家里电脑</p><p>服务端peer配置：<br>家里电脑IP是192.168.2.242<br>PublicKey公钥（家里电脑的）：r5aMYQMfJdnUVhpp3MxdQXSQ1XEr39VE5ABKSbm05Vo=<br>PresharedKey预共享密钥：1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>允许的 IP：192.168.111.103/32<br>勾选路由允许的IP<br>其实设置默认</p><p>家里电脑端配置<br>名称：wg_gsvpn<br>PublicKey公钥（家里电脑的）：r5aMYQMfJdnUVhpp3MxdQXSQ1XEr39VE5ABKSbm05Vo=<br>[Interface]<br>PrivateKey = 6KlC3vdJdX2sA3HXuRxTTF8Mb9JkxkvDb0xIuFb6kGI=<br>Address = 192.168.111.103/32<br>DNS = 192.168.111.2<br>[Peer]<br>PublicKey = tb8oBQ6AnHvOfKeigZL71my6aoKpFti1Akm7kI5J4FA=<br>PresharedKey = 1DwYTm82DiJH6gN/WNifZ/zE3mIU1rv0EC3XXkvKv84=<br>AllowedIPs = 10.168.11.0/24,192.168.111.0/24<br>Endpoint = aaa.aaa.com:20002<br>PersistentKeepalive = 0</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> VPN </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> wireguard VPN </tag>
+            
+            <tag> Wireguard </tag>
+            
+            <tag> VPN </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PVE虚拟系统黑群晖硬盘直通的方法</title>
+      <link href="/posts/dcc78721.html"/>
+      <url>/posts/dcc78721.html</url>
+      
+        <content type="html"><![CDATA[<p>PVE虚拟系统黑群晖硬盘直通的方法：<br>点击PVE然后点击Shell，然后输入命令查看设备序列号，然后找到相关的硬盘设备复制下来设备号，再次输入直通命令来直通硬盘，相关命令如下：</p><span id="more"></span><p>直通代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">qm importdisk 100 复制的内容 local-lvm</span><br><span class="line">查看设备序列号：ls -l /dev/disk/by-id/</span><br><span class="line">选择直通的硬盘：qm set 102 -sata2 /dev/disk/by-id/复制的内容</span><br></pre></td></tr></table></figure><p>输入命令的时候一定要注意门牌号和硬盘的序号，不能输错或者输重复<br>完成后重新启动pve系统</p><p>举例：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qm set 102 -sata2 /dev/disk/by-id/ata-WDC_WD40EFAX-68JH4N1_WD-WX22D817ZDDJ #其中ata-WDC_WD40EFAX-68JH4N1_WD-WX22D817ZDDJ为相关硬盘的序号</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">qm set 102 -sata3 /dev/disk/by-id/ata-WDC_WD40EFAX-68JH4N1_WD-WX32D810KASS #其中ata-WDC_WD40EFAX-68JH4N1_WD-WX32D810KASS为相关硬盘的序号</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> PVE-虚拟机 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> PVE </tag>
+            
+            <tag> 虚拟机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>butterfly即刻短文</title>
       <link href="/posts/90f6ac06.html"/>
       <url>/posts/90f6ac06.html</url>
