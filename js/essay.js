@@ -1,36 +1,50 @@
-/*essay.js配置文件*/
-var percentFlag = false; // 节流阀
+// 节流阀
+var percentFlag = false;
+
+// 防抖函数，优化滚动事件的频繁触发
+function debounce(fn, delay) {
+    let timer;
+    return function (...args) {
+        if (timer) clearTimeout(timer);
+        timer = setTimeout(() => fn.apply(this, args), delay);
+    };
+}
+
+// 优化后的滚动处理函数
 function essayScroll() {
-    let a = document.documentElement.scrollTop || window.pageYOffset; // 当前滚动位置
-    const waterfallResult = a % document.documentElement.clientHeight; // 滚动的视口高度余数
+    let scrollTop = document.documentElement.scrollTop || window.pageYOffset; // 当前滚动位置
+    const waterfallResult = scrollTop % document.documentElement.clientHeight; // 滚动的视口高度余数
 
     if (
         !percentFlag &&
         waterfallResult + 100 >= document.documentElement.clientHeight &&
         document.querySelector("#waterfall")
     ) {
-        setTimeout(() => {
-            waterfall("#waterfall");
-        }, 500);
+        waterfall("#waterfall"); // 直接调用瀑布流函数，不再使用 setTimeout
     } else {
-        setTimeout(() => {
-            document.querySelector("#waterfall") && waterfall("#waterfall");
-        }, 500);
+        waterfall("#waterfall");
     }
 
-    const r = window.scrollY + document.documentElement.clientHeight;
+    const scrollBottom = window.scrollY + document.documentElement.clientHeight;
     let p = document.getElementById("post-comment") || document.getElementById("footer");
 
-    (p.offsetTop + p.offsetHeight / 2 < r || 90 < result) && (percentFlag = true);
+    if (p && (p.offsetTop + p.offsetHeight / 2 < scrollBottom || 90 < waterfallResult)) {
+        percentFlag = true;
+    }
 }
-function replaceAll(e, n, t) {
-    return e.split(n).join(t);
+
+// 直接使用原生 replaceAll
+function replaceAll(str, find, replace) {
+    return str.replaceAll(find, replace);
 }
+
+// 优化后的 camelz 对象
 var camelz = {
-    diffDate: function (d, more = false) {
+    diffDate: function (date, more = false) {
         const dateNow = new Date();
-        const datePost = new Date(d);
-        const dateDiff = dateNow.getTime() - datePost.getTime();
+        const datePost = new Date(date);
+        const dateDiff = dateNow - datePost;
+
         const minute = 1000 * 60;
         const hour = minute * 60;
         const day = hour * 24;
@@ -61,45 +75,47 @@ var camelz = {
     },
     changeTimeInEssay: function () {
         document.querySelector("#bber") &&
-        document.querySelectorAll("#bber time").forEach(function (e) {
-            var t = e,
-                datetime = t.getAttribute("datetime");
-            (t.innerText = camelz.diffDate(datetime, true)), (t.style.display = "inline");
+        document.querySelectorAll("#bber time").forEach(function (timeElement) {
+            const datetime = timeElement.getAttribute("datetime");
+            timeElement.innerText = camelz.diffDate(datetime, true);
+            timeElement.style.display = "inline";
         });
     },
     reflashEssayWaterFall: function () {
         document.querySelector("#waterfall") &&
-        setTimeout(function () {
+        requestAnimationFrame(function () {
             waterfall("#waterfall");
             document.getElementById("waterfall").classList.add("show");
-        }, 500);
+        });
     },
-    commentText: function (txt) {
+    commentText: function (txt = "好棒！") {
         const postCommentDom = document.querySelector("#post-comment");
-        var domTop = postCommentDom.offsetTop;
+        const domTop = postCommentDom.offsetTop;
         window.scrollTo(0, domTop - 80);
-        if (txt == "undefined" || txt == "null") txt = "好棒！";
+
         function setText() {
-            setTimeout(() => {
-                var input = document.getElementsByClassName("el-textarea__inner")[0];
-                if (!input) setText();
-                let evt = document.createEvent("HTMLEvents");
-                evt.initEvent("input", true, true);
+            requestAnimationFrame(() => {
+                const input = document.querySelector(".el-textarea__inner");
+                if (!input) return setText();
+                
+                let evt = new Event("input", { bubbles: true });
                 let inputValue = replaceAll(txt, "\n", "\n> ");
-                input.value = "> " + inputValue + "\n\n";
+                input.value = `> ${inputValue}\n\n`;
                 input.dispatchEvent(evt);
                 input.focus();
                 input.setSelectionRange(-1, -1);
-                if (document.getElementById("comment-tips")) {
-                    document.getElementById("comment-tips").classList.add("show");
+
+                const commentTips = document.getElementById("comment-tips");
+                if (commentTips) {
+                    commentTips.classList.add("show");
                 }
-            }, 100);
+            });
         }
         setText();
     },
     initIndexEssay: function () {
         setTimeout(() => {
-            let essay_bar_swiper = new Swiper(".essay_bar_swiper_container", {
+            const essayBarSwiper = new Swiper(".essay_bar_swiper_container", {
                 passiveListeners: true,
                 direction: "vertical",
                 loop: true,
@@ -110,13 +126,13 @@ var camelz = {
                 mousewheel: true,
             });
 
-            let essay_bar_comtainer = document.getElementById("bbtalk");
-            if (essay_bar_comtainer !== null) {
-                essay_bar_comtainer.onmouseenter = function () {
-                    essay_bar_swiper.autoplay.stop();
+            const essayBarContainer = document.getElementById("bbtalk");
+            if (essayBarContainer) {
+                essayBarContainer.onmouseenter = function () {
+                    essayBarSwiper.autoplay.stop();
                 };
-                essay_bar_comtainer.onmouseleave = function () {
-                    essay_bar_swiper.autoplay.start();
+                essayBarContainer.onmouseleave = function () {
+                    essayBarSwiper.autoplay.start();
                 };
             }
         }, 100);
@@ -127,4 +143,5 @@ camelz.initIndexEssay();
 camelz.changeTimeInEssay();
 camelz.reflashEssayWaterFall();
 
-window.addEventListener("scroll", essayScroll);
+// 使用防抖优化的滚动事件监听器
+window.addEventListener("scroll", debounce(essayScroll, 200));
