@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.cloudns.ch/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.cloudns.ch/"/>
-  <updated>2024-09-12T10:23:09.063Z</updated>
+  <updated>2024-09-16T06:47:39.595Z</updated>
   <id>https://blog.camelz.cloudns.ch/</id>
   
   <author>
@@ -15,6 +15,82 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>butterfly自定义字体</title>
+    <link href="https://blog.camelz.cloudns.ch/posts/d521a469.html"/>
+    <id>https://blog.camelz.cloudns.ch/posts/d521a469.html</id>
+    <published>2024-09-16T06:25:08.000Z</published>
+    <updated>2024-09-16T06:47:39.595Z</updated>
+    
+    <content type="html"><![CDATA[<p>参考June大佬的教程：</p><div class="tag link"><a class="link-card" title="June大佬的字体修改教程" href="https://blog.june-pj.cn/posts/dd5a9bee/"><div class="left"><img src="/img/link.png"/></div><div class="right"><p class="text">June大佬的字体修改教程</p><p class="url">https://blog.june-pj.cn/posts/dd5a9bee/</p></div></a></div><p>免费的字体网站：</p><ul><li><a href="https://www.fontspace.com/">Font Space</a></li><li><a href="http://www.googlefonts.net/">Google Fonts | 谷歌字体中文版</a>,需要科学上网才能访问</li><li><a href="https://github.com/adobe-fonts">Adobe Fonts</a></li><li><a href="https://www.fonts.net.cn/">字体天下</a></li><li><a href="https://github.com/microsoft/cascadia-code">Cascadia-code</a>,微软的开源连体字，作为代码字体是很舒服的。</li><li><a href="https://www.ttfont.com/">天天字体—完全免费的字体下载网站-字体预览 - 天天字体 (ttfont.com)</a></li><li><a href="https://www.iconfont.cn/fonts/detail?spm=a313x.fonts_index.i1.d9df05512.7f7f3a81GCmrja&amp;cnid=adI1E7HF7yme">阿里巴巴普惠体</a></li></ul><h3 id="1，下载字体"><a href="#1，下载字体" class="headerlink" title="1，下载字体"></a>1，下载字体</h3><p>从上边网站查找并选择喜欢的字体下载到<code>\source\css\fonts</code>里，例如字体<code>Qingqingkaiti-Regular-2.ttf</code>,</p><h3 id="2，自定义字体"><a href="#2，自定义字体" class="headerlink" title="2，自定义字体"></a>2，自定义字体</h3><p>在<code>\source\css\customs.css</code>里引入以下代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">/* 字体自定义 */</span><br><span class="line">@font-face &#123;</span><br><span class="line">    font-family: &#x27;Qingqingkaiti-Regular-2&#x27;;</span><br><span class="line">    font-display: swap;</span><br><span class="line">    src: url(&#x27;css/fonts/Qingqingkaiti-Regular-2.ttf&#x27;) format(&#x27;truetype&#x27;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>如果后缀不是<code>.ttf</code>，可以参考下面的</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">@font-face &#123;</span><br><span class="line">    font-family: &#x27;YourFontName&#x27;;</span><br><span class="line">    font-display: swap;</span><br><span class="line">    src: url(&#x27;path/to/your-font.woff2&#x27;) format(&#x27;woff2&#x27;),</span><br><span class="line">         url(&#x27;path/to/your-font.woff&#x27;) format(&#x27;woff&#x27;),</span><br><span class="line">         url(&#x27;path/to/your-font.ttf&#x27;) format(&#x27;truetype&#x27;),</span><br><span class="line">         url(&#x27;path/to/your-font.otf&#x27;) format(&#x27;opentype&#x27;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="3，引入自定义字体"><a href="#3，引入自定义字体" class="headerlink" title="3，引入自定义字体"></a>3，引入自定义字体</h3><p>修改_config.butterfly.yml，</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># Global font settings</span><br><span class="line"># Don&#x27;t modify the following settings unless you know how they work</span><br><span class="line">font:</span><br><span class="line">  global-font-size:</span><br><span class="line">  code-font-size:</span><br><span class="line">  font-family: Qingqingkaiti-Regular-2  #自定义字体</span><br><span class="line">  code-font-family:</span><br></pre></td></tr></table></figure><h3 id="4，看效果"><a href="#4，看效果" class="headerlink" title="4，看效果"></a>4，看效果</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;参考June大佬的教程：&lt;/p&gt;
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;June大佬的字体修改教程&quot; href=&quot;https://blog.june-pj.cn/posts/dd5a9bee/&quot;&gt;&lt;div cla</summary>
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly历史上的今天插件</title>
+    <link href="https://blog.camelz.cloudns.ch/posts/9e4fe2b3.html"/>
+    <id>https://blog.camelz.cloudns.ch/posts/9e4fe2b3.html</id>
+    <published>2024-09-16T03:08:55.000Z</published>
+    <updated>2024-09-16T03:17:18.804Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>hexo-history-calendar 历史上的今天插件</code></p><p>参考小冰大佬链接地址如下：</p><div class="tag link"><a class="link-card" title="小冰大佬历史上的今天插件部署方案" href="https://zfe.space/post/hexo-history-calendar.html"><div class="left"><img src="/img/link.png"/></div><div class="right"><p class="text">小冰大佬历史上的今天插件部署方案</p><p class="url">https://zfe.space/post/hexo-history-calendar.html</p></div></a></div><h3 id="1，插件安装："><a href="#1，插件安装：" class="headerlink" title="1，插件安装："></a>1，插件安装：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-history-calendar --save</span><br><span class="line"></span><br><span class="line"># 或者</span><br><span class="line"></span><br><span class="line">cnpm i hexo-history-calendar --save</span><br></pre></td></tr></table></figure><blockquote><p>注意，一定要加 <code>--save</code>，不然本地预览的时候可能不会显示！！！</p></blockquote><h3 id="2，新增网站根目录-config-配置项-不是主题的-："><a href="#2，新增网站根目录-config-配置项-不是主题的-：" class="headerlink" title="2，新增网站根目录_config 配置项 (不是主题的)："></a>2，新增网站根目录_config 配置项 (不是主题的)：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">history_calendar:</span><br><span class="line">  priority: 3</span><br><span class="line">  enable: true</span><br><span class="line">  enable_page: all</span><br><span class="line">  layout:</span><br><span class="line">    type: class</span><br><span class="line">    name: sticky_layout</span><br><span class="line">    index: 0</span><br><span class="line">  temple_html: &#x27;&lt;div class=&quot;card-widget card-history&quot;&gt;&lt;div class=&quot;card-content&quot;&gt;&lt;div class=&quot;item-headline&quot;&gt;&lt;i class=&quot;fas fa-clock fa-spin&quot;&gt;&lt;/i&gt;&lt;span&gt;那年今日&lt;/span&gt;&lt;/div&gt;&lt;div id=&quot;history-baidu&quot; style=&quot;height: 100px;overflow: hidden&quot;&gt;&lt;div class=&quot;history_swiper-container&quot; id=&quot;history-container&quot; style=&quot;width: 100%;height: 100%&quot;&gt;&lt;div class=&quot;swiper-wrapper&quot; id=&quot;history_container_wrapper&quot; style=&quot;height:20px&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&#x27;</span><br></pre></td></tr></table></figure><blockquote><h3 id="priority"><a href="#priority" class="headerlink" title="priority"></a>priority</h3><p>插件的叠放顺序，数字越大，叠放约靠前。</p></blockquote><h3 id="3，看效果"><a href="#3，看效果" class="headerlink" title="3，看效果"></a>3，看效果</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;code&gt;hexo-history-calendar 历史上的今天插件&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;参考小冰大佬链接地址如下：&lt;/p&gt;
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;小冰大佬历史上的今天插件部署方案&quot; </summary>
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows添加右键菜单</title>
+    <link href="https://blog.camelz.cloudns.ch/posts/eb9aa692.html"/>
+    <id>https://blog.camelz.cloudns.ch/posts/eb9aa692.html</id>
+    <published>2024-09-14T03:30:52.000Z</published>
+    <updated>2024-09-14T04:33:41.693Z</updated>
+    
+    <content type="html"><![CDATA[<p>举例Notepad++，参考<a href="https://blog.csdn.net/alzzw/article/details/114008652">教程</a></p><h3 id="方法一：编写代码键入注册表"><a href="#方法一：编写代码键入注册表" class="headerlink" title="方法一：编写代码键入注册表"></a>方法一：编写代码键入注册表</h3><p>将以下内容保存为 <code>.reg</code> 文件，双击运行即可</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\NotePad++]</span><br><span class="line">@=&quot;Notepad++&quot;</span><br><span class="line">&quot;Icon&quot;=&quot;D:\\Program Files (x86)\\npp.8.6.9.portable.x64\\notepad++.exe&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\NotePad++\Command]</span><br><span class="line">@=&quot;D:\\Program Files (x86)\\npp.8.6.9.portable.x64\\notepad++.exe \&quot;%1\&quot;&quot;</span><br></pre></td></tr></table></figure><blockquote><p>其中Notepad++是右键菜单名字，其中D:\Program Files (x86)\npp.8.6.9.portable.x64\notepad++.exe是路径</p></blockquote><p>删除右键菜单方法</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line">[-HKEY_CLASSES_ROOT\*\shell\NotePad++]</span><br></pre></td></tr></table></figure><h2 id="方法二：注册表手动添加"><a href="#方法二：注册表手动添加" class="headerlink" title="方法二：注册表手动添加"></a>方法二：注册表手动添加</h2><p>打开注册表</p><p>（“win+R”或者点击开始菜单，找到运行，在运行输入框里面输入“regedit”）<br>打开HKEY_CLASSES_ROOT\ * \ Shell<br>新建子项Notepad++<br>在子项Notepad++下新建子项Command<br>右键点击修改子项Command的默认字符串值为: 路径名</p><p><img src="https://s2.loli.net/2024/09/14/9RjmHvsk6LGCPZE.png" alt="youjiangcaidan.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;举例Notepad++，参考&lt;a href=&quot;https://blog.csdn.net/alzzw/article/details/114008652&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;方法一：编写代码键入注册表&quot;&gt;&lt;a href=&quot;#方法一：编写代码键入注册表&quot; </summary>
+      
+    
+    
+    
+    <category term="Windows" scheme="https://blog.camelz.cloudns.ch/categories/Windows/"/>
+    
+    
+    <category term="Windows" scheme="https://blog.camelz.cloudns.ch/tags/Windows/"/>
+    
+  </entry>
   
   <entry>
     <title>butterfly配置loading动画</title>
@@ -246,9 +322,9 @@
     <link href="https://blog.camelz.cloudns.ch/posts/2fb145cf.html"/>
     <id>https://blog.camelz.cloudns.ch/posts/2fb145cf.html</id>
     <published>2024-08-30T10:58:16.000Z</published>
-    <updated>2024-08-30T11:01:50.592Z</updated>
+    <updated>2024-09-23T10:02:34.802Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="以下代码加入custom-css"><a href="#以下代码加入custom-css" class="headerlink" title="以下代码加入custom.css"></a>以下代码加入<code>custom.css</code></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">/* 页面宽度配置 */</span><br><span class="line">/* 全局宽度 */</span><br><span class="line">.layout &#123;</span><br><span class="line">  max-width: 1400px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 侧边卡片栏宽度 */</span><br><span class="line">.aside-content &#123;</span><br><span class="line">  max-width: 308px;</span><br><span class="line">  min-width: 294px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 平板尺寸自适应(不启用侧边栏宽度限制) */</span><br><span class="line">@media screen and (max-width: 900px) &#123;</span><br><span class="line">  .aside-content &#123;</span><br><span class="line">    max-width: none !important;</span><br><span class="line">    padding: 0 5px 0 5px;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="看效果"><a href="#看效果" class="headerlink" title="看效果"></a>看效果</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h3 id="以下代码加入custom-css"><a href="#以下代码加入custom-css" class="headerlink" title="以下代码加入custom.css"></a>以下代码加入<code>custom.css</code></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">/* 页面宽度配置 */</span><br><span class="line">/* 全局宽度 */</span><br><span class="line">.layout &#123;</span><br><span class="line">  max-width: 1400px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 侧边卡片栏宽度 */</span><br><span class="line">.aside-content &#123;</span><br><span class="line">  max-width: 308px;</span><br><span class="line">  min-width: 294px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 文章栏自动100%补侧边栏设置后的空位 */</span><br><span class="line">.recent-posts.recent-posts.nc &#123;</span><br><span class="line">flex-grow: 1;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 平板尺寸自适应(不启用侧边栏宽度限制) */</span><br><span class="line">@media screen and (max-width: 900px) &#123;</span><br><span class="line">  .aside-content &#123;</span><br><span class="line">    max-width: none !important;</span><br><span class="line">    padding: 0 5px 0 5px;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="看效果"><a href="#看效果" class="headerlink" title="看效果"></a>看效果</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
@@ -437,83 +513,6 @@
     
     
     <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>butterfly首页分类磁贴1.0（小冰）</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/c3db5618.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/c3db5618.html</id>
-    <published>2024-08-27T05:43:36.000Z</published>
-    <updated>2024-08-27T06:09:56.121Z</updated>
-    
-    <content type="html"><![CDATA[<p>效果如下：</p><p><img src="" alt="https://cdn.nlark.com/yuque/0/2021/gif/8391485/1615908841586-e6737009-b2dd-4004-ae02-4c6d15f33701.gif#align=left&amp;display=inline&amp;height=365&amp;margin=%5Bobject%20Object%5D&amp;name=%E7%A3%81%E4%BD%932.gif&amp;originHeight=365&amp;originWidth=912&amp;size=225631&amp;status=done&amp;style=none&amp;width=912"></p><p>这个插件主要实现了以下功能： 1. 自定义 tags 或 categories 的排列和展示 2. 自定义 tags 或 categories 的展示图标，名称 3. 自定义排列的行数，默认 2 列</p><p>1，安装插件</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-magnet --save</span><br></pre></td></tr></table></figure><p>2，添加配置信息</p><p>在站点配置文件<code>_config.yml</code>最下端添加，<span class='p red'>不要</span>添加到主题配置文件里</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line">magnet:</span><br><span class="line">  enable: true # 是否开启插件</span><br><span class="line">  priority: 1  # 插件的叠放顺序，数字越大，叠放约靠前</span><br><span class="line">  enable_page: /  # 路由地址，如 / 代表主页。/me/ 代表自我介绍页等等</span><br><span class="line">  type: categories # 选择筛选分类categories还是标签tags</span><br><span class="line">  devide: 2 # 表示分隔的列数，2 表示分为两列展示</span><br><span class="line">  display:</span><br><span class="line">    - name: 教程  # 这里是tags或者categories的名称</span><br><span class="line">      display_name: 小冰の魔改教程  # 这里是替换的名称</span><br><span class="line">      icon: 📚  # 这里是展示的图标</span><br><span class="line">    - name: 游戏评测</span><br><span class="line">      display_name: 小冰の游戏评测</span><br><span class="line">      icon: 🎮</span><br><span class="line">    - name: 生活趣闻</span><br><span class="line">      display_name: 小冰の生活趣闻</span><br><span class="line">      icon: 🐱‍👓</span><br><span class="line">    - name: vue</span><br><span class="line">      display_name: 小冰の编程学习</span><br><span class="line">      icon: 👩‍💻</span><br><span class="line">    - name: 学习</span><br><span class="line">      display_name: 小冰の读书笔记</span><br><span class="line">      icon: 📒</span><br><span class="line">    - name: 随想</span><br><span class="line">      display_name: 小冰の胡思乱想</span><br><span class="line">      icon: 💡</span><br><span class="line">  color_setting:</span><br><span class="line">    text_color: black  # 文字默认颜色</span><br><span class="line">    text_hover_color: white  # 文字鼠标悬浮颜色</span><br><span class="line">    background_color: &quot;#f2f2f2&quot;  # 文字背景默认颜色</span><br><span class="line">    background_hover_color: &quot;#b30070&quot;  # 文字背景悬浮颜色</span><br><span class="line">  layout:</span><br><span class="line">    type: id</span><br><span class="line">    name: recent-posts</span><br><span class="line">    index: 0</span><br><span class="line">  temple_html: &#x27;&lt;div class=&quot;recent-post-item&quot; style=&quot;width:100%;height: auto&quot;&gt;&lt;div id=&quot;catalog_magnet&quot;&gt;$&#123;temple_html_item&#125;&lt;/div&gt;&lt;/div&gt;&#x27;</span><br><span class="line">  plus_style: &quot;&quot;</span><br></pre></td></tr></table></figure><p>layout</p><p>参数：type; （class&amp;id）<br>参数：name;<br>参数：index；（数字）<br>含义：如果说 magnet 是一幅画，那么这个 layout 就是指定了哪面墙来挂画<br>而在 HTML 的是世界里有两种墙分别 type 为 id 和 class。<br>其中在定义 class 的时候会出现多个 class 的情况，这时就需要使用 index，确定是哪一个。<br>最后墙的名字即是 name;</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&lt;div name=&quot;我是墙&quot; id=&quot;recent-posts&quot;&gt;</span><br><span class="line">  &lt;!-- id=&gt;type  recent-posts=&gt;name    --&gt;</span><br><span class="line">  &lt;div name=&quot;我是画框&quot;&gt;</span><br><span class="line">    &lt;div name=&quot;我是纸&quot;&gt;</span><br><span class="line">      &lt;!--这里通过js挂载magnet，也就是画画--&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure><p>temple_html</p><p>参数：html 模板字段<br>含义：包含挂载容器</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&lt;div class=&quot;recent-post-item&quot; style=&quot;width:100%;height: auto&quot;&gt; &lt;!--文章容器--&gt;</span><br><span class="line">  &lt;div id=&quot;catalog_magnet&quot;&gt;  &lt;!--挂载容器--&gt;</span><br><span class="line">    $&#123;temple_html_item&#125;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/div&gt;</span><br></pre></td></tr></table></figure><ul><li><p>plus_style</p><p>参数：“”<br>含义：提供可自定义的 style，如加入黑夜模式。</p></li></ul><p>3，假如参考Famalhaut大佬的<a href="https://www.fomal.cc/posts/eec9786.html">黑暗模式</a></p><p>在<code>custom.css</code>文件中添加以下代码适配黑夜模式(具体颜色可以自己调节)：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">/* 小冰分类分类磁铁黑夜模式适配 */</span><br><span class="line">/* 一般状态 */</span><br><span class="line">[data-theme=&quot;dark&quot;] .magnet_link_context &#123;</span><br><span class="line">  background: #1e1e1e;</span><br><span class="line">  color: antiquewhite;</span><br><span class="line">&#125;</span><br><span class="line">/* 鼠标悬浮状态 */</span><br><span class="line">[data-theme=&quot;dark&quot;] .magnet_link_context:hover &#123;</span><br><span class="line">  background: #3ecdf1;</span><br><span class="line">  color: #f2f2f2;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>4，看效果</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;效果如下：&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;&quot; alt=&quot;https://cdn.nlark.com/yuque/0/2021/gif/8391485/1615908841586-e6737009-b2dd-4004-ae02-4c6d15f33701.gif#align</summary>
-      
-    
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/categories/butterfly/"/>
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Redmi_AC2100 Openwrt固件23.05安装passwall的操作步骤</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/e539a68.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/e539a68.html</id>
-    <published>2024-08-27T04:02:17.000Z</published>
-    <updated>2024-08-27T04:05:57.692Z</updated>
-    
-    <content type="html"><![CDATA[<p>登录：<a href="http://openwrt.lan/cgi-bin/luci/">http://openwrt.lan/cgi-bin/luci/</a> 或 192.168.31.1<br>用户名密码：root/<psw>123456</psw><br>wifi2.4g：kaifar_AC2100_2.4G<br>wifi5.0g：kaifar_AC2100_5G<br><psw>123456789asd</psw></p><h2 id="固件23-05安装成功后进行以下步骤"><a href="#固件23-05安装成功后进行以下步骤" class="headerlink" title="固件23.05安装成功后进行以下步骤:"></a><mark class="hl-label blue">Openwrt</mark>固件23.05安装成功后进行以下步骤:</h2><h3 id="一，换源，换以下源，并用-注释掉option-check-signature"><a href="#一，换源，换以下源，并用-注释掉option-check-signature" class="headerlink" title="一，换源，换以下源，并用#注释掉option check_signature"></a>一，换源，换以下源，并用#注释掉<code>option check_signature</code></h3><mark class="hl-label red">红米AC2100</mark>中国科技大学源（23.05.0版本）<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">src/gz openwrt_core https://openwrt.proxy.ustclug.org/releases/23.05.0/targets/ramips/mt7621/packages/</span><br><span class="line">src/gz openwrt_base https://mirror-03.infra.openwrt.org/releases/23.05.0/packages/mipsel_24kc/base/</span><br><span class="line">src/gz openwrt_luci https://mirror-03.infra.openwrt.org/releases/23.05.0/packages/mipsel_24kc/luci/</span><br><span class="line">src/gz openwrt_packages https://mirror-03.infra.openwrt.org/releases/23.05.0/packages/mipsel_24kc/packages/</span><br><span class="line">src/gz openwrt_routing https://mirror-03.infra.openwrt.org/releases/23.05.0/packages/mipsel_24kc/routing/</span><br><span class="line">src/gz openwrt_telephony https://mirror-03.infra.openwrt.org/releases/23.05.0/packages/mipsel_24kc/telephony/</span><br></pre></td></tr></table></figure><mark class="hl-label red">红米AC2100</mark> kiddin9源（23.05.0版本）<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">src/gz kiddin9_core https://dl.openwrt.ai/packages-23.05/mipsel_24kc/kiddin9/</span><br><span class="line">src/gz kiddin9_base https://dl.openwrt.ai/packages-23.05/mipsel_24kc/base/</span><br><span class="line">src/gz kiddin9_luci https://dl.openwrt.ai/packages-23.05/mipsel_24kc/luci/</span><br><span class="line">src/gz kiddin9_packages https://dl.openwrt.ai/packages-23.05/mipsel_24kc/packages/</span><br><span class="line">src/gz kiddin9_routing https://dl.openwrt.ai/packages-23.05/mipsel_24kc/routing/</span><br><span class="line">src/gz kiddin9_telephony https://dl.openwrt.ai/packages-23.05/mipsel_24kc/telephony/</span><br></pre></td></tr></table></figure><p>换源后在<span class='p blue'>FinalShell</span>执行以下命令</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">opkg update</span><br></pre></td></tr></table></figure><h3 id="二，在安装中文插件luci-i18n-base-zh-cn-git-24-137-59920-b342a45-all-ipk-安装命令如下"><a href="#二，在安装中文插件luci-i18n-base-zh-cn-git-24-137-59920-b342a45-all-ipk-安装命令如下" class="headerlink" title="二，在安装中文插件luci-i18n-base-zh-cn_git-24.137.59920-b342a45_all.ipk,安装命令如下"></a>二，在<span class='p blue'>FinalShell</span>安装中文插件<code>luci-i18n-base-zh-cn_git-24.137.59920-b342a45_all.ipk</code>,安装命令如下</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">opkg install luci-i18n-base-zh-cn_git-24.137.59920-b342a45_all.ipk</span><br></pre></td></tr></table></figure><h3 id="三，安装后提示有缺失插件，下边是缺失的插件，在执行下边安装命令"><a href="#三，安装后提示有缺失插件，下边是缺失的插件，在执行下边安装命令" class="headerlink" title="三，安装后提示有缺失插件，下边是缺失的插件，在执行下边安装命令"></a>三，安装后提示有缺失插件，下边是缺失的插件，在<span class='p blue'>FinalShell</span>执行下边安装命令</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">opkg install iptables kmod-nft-socket kmod-nft-tproxy ipset ipt2socks iptables iptables-mod-conntrack-extra iptables-mod-iprange iptables-mod-socket iptables-mod-tproxy kmod-ipt-nat</span><br></pre></td></tr></table></figure><h3 id="四，移除dnsmasq并安装dnsmasq-full，在执行下边命令"><a href="#四，移除dnsmasq并安装dnsmasq-full，在执行下边命令" class="headerlink" title="四，移除dnsmasq并安装dnsmasq-full，在执行下边命令"></a>四，移除<code>dnsmasq</code>并安装<code>dnsmasq-full</code>，在<span class='p blue'>FinalShell</span>执行下边命令</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">opkg remove dnsmasq &amp;&amp; opkg install dnsmasq-full</span><br></pre></td></tr></table></figure><p>安装后在<code>/etc/config/</code>文件家里生成一个文件<code>dhcp-opkg</code>，这个是多余的，删除掉，保留<code>/etc/config/dhcp</code>既可，其他不用改</p><h3 id="五，通过WinSCP上传相关插件，分批上传至-tmp-tmp文件夹，分批在执行安装命令opkg-install-ipk，分批安装后立即在-tmp-tmp文件夹分批删除上传的插件，相关插件安装完成后再安装自身插件，一定要按这个步骤操作，不然会报错，分批上传的原因是的空间太小了。"><a href="#五，通过WinSCP上传相关插件，分批上传至-tmp-tmp文件夹，分批在执行安装命令opkg-install-ipk，分批安装后立即在-tmp-tmp文件夹分批删除上传的插件，相关插件安装完成后再安装自身插件，一定要按这个步骤操作，不然会报错，分批上传的原因是的空间太小了。" class="headerlink" title="五，通过WinSCP上传相关插件，分批上传至/tmp/tmp文件夹，分批在执行安装命令opkg install *.ipk，分批安装后立即在/tmp/tmp文件夹分批删除上传的插件，相关插件安装完成后再安装自身插件，一定要按这个步骤操作，不然会报错，分批上传的原因是的空间太小了。"></a>五，通过<code>WinSCP</code>上传<mark class="hl-label pink">passwall</mark>相关插件，分批上传至<code>/tmp/tmp</code>文件夹，分批在<span class='p blue'>FinalShell</span>执行安装命令opkg install *.ipk，分批安装后立即在<code>/tmp/tmp</code>文件夹分批删除上传的插件，<mark class="hl-label pink">passwall</mark>相关插件安装完成后再安装<mark class="hl-label pink">passwall</mark>自身插件，一定要按这个步骤操作，不然会报错，分批上传的原因是<mark class="hl-label red">红米AC2100</mark>的空间太小了。</h3>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;登录：&lt;a href=&quot;http://openwrt.lan/cgi-bin/luci/&quot;&gt;http://openwrt.lan/cgi-bin/luci/&lt;/a&gt; 或 192.168.31.1&lt;br&gt;用户名密码：root/&lt;psw&gt;123456&lt;/psw&gt;&lt;br&gt;wifi</summary>
-      
-    
-    
-    
-    <category term="路由器" scheme="https://blog.camelz.cloudns.ch/categories/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
-    
-    
-    <category term="redmi_AC2100" scheme="https://blog.camelz.cloudns.ch/tags/redmi-AC2100/"/>
-    
-    <category term="OpenWrt" scheme="https://blog.camelz.cloudns.ch/tags/OpenWrt/"/>
-    
-    <category term="Passwall" scheme="https://blog.camelz.cloudns.ch/tags/Passwall/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>收藏的Windows操作系统和软件网</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/feecee7e.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/feecee7e.html</id>
-    <published>2024-08-27T03:58:16.000Z</published>
-    <updated>2024-08-28T03:38:40.644Z</updated>
-    
-    <content type="html"><![CDATA[<div class="img-wrap"><div class="img-bg"><img class="img" src="https://pic-bed1.xiagao.site//2024/image-20240720144620320.png" style="width:100%;height:100%;"/></div></div><h3 id="纯净系统下载网站"><a href="#纯净系统下载网站" class="headerlink" title="纯净系统下载网站"></a>纯净系统下载网站</h3><p><a href="https://msdn.itellyou.cn/">https://msdn.itellyou.cn/</a><br><a href="https://hellowindows.cn/">https://hellowindows.cn/</a><span id="more"></span><br><a href="https://latest10.win/">https://latest10.win/</a><br><a href="https://www.sysmini.com/">https://www.sysmini.com/</a><br><a href="https://msdn.sjjzm.com/win10.html">https://msdn.sjjzm.com/win10.html</a><br><a href="https://www.newxitong.com/">https://www.newxitong.com/</a></p><h3 id="软件下载网站："><a href="#软件下载网站：" class="headerlink" title="软件下载网站："></a>软件下载网站：</h3><p><a href="https://www.hezibuluo.com/">https://www.hezibuluo.com/</a></p><p>油小猴（插件网站）<br><a href="https://www.youxiaohou.com/">https://www.youxiaohou.com/</a></p><p>安知鱼主题关于页面的设置教程</p><p><a href="https://docs.anheyu.com/page/about.html">https://docs.anheyu.com/page/about.html</a></p><h3 id="收藏的其他网站："><a href="#收藏的其他网站：" class="headerlink" title="收藏的其他网站："></a>收藏的其他网站：</h3><p>阿里的图标网</p><p><a href="https://www.iconfont.cn/">https://www.iconfont.cn/</a></p><p>fontawesome图标</p><p><a href="https://fontawesome.com.cn/v5">https://fontawesome.com.cn/v5</a></p><p><a href="https://fontawesome.com.cn/v4/icons">https://fontawesome.com.cn/v4/icons</a></p><p>emoji图标</p><p><a href="https://www.emojiall.com/zh-hans/all-emojis">https://www.emojiall.com/zh-hans/all-emojis</a></p><p><a href="https://www.webfx.com/tools/emoji-cheat-sheet/">https://www.webfx.com/tools/emoji-cheat-sheet/</a></p><p>Unicode 符号表</p><p><a href="https://symbl.cc/cn/unicode-table/">https://symbl.cc/cn/unicode-table/</a></p><p>著名的无版权可商用的图片网站<br><a href="https://pixabay.com/">https://pixabay.com/</a></p>]]></content>
-    
-    
-    <summary type="html">&lt;div class=&quot;img-wrap&quot;&gt;&lt;div class=&quot;img-bg&quot;&gt;&lt;img class=&quot;img&quot; src=&quot;https://pic-bed1.xiagao.site//2024/image-20240720144620320.png&quot; style=&quot;width:100%;height:100%;&quot;/&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h3 id=&quot;纯净系统下载网站&quot;&gt;&lt;a href=&quot;#纯净系统下载网站&quot; class=&quot;headerlink&quot; title=&quot;纯净系统下载网站&quot;&gt;&lt;/a&gt;纯净系统下载网站&lt;/h3&gt;&lt;p&gt;&lt;a href=&quot;https://msdn.itellyou.cn/&quot;&gt;https://msdn.itellyou.cn/&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://hellowindows.cn/&quot;&gt;https://hellowindows.cn/&lt;/a&gt;</summary>
-    
-    
-    
-    <category term="Windows" scheme="https://blog.camelz.cloudns.ch/categories/Windows/"/>
-    
-    
-    <category term="Windows" scheme="https://blog.camelz.cloudns.ch/tags/Windows/"/>
-    
-    <category term="纯净系统" scheme="https://blog.camelz.cloudns.ch/tags/%E7%BA%AF%E5%87%80%E7%B3%BB%E7%BB%9F/"/>
     
   </entry>
   

@@ -4,6 +4,81 @@
   
     
     <entry>
+      <title>butterfly自定义字体</title>
+      <link href="/posts/d521a469.html"/>
+      <url>/posts/d521a469.html</url>
+      
+        <content type="html"><![CDATA[<p>参考June大佬的教程：</p><div class="tag link"><a class="link-card" title="June大佬的字体修改教程" href="https://blog.june-pj.cn/posts/dd5a9bee/"><div class="left"><img src="/img/link.png"/></div><div class="right"><p class="text">June大佬的字体修改教程</p><p class="url">https://blog.june-pj.cn/posts/dd5a9bee/</p></div></a></div><p>免费的字体网站：</p><ul><li><a href="https://www.fontspace.com/">Font Space</a></li><li><a href="http://www.googlefonts.net/">Google Fonts | 谷歌字体中文版</a>,需要科学上网才能访问</li><li><a href="https://github.com/adobe-fonts">Adobe Fonts</a></li><li><a href="https://www.fonts.net.cn/">字体天下</a></li><li><a href="https://github.com/microsoft/cascadia-code">Cascadia-code</a>,微软的开源连体字，作为代码字体是很舒服的。</li><li><a href="https://www.ttfont.com/">天天字体—完全免费的字体下载网站-字体预览 - 天天字体 (ttfont.com)</a></li><li><a href="https://www.iconfont.cn/fonts/detail?spm=a313x.fonts_index.i1.d9df05512.7f7f3a81GCmrja&amp;cnid=adI1E7HF7yme">阿里巴巴普惠体</a></li></ul><h3 id="1，下载字体"><a href="#1，下载字体" class="headerlink" title="1，下载字体"></a>1，下载字体</h3><p>从上边网站查找并选择喜欢的字体下载到<code>\source\css\fonts</code>里，例如字体<code>Qingqingkaiti-Regular-2.ttf</code>,</p><h3 id="2，自定义字体"><a href="#2，自定义字体" class="headerlink" title="2，自定义字体"></a>2，自定义字体</h3><p>在<code>\source\css\customs.css</code>里引入以下代码</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">/* 字体自定义 */</span><br><span class="line">@font-face &#123;</span><br><span class="line">    font-family: &#x27;Qingqingkaiti-Regular-2&#x27;;</span><br><span class="line">    font-display: swap;</span><br><span class="line">    src: url(&#x27;css/fonts/Qingqingkaiti-Regular-2.ttf&#x27;) format(&#x27;truetype&#x27;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>如果后缀不是<code>.ttf</code>，可以参考下面的</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">@font-face &#123;</span><br><span class="line">    font-family: &#x27;YourFontName&#x27;;</span><br><span class="line">    font-display: swap;</span><br><span class="line">    src: url(&#x27;path/to/your-font.woff2&#x27;) format(&#x27;woff2&#x27;),</span><br><span class="line">         url(&#x27;path/to/your-font.woff&#x27;) format(&#x27;woff&#x27;),</span><br><span class="line">         url(&#x27;path/to/your-font.ttf&#x27;) format(&#x27;truetype&#x27;),</span><br><span class="line">         url(&#x27;path/to/your-font.otf&#x27;) format(&#x27;opentype&#x27;);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="3，引入自定义字体"><a href="#3，引入自定义字体" class="headerlink" title="3，引入自定义字体"></a>3，引入自定义字体</h3><p>修改_config.butterfly.yml，</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># Global font settings</span><br><span class="line"># Don&#x27;t modify the following settings unless you know how they work</span><br><span class="line">font:</span><br><span class="line">  global-font-size:</span><br><span class="line">  code-font-size:</span><br><span class="line">  font-family: Qingqingkaiti-Regular-2  #自定义字体</span><br><span class="line">  code-font-family:</span><br></pre></td></tr></table></figure><h3 id="4，看效果"><a href="#4，看效果" class="headerlink" title="4，看效果"></a>4，看效果</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> butterfly </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> butterfly </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>butterfly历史上的今天插件</title>
+      <link href="/posts/9e4fe2b3.html"/>
+      <url>/posts/9e4fe2b3.html</url>
+      
+        <content type="html"><![CDATA[<p><code>hexo-history-calendar 历史上的今天插件</code></p><p>参考小冰大佬链接地址如下：</p><div class="tag link"><a class="link-card" title="小冰大佬历史上的今天插件部署方案" href="https://zfe.space/post/hexo-history-calendar.html"><div class="left"><img src="/img/link.png"/></div><div class="right"><p class="text">小冰大佬历史上的今天插件部署方案</p><p class="url">https://zfe.space/post/hexo-history-calendar.html</p></div></a></div><h3 id="1，插件安装："><a href="#1，插件安装：" class="headerlink" title="1，插件安装："></a>1，插件安装：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-history-calendar --save</span><br><span class="line"></span><br><span class="line"># 或者</span><br><span class="line"></span><br><span class="line">cnpm i hexo-history-calendar --save</span><br></pre></td></tr></table></figure><blockquote><p>注意，一定要加 <code>--save</code>，不然本地预览的时候可能不会显示！！！</p></blockquote><h3 id="2，新增网站根目录-config-配置项-不是主题的-："><a href="#2，新增网站根目录-config-配置项-不是主题的-：" class="headerlink" title="2，新增网站根目录_config 配置项 (不是主题的)："></a>2，新增网站根目录_config 配置项 (不是主题的)：</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">history_calendar:</span><br><span class="line">  priority: 3</span><br><span class="line">  enable: true</span><br><span class="line">  enable_page: all</span><br><span class="line">  layout:</span><br><span class="line">    type: class</span><br><span class="line">    name: sticky_layout</span><br><span class="line">    index: 0</span><br><span class="line">  temple_html: &#x27;&lt;div class=&quot;card-widget card-history&quot;&gt;&lt;div class=&quot;card-content&quot;&gt;&lt;div class=&quot;item-headline&quot;&gt;&lt;i class=&quot;fas fa-clock fa-spin&quot;&gt;&lt;/i&gt;&lt;span&gt;那年今日&lt;/span&gt;&lt;/div&gt;&lt;div id=&quot;history-baidu&quot; style=&quot;height: 100px;overflow: hidden&quot;&gt;&lt;div class=&quot;history_swiper-container&quot; id=&quot;history-container&quot; style=&quot;width: 100%;height: 100%&quot;&gt;&lt;div class=&quot;swiper-wrapper&quot; id=&quot;history_container_wrapper&quot; style=&quot;height:20px&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&#x27;</span><br></pre></td></tr></table></figure><blockquote><h3 id="priority"><a href="#priority" class="headerlink" title="priority"></a>priority</h3><p>插件的叠放顺序，数字越大，叠放约靠前。</p></blockquote><h3 id="3，看效果"><a href="#3，看效果" class="headerlink" title="3，看效果"></a>3，看效果</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> butterfly </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> butterfly </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Windows添加右键菜单</title>
+      <link href="/posts/eb9aa692.html"/>
+      <url>/posts/eb9aa692.html</url>
+      
+        <content type="html"><![CDATA[<p>举例Notepad++，参考<a href="https://blog.csdn.net/alzzw/article/details/114008652">教程</a></p><h3 id="方法一：编写代码键入注册表"><a href="#方法一：编写代码键入注册表" class="headerlink" title="方法一：编写代码键入注册表"></a>方法一：编写代码键入注册表</h3><p>将以下内容保存为 <code>.reg</code> 文件，双击运行即可</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\NotePad++]</span><br><span class="line">@=&quot;Notepad++&quot;</span><br><span class="line">&quot;Icon&quot;=&quot;D:\\Program Files (x86)\\npp.8.6.9.portable.x64\\notepad++.exe&quot;</span><br><span class="line"></span><br><span class="line">[HKEY_CLASSES_ROOT\*\shell\NotePad++\Command]</span><br><span class="line">@=&quot;D:\\Program Files (x86)\\npp.8.6.9.portable.x64\\notepad++.exe \&quot;%1\&quot;&quot;</span><br></pre></td></tr></table></figure><blockquote><p>其中Notepad++是右键菜单名字，其中D:\Program Files (x86)\npp.8.6.9.portable.x64\notepad++.exe是路径</p></blockquote><p>删除右键菜单方法</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Windows Registry Editor Version 5.00</span><br><span class="line">[-HKEY_CLASSES_ROOT\*\shell\NotePad++]</span><br></pre></td></tr></table></figure><h2 id="方法二：注册表手动添加"><a href="#方法二：注册表手动添加" class="headerlink" title="方法二：注册表手动添加"></a>方法二：注册表手动添加</h2><p>打开注册表</p><p>（“win+R”或者点击开始菜单，找到运行，在运行输入框里面输入“regedit”）<br>打开HKEY_CLASSES_ROOT\ * \ Shell<br>新建子项Notepad++<br>在子项Notepad++下新建子项Command<br>右键点击修改子项Command的默认字符串值为: 路径名</p><p><img src="https://s2.loli.net/2024/09/14/9RjmHvsk6LGCPZE.png" alt="youjiangcaidan.png"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Windows </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Windows </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>butterfly配置loading动画</title>
       <link href="/posts/fe16595c.html"/>
       <url>/posts/fe16595c.html</url>
@@ -243,7 +318,7 @@
       <link href="/posts/2fb145cf.html"/>
       <url>/posts/2fb145cf.html</url>
       
-        <content type="html"><![CDATA[<h3 id="以下代码加入custom-css"><a href="#以下代码加入custom-css" class="headerlink" title="以下代码加入custom.css"></a>以下代码加入<code>custom.css</code></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">/* 页面宽度配置 */</span><br><span class="line">/* 全局宽度 */</span><br><span class="line">.layout &#123;</span><br><span class="line">  max-width: 1400px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 侧边卡片栏宽度 */</span><br><span class="line">.aside-content &#123;</span><br><span class="line">  max-width: 308px;</span><br><span class="line">  min-width: 294px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 平板尺寸自适应(不启用侧边栏宽度限制) */</span><br><span class="line">@media screen and (max-width: 900px) &#123;</span><br><span class="line">  .aside-content &#123;</span><br><span class="line">    max-width: none !important;</span><br><span class="line">    padding: 0 5px 0 5px;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="看效果"><a href="#看效果" class="headerlink" title="看效果"></a>看效果</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h3 id="以下代码加入custom-css"><a href="#以下代码加入custom-css" class="headerlink" title="以下代码加入custom.css"></a>以下代码加入<code>custom.css</code></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">/* 页面宽度配置 */</span><br><span class="line">/* 全局宽度 */</span><br><span class="line">.layout &#123;</span><br><span class="line">  max-width: 1400px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 侧边卡片栏宽度 */</span><br><span class="line">.aside-content &#123;</span><br><span class="line">  max-width: 308px;</span><br><span class="line">  min-width: 294px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 文章栏自动100%补侧边栏设置后的空位 */</span><br><span class="line">.recent-posts.recent-posts.nc &#123;</span><br><span class="line">flex-grow: 1;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 平板尺寸自适应(不启用侧边栏宽度限制) */</span><br><span class="line">@media screen and (max-width: 900px) &#123;</span><br><span class="line">  .aside-content &#123;</span><br><span class="line">    max-width: none !important;</span><br><span class="line">    padding: 0 5px 0 5px;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="看效果"><a href="#看效果" class="headerlink" title="看效果"></a>看效果</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>]]></content>
       
       
       <categories>
