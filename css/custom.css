@@ -283,9 +283,3 @@ div#runtime {
     color: var(--theme-color);  /* #28b4c8; */
     /* box-shadow: 0 0 5px rgba(28, 69, 218, 0.71);这是大佬默认参数，我注释掉了 */
 }
-
-/* 自定义loading动画连接 */
-.loading-img {
-  background: url(/img/avatar-camel.png) no-repeat center center;
-  background-size: cover;
-}
