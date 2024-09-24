@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>駝駱仧</title>
+  <title>駝駱仧🐫</title>
   
-  <subtitle>没事瞎胡搞，生活更美好！</subtitle>
-  <link href="https://blog.camelz.cloudns.ch/atom.xml" rel="self"/>
+  <subtitle>没事瞎胡搞，越搞越明了🌤！</subtitle>
+  <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
-  <link href="https://blog.camelz.cloudns.ch/"/>
+  <link href="https://blog.camelz.site/"/>
   <updated>2024-09-24T07:25:12.990Z</updated>
-  <id>https://blog.camelz.cloudns.ch/</id>
+  <id>https://blog.camelz.site/</id>
   
   <author>
     <name>駝駱仧</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>butterfly外挂标签语法和Markdown自带语法</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/e9069468.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/e9069468.html</id>
+    <link href="https://blog.camelz.site/posts/e9069468.html"/>
+    <id>https://blog.camelz.site/posts/e9069468.html</id>
     <published>2024-09-24T06:50:10.000Z</published>
     <updated>2024-09-24T07:25:12.990Z</updated>
     
@@ -33,23 +33,23 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
     
     
-    <category term="外挂标签" scheme="https://blog.camelz.cloudns.ch/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    <category term="外挂标签" scheme="https://blog.camelz.site/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
     
-    <category term="标签外挂" scheme="https://blog.camelz.cloudns.ch/tags/%E6%A0%87%E7%AD%BE%E5%A4%96%E6%8C%82/"/>
+    <category term="标签外挂" scheme="https://blog.camelz.site/tags/%E6%A0%87%E7%AD%BE%E5%A4%96%E6%8C%82/"/>
     
-    <category term="Markdown自带语法" scheme="https://blog.camelz.cloudns.ch/tags/Markdown%E8%87%AA%E5%B8%A6%E8%AF%AD%E6%B3%95/"/>
+    <category term="Markdown自带语法" scheme="https://blog.camelz.site/tags/Markdown%E8%87%AA%E5%B8%A6%E8%AF%AD%E6%B3%95/"/>
     
-    <category term="Butterfly外挂标签" scheme="https://blog.camelz.cloudns.ch/tags/Butterfly%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    <category term="Butterfly外挂标签" scheme="https://blog.camelz.site/tags/Butterfly%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
     
   </entry>
   
   <entry>
     <title>butterfly调整页面透明度</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/4096bb7a.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/4096bb7a.html</id>
+    <link href="https://blog.camelz.site/posts/4096bb7a.html"/>
+    <id>https://blog.camelz.site/posts/4096bb7a.html</id>
     <published>2024-09-24T05:54:04.000Z</published>
     <updated>2024-09-24T05:57:25.977Z</updated>
     
@@ -66,14 +66,14 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>butterfly豆瓣影视</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/ae27c57b.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/ae27c57b.html</id>
+    <link href="https://blog.camelz.site/posts/ae27c57b.html"/>
+    <id>https://blog.camelz.site/posts/ae27c57b.html</id>
     <published>2024-09-23T13:47:37.000Z</published>
     <updated>2024-09-23T14:07:58.328Z</updated>
     
@@ -88,17 +88,17 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>butterfly自定义字体</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/d521a469.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/d521a469.html</id>
+    <link href="https://blog.camelz.site/posts/d521a469.html"/>
+    <id>https://blog.camelz.site/posts/d521a469.html</id>
     <published>2024-09-16T06:25:08.000Z</published>
     <updated>2024-09-24T06:50:27.201Z</updated>
     
@@ -113,17 +113,17 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>butterfly历史上的今天插件</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/9e4fe2b3.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/9e4fe2b3.html</id>
+    <link href="https://blog.camelz.site/posts/9e4fe2b3.html"/>
+    <id>https://blog.camelz.site/posts/9e4fe2b3.html</id>
     <published>2024-09-16T03:08:55.000Z</published>
     <updated>2024-09-16T03:17:18.804Z</updated>
     
@@ -139,17 +139,17 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>Windows添加右键菜单</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/eb9aa692.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/eb9aa692.html</id>
+    <link href="https://blog.camelz.site/posts/eb9aa692.html"/>
+    <id>https://blog.camelz.site/posts/eb9aa692.html</id>
     <published>2024-09-14T03:30:52.000Z</published>
     <updated>2024-09-14T04:33:41.693Z</updated>
     
@@ -164,21 +164,21 @@
     
     
     
-    <category term="Windows" scheme="https://blog.camelz.cloudns.ch/categories/Windows/"/>
+    <category term="Windows" scheme="https://blog.camelz.site/categories/Windows/"/>
     
     
-    <category term="Windows" scheme="https://blog.camelz.cloudns.ch/tags/Windows/"/>
+    <category term="Windows" scheme="https://blog.camelz.site/tags/Windows/"/>
     
   </entry>
   
   <entry>
     <title>butterfly配置loading动画</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/fe16595c.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/fe16595c.html</id>
+    <link href="https://blog.camelz.site/posts/fe16595c.html"/>
+    <id>https://blog.camelz.site/posts/fe16595c.html</id>
     <published>2024-09-12T10:06:46.000Z</published>
-    <updated>2024-09-24T08:08:36.260Z</updated>
+    <updated>2024-09-24T13:34:00.115Z</updated>
     
-    <content type="html"><![CDATA[<p>参考anzhiyu大佬的loading动画部署方案</p><div class="tag link"><a class="link-card" title="anzhiyu大佬的loading动画部署方案" href="https://blog.anheyu.com/posts/52d8.html"><div class="left"><img src="/img/link.png"/></div><div class="right"><p class="text">anzhiyu大佬的loading动画部署方案</p><p class="url">https://blog.anheyu.com/posts/52d8.html</p></div></a></div><h3 id="1，修改-themes-butterfly-layout-includes-loading-fullpage-loading-pug"><a href="#1，修改-themes-butterfly-layout-includes-loading-fullpage-loading-pug" class="headerlink" title="1，修改 themes/butterfly/layout/includes/loading/fullpage-loading.pug"></a>1，修改 <code>themes/butterfly/layout/includes/loading/fullpage-loading.pug</code></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">#loading-box(onclick=&#x27;document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)&#x27;)</span><br><span class="line">  .loading-bg</span><br><span class="line">    div.loading-img</span><br><span class="line">    .loading-image-dot</span><br><span class="line"></span><br><span class="line">script.</span><br><span class="line">  const preloader = &#123;</span><br><span class="line">    endLoading: () =&gt; &#123;</span><br><span class="line">      document.body.style.overflow = &#x27;auto&#x27;;</span><br><span class="line">      document.getElementById(&#x27;loading-box&#x27;).classList.add(&quot;loaded&quot;)</span><br><span class="line">    &#125;,</span><br><span class="line">    initLoading: () =&gt; &#123;</span><br><span class="line">      document.body.style.overflow = &#x27;&#x27;;</span><br><span class="line">      document.getElementById(&#x27;loading-box&#x27;).classList.remove(&quot;loaded&quot;)</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  window.addEventListener(&#x27;load&#x27;,()=&gt; &#123; preloader.endLoading() &#125;)</span><br><span class="line"></span><br><span class="line">  if (!&#123;theme.pjax &amp;&amp; theme.pjax.enable&#125;) &#123;</span><br><span class="line">    document.addEventListener(&#x27;pjax:send&#x27;, () =&gt; &#123; preloader.initLoading() &#125;)</span><br><span class="line">    document.addEventListener(&#x27;pjax:complete&#x27;, () =&gt; &#123; preloader.endLoading() &#125;)</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure><h3 id="2，修改themes-butterfly-layout-includes-loading-index-pug"><a href="#2，修改themes-butterfly-layout-includes-loading-index-pug" class="headerlink" title="2，修改themes/butterfly/layout/includes/loading/index.pug"></a>2，修改<code>themes/butterfly/layout/includes/loading/index.pug</code></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">if theme.preloader.source === 1</span><br><span class="line">  include ./fullpage-loading.pug</span><br><span class="line">else if theme.preloader.source === 2</span><br><span class="line">  include ./pace.pug</span><br><span class="line">else</span><br><span class="line">  include ./fullpage-loading.pug</span><br><span class="line">  include ./pace.pug</span><br></pre></td></tr></table></figure><h3 id="3，新建source-css-progress-bar-css"><a href="#3，新建source-css-progress-bar-css" class="headerlink" title="3，新建source/css/progress_bar.css,"></a>3，新建<code>source/css/progress_bar.css</code>,</h3><p>也可以不做这一步下面配置文件<code>pace_css_url</code>这一项就要留空, 这一步是修改 pace 加载的胶囊 💊 样式用的</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line">.pace &#123;</span><br><span class="line">  -webkit-pointer-events: none;</span><br><span class="line">  pointer-events: none;</span><br><span class="line">  -webkit-user-select: none;</span><br><span class="line">  -moz-user-select: none;</span><br><span class="line">  user-select: none;</span><br><span class="line">  z-index: 2000;</span><br><span class="line">  position: fixed;</span><br><span class="line">  margin: auto;</span><br><span class="line">  top: 10px;</span><br><span class="line">  left: 0;</span><br><span class="line">  right: 0;</span><br><span class="line">  height: 8px;</span><br><span class="line">  border-radius: 8px;</span><br><span class="line">  width: 4rem;</span><br><span class="line">  background: #eaecf2;</span><br><span class="line">  border: 1px #e3e8f7;</span><br><span class="line">  overflow: hidden;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.pace-inactive .pace-progress &#123;</span><br><span class="line">  opacity: 0;</span><br><span class="line">  transition: 0.3s ease-in;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.pace .pace-progress &#123;</span><br><span class="line">  -webkit-box-sizing: border-box;</span><br><span class="line">  -moz-box-sizing: border-box;</span><br><span class="line">  -ms-box-sizing: border-box;</span><br><span class="line">  -o-box-sizing: border-box;</span><br><span class="line">  box-sizing: border-box;</span><br><span class="line">  -webkit-transform: translate3d(0, 0, 0);</span><br><span class="line">  -moz-transform: translate3d(0, 0, 0);</span><br><span class="line">  -ms-transform: translate3d(0, 0, 0);</span><br><span class="line">  -o-transform: translate3d(0, 0, 0);</span><br><span class="line">  transform: translate3d(0, 0, 0);</span><br><span class="line">  max-width: 200px;</span><br><span class="line">  position: absolute;</span><br><span class="line">  z-index: 2000;</span><br><span class="line">  display: block;</span><br><span class="line">  top: 0;</span><br><span class="line">  right: 100%;</span><br><span class="line">  height: 100%;</span><br><span class="line">  width: 100%;</span><br><span class="line">  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);</span><br><span class="line">  animation: gradient 1.5s ease infinite;</span><br><span class="line">  background-size: 200%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.pace.pace-inactive &#123;</span><br><span class="line">  opacity: 0;</span><br><span class="line">  transition: 0.3s;</span><br><span class="line">  top: -8px;</span><br><span class="line">&#125;</span><br><span class="line">@keyframes gradient &#123;</span><br><span class="line">  0% &#123;</span><br><span class="line">    background-position: 0% 50%;</span><br><span class="line">  &#125;</span><br><span class="line">  50% &#123;</span><br><span class="line">    background-position: 100% 50%;</span><br><span class="line">  &#125;</span><br><span class="line">  100% &#123;</span><br><span class="line">    background-position: 0% 50%;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="4，修改themes-butterfly-source-css-layout-loading-styl"><a href="#4，修改themes-butterfly-source-css-layout-loading-styl" class="headerlink" title="4，修改themes/butterfly/source/css/_layout/loading.styl,"></a>4，修改<code>themes/butterfly/source/css/_layout/loading.styl</code>,</h3><p>注意其中颜色代码<code>--camelz-card-bg</code>等需自行替换为自己的色值。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line">if hexo-config(&#x27;preloader&#x27;)</span><br><span class="line">  .loading-bg</span><br><span class="line">    display: flex;</span><br><span class="line">    width: 100%;</span><br><span class="line">    height: 100%;</span><br><span class="line">    position: fixed;</span><br><span class="line">    background: var(--camelz-card-bg);</span><br><span class="line">    z-index: 1001;</span><br><span class="line">    opacity: 1;</span><br><span class="line">    transition: .3s;</span><br><span class="line"></span><br><span class="line">  #loading-box</span><br><span class="line">    .loading-img</span><br><span class="line">      width: 100px;</span><br><span class="line">      height: 100px;</span><br><span class="line">      border-radius: 50%;</span><br><span class="line">      margin: auto;</span><br><span class="line">      border: 4px solid #f0f0f2;</span><br><span class="line">      animation-duration: .3s;</span><br><span class="line">      animation-name: loadingAction;</span><br><span class="line">      animation-iteration-count: infinite;</span><br><span class="line">      animation-direction: alternate;</span><br><span class="line">    .loading-image-dot</span><br><span class="line">      width: 30px;</span><br><span class="line">      height: 30px;</span><br><span class="line">      background: #6bdf8f;</span><br><span class="line">      position: absolute;</span><br><span class="line">      border-radius: 50%;</span><br><span class="line">      border: 6px solid #fff;</span><br><span class="line">      top: 50%;</span><br><span class="line">      left: 50%;</span><br><span class="line">      transform: translate(18px, 24px);</span><br><span class="line">    &amp;.loaded</span><br><span class="line">      .loading-bg</span><br><span class="line">        opacity: 0;</span><br><span class="line">        z-index: -1000;</span><br><span class="line"></span><br><span class="line">  @keyframes loadingAction</span><br><span class="line">    0% &#123;</span><br><span class="line">        opacity: 1;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    100% &#123;</span><br><span class="line">        opacity: .4;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="5，在-source-css-custom-css里假如以下内容"><a href="#5，在-source-css-custom-css里假如以下内容" class="headerlink" title="5，在/source/css/custom.css里假如以下内容,"></a>5，在<code>/source/css/custom.css</code>里假如以下内容,</h3><p> 其中 <code>background</code> 的 <code>url 即为 loading 的图片地址</code>,可以是本地图片也可以是网络图片，我设置是本地图片</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">/* 自定义loading动画连接 */</span><br><span class="line">.loading-img &#123;</span><br><span class="line">  background: url(/img/avatar-camel.png) no-repeat center center;</span><br><span class="line">  background-size: cover;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><blockquote><p>这一步可以不做，在下一步直接preloader的值就可以了，完全跟下边方法改</p></blockquote><h3 id="6，修改-config-butterfly-yml中preloader选项"><a href="#6，修改-config-butterfly-yml中preloader选项" class="headerlink" title="6，修改_config.butterfly.yml中preloader选项,"></a>6，修改<code>_config.butterfly.yml</code>中<code>preloader</code>选项,</h3><p>改完以后<code>source: 1</code>为满屏加载无<code>pace胶囊</code>,<code>source: 2</code>为<code>pace胶囊</code>无满屏动画, <code>source: 3</code>是两者都启用。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"># Loading Animation进入网页的loading动画设置</span><br><span class="line">preloader:</span><br><span class="line">  enable: true</span><br><span class="line">   source</span><br><span class="line">   1. fullpage-loading</span><br><span class="line">   2. pace (progress bar)</span><br><span class="line">  source: 3</span><br><span class="line">  # pace theme (see https://codebyzach.github.io/pace/)</span><br><span class="line">  pace_css_url: /css/progress_bar.css</span><br><span class="line">  avatar: /img/avatar-camel.png # 自定义头像</span><br></pre></td></tr></table></figure><h3 id="7，看效果"><a href="#7，看效果" class="headerlink" title="7，看效果"></a>7，看效果</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>参考anzhiyu大佬的loading动画部署方案</p><div class="tag link"><a class="link-card" title="anzhiyu大佬的loading动画部署方案" href="https://blog.anheyu.com/posts/52d8.html"><div class="left"><img src="/img/link.png"/></div><div class="right"><p class="text">anzhiyu大佬的loading动画部署方案</p><p class="url">https://blog.anheyu.com/posts/52d8.html</p></div></a></div><h3 id="1，修改-themes-butterfly-layout-includes-loading-fullpage-loading-pug"><a href="#1，修改-themes-butterfly-layout-includes-loading-fullpage-loading-pug" class="headerlink" title="1，修改 themes/butterfly/layout/includes/loading/fullpage-loading.pug"></a>1，修改 <code>themes/butterfly/layout/includes/loading/fullpage-loading.pug</code></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">#loading-box(onclick=&#x27;document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)&#x27;)</span><br><span class="line">  .loading-bg</span><br><span class="line">    div.loading-img</span><br><span class="line">    .loading-image-dot</span><br><span class="line"></span><br><span class="line">script.</span><br><span class="line">  const preloader = &#123;</span><br><span class="line">    endLoading: () =&gt; &#123;</span><br><span class="line">      document.body.style.overflow = &#x27;auto&#x27;;</span><br><span class="line">      document.getElementById(&#x27;loading-box&#x27;).classList.add(&quot;loaded&quot;)</span><br><span class="line">    &#125;,</span><br><span class="line">    initLoading: () =&gt; &#123;</span><br><span class="line">      document.body.style.overflow = &#x27;&#x27;;</span><br><span class="line">      document.getElementById(&#x27;loading-box&#x27;).classList.remove(&quot;loaded&quot;)</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  window.addEventListener(&#x27;load&#x27;,()=&gt; &#123; preloader.endLoading() &#125;)</span><br><span class="line"></span><br><span class="line">  if (!&#123;theme.pjax &amp;&amp; theme.pjax.enable&#125;) &#123;</span><br><span class="line">    document.addEventListener(&#x27;pjax:send&#x27;, () =&gt; &#123; preloader.initLoading() &#125;)</span><br><span class="line">    document.addEventListener(&#x27;pjax:complete&#x27;, () =&gt; &#123; preloader.endLoading() &#125;)</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure><h3 id="2，修改themes-butterfly-layout-includes-loading-index-pug"><a href="#2，修改themes-butterfly-layout-includes-loading-index-pug" class="headerlink" title="2，修改themes/butterfly/layout/includes/loading/index.pug"></a>2，修改<code>themes/butterfly/layout/includes/loading/index.pug</code></h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">if theme.preloader.source === 1</span><br><span class="line">  include ./fullpage-loading.pug</span><br><span class="line">else if theme.preloader.source === 2</span><br><span class="line">  include ./pace.pug</span><br><span class="line">else</span><br><span class="line">  include ./fullpage-loading.pug</span><br><span class="line">  include ./pace.pug</span><br></pre></td></tr></table></figure><h3 id="3，新建source-css-progress-bar-css"><a href="#3，新建source-css-progress-bar-css" class="headerlink" title="3，新建source/css/progress_bar.css,"></a>3，新建<code>source/css/progress_bar.css</code>,</h3><p>也可以不做这一步下面配置文件<code>pace_css_url</code>这一项就要留空, 这一步是修改 pace 加载的胶囊 💊 样式用的</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br></pre></td><td class="code"><pre><span class="line">.pace &#123;</span><br><span class="line">  -webkit-pointer-events: none;</span><br><span class="line">  pointer-events: none;</span><br><span class="line">  -webkit-user-select: none;</span><br><span class="line">  -moz-user-select: none;</span><br><span class="line">  user-select: none;</span><br><span class="line">  z-index: 2000;</span><br><span class="line">  position: fixed;</span><br><span class="line">  margin: auto;</span><br><span class="line">  top: 10px;</span><br><span class="line">  left: 0;</span><br><span class="line">  right: 0;</span><br><span class="line">  height: 8px;</span><br><span class="line">  border-radius: 8px;</span><br><span class="line">  width: 4rem;</span><br><span class="line">  background: #eaecf2;</span><br><span class="line">  border: 1px #e3e8f7;</span><br><span class="line">  overflow: hidden;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.pace-inactive .pace-progress &#123;</span><br><span class="line">  opacity: 0;</span><br><span class="line">  transition: 0.3s ease-in;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.pace .pace-progress &#123;</span><br><span class="line">  -webkit-box-sizing: border-box;</span><br><span class="line">  -moz-box-sizing: border-box;</span><br><span class="line">  -ms-box-sizing: border-box;</span><br><span class="line">  -o-box-sizing: border-box;</span><br><span class="line">  box-sizing: border-box;</span><br><span class="line">  -webkit-transform: translate3d(0, 0, 0);</span><br><span class="line">  -moz-transform: translate3d(0, 0, 0);</span><br><span class="line">  -ms-transform: translate3d(0, 0, 0);</span><br><span class="line">  -o-transform: translate3d(0, 0, 0);</span><br><span class="line">  transform: translate3d(0, 0, 0);</span><br><span class="line">  max-width: 200px;</span><br><span class="line">  position: absolute;</span><br><span class="line">  z-index: 2000;</span><br><span class="line">  display: block;</span><br><span class="line">  top: 0;</span><br><span class="line">  right: 100%;</span><br><span class="line">  height: 100%;</span><br><span class="line">  width: 100%;</span><br><span class="line">  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);</span><br><span class="line">  animation: gradient 1.5s ease infinite;</span><br><span class="line">  background-size: 200%;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.pace.pace-inactive &#123;</span><br><span class="line">  opacity: 0;</span><br><span class="line">  transition: 0.3s;</span><br><span class="line">  top: -8px;</span><br><span class="line">&#125;</span><br><span class="line">@keyframes gradient &#123;</span><br><span class="line">  0% &#123;</span><br><span class="line">    background-position: 0% 50%;</span><br><span class="line">  &#125;</span><br><span class="line">  50% &#123;</span><br><span class="line">    background-position: 100% 50%;</span><br><span class="line">  &#125;</span><br><span class="line">  100% &#123;</span><br><span class="line">    background-position: 0% 50%;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="4，修改themes-butterfly-source-css-layout-loading-styl"><a href="#4，修改themes-butterfly-source-css-layout-loading-styl" class="headerlink" title="4，修改themes/butterfly/source/css/_layout/loading.styl,"></a>4，修改<code>themes/butterfly/source/css/_layout/loading.styl</code>,</h3><p>注意其中颜色代码<code>--camelz-card-bg</code>等需自行替换为自己的色值。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line">if hexo-config(&#x27;preloader&#x27;)</span><br><span class="line">  .loading-bg</span><br><span class="line">    display: flex;</span><br><span class="line">    width: 100%;</span><br><span class="line">    height: 100%;</span><br><span class="line">    position: fixed;</span><br><span class="line">    background: var(--camelz-card-bg);</span><br><span class="line">    z-index: 1001;</span><br><span class="line">    opacity: 1;</span><br><span class="line">    transition: .3s;</span><br><span class="line"></span><br><span class="line">  #loading-box</span><br><span class="line">    .loading-img</span><br><span class="line">      width: 100px;</span><br><span class="line">      height: 100px;</span><br><span class="line">      border-radius: 50%;</span><br><span class="line">      margin: auto;</span><br><span class="line">      border: 4px solid #f0f0f2;</span><br><span class="line">      animation-duration: .3s;</span><br><span class="line">      animation-name: loadingAction;</span><br><span class="line">      animation-iteration-count: infinite;</span><br><span class="line">      animation-direction: alternate;</span><br><span class="line">    .loading-image-dot</span><br><span class="line">      width: 30px;</span><br><span class="line">      height: 30px;</span><br><span class="line">      background: #6bdf8f;</span><br><span class="line">      position: absolute;</span><br><span class="line">      border-radius: 50%;</span><br><span class="line">      border: 6px solid #fff;</span><br><span class="line">      top: 50%;</span><br><span class="line">      left: 50%;</span><br><span class="line">      transform: translate(18px, 24px);</span><br><span class="line">    &amp;.loaded</span><br><span class="line">      .loading-bg</span><br><span class="line">        opacity: 0;</span><br><span class="line">        z-index: -1000;</span><br><span class="line"></span><br><span class="line">  @keyframes loadingAction</span><br><span class="line">    0% &#123;</span><br><span class="line">        opacity: 1;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    100% &#123;</span><br><span class="line">        opacity: .4;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure><h3 id="5，在-source-css-custom-css里假如以下内容"><a href="#5，在-source-css-custom-css里假如以下内容" class="headerlink" title="5，在/source/css/custom.css里假如以下内容,"></a>5，在<code>/source/css/custom.css</code>里假如以下内容,</h3><p> 其中 <code>background</code> 的 <code>url 即为 loading 的图片地址</code>,可以是本地图片也可以是网络图片，我设置是本地图片</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">/* 自定义loading动画连接 */</span><br><span class="line">.loading-img &#123;</span><br><span class="line">  background: url(/img/avatar-camel.webp) no-repeat center center;</span><br><span class="line">  background-size: cover;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h3 id="6，修改-config-butterfly-yml中preloader选项"><a href="#6，修改-config-butterfly-yml中preloader选项" class="headerlink" title="6，修改_config.butterfly.yml中preloader选项,"></a>6，修改<code>_config.butterfly.yml</code>中<code>preloader</code>选项,</h3><p>改完以后<code>source: 1</code>为满屏加载无<code>pace胶囊</code>,<code>source: 2</code>为<code>pace胶囊</code>无满屏动画, <code>source: 3</code>是两者都启用。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># Loading Animation进入网页的loading动画设置</span><br><span class="line">preloader:</span><br><span class="line">  enable: true</span><br><span class="line">   #source</span><br><span class="line">   #1. fullpage-loading</span><br><span class="line">   #2. pace (progress bar)</span><br><span class="line">  source: 3</span><br><span class="line">  # pace theme (see https://codebyzach.github.io/pace/)</span><br><span class="line">  pace_css_url: /css/progress_bar.css</span><br></pre></td></tr></table></figure><h3 id="7，看效果"><a href="#7，看效果" class="headerlink" title="7，看效果"></a>7，看效果</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>]]></content>
     
     
       
@@ -189,17 +189,17 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>idm序列号永久激活码2024</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/efa0047c.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/efa0047c.html</id>
+    <link href="https://blog.camelz.site/posts/efa0047c.html"/>
+    <id>https://blog.camelz.site/posts/efa0047c.html</id>
     <published>2024-09-11T07:41:54.000Z</published>
     <updated>2024-09-12T08:30:29.994Z</updated>
     
@@ -211,17 +211,17 @@
     
     
     
-    <category term="idm" scheme="https://blog.camelz.cloudns.ch/categories/idm/"/>
+    <category term="idm" scheme="https://blog.camelz.site/categories/idm/"/>
     
     
-    <category term="idm" scheme="https://blog.camelz.cloudns.ch/tags/idm/"/>
+    <category term="idm" scheme="https://blog.camelz.site/tags/idm/"/>
     
   </entry>
   
   <entry>
     <title>HEVC 图片视频扩展程序</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/cd6cac20.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/cd6cac20.html</id>
+    <link href="https://blog.camelz.site/posts/cd6cac20.html"/>
+    <id>https://blog.camelz.site/posts/cd6cac20.html</id>
     <published>2024-09-10T12:24:17.000Z</published>
     <updated>2024-09-12T08:30:29.990Z</updated>
     
@@ -234,19 +234,19 @@
     
     
     
-    <category term="Windows图片视频扩展程序" scheme="https://blog.camelz.cloudns.ch/categories/Windows%E5%9B%BE%E7%89%87%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F/"/>
+    <category term="Windows图片视频扩展程序" scheme="https://blog.camelz.site/categories/Windows%E5%9B%BE%E7%89%87%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F/"/>
     
     
-    <category term="HEVC" scheme="https://blog.camelz.cloudns.ch/tags/HEVC/"/>
+    <category term="HEVC" scheme="https://blog.camelz.site/tags/HEVC/"/>
     
-    <category term="图片视频扩展程序" scheme="https://blog.camelz.cloudns.ch/tags/%E5%9B%BE%E7%89%87%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F/"/>
+    <category term="图片视频扩展程序" scheme="https://blog.camelz.site/tags/%E5%9B%BE%E7%89%87%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F/"/>
     
   </entry>
   
   <entry>
     <title>Adobe reader 或Adobe acrobat 显示“正在准备文档以供阅读”的取消方式</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/bc737475.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/bc737475.html</id>
+    <link href="https://blog.camelz.site/posts/bc737475.html"/>
+    <id>https://blog.camelz.site/posts/bc737475.html</id>
     <published>2024-09-10T12:23:21.000Z</published>
     <updated>2024-09-12T08:30:29.982Z</updated>
     
@@ -261,17 +261,17 @@
     
     
     
-    <category term="Windows" scheme="https://blog.camelz.cloudns.ch/categories/Windows/"/>
+    <category term="Windows" scheme="https://blog.camelz.site/categories/Windows/"/>
     
     
-    <category term="Adobe-acrobat" scheme="https://blog.camelz.cloudns.ch/tags/Adobe-acrobat/"/>
+    <category term="Adobe-acrobat" scheme="https://blog.camelz.site/tags/Adobe-acrobat/"/>
     
   </entry>
   
   <entry>
     <title>PVE扩容和直通代码及硬盘直通</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/b2104617.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/b2104617.html</id>
+    <link href="https://blog.camelz.site/posts/b2104617.html"/>
+    <id>https://blog.camelz.site/posts/b2104617.html</id>
     <published>2024-09-09T07:45:45.000Z</published>
     <updated>2024-09-12T08:30:29.996Z</updated>
     
@@ -283,19 +283,19 @@
     
     
     
-    <category term="PVE-虚拟机" scheme="https://blog.camelz.cloudns.ch/categories/PVE-%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <category term="PVE-虚拟机" scheme="https://blog.camelz.site/categories/PVE-%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
     
-    <category term="PVE" scheme="https://blog.camelz.cloudns.ch/tags/PVE/"/>
+    <category term="PVE" scheme="https://blog.camelz.site/tags/PVE/"/>
     
-    <category term="虚拟机" scheme="https://blog.camelz.cloudns.ch/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <category term="虚拟机" scheme="https://blog.camelz.site/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>旁路由基于IPV6配置wireguardVPN</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/d90ac5d4.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/d90ac5d4.html</id>
+    <link href="https://blog.camelz.site/posts/d90ac5d4.html"/>
+    <id>https://blog.camelz.site/posts/d90ac5d4.html</id>
     <published>2024-09-08T13:07:13.000Z</published>
     <updated>2024-09-12T08:30:29.986Z</updated>
     
@@ -309,21 +309,21 @@
     
     
     
-    <category term="VPN" scheme="https://blog.camelz.cloudns.ch/categories/VPN/"/>
+    <category term="VPN" scheme="https://blog.camelz.site/categories/VPN/"/>
     
     
-    <category term="wireguard VPN" scheme="https://blog.camelz.cloudns.ch/tags/wireguard-VPN/"/>
+    <category term="wireguard VPN" scheme="https://blog.camelz.site/tags/wireguard-VPN/"/>
     
-    <category term="Wireguard" scheme="https://blog.camelz.cloudns.ch/tags/Wireguard/"/>
+    <category term="Wireguard" scheme="https://blog.camelz.site/tags/Wireguard/"/>
     
-    <category term="VPN" scheme="https://blog.camelz.cloudns.ch/tags/VPN/"/>
+    <category term="VPN" scheme="https://blog.camelz.site/tags/VPN/"/>
     
   </entry>
   
   <entry>
     <title>PVE虚拟系统黑群晖硬盘直通的方法</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/dcc78721.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/dcc78721.html</id>
+    <link href="https://blog.camelz.site/posts/dcc78721.html"/>
+    <id>https://blog.camelz.site/posts/dcc78721.html</id>
     <published>2024-09-08T07:31:46.000Z</published>
     <updated>2024-09-12T08:30:29.999Z</updated>
     
@@ -334,19 +334,19 @@
     
     
     
-    <category term="PVE-虚拟机" scheme="https://blog.camelz.cloudns.ch/categories/PVE-%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <category term="PVE-虚拟机" scheme="https://blog.camelz.site/categories/PVE-%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
     
-    <category term="PVE" scheme="https://blog.camelz.cloudns.ch/tags/PVE/"/>
+    <category term="PVE" scheme="https://blog.camelz.site/tags/PVE/"/>
     
-    <category term="虚拟机" scheme="https://blog.camelz.cloudns.ch/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
+    <category term="虚拟机" scheme="https://blog.camelz.site/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/"/>
     
   </entry>
   
   <entry>
     <title>butterfly即刻短文</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/90f6ac06.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/90f6ac06.html</id>
+    <link href="https://blog.camelz.site/posts/90f6ac06.html"/>
+    <id>https://blog.camelz.site/posts/90f6ac06.html</id>
     <published>2024-09-07T00:25:13.000Z</published>
     <updated>2024-09-23T10:27:27.663Z</updated>
     
@@ -362,17 +362,17 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>butterfly站点地图，百度和谷歌收录</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/8ed6970f.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/8ed6970f.html</id>
+    <link href="https://blog.camelz.site/posts/8ed6970f.html"/>
+    <id>https://blog.camelz.site/posts/8ed6970f.html</id>
     <published>2024-09-02T07:38:54.000Z</published>
     <updated>2024-09-02T07:41:23.959Z</updated>
     
@@ -389,17 +389,17 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>butterfly博客宽屏适配</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/2fb145cf.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/2fb145cf.html</id>
+    <link href="https://blog.camelz.site/posts/2fb145cf.html"/>
+    <id>https://blog.camelz.site/posts/2fb145cf.html</id>
     <published>2024-08-30T10:58:16.000Z</published>
     <updated>2024-09-23T10:27:49.722Z</updated>
     
@@ -413,17 +413,17 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>butterfly博客底部引入本站运行时间</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/2a60b067.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/2a60b067.html</id>
+    <link href="https://blog.camelz.site/posts/2a60b067.html"/>
+    <id>https://blog.camelz.site/posts/2a60b067.html</id>
     <published>2024-08-30T03:36:50.000Z</published>
     <updated>2024-08-30T03:57:01.912Z</updated>
     
@@ -438,17 +438,17 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>butterfly个人信息卡片背景图</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/405530ef.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/405530ef.html</id>
+    <link href="https://blog.camelz.site/posts/405530ef.html"/>
+    <id>https://blog.camelz.site/posts/405530ef.html</id>
     <published>2024-08-28T06:46:27.000Z</published>
     <updated>2024-08-28T06:50:06.702Z</updated>
     
@@ -463,17 +463,17 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>butterfly导航栏居中</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/9641340b.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/9641340b.html</id>
+    <link href="https://blog.camelz.site/posts/9641340b.html"/>
+    <id>https://blog.camelz.site/posts/9641340b.html</id>
     <published>2024-08-28T06:13:43.000Z</published>
     <updated>2024-08-28T06:23:39.571Z</updated>
     
@@ -488,17 +488,17 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
   </entry>
   
   <entry>
     <title>butterfly随机文章跳转</title>
-    <link href="https://blog.camelz.cloudns.ch/posts/87546d81.html"/>
-    <id>https://blog.camelz.cloudns.ch/posts/87546d81.html</id>
+    <link href="https://blog.camelz.site/posts/87546d81.html"/>
+    <id>https://blog.camelz.site/posts/87546d81.html</id>
     <published>2024-08-28T05:51:19.000Z</published>
     <updated>2024-08-28T06:01:13.206Z</updated>
     
@@ -513,10 +513,10 @@
     
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/categories/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
     
     
-    <category term="butterfly" scheme="https://blog.camelz.cloudns.ch/tags/butterfly/"/>
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
   </entry>
   

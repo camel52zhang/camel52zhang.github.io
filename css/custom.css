@@ -97,6 +97,12 @@
   --camelz-card-border: #42444a;
 }
 
+/* 自定义loading动画连接 */
+.loading-img {
+  background: url(/img/avatar-camel.webp) no-repeat center center;
+  background-size: cover;
+}
+
 /* 页面宽度配置 */
 /* 全局宽度 */
 .layout {
