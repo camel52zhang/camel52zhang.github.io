@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.site/"/>
-  <updated>2024-09-24T07:25:12.990Z</updated>
+  <updated>2024-09-25T07:04:09.457Z</updated>
   <id>https://blog.camelz.site/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>github在创建PC连接公钥出错的解决办法</title>
+    <link href="https://blog.camelz.site/posts/4fea44d6.html"/>
+    <id>https://blog.camelz.site/posts/4fea44d6.html</id>
+    <published>2024-09-25T06:57:41.000Z</published>
+    <updated>2024-09-25T07:04:09.457Z</updated>
+    
+    <content type="html"><![CDATA[<p>假如执行<code>ssh-keygen -t rsa -C &quot;eric_zhng@hotmail.com&quot;</code>获取公钥和秘钥的时候出现以下错误</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;eric_zhng@hotmail.com&quot;</span><br><span class="line">Generating public/private rsa key pair.</span><br><span class="line">Enter file in which to save the key (/c/Users/Administrator/.ssh/id_rsa): C:\Users\Administrator\github\.ssh</span><br><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br><span class="line">Saving key &quot;i\033[3~\033[3~\033[3~\033[3~\033[3~\033[3~\033[3~\033[3~\033[3~\033[3~\033[3~\033[3~C:\\Users\\Administrator\\github\\.ssh&quot; failed: No such file or directory</span><br></pre></td></tr></table></figure><p>解决办法参考GPT的回复</p><p>The error you’re encountering occurs because the path <code>C:\Users\Administrator\github\.ssh</code> does not exist. When you use <code>ssh-keygen</code>, it needs to save the key in a valid directory, but this path might not exist yet.</p><p>Here’s how you can resolve this issue:</p><ol><li><strong>Create the directory</strong>: Make sure the directory <code>C:\Users\Administrator\github\.ssh</code> exists before running the command. You can create the directory by running the following command in a Command Prompt or PowerShell:</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir C:\Users\Administrator\github\.ssh</span><br></pre></td></tr></table></figure><ol><li><strong>Run the command again</strong>: After creating the directory, rerun the <code>ssh-keygen</code> command:</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;eric_zhng@hotmail.com&quot; -f C:\Users\Administrator\github\.ssh\id_rsa</span><br></pre></td></tr></table></figure><blockquote><p>The <code>-f</code> option is used to specify the file in which to save the private key.</p></blockquote><p>Afterward, you should be able to generate the SSH key without encountering the “No such file or directory” error.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;假如执行&lt;code&gt;ssh-keygen -t rsa -C &amp;quot;eric_zhng@hotmail.com&amp;quot;&lt;/code&gt;获取公钥和秘钥的时候出现以下错误&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;t</summary>
+      
+    
+    
+    
+    <category term="github" scheme="https://blog.camelz.site/categories/github/"/>
+    
+    
+    <category term="github" scheme="https://blog.camelz.site/tags/github/"/>
+    
+  </entry>
   
   <entry>
     <title>butterfly外挂标签语法和Markdown自带语法</title>
@@ -484,31 +509,6 @@
       
     <summary type="html">&lt;p&gt;参考Leonus大佬&lt;a href=&quot;https://blog.leonus.cn/2022/hexoCenter.html&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;思路&lt;/strong&gt;：我们只需要让他绝对定位，然后让他距离左边50%，然后再往左移动自身的50%即可</summary>
-      
-    
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>butterfly随机文章跳转</title>
-    <link href="https://blog.camelz.site/posts/87546d81.html"/>
-    <id>https://blog.camelz.site/posts/87546d81.html</id>
-    <published>2024-08-28T05:51:19.000Z</published>
-    <updated>2024-08-28T06:01:13.206Z</updated>
-    
-    <content type="html"><![CDATA[<p>参考大佬<a href="https://blog.hclonely.com/posts/57bd67ce/">教程</a></p><h3 id="在目录-themes-butterfly-scripts下新建random-js文件"><a href="#在目录-themes-butterfly-scripts下新建random-js文件" class="headerlink" title="在目录\themes\butterfly\scripts下新建random.js文件"></a>在目录\themes\butterfly\scripts下新建<code>random.js</code>文件</h3><p>加以下代码：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">hexo.extend.generator.register(&#x27;random&#x27;, function (locals) &#123;</span><br><span class="line">  const config = hexo.config.random || &#123;&#125;</span><br><span class="line">  const posts = []</span><br><span class="line">  for (const post of locals.posts.data) &#123;</span><br><span class="line">    if (post.random !== false) posts.push(post.path)</span><br><span class="line">  &#125;</span><br><span class="line">  return &#123;</span><br><span class="line">    path: config.path || &#x27;random/index.html&#x27;,</span><br><span class="line">    data: `&lt;html&gt;&lt;head&gt;&lt;script&gt;var posts=$&#123;JSON.stringify(posts)&#125;;window.open(&#x27;/&#x27;+posts[Math.floor(Math.random() * posts.length)],&quot;_self&quot;)&lt;/script&gt;&lt;/head&gt;&lt;/html&gt;`</span><br><span class="line">  &#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><h3 id="在menu菜单位置添加配置"><a href="#在menu菜单位置添加配置" class="headerlink" title="在menu菜单位置添加配置"></a>在menu菜单位置添加配置</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">随机文章: /random/ || fa fa-random</span><br></pre></td></tr></table></figure><h3 id="看效果"><a href="#看效果" class="headerlink" title="看效果"></a>看效果</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo cl &amp;&amp; hexo g &amp;&amp; hexo s</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;参考大佬&lt;a href=&quot;https://blog.hclonely.com/posts/57bd67ce/&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;在目录-themes-butterfly-scripts下新建random-js文件&quot;&gt;&lt;a href=&quot;#在目录-them</summary>
       
     
     
