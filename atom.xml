@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.site/"/>
-  <updated>2024-09-25T07:04:09.457Z</updated>
+  <updated>2024-09-25T07:04:51.187Z</updated>
   <id>https://blog.camelz.site/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.camelz.site/posts/4fea44d6.html"/>
     <id>https://blog.camelz.site/posts/4fea44d6.html</id>
     <published>2024-09-25T06:57:41.000Z</published>
-    <updated>2024-09-25T07:04:09.457Z</updated>
+    <updated>2024-09-25T07:04:51.187Z</updated>
     
     <content type="html"><![CDATA[<p>假如执行<code>ssh-keygen -t rsa -C &quot;eric_zhng@hotmail.com&quot;</code>获取公钥和秘钥的时候出现以下错误</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;eric_zhng@hotmail.com&quot;</span><br><span class="line">Generating public/private rsa key pair.</span><br><span class="line">Enter file in which to save the key (/c/Users/Administrator/.ssh/id_rsa): C:\Users\Administrator\github\.ssh</span><br><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br><span class="line">Saving key &quot;i\033[3~\033[3~\033[3~\033[3~\033[3~\033[3~\033[3~\033[3~\033[3~\033[3~\033[3~\033[3~C:\\Users\\Administrator\\github\\.ssh&quot; failed: No such file or directory</span><br></pre></td></tr></table></figure><p>解决办法参考GPT的回复</p><p>The error you’re encountering occurs because the path <code>C:\Users\Administrator\github\.ssh</code> does not exist. When you use <code>ssh-keygen</code>, it needs to save the key in a valid directory, but this path might not exist yet.</p><p>Here’s how you can resolve this issue:</p><ol><li><strong>Create the directory</strong>: Make sure the directory <code>C:\Users\Administrator\github\.ssh</code> exists before running the command. You can create the directory by running the following command in a Command Prompt or PowerShell:</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir C:\Users\Administrator\github\.ssh</span><br></pre></td></tr></table></figure><ol><li><strong>Run the command again</strong>: After creating the directory, rerun the <code>ssh-keygen</code> command:</li></ol><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;eric_zhng@hotmail.com&quot; -f C:\Users\Administrator\github\.ssh\id_rsa</span><br></pre></td></tr></table></figure><blockquote><p>The <code>-f</code> option is used to specify the file in which to save the private key.</p></blockquote><p>Afterward, you should be able to generate the SSH key without encountering the “No such file or directory” error.</p>]]></content>
     
