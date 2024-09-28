@@ -60,13 +60,13 @@ var camelz = {
             if (monthCount >= 1) {
                 result = datePost.toLocaleDateString().replace(/\//g, "-");
             } else if (dayCount >= 1) {
-                result = parseInt(dayCount) + " " + GLOBAL_CONFIG.date_suffix.day;
+                result = parseInt(dayCount) + " " + GLOBAL_CONFIG.dateSuffix.day;
             } else if (hourCount >= 1) {
-                result = parseInt(hourCount) + " " + GLOBAL_CONFIG.date_suffix.hour;
+                result = parseInt(hourCount) + " " + GLOBAL_CONFIG.dateSuffix.hour;
             } else if (minuteCount >= 1) {
-                result = parseInt(minuteCount) + " " + GLOBAL_CONFIG.date_suffix.min;
+                result = parseInt(minuteCount) + " " + GLOBAL_CONFIG.dateSuffix.min;
             } else {
-                result = GLOBAL_CONFIG.date_suffix.just;
+                result = GLOBAL_CONFIG.dateSuffix.just;
             }
         } else {
             result = parseInt(dateDiff / day);
