@@ -2197,7 +2197,7 @@ figure.highlight pre .javascript .function {
   flex: 1 auto;
   margin: 0 auto;
   padding: 40px 15px;
-  max-width: 1200px;
+  max-width: 1400px;
   width: 100%;
 }
 @media screen and (max-width: 900px) {
@@ -2232,7 +2232,7 @@ figure.highlight pre .javascript .function {
   }
 }
 .layout > div:first-child {
-  width: 74%;
+  width: 77%;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -2245,11 +2245,11 @@ figure.highlight pre .javascript .function {
   }
 }
 .layout.hide-aside {
-  max-width: 1000px;
+  max-width: 1200px;
 }
 @media screen and (min-width: 2000px) {
   .layout.hide-aside {
-    max-width: 1300px;
+    max-width: 1400px;
   }
 }
 .layout.hide-aside > div {
@@ -2640,7 +2640,7 @@ h1.page-title + .tag-cloud-list {
   text-align: left;
 }
 #aside-content {
-  width: 26%;
+  width: 23%;
 }
 @media screen and (min-width: 900px) {
   #aside-content {
