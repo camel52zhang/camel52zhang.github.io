@@ -1,0 +1,275 @@
+#nav .menus_items {
+    position: absolute;
+    width: fit-content;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* 颜色 */
+:root {
+    --camelz: #E68282;
+    --camelz-theme-op: #4259ef23;
+    --camelz-gray-op: #9999992b;
+    --camelz-white: #fff;
+    --camelz-black: #000;
+    --camelz-none: rgba(0, 0, 0, 0);
+    --camelz-purple: #E764FF;
+    --camelz-gray: #999999;
+    --camelz-light-grey: #F2F2F2;
+    --camelz-yellow: #ffc93e;
+    --camelz-orange: #ff9900;
+    --camelz-border-radius: 8px;
+    --camelz-main: var(--camelz-theme);
+    --camelz-main-op: var(--camelz-theme-op);
+    --camelz-shadow-theme: 0 8px 12px -3px var(--camelz-theme-op);
+    --camelz-shadow-main: 0 8px 12px -3px var(--camelz-main-op);
+    --camelz-shadow-blue: 0 8px 12px -3px rgba(40, 109, 234, 0.2);
+    --camelz-shadow-white: 0 8px 12px -3px rgba(255, 255, 255, 0.2);
+    --camelz-shadow-black: 0 0 12px 4px rgba(0, 0, 0, 0.05);
+    --camelz-shadow-yellow: 0px 38px 77px -26px rgba(255, 201, 62, 0.12);
+    --camelz-shadow-red: 0 8px 12px -3px #ee7d7936;
+    --camelz-shadow-green: 0 8px 12px -3px #87ee7936;
+    --camelz-shadow-border: 0 8px 16px -4px #2c2d300c;
+    --camelz-logo-color: linear-gradient(215deg, #4584ff 30%, #ff7676 70%);
+    --style-border: 1px solid var(--camelz-card-border);
+    --camelz-blue-main: #3b70fc;
+    --style-border-hover: 1px solid var(--camelz-main);
+    --style-border-dashed: 1px dashed var(--camelz-theme-op);
+    --style-border-avatar: 4px solid var(--camelz-background);
+    --style-border-always: 1px solid var(--camelz-card-border);
+    --camelz-white-acrylic1: #fefeff !important;
+    --camelz-white-acrylic2: #fcfdff !important;
+    --camelz-black-acrylic2: #08080a !important;
+    --camelz-black-acrylic1: #0b0b0e !important;
+    --middle-y-multiplier: 1.5; /* 假设元素在 Y 轴上的平移为原始位置的 1.5 倍 */
+    --middle-scale-multiplier: 1.2; /* 假设元素的纵向缩放为原始大小的 1.2 倍 */
+    --camelz-theme: var(--camelz-border) !important;
+}
+
+[data-theme="light"] {
+    --camelz-theme: #E68282;
+    --camelz-theme-op: #4259ef23;
+    --camelz-blue: #3b70fc;
+    --camelz-red: #d8213c;
+    --camelz-pink: #ff7c7c;
+    --camelz-green: #57bd6a;
+    --camelz-fontcolor: #4c4948;
+    --camelz-background: #f7f9fe;
+    --camelz-reverse: #000;
+    --camelz-maskbg: rgba(255, 255, 255, 0.6);
+    --camelz-maskbgdeep: rgba(255, 255, 255, 0.85);
+    --camelz-hovertext: var(--camelz);
+    --camelz-ahoverbg: #f7f7fa;
+    --camelz-lighttext: var(--camelz-main);
+    --camelz-secondtext: rgba(60, 60, 67, 0.6);
+    --camelz-scrollbar: rgba(60, 60, 67, 0.4);
+    --camelz-card-btn-bg: #edf0f7;
+    --camelz-post-blockquote-bg: #fafcff;
+    --camelz-post-tabs-bg: #f2f5f8;
+    --camelz-secondbg: #f7f7f9;
+    --camelz-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
+    --camelz-card-bg: #fff;
+    --camelz-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --camelz-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --camelz-card-border: #c0c6d8;
+    --camelz-copyright-bg: #eff1f3;
+    --camelz-border: #E68282
+}
+
+[data-theme="dark"] {
+    --camelz-theme: #333333;
+    --camelz-theme-op: #0084ff23;
+    --camelz-blue: #0084ff;
+    --camelz-red: #ff3842;
+    --camelz-pink: #ff7c7c;
+    --camelz-green: #57bd6a;
+    --camelz-fontcolor: #f7f7fa;
+    --camelz-background: #18171d;
+    --camelz-reverse: #fff;
+    --camelz-maskbg: rgba(0, 0, 0, 0.6);
+    --camelz-maskbgdeep: rgba(0, 0, 0, 0.85);
+    --camelz-hovertext: #0a84ff;
+    --camelz-ahoverbg: #fff;
+    --camelz-lighttext: #f2b94b;
+    --camelz-secondtext: #a1a2b8;
+    --camelz-scrollbar: rgba(200, 200, 223, 0.4);
+    --camelz-card-btn-bg: #30343f;
+    --camelz-post-blockquote-bg: #000;
+    --camelz-post-tabs-bg: #121212;
+    --camelz-secondbg: #30343f;
+    --camelz-shadow-nav: 0 5px 20px 0px rgba(28, 28, 28, 0.4);
+    --camelz-card-bg: #1b1c20;
+    --camelz-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --camelz-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
+    --camelz-card-border: #42444a;
+    --camelz-copyright-bg: #323335;
+    --camelz-border: #c8c8c8
+}
+
+/* 自定义bbtalk的宽度当aside隐藏时自适应recent-posts的宽度 */
+div#content-inner.layout {
+  display: flex;
+  max-width: 1400px;
+}
+
+div#recent-posts.recent-posts {
+  max-width: 1400px;
+  flex: 1;
+}
+
+div#main_top.main_top {
+  width: calc(100% - 0%); /* initial width when aside is visible */
+}
+
+@media (max-width: 1300px) {
+  div#main_top.main_top {
+    width: 100%; /* adjust width when aside is hidden */
+  }
+}
+
+/* Hide aside for demonstration */
+div#aside-content.aside-content.hidden {
+  display: none;
+}
+
+/* Adjust .recent-post-items width when aside is hidden */
+div#recent-posts.recent-posts.nc.adjust {
+  width: 77%;
+}
+
+/* 自定义音乐馆的最大宽度为1100px */
+div#content-inner.layout.hide-aside {
+  max-width: 1100px;
+  margin: 0 auto; /* 居中对齐 */
+}
+
+/* 博客底部运行时间 */
+div#runtime {
+    width: fit-content;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 10px;
+    background-color: var(--theme-color);  /* rgba(0, 0, 0, 0.7);这是大佬默认参数，我改了 */
+	margin: auto;  /* 设置居中显示 */
+}
+
+[data-theme="dark"] div#runtime {
+    color: var(--theme-color);  /* #28b4c8; */
+    /* box-shadow: 0 0 5px rgba(28, 69, 218, 0.71);这是大佬默认参数，我注释掉了 */
+}
+
+/* 小冰分类分类磁铁黑夜模式适配 https://www.fomal.cc/posts/eec9786.html */
+/* 一般状态 */
+[data-theme="dark"] .magnet_link_context {
+  background: #1e1e1e;
+  color: antiquewhite;
+}
+/* 鼠标悬浮状态 */
+[data-theme="dark"] .magnet_link_context:hover {
+  background: #3ecdf1;
+  color: #f2f2f2;
+}
+
+/* 个人信息卡片背景图 */
+[data-theme="light"] #aside-content > .card-widget.card-info {
+  background-image: url(https://img.camelz.site/file/395f0c7d7626a45bd1b78.png);
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100%;
+}
+
+[data-theme="dark"] #aside-content > .card-widget.card-info {
+  background-image: url(https://s2.loli.net/2024/09/30/qZmcoUKYzLRxJQf.png);
+  background-repeat: no-repeat;
+  background-attachment: inherit;
+  background-size: 100%;
+}
+
+/* 文章页H1-H6图标样式效果 */
+/* 控制风车转动速度 4s那里可以自己调节快慢 */
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before {
+  -webkit-animation: ccc 4s linear infinite;
+  animation: ccc 4s linear infinite;
+}
+/* 控制风车转动方向 -1turn 为逆时针转动，1turn 为顺时针转动，相同数字部分记得统一修改 */
+@-webkit-keyframes ccc {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
+}
+@keyframes ccc {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-1turn);
+    transform: rotate(-1turn);
+  }
+}
+/* 设置风车颜色 */
+#content-inner.layout h1::before {
+  color: #ef50a8;
+  margin-left: -1.55rem;
+  font-size: 1.3rem;
+  margin-top: -0.23rem;
+}
+#content-inner.layout h2::before {
+  color: #fb7061;
+  margin-left: -1.35rem;
+  font-size: 1.1rem;
+  margin-top: -0.12rem;
+}
+#content-inner.layout h3::before {
+  color: #ffbf00;
+  margin-left: -1.22rem;
+  font-size: 0.95rem;
+  margin-top: -0.09rem;
+}
+#content-inner.layout h4::before {
+  color: #a9e000;
+  margin-left: -1.05rem;
+  font-size: 0.8rem;
+  margin-top: -0.09rem;
+}
+#content-inner.layout h5::before {
+  color: #57c850;
+  margin-left: -0.9rem;
+  font-size: 0.7rem;
+  margin-top: 0rem;
+}
+#content-inner.layout h6::before {
+  color: #5ec1e0;
+  margin-left: -0.9rem;
+  font-size: 0.66rem;
+  margin-top: 0rem;
+}
+/* s设置风车hover动效 6s那里可以自己调节快慢*/
+#content-inner.layout h1:hover,
+#content-inner.layout h2:hover,
+#content-inner.layout h3:hover,
+#content-inner.layout h4:hover,
+#content-inner.layout h5:hover,
+#content-inner.layout h6:hover {
+  color: var(--theme-color);
+}
+#content-inner.layout h1:hover::before,
+#content-inner.layout h2:hover::before,
+#content-inner.layout h3:hover::before,
+#content-inner.layout h4:hover::before,
+#content-inner.layout h5:hover::before,
+#content-inner.layout h6:hover::before {
+  color: var(--theme-color);
+  -webkit-animation: ccc 6s linear infinite;
+  animation: ccc 6s linear infinite;
+}
