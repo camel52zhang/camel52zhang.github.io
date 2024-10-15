@@ -89,6 +89,9 @@
     box-shadow: var(--camelz-shadow-border);
     margin-right: 2%;
 }
+[data-theme="dark"] #bber .timeline ul li.bber-item {
+  background: var(--camelz-lightblack);
+}
 #bber .timeline #waterfall.show {
     opacity: 1;
 }
@@ -122,7 +125,7 @@
     margin: 8px 0px;
     border: 1px dashed var(--camelz-theme-op);
     width: 100%;
-    content: linear-gradient(to right, var(--camelz-theme), var(--camelz-theme));
+    content: linear-gradient(to right, var(--camelz-theme), var(--camelz-theme-op));
 }
 
 #bber .bber-info {

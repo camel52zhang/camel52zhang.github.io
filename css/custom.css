@@ -103,7 +103,8 @@
     --camelz-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0);
     --camelz-card-border: #42444a;
     --camelz-copyright-bg: #323335;
-    --camelz-border: #c8c8c8
+    --camelz-border: #c8c8c8;
+	--camelz-lightblack: #1e1e1e;
 }
 
 /* 自定义bbtalk的宽度当aside隐藏时自适应recent-posts的宽度 */
