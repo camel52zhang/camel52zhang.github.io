@@ -255,7 +255,7 @@
 /* 顶部样式 */
 .author-content.author-content-item.essayPage {
   height: 15rem;
-  background: url(https://pic-bed1.xiagao.site/2024/image-20240719204346603.png) left 28% / cover no-repeat;
+  background: url(/img/essay-pic.webp) left 28% / cover no-repeat;
   border-radius: 12px;
   color: var(--camelz-white);
   overflow: hidden;
