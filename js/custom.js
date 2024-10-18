@@ -35,3 +35,10 @@ setInterval(() => {
     currentTimeHtml +="本站运行时间：" + time[1] + ' 天 ' + time[2] + ' 时 ' + time[3] + ' 分 ' + time[4] + ' 秒 ';
     document.getElementById("runtime").innerHTML = currentTimeHtml;
 }, 1000);
+
+// 分享本页https://blog.leonus.cn/2022/rightside.html
+function share() {
+    let url = window.location.origin + window.location.pathname
+    new ClipboardJS(".share", { text: function() { return '标题：' + document.title + '\n链接：' + url } });
+    btf.snackbarShow("本页链接已复制到剪切板，快去分享吧~")
+}
