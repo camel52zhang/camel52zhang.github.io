@@ -486,6 +486,13 @@
   </url>
   
   <url>
+    <loc>https://blog.camelz.site/tags/butterfly/</loc>
+    <lastmod>2024-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.camelz.site/tags/HEVC/</loc>
     <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -500,7 +507,7 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/butterfly/</loc>
+    <loc>https://blog.camelz.site/tags/hexo/</loc>
     <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -515,13 +522,6 @@
   
   <url>
     <loc>https://blog.camelz.site/tags/Hexo-next/</loc>
-    <lastmod>2024-10-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/hexo/</loc>
     <lastmod>2024-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
