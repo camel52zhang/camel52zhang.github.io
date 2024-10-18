@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>駝駱仧🐫</title>
+  <icon>https://blog.camelz.site/avatar-camel.webp</icon>
+  <subtitle>没事瞎胡搞，越搞越明了🌤！</subtitle>
+  <link href="https://blog.camelz.site/atom.xml" rel="self"/>
+  
+  <link href="https://blog.camelz.site/"/>
+  <updated>2024-10-17T12:26:51.133Z</updated>
+  <id>https://blog.camelz.site/</id>
+  
+  <author>
+    <name>駝駱仧</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Butterfly主题 自定义 Loading 加载动画</title>
+    <link href="https://blog.camelz.site/posts/b8ed315a.html"/>
+    <id>https://blog.camelz.site/posts/b8ed315a.html</id>
+    <published>2024-10-17T04:01:16.000Z</published>
+    <updated>2024-10-17T12:26:51.133Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;自定义Butterfly主题 Loading 加载动画参考教程&lt;/p&gt;
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;hexo-butterfly一图流教程&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly调整整体页面距浏览器顶端的间距</title>
+    <link href="https://blog.camelz.site/posts/49c7b675.html"/>
+    <id>https://blog.camelz.site/posts/49c7b675.html</id>
+    <published>2024-10-12T05:23:18.000Z</published>
+    <updated>2024-10-12T05:29:22.719Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;打开&lt;code&gt;&#92;themes&#92;butterfly&#92;source&#92;css&#92;_page&#92;common.styl&lt;/code&gt;，找到&lt;code&gt;.layout&lt;/code&gt;的&lt;code&gt;margin&lt;/code&gt;按以下方法修改代码值&lt;/p&gt;
+&lt;figure</summary>
+        
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+    <category term="页面距浏览器顶端的间距" scheme="https://blog.camelz.site/tags/%E9%A1%B5%E9%9D%A2%E8%B7%9D%E6%B5%8F%E8%A7%88%E5%99%A8%E9%A1%B6%E7%AB%AF%E7%9A%84%E9%97%B4%E8%B7%9D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly外挂标签{% wow%}报错的解决方案</title>
+    <link href="https://blog.camelz.site/posts/47675117.html"/>
+    <id>https://blog.camelz.site/posts/47675117.html</id>
+    <published>2024-10-12T02:57:34.000Z</published>
+    <updated>2024-10-12T05:52:18.098Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;安装外挂标签&lt;a href=&quot;https://akilar.top/&quot;&gt;店长&lt;/a&gt;的&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+    <category term="外挂标签" scheme="https://blog.camelz.site/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly自定义全局css变量</title>
+    <link href="https://blog.camelz.site/posts/a86931ab.html"/>
+    <id>https://blog.camelz.site/posts/a86931ab.html</id>
+    <published>2024-10-12T00:26:34.000Z</published>
+    <updated>2024-10-12T05:54:24.202Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;保存以下代码在&lt;code&gt;custom.css&lt;/code&gt;内侧，没得话自己创建，目录在&lt;code&gt;&#92;source&#92;css&#92;&lt;/code&gt;内&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
+        
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+    <category term="CSS全局变量" scheme="https://blog.camelz.site/tags/CSS%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly即刻短文-版本2（recent-post页选项）</title>
+    <link href="https://blog.camelz.site/posts/91bee617.html"/>
+    <id>https://blog.camelz.site/posts/91bee617.html</id>
+    <published>2024-10-12T00:23:38.000Z</published>
+    <updated>2024-10-12T05:55:02.038Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;一，搭建即刻说说essay页&quot;&gt;&lt;a href=&quot;#一，搭建即刻说说essay页&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+    <category term="即刻短文" scheme="https://blog.camelz.site/tags/%E5%8D%B3%E5%88%BB%E7%9F%AD%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly添加首页轮播图</title>
+    <link href="https://blog.camelz.site/posts/ccff7fa3.html"/>
+    <id>https://blog.camelz.site/posts/ccff7fa3.html</id>
+    <published>2024-10-10T04:01:21.000Z</published>
+    <updated>2024-10-12T01:54:41.759Z</updated>
+    
+    
+    <summary type="html">描述点啥呢？</summary>
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="Hexo" scheme="https://blog.camelz.site/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly即刻短文</title>
+    <link href="https://blog.camelz.site/posts/90f6ac06.html"/>
+    <id>https://blog.camelz.site/posts/90f6ac06.html</id>
+    <published>2024-10-10T04:01:20.000Z</published>
+    <updated>2024-10-12T05:55:37.832Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;布局之前先介绍两个大佬，一个是June，一个是安知鱼，我们即刻短文就是参考这个两个大佬的，自己做了稍稍改动&lt;/p&gt;
+&lt;p&gt;大佬文章链接地址如下：&lt;/p&gt;
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+    <category term="即刻短文" scheme="https://blog.camelz.site/tags/%E5%8D%B3%E5%88%BB%E7%9F%AD%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly导航栏居中</title>
+    <link href="https://blog.camelz.site/posts/9641340b.html"/>
+    <id>https://blog.camelz.site/posts/9641340b.html</id>
+    <published>2024-10-10T04:01:17.000Z</published>
+    <updated>2024-10-12T05:46:01.467Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;参考Leonus大佬&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly博客宽屏适配</title>
+    <link href="https://blog.camelz.site/posts/2fb145cf.html"/>
+    <id>https://blog.camelz.site/posts/2fb145cf.html</id>
+    <published>2024-10-10T04:01:16.000Z</published>
+    <updated>2024-10-12T01:54:41.743Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;方法一：通过自定义css实现&quot;&gt;&lt;a href=&quot;#方法一：通过自定义css实现&quot; class=&quot;headerlink&quot; title=&quot;方法一：通过自定义css实现&quot;&gt;&lt;/a&gt;方法一：通过自定义css实现&lt;/h2&gt;&lt;h3</summary>
+        
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly其它电脑配置github连接</title>
+    <link href="https://blog.camelz.site/posts/39b59c5b.html"/>
+    <id>https://blog.camelz.site/posts/39b59c5b.html</id>
+    <published>2024-09-28T02:16:08.000Z</published>
+    <updated>2024-09-28T02:27:25.540Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;参考&lt;a href=&quot;https://www.fomal.cc/posts/e593433d.html&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;其它电脑连接至Github&quot;&gt;&lt;a href=&quot;#其它电脑连接至Github&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+    <category term="github" scheme="https://blog.camelz.site/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo设置abbrlink插件生成永久链接</title>
+    <link href="https://blog.camelz.site/posts/3856cc13.html"/>
+    <id>https://blog.camelz.site/posts/3856cc13.html</id>
+    <published>2024-09-27T14:32:23.000Z</published>
+    <updated>2024-09-30T03:33:09.135Z</updated>
+    
+    
+    <summary type="html">昨夜西风调碧树。独上高楼，望尽天涯路。—晏殊《蝶恋花》</summary>
+    
+    
+    
+    <category term="Hexo" scheme="https://blog.camelz.site/categories/Hexo/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+    <category term="Hexo" scheme="https://blog.camelz.site/tags/Hexo/"/>
+    
+    <category term="Hexo-next" scheme="https://blog.camelz.site/tags/Hexo-next/"/>
+    
+    <category term="Next" scheme="https://blog.camelz.site/tags/Next/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows下kiftd开机自启动</title>
+    <link href="https://blog.camelz.site/posts/4b4ab17a.html"/>
+    <id>https://blog.camelz.site/posts/4b4ab17a.html</id>
+    <published>2024-09-25T12:31:18.000Z</published>
+    <updated>2024-10-12T05:47:34.888Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;java -jar kiftd-1.1.0-RELEASE.jar -start&lt;/p&gt;
+&lt;p&gt;1，用记事本写启动脚本，保存为bat文件，内容如</summary>
+    
+    
+    
+    <category term="Windows" scheme="https://blog.camelz.site/categories/Windows/"/>
+    
+    
+    <category term="kiftd" scheme="https://blog.camelz.site/tags/kiftd/"/>
+    
+    <category term="ftp" scheme="https://blog.camelz.site/tags/ftp/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>关闭 “若要接收后续 google chrome 更新” 的提醒</title>
+    <link href="https://blog.camelz.site/posts/7f17fbd2.html"/>
+    <id>https://blog.camelz.site/posts/7f17fbd2.html</id>
+    <published>2024-09-25T12:20:58.000Z</published>
+    <updated>2024-09-30T04:20:25.600Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;按快捷键 win + R弹出的窗口输入regedit进入注册表，找到HKEY_LOCAL_MACHINE/SOFTWARE/Policies新建项Google，然后在Google下新建项Chrome，然后在Chrome右侧目录里新建DWORD(32-位）值（D),名字改为SuppressUnsupportedOSWarning，然</summary>
+    
+    
+    
+    
+    <category term="google chrome 更新" scheme="https://blog.camelz.site/tags/google-chrome-%E6%9B%B4%E6%96%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>github在创建PC连接公钥出错的解决办法</title>
+    <link href="https://blog.camelz.site/posts/4fea44d6.html"/>
+    <id>https://blog.camelz.site/posts/4fea44d6.html</id>
+    <published>2024-09-25T06:57:41.000Z</published>
+    <updated>2024-10-12T05:53:12.096Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;假如执行&lt;code&gt;ssh-keygen -t rsa -C &amp;quot;eric_zhng@hotmail.com&amp;quot;&lt;/code&gt;获取公钥和秘钥的时候出现以下错误&lt;/p&gt;
+&lt;figure class=&quot;highlight</summary>
+        
+      
+    
+    
+    
+    <category term="Windows" scheme="https://blog.camelz.site/categories/Windows/"/>
+    
+    
+    <category term="github" scheme="https://blog.camelz.site/tags/github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly外挂标签语法和Markdown自带语法</title>
+    <link href="https://blog.camelz.site/posts/e9069468.html"/>
+    <id>https://blog.camelz.site/posts/e9069468.html</id>
+    <published>2024-09-24T06:50:10.000Z</published>
+    <updated>2024-10-11T14:59:06.153Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;先要安装插件，地址找&lt;a href=&quot;https://akilar.top/&quot;&gt;店长&lt;/a&gt;的&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="外挂标签" scheme="https://blog.camelz.site/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    
+    <category term="标签外挂" scheme="https://blog.camelz.site/tags/%E6%A0%87%E7%AD%BE%E5%A4%96%E6%8C%82/"/>
+    
+    <category term="Markdown自带语法" scheme="https://blog.camelz.site/tags/Markdown%E8%87%AA%E5%B8%A6%E8%AF%AD%E6%B3%95/"/>
+    
+    <category term="Butterfly外挂标签" scheme="https://blog.camelz.site/tags/Butterfly%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo-butterfly外挂标签安装</title>
+    <link href="https://blog.camelz.site/posts/d342a4d0.html"/>
+    <id>https://blog.camelz.site/posts/d342a4d0.html</id>
+    <published>2024-09-24T06:17:29.000Z</published>
+    <updated>2024-09-30T03:36:23.166Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;外挂安装标签&lt;a href=&quot;https://www.fomal.cc/posts/5389e93f.html&quot;&gt;教程&lt;/a&gt;，感谢fomal大佬&lt;/p&gt;
+&lt;h3 id=&quot;1，安装插件-在博客根目录-BlogRoot-下打开终端，运行以下指令：&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+    <category term="hexo" scheme="https://blog.camelz.site/tags/hexo/"/>
+    
+    <category term="外挂标签" scheme="https://blog.camelz.site/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly调整页面透明度</title>
+    <link href="https://blog.camelz.site/posts/4096bb7a.html"/>
+    <id>https://blog.camelz.site/posts/4096bb7a.html</id>
+    <published>2024-09-24T05:54:04.000Z</published>
+    <updated>2024-09-24T05:57:25.977Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;参考&lt;a href=&quot;https://www.cnblogs.com/Code-Rain/p/16905895.html&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;以下代码假如&lt;code&gt;customs.css&lt;/code&gt;既可&lt;/p&gt;
+&lt;figure</summary>
+        
+      
+    
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly豆瓣影视</title>
+    <link href="https://blog.camelz.site/posts/ae27c57b.html"/>
+    <id>https://blog.camelz.site/posts/ae27c57b.html</id>
+    <published>2024-09-23T13:47:37.000Z</published>
+    <updated>2024-09-23T14:07:58.328Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;参考&lt;a href=&quot;https://github.com/mythsman/hexo-douban&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;1，安装插件&quot;&gt;&lt;a href=&quot;#1，安装插件&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly主题文章双栏布局</title>
+    <link href="https://blog.camelz.site/posts/undefined.html"/>
+    <id>https://blog.camelz.site/posts/undefined.html</id>
+    <published>2024-09-18T13:18:01.000Z</published>
+    <updated>2024-09-30T03:34:35.795Z</updated>
+    
+    
+    <summary type="html">满目山河空念远，落化风雨更伤春，不如怜取眼前人。—晏殊《玩溪沙》</summary>
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+    <category term="hexo" scheme="https://blog.camelz.site/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>butterfly自定义字体</title>
+    <link href="https://blog.camelz.site/posts/d521a469.html"/>
+    <id>https://blog.camelz.site/posts/d521a469.html</id>
+    <published>2024-09-16T06:25:08.000Z</published>
+    <updated>2024-09-24T06:50:27.201Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;参考June大佬的教程：&lt;/p&gt;
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;June大佬的字体修改教程&quot; href=&quot;https://blog.june-pj.cn/posts/dd5a9bee/&quot;&gt;&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+  </entry>
+  
+</feed>
