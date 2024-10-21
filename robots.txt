@@ -1,8 +1,0 @@
-# hexo robots.txt
-User-agent: *
-Allow: /
-
-Sitemap: https://blog.camelz.site/sitemap.xml
-Sitemap: https://blog.camelz.site/baidusitemap.xml
-Sitemap: https://blog.camelz.site/rss2.xml
-Sitemap: https://blog.camelz.site/atom.xml
