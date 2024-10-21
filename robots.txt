@@ -2,5 +2,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://qmike.top/sitemap.xml
-Sitemap: https://qmike.top/baidusitemap.xml
+Sitemap: https://blog.camelz.site/sitemap.xml
+Sitemap: https://blog.camelz.site/baidusitemap.xml
+Sitemap: https://blog.camelz.site/rss2.xml
+Sitemap: https://blog.camelz.site/atom.xml
