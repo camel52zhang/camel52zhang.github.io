@@ -15,8 +15,38 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Thu, 17 Oct 2024 12:26:51 GMT</pubDate>
+    <pubDate>Mon, 21 Oct 2024 07:29:33 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>butterfly主题-添加页数跳转</title>
+      <link>https://blog.camelz.site/posts/8977abb0.html</link>
+      <guid>https://blog.camelz.site/posts/8977abb0.html</guid>
+      <pubDate>Mon, 21 Oct 2024 07:19:44 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;参考&lt;a href=&quot;https://www.qcqx.cn/&quot;&gt;轻笑大佬&lt;/a&gt;并加以改进&lt;/p&gt;
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;轻笑-BF添加输入页数跳转部署方案&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/butterfly/">butterfly</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/butterfly/">butterfly</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E6%B7%BB%E5%8A%A0%E9%A1%B5%E6%95%B0%E8%B7%B3%E8%BD%AC/">添加页数跳转</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/8977abb0.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Butterfly主题 自定义 Loading 加载动画</title>
@@ -539,34 +569,6 @@
       
       
       <comments>https://blog.camelz.site/posts/undefined.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>butterfly自定义字体</title>
-      <link>https://blog.camelz.site/posts/d521a469.html</link>
-      <guid>https://blog.camelz.site/posts/d521a469.html</guid>
-      <pubDate>Mon, 16 Sep 2024 06:25:08 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;参考June大佬的教程：&lt;/p&gt;
-&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;June大佬的字体修改教程&quot; href=&quot;https://blog.june-pj.cn/posts/dd5a9bee/&quot;&gt;&lt;div</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/butterfly/">butterfly</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/butterfly/">butterfly</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/d521a469.html#disqus_thread</comments>
       
     </item>
     
