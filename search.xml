@@ -1234,17 +1234,6 @@
     
     <entry>
       <title></title>
-      <link href="/css/home_essay_bar.css"/>
-      <url>/css/home_essay_bar.css</url>
-      
-        <content type="html"><![CDATA[#main_top {    z-index: 1;    max-width: 1400px;    margin: 2px auto -30px;    width: 100%;    padding: 0 15px}@media screen and (max-width: 768px) {    div#main_top {        padding: 10px 6px 0;        margin: 0 0 -10px    }}#bbTimeList {    width: 100%;    min-height: 50px;    background: var(--card-bg);    color: var(--camelz-fontcolor);    padding: .5rem 1rem;    display: flex;    align-items: center;    overflow: hidden;    font-weight: 700;    border: var(--style-border);    border-radius: 10px;    box-shadow: var(--camelz-shadow-lightblack);}#bbtalk {    width: 90%;    overflow: hidden;    text-overflow: ellipsis;    white-space: nowrap;}#bber-talk {    width: 100%;    height: 25px;    line-height: 25px;    display: flex;    flex-direction: column;}.bber-logo {    font-size: 1.5rem !important;    line-height: 22px;    transition: all 0.3s ease 0s;}#bber-talk .li-style {    width: 100%;    max-width: 100%;    height: 25px;    text-align: center;    overflow: hidden;    text-overflow: ellipsis;    transition: 0.3s;    font-weight: 700;    margin: auto;    cursor: pointer;    white-space: nowrap;}#bbTimeList:hover {    border: var(--style-border-hover);    box-shadow: var(--camelz-shadow-main);}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
       <link href="/css/swiper.min.css"/>
       <url>/css/swiper.min.css</url>
       
@@ -1300,6 +1289,17 @@
     
     <entry>
       <title></title>
+      <link href="/css/home_essay_bar.css"/>
+      <url>/css/home_essay_bar.css</url>
+      
+        <content type="html"><![CDATA[#main_top {    z-index: 1;    max-width: 1400px;    margin: 2px auto -30px;    width: 100%;    padding: 0 15px}@media screen and (max-width: 768px) {    div#main_top {        padding: 10px 6px 0;        margin: 0 0 -10px    }}#bbTimeList {    width: 100%;    min-height: 50px;    background: var(--card-bg);    color: var(--camelz-fontcolor);    padding: .5rem 1rem;    display: flex;    align-items: center;    overflow: hidden;    font-weight: 700;    border: var(--style-border);    border-radius: 10px;    box-shadow: var(--camelz-shadow-lightblack);}#bbtalk {    width: 90%;    overflow: hidden;    text-overflow: ellipsis;    white-space: nowrap;}#bber-talk {    width: 100%;    height: 25px;    line-height: 25px;    display: flex;    flex-direction: column;}.bber-logo {    font-size: 1.5rem !important;    line-height: 22px;    transition: all 0.3s ease 0s;}#bber-talk .li-style {    width: 100%;    max-width: 100%;    height: 25px;    text-align: center;    overflow: hidden;    text-overflow: ellipsis;    transition: 0.3s;    font-weight: 700;    margin: auto;    cursor: pointer;    white-space: nowrap;}#bbTimeList:hover {    border: var(--style-border-hover);    box-shadow: var(--camelz-shadow-main);}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
       <link href="/js/waterfall.js"/>
       <url>/js/waterfall.js</url>
       
@@ -1347,7 +1347,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-FZpVJyfP" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="12315604486" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="500px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-hWmLmUDH" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="12315604486" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="500px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
       
     </entry>
     
