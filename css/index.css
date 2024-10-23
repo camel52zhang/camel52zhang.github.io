@@ -3593,7 +3593,7 @@ h1.page-title + .tag-cloud-list {
   font-size: 20px;
 }
 #page-header.not-home-page {
-  height: 400px;
+  height: 310px;
 }
 @media screen and (max-width: 768px) {
   #page-header.not-home-page {
@@ -3612,7 +3612,7 @@ h1.page-title + .tag-cloud-list {
   }
 }
 #page-header.post-bg {
-  height: 400px;
+  height: 310px;
 }
 @media screen and (max-width: 768px) {
   #page-header.post-bg {
@@ -3741,7 +3741,7 @@ h1.page-title + .tag-cloud-list {
   margin-bottom: 8px;
   color: var(--white);
   font-weight: normal;
-  font-size: 2.5em;
+  font-size: 3em;
   line-height: 1.5;
   -webkit-line-clamp: 3;
 }
