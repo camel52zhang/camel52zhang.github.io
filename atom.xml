@@ -44,7 +44,7 @@
     <link href="https://blog.camelz.site/posts/8977abb0.html"/>
     <id>https://blog.camelz.site/posts/8977abb0.html</id>
     <published>2024-10-21T07:19:44.000Z</published>
-    <updated>2024-10-22T15:04:52.164Z</updated>
+    <updated>2024-10-24T02:56:34.969Z</updated>
     
     
       
@@ -72,15 +72,16 @@
     <link href="https://blog.camelz.site/posts/b8ed315a.html"/>
     <id>https://blog.camelz.site/posts/b8ed315a.html</id>
     <published>2024-10-17T04:01:16.000Z</published>
-    <updated>2024-10-21T07:28:46.682Z</updated>
+    <updated>2024-10-24T02:54:52.086Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;自定义Butterfly主题 Loading 加载动画参考教程&lt;/p&gt;
-&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;hexo-butterfly一图流教程&quot;</summary>
+    <summary type="html">&lt;div class=&quot;note blue icon-padding flat&quot;&gt;&lt;i class=&quot;note-icon fas fa-bullhorn&quot;&gt;&lt;/i&gt;&lt;p&gt;自定义Butterfly主题 Loading 加载动画参考教程&lt;/p&gt;
+&lt;/div&gt;
+&lt;div</summary>
         
       
     
@@ -182,7 +183,7 @@
     <link href="https://blog.camelz.site/posts/91bee617.html"/>
     <id>https://blog.camelz.site/posts/91bee617.html</id>
     <published>2024-10-12T00:23:38.000Z</published>
-    <updated>2024-10-23T12:56:11.161Z</updated>
+    <updated>2024-10-24T02:45:11.227Z</updated>
     
     
       
@@ -209,7 +210,7 @@
     <link href="https://blog.camelz.site/posts/ccff7fa3.html"/>
     <id>https://blog.camelz.site/posts/ccff7fa3.html</id>
     <published>2024-10-10T04:01:21.000Z</published>
-    <updated>2024-10-12T01:54:41.759Z</updated>
+    <updated>2024-10-24T02:49:52.745Z</updated>
     
     
     <summary type="html">描述点啥呢？</summary>
@@ -228,16 +229,15 @@
     <link href="https://blog.camelz.site/posts/90f6ac06.html"/>
     <id>https://blog.camelz.site/posts/90f6ac06.html</id>
     <published>2024-10-10T04:01:20.000Z</published>
-    <updated>2024-10-22T15:10:33.824Z</updated>
+    <updated>2024-10-24T02:44:01.460Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;布局之前先介绍两个大佬，一个是June，一个是安知鱼，我们即刻短文就是参考这个两个大佬的，自己做了稍稍改动&lt;/p&gt;
-&lt;p&gt;大佬文章链接地址如下：&lt;/p&gt;
-&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot;</summary>
+    <summary type="html">&lt;blockquote&gt;
+&lt;div class=&quot;note blue icon-padding flat&quot;&gt;&lt;i class=&quot;note-icon fas</summary>
         
       
     
@@ -257,14 +257,15 @@
     <link href="https://blog.camelz.site/posts/9641340b.html"/>
     <id>https://blog.camelz.site/posts/9641340b.html</id>
     <published>2024-10-10T04:01:17.000Z</published>
-    <updated>2024-10-12T05:46:01.467Z</updated>
+    <updated>2024-10-24T02:39:46.489Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;参考Leonus大佬&lt;a</summary>
+    <summary type="html">&lt;p&gt;参考Leonus大佬&lt;a href=&quot;https://blog.leonus.cn/2022/hexoCenter.html&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;导航栏居中教程&quot;</summary>
         
       
     
@@ -282,7 +283,7 @@
     <link href="https://blog.camelz.site/posts/2fb145cf.html"/>
     <id>https://blog.camelz.site/posts/2fb145cf.html</id>
     <published>2024-10-10T04:01:16.000Z</published>
-    <updated>2024-10-12T01:54:41.743Z</updated>
+    <updated>2024-10-24T02:38:45.169Z</updated>
     
     
       
@@ -307,7 +308,7 @@
     <link href="https://blog.camelz.site/posts/39b59c5b.html"/>
     <id>https://blog.camelz.site/posts/39b59c5b.html</id>
     <published>2024-09-28T02:16:08.000Z</published>
-    <updated>2024-09-28T02:27:25.540Z</updated>
+    <updated>2024-10-24T02:46:13.672Z</updated>
     
     
       
@@ -315,7 +316,7 @@
         
         
     <summary type="html">&lt;p&gt;参考&lt;a href=&quot;https://www.fomal.cc/posts/e593433d.html&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;其它电脑连接至Github&quot;&gt;&lt;a href=&quot;#其它电脑连接至Github&quot; class=&quot;headerlink&quot;</summary>
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot;</summary>
         
       
     
@@ -345,11 +346,11 @@
     <category term="Hexo" scheme="https://blog.camelz.site/categories/Hexo/"/>
     
     
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
     <category term="Hexo" scheme="https://blog.camelz.site/tags/Hexo/"/>
     
     <category term="Hexo-next" scheme="https://blog.camelz.site/tags/Hexo-next/"/>
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
     <category term="Next" scheme="https://blog.camelz.site/tags/Next/"/>
     
@@ -456,7 +457,7 @@
     <link href="https://blog.camelz.site/posts/d342a4d0.html"/>
     <id>https://blog.camelz.site/posts/d342a4d0.html</id>
     <published>2024-09-24T06:17:29.000Z</published>
-    <updated>2024-09-30T03:36:23.166Z</updated>
+    <updated>2024-10-24T02:50:54.027Z</updated>
     
     
       
@@ -464,7 +465,7 @@
         
         
     <summary type="html">&lt;p&gt;外挂安装标签&lt;a href=&quot;https://www.fomal.cc/posts/5389e93f.html&quot;&gt;教程&lt;/a&gt;，感谢fomal大佬&lt;/p&gt;
-&lt;h3 id=&quot;1，安装插件-在博客根目录-BlogRoot-下打开终端，运行以下指令：&quot;&gt;&lt;a</summary>
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot;</summary>
         
       
     
@@ -486,7 +487,7 @@
     <link href="https://blog.camelz.site/posts/4096bb7a.html"/>
     <id>https://blog.camelz.site/posts/4096bb7a.html</id>
     <published>2024-09-24T05:54:04.000Z</published>
-    <updated>2024-09-24T05:57:25.977Z</updated>
+    <updated>2024-10-24T02:40:33.485Z</updated>
     
     
       
@@ -494,8 +495,7 @@
         
         
     <summary type="html">&lt;p&gt;参考&lt;a href=&quot;https://www.cnblogs.com/Code-Rain/p/16905895.html&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;以下代码假如&lt;code&gt;customs.css&lt;/code&gt;既可&lt;/p&gt;
-&lt;figure</summary>
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;调整页面透明度&quot;</summary>
         
       
     
@@ -511,7 +511,7 @@
     <link href="https://blog.camelz.site/posts/ae27c57b.html"/>
     <id>https://blog.camelz.site/posts/ae27c57b.html</id>
     <published>2024-09-23T13:47:37.000Z</published>
-    <updated>2024-09-23T14:07:58.328Z</updated>
+    <updated>2024-10-24T02:42:11.223Z</updated>
     
     
       
@@ -519,7 +519,7 @@
         
         
     <summary type="html">&lt;p&gt;参考&lt;a href=&quot;https://github.com/mythsman/hexo-douban&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;1，安装插件&quot;&gt;&lt;a href=&quot;#1，安装插件&quot; class=&quot;headerlink&quot;</summary>
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;hexo-butterfly豆瓣影视教程&quot;</summary>
         
       
     

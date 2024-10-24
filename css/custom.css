@@ -5,7 +5,7 @@
     left: 50%;
     transform: translateX(-50%);
 }
-/* post页标题居中 */
+/* post文章页标题居中 */
 h1.post-title,
 .meta-firstline,
 .meta-secondline {

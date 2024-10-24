@@ -83,8 +83,9 @@
         
           
           
-      <description>&lt;p&gt;自定义Butterfly主题 Loading 加载动画参考教程&lt;/p&gt;
-&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;hexo-butterfly一图流教程&quot;</description>
+      <description>&lt;div class=&quot;note blue icon-padding flat&quot;&gt;&lt;i class=&quot;note-icon fas fa-bullhorn&quot;&gt;&lt;/i&gt;&lt;p&gt;自定义Butterfly主题 Loading 加载动画参考教程&lt;/p&gt;
+&lt;/div&gt;
+&lt;div</description>
           
         
       
@@ -251,9 +252,8 @@
         
           
           
-      <description>&lt;p&gt;布局之前先介绍两个大佬，一个是June，一个是安知鱼，我们即刻短文就是参考这个两个大佬的，自己做了稍稍改动&lt;/p&gt;
-&lt;p&gt;大佬文章链接地址如下：&lt;/p&gt;
-&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot;</description>
+      <description>&lt;blockquote&gt;
+&lt;div class=&quot;note blue icon-padding flat&quot;&gt;&lt;i class=&quot;note-icon fas</description>
           
         
       
@@ -282,7 +282,8 @@
         
           
           
-      <description>&lt;p&gt;参考Leonus大佬&lt;a</description>
+      <description>&lt;p&gt;参考Leonus大佬&lt;a href=&quot;https://blog.leonus.cn/2022/hexoCenter.html&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;导航栏居中教程&quot;</description>
           
         
       
@@ -337,7 +338,7 @@
           
           
       <description>&lt;p&gt;参考&lt;a href=&quot;https://www.fomal.cc/posts/e593433d.html&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;其它电脑连接至Github&quot;&gt;&lt;a href=&quot;#其它电脑连接至Github&quot; class=&quot;headerlink&quot;</description>
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot;</description>
           
         
       
@@ -370,11 +371,11 @@
       <category domain="https://blog.camelz.site/categories/Hexo/">Hexo</category>
       
       
+      <category domain="https://blog.camelz.site/tags/butterfly/">butterfly</category>
+      
       <category domain="https://blog.camelz.site/tags/Hexo/">Hexo</category>
       
       <category domain="https://blog.camelz.site/tags/Hexo-next/">Hexo-next</category>
-      
-      <category domain="https://blog.camelz.site/tags/butterfly/">butterfly</category>
       
       <category domain="https://blog.camelz.site/tags/Next/">Next</category>
       
@@ -498,7 +499,7 @@
           
           
       <description>&lt;p&gt;外挂安装标签&lt;a href=&quot;https://www.fomal.cc/posts/5389e93f.html&quot;&gt;教程&lt;/a&gt;，感谢fomal大佬&lt;/p&gt;
-&lt;h3 id=&quot;1，安装插件-在博客根目录-BlogRoot-下打开终端，运行以下指令：&quot;&gt;&lt;a</description>
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot;</description>
           
         
       
@@ -530,8 +531,7 @@
           
           
       <description>&lt;p&gt;参考&lt;a href=&quot;https://www.cnblogs.com/Code-Rain/p/16905895.html&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;以下代码假如&lt;code&gt;customs.css&lt;/code&gt;既可&lt;/p&gt;
-&lt;figure</description>
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;调整页面透明度&quot;</description>
           
         
       
@@ -557,7 +557,7 @@
           
           
       <description>&lt;p&gt;参考&lt;a href=&quot;https://github.com/mythsman/hexo-douban&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&quot;1，安装插件&quot;&gt;&lt;a href=&quot;#1，安装插件&quot; class=&quot;headerlink&quot;</description>
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;hexo-butterfly豆瓣影视教程&quot;</description>
           
         
       
