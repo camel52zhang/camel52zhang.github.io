@@ -3196,6 +3196,11 @@ h1.page-title + .tag-cloud-list {
     width: 80%;
   }
 }
+@media (max-width: 900px) {
+  .aside-content {
+    display: none;
+  }
+}
 .page .sticky_layout {
   display: -webkit-box;
   display: -moz-box;
