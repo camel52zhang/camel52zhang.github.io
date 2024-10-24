@@ -2738,7 +2738,8 @@ h1.page-title + .tag-cloud-list {
   text-align: left;
 }
 #aside-content {
-  width: 23%;
+  max-width: 308px;
+  min-width: 294px;
 }
 @media screen and (min-width: 900px) {
   #aside-content {
