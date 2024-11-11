@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.site/"/>
-  <updated>2024-11-09T09:46:13.690Z</updated>
+  <updated>2024-11-11T15:03:06.460Z</updated>
   <id>https://blog.camelz.site/</id>
   
   <author>
@@ -15,6 +15,62 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Docker配置域名Nginx Proxy Manager反向代理服务器</title>
+    <link href="https://blog.camelz.site/posts/f005a5ce.html"/>
+    <id>https://blog.camelz.site/posts/f005a5ce.html</id>
+    <published>2024-11-11T12:58:02.000Z</published>
+    <updated>2024-11-11T15:03:06.460Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Docker配置域名Nginx-Proxy-Manager反向代理服务器官方说明&quot;&gt;&lt;a href=&quot;#Docker配置域名Nginx-Proxy-Manager反向代理服务器官方说明&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="docker" scheme="https://blog.camelz.site/categories/docker/"/>
+    
+    
+    <category term="docker" scheme="https://blog.camelz.site/tags/docker/"/>
+    
+    <category term="Nginx" scheme="https://blog.camelz.site/tags/Nginx/"/>
+    
+    <category term="反向代理" scheme="https://blog.camelz.site/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>OpenWrt安装docker-compose</title>
+    <link href="https://blog.camelz.site/posts/22106a2e.html"/>
+    <id>https://blog.camelz.site/posts/22106a2e.html</id>
+    <published>2024-11-11T12:44:02.000Z</published>
+    <updated>2024-11-11T12:57:28.683Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;OpenWrt安装docker-compose官方说明&quot;&gt;&lt;a href=&quot;#OpenWrt安装docker-compose官方说明&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="docker" scheme="https://blog.camelz.site/categories/docker/"/>
+    
+    
+    <category term="docker" scheme="https://blog.camelz.site/tags/docker/"/>
+    
+    <category term="openwrt" scheme="https://blog.camelz.site/tags/openwrt/"/>
+    
+  </entry>
   
   <entry>
     <title>Sun-Panel部署</title>
@@ -66,11 +122,11 @@
     <category term="路由器" scheme="https://blog.camelz.site/categories/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
     
     
+    <category term="docker" scheme="https://blog.camelz.site/tags/docker/"/>
+    
     <category term="OpenWrt" scheme="https://blog.camelz.site/tags/OpenWrt/"/>
     
     <category term="vpn" scheme="https://blog.camelz.site/tags/vpn/"/>
-    
-    <category term="docker" scheme="https://blog.camelz.site/tags/docker/"/>
     
     <category term="Openclash" scheme="https://blog.camelz.site/tags/Openclash/"/>
     
@@ -484,67 +540,6 @@
     
     
     <category term="github" scheme="https://blog.camelz.site/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>butterfly外挂标签语法和Markdown自带语法</title>
-    <link href="https://blog.camelz.site/posts/e9069468.html"/>
-    <id>https://blog.camelz.site/posts/e9069468.html</id>
-    <published>2024-09-24T06:50:10.000Z</published>
-    <updated>2024-10-23T12:54:35.801Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;先要安装插件，地址找&lt;a href=&quot;https://akilar.top/&quot;&gt;店长&lt;/a&gt;的&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
-    
-    
-    <category term="外挂标签" scheme="https://blog.camelz.site/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
-    
-    <category term="标签外挂" scheme="https://blog.camelz.site/tags/%E6%A0%87%E7%AD%BE%E5%A4%96%E6%8C%82/"/>
-    
-    <category term="Markdown自带语法" scheme="https://blog.camelz.site/tags/Markdown%E8%87%AA%E5%B8%A6%E8%AF%AD%E6%B3%95/"/>
-    
-    <category term="Butterfly外挂标签" scheme="https://blog.camelz.site/tags/Butterfly%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo-butterfly外挂标签安装</title>
-    <link href="https://blog.camelz.site/posts/d342a4d0.html"/>
-    <id>https://blog.camelz.site/posts/d342a4d0.html</id>
-    <published>2024-09-24T06:17:29.000Z</published>
-    <updated>2024-10-24T02:50:54.027Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;外挂安装标签&lt;a href=&quot;https://www.fomal.cc/posts/5389e93f.html&quot;&gt;教程&lt;/a&gt;，感谢fomal大佬&lt;/p&gt;
-&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
-    
-    <category term="hexo" scheme="https://blog.camelz.site/tags/hexo/"/>
-    
-    <category term="外挂标签" scheme="https://blog.camelz.site/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
     
   </entry>
   
