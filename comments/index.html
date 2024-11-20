@@ -54,7 +54,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-11-20 21:56:59'
+  postUpdate: '2024-11-20 22:07:52'
 }</script><script>(win=>{
       win.saveToLocal = {
         set: (key, value, ttl) => {
@@ -119,27 +119,6 @@
         document.head.appendChild(link)
       })
     
-      win.activateDarkMode = () => {
-        document.documentElement.setAttribute('data-theme', 'dark')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
-        }
-      }
-      win.activateLightMode = () => {
-        document.documentElement.setAttribute('data-theme', 'light')
-        if (document.querySelector('meta[name="theme-color"]') !== null) {
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
-        }
-      }
-      const t = saveToLocal.get('theme')
-    
-          const now = new Date()
-          const hour = now.getHours()
-          const isNight = hour <= 6 || hour >= 18
-          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
-          else if (t === 'light') activateLightMode()
-          else activateDarkMode()
-        
       const asideStatus = saveToLocal.get('aside-status')
       if (asideStatus !== undefined) {
         if (asideStatus === 'hide') {
@@ -258,7 +237,7 @@
 [data-theme='dark']
 .comments {
   background: #5a5a5a !important;
-}</style><div id="maincontent"><div id="form-wrap"><img class="no-lightbox" id="beforeimg" src="https://cdn.cbd.int/hexo-butterfly-envelope/lib/before.png"/><div id="envelope"><form><div class="formmain" style="pointer-events: none;"><img class="headerimg no-lightbox" src="https://cdn.cbd.int//hexo-butterfly-envelope/lib/violet.jpg" style="width: 100%;overflow: hidden;pointer-events: none;"/><div class="comments-main"><h3 class="title3" style="text-decoration: none;color: $theme-color;text-align: center;">来自駝駱仧的留言:</h3><div class="comments" style="text-align: center;border-bottom: #ddd 1px solid;border-left: #ddd 1px solid;padding-bottom: 20px;background-color: #eee;margin: 15px 0px;padding-left: 20px;padding-right: 20px;border-top: #ddd 1px solid;border-right: #ddd 1px solid;padding-top: 20px;"><div>有什么想问的？</div><div>有什么想说的？</div><div>有什么想吐槽的？</div><div>哪怕是有什么想吃的，都可以告诉我哦~</div></div><div class="bottomcontent" style="text-align: center;margin-top: 40px;"><img class="bottomimg no-lightbox" src="https://cdn.cbd.int/hexo-butterfly-envelope/lib/line.png" style="width: 100%;margin: 5px auto 5px auto;display: block;pointer-events: none;"/></div><p class="bottomhr" style="font-size: 12px;text-align: center;color: #999;">自动书记人偶竭诚为您服务！</p></div></div></form></div><img class="no-lightbox" id="afterimg" src="https://cdn.cbd.int/hexo-butterfly-envelope/lib/after.png"/></div></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div></div><footer id="footer" style="background: transparent !important;"><div id="footer-wrap"><div class="copyright">&copy;2024 By 駝駱仧</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><div id="runtime"></div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="share" type="button" title="分享链接" onclick="share()"><i class="fas fa-share-nodes"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button><button id="go-down" type="button" title="直达底部" onclick="btf.scrollToDest(document.body.scrollHeight, 500)"><i class="fas fa-arrow-down"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>(() => {
+}</style><div id="maincontent"><div id="form-wrap"><img class="no-lightbox" id="beforeimg" src="https://cdn.cbd.int/hexo-butterfly-envelope/lib/before.png"/><div id="envelope"><form><div class="formmain" style="pointer-events: none;"><img class="headerimg no-lightbox" src="https://cdn.cbd.int//hexo-butterfly-envelope/lib/violet.jpg" style="width: 100%;overflow: hidden;pointer-events: none;"/><div class="comments-main"><h3 class="title3" style="text-decoration: none;color: $theme-color;text-align: center;">来自駝駱仧的留言:</h3><div class="comments" style="text-align: center;border-bottom: #ddd 1px solid;border-left: #ddd 1px solid;padding-bottom: 20px;background-color: #eee;margin: 15px 0px;padding-left: 20px;padding-right: 20px;border-top: #ddd 1px solid;border-right: #ddd 1px solid;padding-top: 20px;"><div>有什么想问的？</div><div>有什么想说的？</div><div>有什么想吐槽的？</div><div>哪怕是有什么想吃的，都可以告诉我哦~</div></div><div class="bottomcontent" style="text-align: center;margin-top: 40px;"><img class="bottomimg no-lightbox" src="https://cdn.cbd.int/hexo-butterfly-envelope/lib/line.png" style="width: 100%;margin: 5px auto 5px auto;display: block;pointer-events: none;"/></div><p class="bottomhr" style="font-size: 12px;text-align: center;color: #999;">自动书记人偶竭诚为您服务！</p></div></div></form></div><img class="no-lightbox" id="afterimg" src="https://cdn.cbd.int/hexo-butterfly-envelope/lib/after.png"/></div></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div></div><footer id="footer" style="background: transparent !important;"><div id="footer-wrap"><div class="copyright">&copy;2024 By 駝駱仧</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><div id="runtime"></div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"></div><div id="rightside-config-show"><button class="share" type="button" title="分享链接" onclick="share()"><i class="fas fa-share-nodes"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button><button id="go-down" type="button" title="直达底部" onclick="btf.scrollToDest(document.body.scrollHeight, 500)"><i class="fas fa-arrow-down"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>(() => {
   const getCount = () => {
     const countELement = document.getElementById('twikoo-count')
     if(!countELement) return

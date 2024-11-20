@@ -596,14 +596,14 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/Next/</loc>
+    <loc>https://blog.camelz.site/tags/hexo/</loc>
     <lastmod>2024-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/hexo/</loc>
+    <loc>https://blog.camelz.site/tags/Next/</loc>
     <lastmod>2024-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -792,6 +792,13 @@
   </url>
   
   <url>
+    <loc>https://blog.camelz.site/tags/google-chrome-%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2024-11-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.camelz.site/tags/wireguard-VPN/</loc>
     <lastmod>2024-11-20</lastmod>
     <changefreq>weekly</changefreq>
@@ -807,13 +814,6 @@
   
   <url>
     <loc>https://blog.camelz.site/tags/VPN/</loc>
-    <lastmod>2024-11-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/google-chrome-%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2024-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

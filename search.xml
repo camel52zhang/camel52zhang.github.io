@@ -1455,17 +1455,6 @@
     
     
     <entry>
-      <title>link</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="tip bell"><p>⛓⛓<font color=blue>⇊⬇⬇⬇我的友链⬇⬇⬇⇊</font>⛓⛓</p></div><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- name: 駱駝仧blog</span><br><span class="line">  link: https://blog.camelz.site/</span><br><span class="line">  avatar: https://img.camelz.site/file/4a350d992b5d9d80c6113.jpg</span><br><span class="line">  descr: 沒事瞎胡搞🥝，越搞越明了🍭</span><br><span class="line">  siteshot: https://s2.loli.net/2024/09/25/nRgKroU1CXBLWZs.jpg</span><br></pre></td></tr></table></figure>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/js/swiper.min.js"/>
       <url>/js/swiper.min.js</url>
@@ -1477,11 +1466,11 @@
     
     
     <entry>
-      <title>movies</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>link</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="tip bell"><p>⛓⛓<font color=blue>⇊⬇⬇⬇我的友链⬇⬇⬇⇊</font>⛓⛓</p></div><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">- name: 駱駝仧blog</span><br><span class="line">  link: https://blog.camelz.site/</span><br><span class="line">  avatar: https://img.camelz.site/file/4a350d992b5d9d80c6113.jpg</span><br><span class="line">  descr: 沒事瞎胡搞🥝，越搞越明了🍭</span><br><span class="line">  siteshot: https://s2.loli.net/2024/09/25/nRgKroU1CXBLWZs.jpg</span><br></pre></td></tr></table></figure>]]></content>
       
     </entry>
     
@@ -1492,7 +1481,18 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-xEMaxOtQ" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="12315604486" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="500px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-FVbePlMH" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="12315604486" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="500px" data-preload="auto" data-theme="#FF4081"    ></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>movies</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
