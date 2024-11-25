@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.site/"/>
-  <updated>2024-11-17T16:17:29.807Z</updated>
+  <updated>2024-11-25T13:21:35.312Z</updated>
   <id>https://blog.camelz.site/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Openwrt扩容-安装前扩容</title>
+    <link href="https://blog.camelz.site/posts/1c069524.html"/>
+    <id>https://blog.camelz.site/posts/1c069524.html</id>
+    <published>2024-11-25T12:39:02.000Z</published>
+    <updated>2024-11-25T13:21:35.312Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;参考大佬&lt;a href=&quot;https://www.ipeter.work/openwrt%E6%89%A9%E5%AE%B9-%E5%AE%89%E8%A3%85%E5%89%8D%E6%89%A9%E5%AE%B9/&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
+&lt;details</summary>
+        
+      
+    
+    
+    
+    <category term="路由器" scheme="https://blog.camelz.site/categories/%E8%B7%AF%E7%94%B1%E5%99%A8/"/>
+    
+    
+    <category term="openwrt" scheme="https://blog.camelz.site/tags/openwrt/"/>
+    
+    <category term="扩容" scheme="https://blog.camelz.site/tags/%E6%89%A9%E5%AE%B9/"/>
+    
+  </entry>
   
   <entry>
     <title>Docker配置域名Nginx Proxy Manager反向代理服务器</title>
@@ -514,32 +542,6 @@
     
     
     <category term="google chrome 更新" scheme="https://blog.camelz.site/tags/google-chrome-%E6%9B%B4%E6%96%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>github在创建PC连接公钥出错的解决办法</title>
-    <link href="https://blog.camelz.site/posts/4fea44d6.html"/>
-    <id>https://blog.camelz.site/posts/4fea44d6.html</id>
-    <published>2024-09-25T06:57:41.000Z</published>
-    <updated>2024-10-22T15:15:02.039Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;假如执行&lt;code&gt;ssh-keygen -t rsa -C &amp;quot;eric_zhng@hotmail.com&amp;quot;&lt;/code&gt;获取公钥和秘钥的时候出现以下错误&lt;/p&gt;
-&lt;figure class=&quot;highlight</summary>
-        
-      
-    
-    
-    
-    <category term="Windows" scheme="https://blog.camelz.site/categories/Windows/"/>
-    
-    
-    <category term="github" scheme="https://blog.camelz.site/tags/github/"/>
     
   </entry>
   
