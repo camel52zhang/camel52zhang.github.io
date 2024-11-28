@@ -15,8 +15,38 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Mon, 25 Nov 2024 13:21:35 GMT</pubDate>
+    <pubDate>Thu, 28 Nov 2024 14:38:11 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Openwrt一键配置openclash</title>
+      <link>https://blog.camelz.site/posts/958bc3fc.html</link>
+      <guid>https://blog.camelz.site/posts/958bc3fc.html</guid>
+      <pubDate>Thu, 28 Nov 2024 13:53:02 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;参考大佬&lt;a href=&quot;https://www.youtube.com/watch?v=Hm47TyJqVdc&amp;amp;t=0s&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
+&lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 效果预览</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/%E8%B7%AF%E7%94%B1%E5%99%A8/">路由器</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/openwrt/">openwrt</category>
+      
+      <category domain="https://blog.camelz.site/tags/openclash/">openclash</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/958bc3fc.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Openwrt扩容-安装前扩容</title>
@@ -565,25 +595,6 @@
       
       
       <comments>https://blog.camelz.site/posts/4b4ab17a.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>关闭 “若要接收后续 google chrome 更新” 的提醒</title>
-      <link>https://blog.camelz.site/posts/7f17fbd2.html</link>
-      <guid>https://blog.camelz.site/posts/7f17fbd2.html</guid>
-      <pubDate>Wed, 25 Sep 2024 12:20:58 GMT</pubDate>
-      
-      <description>&lt;p&gt;按快捷键 win + R弹出的窗口输入regedit进入注册表，找到HKEY_LOCAL_MACHINE/SOFTWARE/Policies新建项Google，然后在Google下新建项Chrome，然后在Chrome右侧目录里新建DWORD(32-位）值（D),名字改为SuppressUnsupportedOSWarning，然</description>
-      
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/tags/google-chrome-%E6%9B%B4%E6%96%B0/">google chrome 更新</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/7f17fbd2.html#disqus_thread</comments>
       
     </item>
     
