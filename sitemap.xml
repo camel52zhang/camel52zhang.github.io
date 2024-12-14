@@ -602,20 +602,6 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/hexo/</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/butterfly/</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.camelz.site/tags/Hexo/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -624,6 +610,13 @@
   
   <url>
     <loc>https://blog.camelz.site/tags/Hexo-next/</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/butterfly/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -666,6 +659,13 @@
   
   <url>
     <loc>https://blog.camelz.site/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/hexo/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -833,6 +833,13 @@
   </url>
   
   <url>
+    <loc>https://blog.camelz.site/tags/google-chrome-%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.camelz.site/tags/my-photos/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -841,13 +848,6 @@
   
   <url>
     <loc>https://blog.camelz.site/tags/%E5%8A%A0%E5%AF%86%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/google-chrome-%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -898,14 +898,14 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/categories/butterfly/</loc>
+    <loc>https://blog.camelz.site/categories/Hexo/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/categories/Hexo/</loc>
+    <loc>https://blog.camelz.site/categories/butterfly/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
