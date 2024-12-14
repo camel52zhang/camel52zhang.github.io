@@ -15,8 +15,40 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Thu, 28 Nov 2024 14:38:11 GMT</pubDate>
+    <pubDate>Sat, 14 Dec 2024 10:31:20 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>cloudflare利用Zero Trust里的tunnels实现内网穿透</title>
+      <link>https://blog.camelz.site/posts/38f2e281.html</link>
+      <guid>https://blog.camelz.site/posts/38f2e281.html</guid>
+      <pubDate>Fri, 13 Dec 2024 03:44:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;cloudflare tunnels生成的docker运行程序&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/docker/">docker</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/docker/">docker</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/">内网穿透</category>
+      
+      <category domain="https://blog.camelz.site/tags/cloudflare-tunnels/">cloudflare tunnels</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/38f2e281.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Openwrt一键配置openclash</title>
@@ -571,30 +603,6 @@
       
       
       <comments>https://blog.camelz.site/posts/3856cc13.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Windows下kiftd开机自启动</title>
-      <link>https://blog.camelz.site/posts/4b4ab17a.html</link>
-      <guid>https://blog.camelz.site/posts/4b4ab17a.html</guid>
-      <pubDate>Wed, 25 Sep 2024 12:31:18 GMT</pubDate>
-      
-      <description>&lt;p&gt;java -jar kiftd-1.1.0-RELEASE.jar -start&lt;/p&gt;
-&lt;p&gt;1，用记事本写启动脚本，保存为bat文件，内容如</description>
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/Windows/">Windows</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/kiftd/">kiftd</category>
-      
-      <category domain="https://blog.camelz.site/tags/ftp/">ftp</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/4b4ab17a.html#disqus_thread</comments>
       
     </item>
     
