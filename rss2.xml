@@ -15,8 +15,41 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Sat, 14 Dec 2024 10:31:20 GMT</pubDate>
+    <pubDate>Wed, 18 Dec 2024 15:16:26 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>PicGo+R2+Typora配置说明</title>
+      <link>https://blog.camelz.site/posts/63875613.html</link>
+      <guid>https://blog.camelz.site/posts/63875613.html</guid>
+      <pubDate>Wed, 18 Dec 2024 15:05:02 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;PicGo+R2+Typora配置说明&lt;/p&gt;
+&lt;p&gt;部署好R2存储桶后安装PicGo，下载安装地址&lt;/p&gt;
+&lt;p&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/butterfly/">butterfly</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/PicGo/">PicGo</category>
+      
+      <category domain="https://blog.camelz.site/tags/R2/">R2</category>
+      
+      <category domain="https://blog.camelz.site/tags/Typora/">Typora</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/63875613.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>cloudflare利用Zero Trust里的tunnels实现内网穿透</title>
@@ -28,8 +61,9 @@
         
           
           
-      <description>&lt;p&gt;cloudflare tunnels生成的docker运行程序&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</description>
+      <description> &lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 界面预览 &lt;/summary&gt;
+              &lt;div class=&#39;content&#39;&gt;
+              &lt;p&gt;&lt;img</description>
           
         
       
@@ -576,33 +610,6 @@
       
       
       <comments>https://blog.camelz.site/posts/39b59c5b.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Hexo设置abbrlink插件生成永久链接</title>
-      <link>https://blog.camelz.site/posts/3856cc13.html</link>
-      <guid>https://blog.camelz.site/posts/3856cc13.html</guid>
-      <pubDate>Fri, 27 Sep 2024 14:32:23 GMT</pubDate>
-      
-      <description>昨夜西风调碧树。独上高楼，望尽天涯路。—晏殊《蝶恋花》</description>
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/Hexo/">Hexo</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/Hexo/">Hexo</category>
-      
-      <category domain="https://blog.camelz.site/tags/Hexo-next/">Hexo-next</category>
-      
-      <category domain="https://blog.camelz.site/tags/butterfly/">butterfly</category>
-      
-      <category domain="https://blog.camelz.site/tags/Next/">Next</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/3856cc13.html#disqus_thread</comments>
       
     </item>
     

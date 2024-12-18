@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.site/"/>
-  <updated>2024-12-14T10:31:20.623Z</updated>
+  <updated>2024-12-18T15:16:26.061Z</updated>
   <id>https://blog.camelz.site/</id>
   
   <author>
@@ -17,19 +17,51 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>PicGo+R2+Typora配置说明</title>
+    <link href="https://blog.camelz.site/posts/63875613.html"/>
+    <id>https://blog.camelz.site/posts/63875613.html</id>
+    <published>2024-12-18T15:05:02.000Z</published>
+    <updated>2024-12-18T15:16:26.061Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;PicGo+R2+Typora配置说明&lt;/p&gt;
+&lt;p&gt;部署好R2存储桶后安装PicGo，下载安装地址&lt;/p&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="PicGo" scheme="https://blog.camelz.site/tags/PicGo/"/>
+    
+    <category term="R2" scheme="https://blog.camelz.site/tags/R2/"/>
+    
+    <category term="Typora" scheme="https://blog.camelz.site/tags/Typora/"/>
+    
+  </entry>
+  
+  <entry>
     <title>cloudflare利用Zero Trust里的tunnels实现内网穿透</title>
     <link href="https://blog.camelz.site/posts/38f2e281.html"/>
     <id>https://blog.camelz.site/posts/38f2e281.html</id>
     <published>2024-12-13T03:44:08.000Z</published>
-    <updated>2024-12-14T10:31:20.623Z</updated>
+    <updated>2024-12-18T14:35:58.164Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;cloudflare tunnels生成的docker运行程序&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span</summary>
+    <summary type="html"> &lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 界面预览 &lt;/summary&gt;
+              &lt;div class=&#39;content&#39;&gt;
+              &lt;p&gt;&lt;img</summary>
         
       
     
@@ -107,7 +139,7 @@
     <link href="https://blog.camelz.site/posts/f005a5ce.html"/>
     <id>https://blog.camelz.site/posts/f005a5ce.html</id>
     <published>2024-11-11T12:58:02.000Z</published>
-    <updated>2024-11-17T16:17:29.807Z</updated>
+    <updated>2024-12-18T15:18:49.035Z</updated>
     
     
       
@@ -163,7 +195,7 @@
     <link href="https://blog.camelz.site/posts/c52c49fc.html"/>
     <id>https://blog.camelz.site/posts/c52c49fc.html</id>
     <published>2024-11-09T07:53:02.000Z</published>
-    <updated>2024-11-09T09:46:13.690Z</updated>
+    <updated>2024-12-18T15:03:09.810Z</updated>
     
     
       
@@ -536,31 +568,6 @@
     <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
     <category term="github" scheme="https://blog.camelz.site/tags/github/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo设置abbrlink插件生成永久链接</title>
-    <link href="https://blog.camelz.site/posts/3856cc13.html"/>
-    <id>https://blog.camelz.site/posts/3856cc13.html</id>
-    <published>2024-09-27T14:32:23.000Z</published>
-    <updated>2024-09-30T03:33:09.135Z</updated>
-    
-    
-    <summary type="html">昨夜西风调碧树。独上高楼，望尽天涯路。—晏殊《蝶恋花》</summary>
-    
-    
-    
-    <category term="Hexo" scheme="https://blog.camelz.site/categories/Hexo/"/>
-    
-    
-    <category term="Hexo" scheme="https://blog.camelz.site/tags/Hexo/"/>
-    
-    <category term="Hexo-next" scheme="https://blog.camelz.site/tags/Hexo-next/"/>
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
-    
-    <category term="Next" scheme="https://blog.camelz.site/tags/Next/"/>
     
   </entry>
   
