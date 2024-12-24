@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.site/"/>
-  <updated>2024-12-18T15:16:26.061Z</updated>
+  <updated>2024-12-24T13:59:14.163Z</updated>
   <id>https://blog.camelz.site/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Butterfly 主题添加随机图 API 支持</title>
+    <link href="https://blog.camelz.site/posts/511bdd90.html"/>
+    <id>https://blog.camelz.site/posts/511bdd90.html</id>
+    <published>2024-12-25T13:10:02.000Z</published>
+    <updated>2024-12-24T13:59:14.163Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 界面预览 &lt;/summary&gt;
+              &lt;div class=&#39;content&#39;&gt;
+              &lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Butterfly" scheme="https://blog.camelz.site/categories/Butterfly/"/>
+    
+    
+    <category term="Butterfly" scheme="https://blog.camelz.site/tags/Butterfly/"/>
+    
+    <category term="随机图 API" scheme="https://blog.camelz.site/tags/%E9%9A%8F%E6%9C%BA%E5%9B%BE-API/"/>
+    
+  </entry>
+  
+  <entry>
     <title>PicGo+R2+Typora配置说明</title>
     <link href="https://blog.camelz.site/posts/63875613.html"/>
     <id>https://blog.camelz.site/posts/63875613.html</id>
     <published>2024-12-18T15:05:02.000Z</published>
-    <updated>2024-12-18T15:16:26.061Z</updated>
+    <updated>2024-12-18T15:19:25.872Z</updated>
     
     
       
@@ -194,8 +223,8 @@
     <title>Sun-Panel部署</title>
     <link href="https://blog.camelz.site/posts/c52c49fc.html"/>
     <id>https://blog.camelz.site/posts/c52c49fc.html</id>
-    <published>2024-11-09T07:53:02.000Z</published>
-    <updated>2024-12-18T15:03:09.810Z</updated>
+    <published>2024-11-09T13:10:02.000Z</published>
+    <updated>2024-12-24T13:59:27.506Z</updated>
     
     
       
@@ -208,12 +237,10 @@
     
     
     
-    <category term="docker" scheme="https://blog.camelz.site/categories/docker/"/>
+    <category term="Docker" scheme="https://blog.camelz.site/categories/Docker/"/>
     
     
-    <category term="docker" scheme="https://blog.camelz.site/tags/docker/"/>
-    
-    <category term="浏览器" scheme="https://blog.camelz.site/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/"/>
+    <category term="Docker" scheme="https://blog.camelz.site/tags/Docker/"/>
     
     <category term="Sun-Panel" scheme="https://blog.camelz.site/tags/Sun-Panel/"/>
     
@@ -540,34 +567,6 @@
     
     
     <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>butterfly其它电脑配置github连接</title>
-    <link href="https://blog.camelz.site/posts/39b59c5b.html"/>
-    <id>https://blog.camelz.site/posts/39b59c5b.html</id>
-    <published>2024-09-28T02:16:08.000Z</published>
-    <updated>2024-10-24T02:46:13.672Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;参考&lt;a href=&quot;https://www.fomal.cc/posts/e593433d.html&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
-    
-    <category term="github" scheme="https://blog.camelz.site/tags/github/"/>
     
   </entry>
   

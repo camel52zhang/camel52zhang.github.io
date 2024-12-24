@@ -15,8 +15,39 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Wed, 18 Dec 2024 15:16:26 GMT</pubDate>
+    <pubDate>Tue, 24 Dec 2024 13:59:14 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Butterfly 主题添加随机图 API 支持</title>
+      <link>https://blog.camelz.site/posts/511bdd90.html</link>
+      <guid>https://blog.camelz.site/posts/511bdd90.html</guid>
+      <pubDate>Wed, 25 Dec 2024 13:10:02 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 界面预览 &lt;/summary&gt;
+              &lt;div class=&#39;content&#39;&gt;
+              &lt;p&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/Butterfly/">Butterfly</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/Butterfly/">Butterfly</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E9%9A%8F%E6%9C%BA%E5%9B%BE-API/">随机图 API</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/511bdd90.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>PicGo+R2+Typora配置说明</title>
@@ -208,7 +239,7 @@
       <title>Sun-Panel部署</title>
       <link>https://blog.camelz.site/posts/c52c49fc.html</link>
       <guid>https://blog.camelz.site/posts/c52c49fc.html</guid>
-      <pubDate>Sat, 09 Nov 2024 07:53:02 GMT</pubDate>
+      <pubDate>Sat, 09 Nov 2024 13:10:02 GMT</pubDate>
       
         
         
@@ -221,12 +252,10 @@
       
       
       
-      <category domain="https://blog.camelz.site/categories/docker/">docker</category>
+      <category domain="https://blog.camelz.site/categories/Docker/">Docker</category>
       
       
-      <category domain="https://blog.camelz.site/tags/docker/">docker</category>
-      
-      <category domain="https://blog.camelz.site/tags/%E6%B5%8F%E8%A7%88%E5%99%A8/">浏览器</category>
+      <category domain="https://blog.camelz.site/tags/Docker/">Docker</category>
       
       <category domain="https://blog.camelz.site/tags/Sun-Panel/">Sun-Panel</category>
       
@@ -580,36 +609,6 @@
       
       
       <comments>https://blog.camelz.site/posts/2fb145cf.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>butterfly其它电脑配置github连接</title>
-      <link>https://blog.camelz.site/posts/39b59c5b.html</link>
-      <guid>https://blog.camelz.site/posts/39b59c5b.html</guid>
-      <pubDate>Sat, 28 Sep 2024 02:16:08 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;参考&lt;a href=&quot;https://www.fomal.cc/posts/e593433d.html&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/butterfly/">butterfly</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/butterfly/">butterfly</category>
-      
-      <category domain="https://blog.camelz.site/tags/github/">github</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/39b59c5b.html#disqus_thread</comments>
       
     </item>
     
