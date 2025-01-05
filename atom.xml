@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.site/"/>
-  <updated>2024-12-24T14:09:32.793Z</updated>
+  <updated>2025-01-05T14:19:34.720Z</updated>
   <id>https://blog.camelz.site/</id>
   
   <author>
@@ -17,11 +17,40 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Butterfly主题利用deepseek的api添加文章摘要模块</title>
+    <link href="https://blog.camelz.site/posts/1f85d020.html"/>
+    <id>https://blog.camelz.site/posts/1f85d020.html</id>
+    <published>2025-01-02T04:27:08.000Z</published>
+    <updated>2025-01-05T14:19:34.720Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html"> &lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 界面预览 &lt;/summary&gt;
+              &lt;div class=&#39;content&#39;&gt;
+              &lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Butterfly" scheme="https://blog.camelz.site/categories/Butterfly/"/>
+    
+    
+    <category term="Butterfly" scheme="https://blog.camelz.site/tags/Butterfly/"/>
+    
+    <category term="Deepseek" scheme="https://blog.camelz.site/tags/Deepseek/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Butterfly 主题添加随机图 API 支持</title>
     <link href="https://blog.camelz.site/posts/511bdd90.html"/>
     <id>https://blog.camelz.site/posts/511bdd90.html</id>
     <published>2024-12-25T13:10:02.000Z</published>
-    <updated>2024-12-24T14:09:32.793Z</updated>
+    <updated>2025-01-05T14:18:10.270Z</updated>
     
     
       
@@ -533,31 +562,6 @@
     <summary type="html">&lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 效果图 &lt;/summary&gt;
               &lt;div class=&#39;content&#39;&gt;
               &lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>butterfly博客宽屏适配</title>
-    <link href="https://blog.camelz.site/posts/2fb145cf.html"/>
-    <id>https://blog.camelz.site/posts/2fb145cf.html</id>
-    <published>2024-10-10T04:01:16.000Z</published>
-    <updated>2024-10-24T02:38:45.169Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;方法一：通过自定义css实现&quot;&gt;&lt;a href=&quot;#方法一：通过自定义css实现&quot; class=&quot;headerlink&quot; title=&quot;方法一：通过自定义css实现&quot;&gt;&lt;/a&gt;方法一：通过自定义css实现&lt;/h2&gt;&lt;h3</summary>
         
       
     

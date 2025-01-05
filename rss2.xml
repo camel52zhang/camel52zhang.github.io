@@ -15,8 +15,39 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Tue, 24 Dec 2024 14:09:32 GMT</pubDate>
+    <pubDate>Sun, 05 Jan 2025 14:19:34 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Butterfly主题利用deepseek的api添加文章摘要模块</title>
+      <link>https://blog.camelz.site/posts/1f85d020.html</link>
+      <guid>https://blog.camelz.site/posts/1f85d020.html</guid>
+      <pubDate>Thu, 02 Jan 2025 04:27:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description> &lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 界面预览 &lt;/summary&gt;
+              &lt;div class=&#39;content&#39;&gt;
+              &lt;p&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/Butterfly/">Butterfly</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/Butterfly/">Butterfly</category>
+      
+      <category domain="https://blog.camelz.site/tags/Deepseek/">Deepseek</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/1f85d020.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Butterfly 主题添加随机图 API 支持</title>
@@ -582,33 +613,6 @@
       
       
       <comments>https://blog.camelz.site/posts/9641340b.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>butterfly博客宽屏适配</title>
-      <link>https://blog.camelz.site/posts/2fb145cf.html</link>
-      <guid>https://blog.camelz.site/posts/2fb145cf.html</guid>
-      <pubDate>Thu, 10 Oct 2024 04:01:16 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;方法一：通过自定义css实现&quot;&gt;&lt;a href=&quot;#方法一：通过自定义css实现&quot; class=&quot;headerlink&quot; title=&quot;方法一：通过自定义css实现&quot;&gt;&lt;/a&gt;方法一：通过自定义css实现&lt;/h2&gt;&lt;h3</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/butterfly/">butterfly</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/butterfly/">butterfly</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/2fb145cf.html#disqus_thread</comments>
       
     </item>
     
