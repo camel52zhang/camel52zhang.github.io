@@ -1,9 +1,8 @@
-/* themes/butterfly/source/css/article-summary.css */
-#article-summary {
-    background-color: #f9f9f9;
-    border-left: 4px solid #007bff;
-    padding: 10px;
-    margin-bottom: 20px;
-    font-size: 14px;
-    color: #333;
+.article-summary {
+  background-color: #f9f9f9;
+  border-left: 4px solid #007bff;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #333;
 }

@@ -1,30 +1,31 @@
-var percentFlag = false; // 节流阀
-function essayScroll() {
-    let a = document.documentElement.scrollTop || window.pageYOffset; // 当前滚动位置
-    const waterfallResult = a % document.documentElement.clientHeight; // 滚动的视口高度余数
+var percentFlag = false; // Throttling flag
 
-    if (
-        !percentFlag &&
-        waterfallResult + 100 >= document.documentElement.clientHeight &&
-        document.querySelector("#waterfall")
-    ) {
+function essayScroll() {
+    let scrollPosition = document.documentElement.scrollTop || window.pageYOffset; // Current scroll position
+    const waterfallResult = scrollPosition % document.documentElement.clientHeight; // Remainder of scroll position
+
+    if (!percentFlag && waterfallResult + 100 >= document.documentElement.clientHeight && document.querySelector("#waterfall")) {
         setTimeout(() => {
             waterfall("#waterfall");
         }, 500);
     } else {
         setTimeout(() => {
-            document.querySelector("#waterfall") && waterfall("#waterfall");
+            if (document.querySelector("#waterfall")) waterfall("#waterfall");
         }, 500);
     }
 
     const r = window.scrollY + document.documentElement.clientHeight;
     let p = document.getElementById("post-comment") || document.getElementById("footer");
 
-    (p.offsetTop + p.offsetHeight / 2 < r || 90 < result) && (percentFlag = true);
+    if (p.offsetTop + p.offsetHeight / 2 < r || 90 < waterfallResult) {
+        percentFlag = true;
+    }
 }
+
 function replaceAll(e, n, t) {
     return e.split(n).join(t);
 }
+
 var camelz = {
     diffDate: function (d, more = false) {
         const dateNow = new Date();
