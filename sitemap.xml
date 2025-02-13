@@ -608,14 +608,21 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/butterfly/</loc>
+    <loc>https://blog.camelz.site/tags/Deepseek/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/Deepseek/</loc>
+    <loc>https://blog.camelz.site/tags/HEVC/</loc>
+    <lastmod>2025-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/%E5%9B%BE%E7%89%87%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -643,14 +650,7 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/HEVC/</loc>
-    <lastmod>2025-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/%E5%9B%BE%E7%89%87%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F/</loc>
+    <loc>https://blog.camelz.site/tags/butterfly/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -672,13 +672,6 @@
   
   <url>
     <loc>https://blog.camelz.site/tags/Next/</loc>
-    <lastmod>2025-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/hexo/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -741,6 +734,27 @@
   </url>
   
   <url>
+    <loc>https://blog.camelz.site/tags/hexo/</loc>
+    <lastmod>2025-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/Docker/</loc>
+    <lastmod>2025-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/Sun-Panel/</loc>
+    <lastmod>2025-02-13</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.camelz.site/tags/redmi-AC2100/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
@@ -769,14 +783,7 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/Docker/</loc>
-    <lastmod>2025-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/Sun-Panel/</loc>
+    <loc>https://blog.camelz.site/tags/Ubuntu/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -791,13 +798,6 @@
   
   <url>
     <loc>https://blog.camelz.site/tags/ftp/</loc>
-    <lastmod>2025-02-13</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/Ubuntu/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -967,14 +967,14 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/categories/butterfly/</loc>
+    <loc>https://blog.camelz.site/categories/docker/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/categories/docker/</loc>
+    <loc>https://blog.camelz.site/categories/butterfly/</loc>
     <lastmod>2025-02-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

@@ -1,10 +1,13 @@
 var percentFlag = false; // Throttling flag
 
 function essayScroll() {
-    let scrollPosition = document.documentElement.scrollTop || window.pageYOffset; // Current scroll position
-    const waterfallResult = scrollPosition % document.documentElement.clientHeight; // Remainder of scroll position
+    let scrollPosition = document.documentElement.scrollTop || window.pageYOffset; // 当前滚动位置
+    const waterfallResult = scrollPosition % document.documentElement.clientHeight; // 滚动位置余数
 
-    if (!percentFlag && waterfallResult + 100 >= document.documentElement.clientHeight && document.querySelector("#waterfall")) {
+    // 在此处声明并确保 result 被正确赋值
+    let result = waterfallResult;
+
+    if (!percentFlag && result + 100 >= document.documentElement.clientHeight && document.querySelector("#waterfall")) {
         setTimeout(() => {
             waterfall("#waterfall");
         }, 500);
@@ -17,7 +20,8 @@ function essayScroll() {
     const r = window.scrollY + document.documentElement.clientHeight;
     let p = document.getElementById("post-comment") || document.getElementById("footer");
 
-    if (p.offsetTop + p.offsetHeight / 2 < r || 90 < waterfallResult) {
+    // 确保 result 被使用的地方逻辑正确
+    if (p.offsetTop + p.offsetHeight / 2 < r || 90 < result) {
         percentFlag = true;
     }
 }
