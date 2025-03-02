@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.site/"/>
-  <updated>2025-03-02T04:38:58.258Z</updated>
+  <updated>2025-03-02T05:48:02.656Z</updated>
   <id>https://blog.camelz.site/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Cloudns托管CF双向解析</title>
+    <link href="https://blog.camelz.site/posts/816dd3ed.html"/>
+    <id>https://blog.camelz.site/posts/816dd3ed.html</id>
+    <published>2025-03-02T05:32:08.000Z</published>
+    <updated>2025-03-02T05:48:02.656Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;注册域名地址&lt;a href=&quot;https://www.cloudns.net/&quot;&gt;https://www.cloudns.net/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;第一步：申请域名并托管 cloudns侧，申请的域名xxxx.cloudns.ch&lt;/p&gt;
+&lt;p&gt;2条记录：</summary>
+        
+      
+    
+    
+    
+    <category term="cloudns" scheme="https://blog.camelz.site/categories/cloudns/"/>
+    
+    
+    <category term="cloudns" scheme="https://blog.camelz.site/tags/cloudns/"/>
+    
+  </entry>
   
   <entry>
     <title>Serv00搭建halo及Serv00重置教程</title>
@@ -543,35 +570,6 @@
     
     
     <category term="Hexo" scheme="https://blog.camelz.site/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>butterfly即刻短文</title>
-    <link href="https://blog.camelz.site/posts/90f6ac06.html"/>
-    <id>https://blog.camelz.site/posts/90f6ac06.html</id>
-    <published>2024-10-10T04:01:20.000Z</published>
-    <updated>2025-02-13T13:33:14.124Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 效果图 &lt;/summary&gt;
-              &lt;div class=&#39;content&#39;&gt;
-             </summary>
-        
-      
-    
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
-    
-    <category term="即刻短文" scheme="https://blog.camelz.site/tags/%E5%8D%B3%E5%88%BB%E7%9F%AD%E6%96%87/"/>
     
   </entry>
   

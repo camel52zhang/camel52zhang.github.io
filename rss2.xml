@@ -15,8 +15,37 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Sun, 02 Mar 2025 04:38:58 GMT</pubDate>
+    <pubDate>Sun, 02 Mar 2025 05:48:02 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Cloudns托管CF双向解析</title>
+      <link>https://blog.camelz.site/posts/816dd3ed.html</link>
+      <guid>https://blog.camelz.site/posts/816dd3ed.html</guid>
+      <pubDate>Sun, 02 Mar 2025 05:32:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;注册域名地址&lt;a href=&quot;https://www.cloudns.net/&quot;&gt;https://www.cloudns.net/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;第一步：申请域名并托管 cloudns侧，申请的域名xxxx.cloudns.ch&lt;/p&gt;
+&lt;p&gt;2条记录：</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/cloudns/">cloudns</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/cloudns/">cloudns</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/816dd3ed.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Serv00搭建halo及Serv00重置教程</title>
@@ -583,37 +612,6 @@
       
       
       <comments>https://blog.camelz.site/posts/ccff7fa3.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>butterfly即刻短文</title>
-      <link>https://blog.camelz.site/posts/90f6ac06.html</link>
-      <guid>https://blog.camelz.site/posts/90f6ac06.html</guid>
-      <pubDate>Thu, 10 Oct 2024 04:01:20 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 效果图 &lt;/summary&gt;
-              &lt;div class=&#39;content&#39;&gt;
-             </description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/butterfly/">butterfly</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/butterfly/">butterfly</category>
-      
-      <category domain="https://blog.camelz.site/tags/%E5%8D%B3%E5%88%BB%E7%9F%AD%E6%96%87/">即刻短文</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/90f6ac06.html#disqus_thread</comments>
       
     </item>
     

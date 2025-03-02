@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://blog.camelz.site/posts/816dd3ed.html</loc>
+    
+    <lastmod>2025-03-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.camelz.site/posts/b69919b3.html</loc>
     
     <lastmod>2025-03-02</lastmod>
@@ -631,6 +640,13 @@
   </url>
   
   <url>
+    <loc>https://blog.camelz.site/tags/cloudns/</loc>
+    <lastmod>2025-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.camelz.site/tags/docker/</loc>
     <lastmod>2025-03-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -680,14 +696,14 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/Next/</loc>
+    <loc>https://blog.camelz.site/tags/hexo/</loc>
     <lastmod>2025-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/hexo/</loc>
+    <loc>https://blog.camelz.site/tags/Next/</loc>
     <lastmod>2025-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -991,6 +1007,13 @@
   
   <url>
     <loc>https://blog.camelz.site/categories/butterfly/</loc>
+    <lastmod>2025-03-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/categories/cloudns/</loc>
     <lastmod>2025-03-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
