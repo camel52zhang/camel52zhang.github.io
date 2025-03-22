@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.site/"/>
-  <updated>2025-03-02T05:48:02.656Z</updated>
+  <updated>2025-03-22T14:44:40.382Z</updated>
   <id>https://blog.camelz.site/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>飞牛os虚拟机安装openwrt</title>
+    <link href="https://blog.camelz.site/posts/d9897655.html"/>
+    <id>https://blog.camelz.site/posts/d9897655.html</id>
+    <published>2025-03-22T14:25:13.000Z</published>
+    <updated>2025-03-22T14:44:40.382Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;出此教程的原因是飞牛暂时不支持&lt;code&gt;img&lt;/code&gt;格式的&lt;code&gt;openwrt&lt;/code&gt;，而当前的公用&lt;code&gt;openwrt&lt;/code&gt;基本都是img格式的&lt;br&gt;1，下载&lt;code&gt;openwrt&lt;/code&gt;的&lt;code&gt;img.gz&lt;/cod</summary>
+        
+      
+    
+    
+    
+    <category term="openwrt" scheme="https://blog.camelz.site/categories/openwrt/"/>
+    
+    
+    <category term="openwrt" scheme="https://blog.camelz.site/tags/openwrt/"/>
+    
+    <category term="飞牛" scheme="https://blog.camelz.site/tags/%E9%A3%9E%E7%89%9B/"/>
+    
+  </entry>
   
   <entry>
     <title>Cloudns托管CF双向解析</title>
@@ -551,25 +578,6 @@
     <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
     <category term="即刻短文" scheme="https://blog.camelz.site/tags/%E5%8D%B3%E5%88%BB%E7%9F%AD%E6%96%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>butterfly添加首页轮播图</title>
-    <link href="https://blog.camelz.site/posts/ccff7fa3.html"/>
-    <id>https://blog.camelz.site/posts/ccff7fa3.html</id>
-    <published>2024-10-10T04:01:21.000Z</published>
-    <updated>2024-10-28T12:48:46.463Z</updated>
-    
-    
-    <summary type="html">描述点啥呢？</summary>
-    
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
-    
-    
-    <category term="Hexo" scheme="https://blog.camelz.site/tags/Hexo/"/>
     
   </entry>
   

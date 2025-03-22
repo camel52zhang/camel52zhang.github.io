@@ -15,8 +15,37 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Sun, 02 Mar 2025 05:48:02 GMT</pubDate>
+    <pubDate>Sat, 22 Mar 2025 14:44:40 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>飞牛os虚拟机安装openwrt</title>
+      <link>https://blog.camelz.site/posts/d9897655.html</link>
+      <guid>https://blog.camelz.site/posts/d9897655.html</guid>
+      <pubDate>Sat, 22 Mar 2025 14:25:13 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;出此教程的原因是飞牛暂时不支持&lt;code&gt;img&lt;/code&gt;格式的&lt;code&gt;openwrt&lt;/code&gt;，而当前的公用&lt;code&gt;openwrt&lt;/code&gt;基本都是img格式的&lt;br&gt;1，下载&lt;code&gt;openwrt&lt;/code&gt;的&lt;code&gt;img.gz&lt;/cod</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/openwrt/">openwrt</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/openwrt/">openwrt</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E9%A3%9E%E7%89%9B/">飞牛</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/d9897655.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Cloudns托管CF双向解析</title>
@@ -591,27 +620,6 @@
       
       
       <comments>https://blog.camelz.site/posts/91bee617.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>butterfly添加首页轮播图</title>
-      <link>https://blog.camelz.site/posts/ccff7fa3.html</link>
-      <guid>https://blog.camelz.site/posts/ccff7fa3.html</guid>
-      <pubDate>Thu, 10 Oct 2024 04:01:21 GMT</pubDate>
-      
-      <description>描述点啥呢？</description>
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/butterfly/">butterfly</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/Hexo/">Hexo</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/ccff7fa3.html#disqus_thread</comments>
       
     </item>
     
