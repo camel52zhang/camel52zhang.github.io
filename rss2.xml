@@ -15,8 +15,37 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Sat, 22 Mar 2025 14:44:40 GMT</pubDate>
+    <pubDate>Thu, 27 Mar 2025 14:54:59 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>通过qemu-img工具转换镜像格式</title>
+      <link>https://blog.camelz.site/posts/cb4a7023.html</link>
+      <guid>https://blog.camelz.site/posts/cb4a7023.html</guid>
+      <pubDate>Thu, 27 Mar 2025 14:35:02 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;通过qemu-img工具转换镜像格式&quot;&gt;&lt;a href=&quot;#通过qemu-img工具转换镜像格式&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/%E8%BD%AC%E6%8D%A2%E9%95%9C%E5%83%8F%E6%A0%BC%E5%BC%8F/">转换镜像格式</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/vmdk/">vmdk</category>
+      
+      <category domain="https://blog.camelz.site/tags/img/">img</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/cb4a7023.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>飞牛os虚拟机安装openwrt</title>
@@ -589,37 +618,6 @@
       
       
       <comments>https://blog.camelz.site/posts/a86931ab.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>butterfly即刻短文-版本2（recent-post页选项）</title>
-      <link>https://blog.camelz.site/posts/91bee617.html</link>
-      <guid>https://blog.camelz.site/posts/91bee617.html</guid>
-      <pubDate>Sat, 12 Oct 2024 00:23:38 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 效果图 &lt;/summary&gt;
-              &lt;div class=&#39;content&#39;&gt;
-              &lt;p&gt;&lt;img</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/butterfly/">butterfly</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/butterfly/">butterfly</category>
-      
-      <category domain="https://blog.camelz.site/tags/%E5%8D%B3%E5%88%BB%E7%9F%AD%E6%96%87/">即刻短文</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/91bee617.html#disqus_thread</comments>
       
     </item>
     

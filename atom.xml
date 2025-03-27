@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.site/"/>
-  <updated>2025-03-22T14:44:40.382Z</updated>
+  <updated>2025-03-27T14:54:59.415Z</updated>
   <id>https://blog.camelz.site/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>通过qemu-img工具转换镜像格式</title>
+    <link href="https://blog.camelz.site/posts/cb4a7023.html"/>
+    <id>https://blog.camelz.site/posts/cb4a7023.html</id>
+    <published>2025-03-27T14:35:02.000Z</published>
+    <updated>2025-03-27T14:54:59.415Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;通过qemu-img工具转换镜像格式&quot;&gt;&lt;a href=&quot;#通过qemu-img工具转换镜像格式&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="转换镜像格式" scheme="https://blog.camelz.site/categories/%E8%BD%AC%E6%8D%A2%E9%95%9C%E5%83%8F%E6%A0%BC%E5%BC%8F/"/>
+    
+    
+    <category term="vmdk" scheme="https://blog.camelz.site/tags/vmdk/"/>
+    
+    <category term="img" scheme="https://blog.camelz.site/tags/img/"/>
+    
+  </entry>
+  
+  <entry>
     <title>飞牛os虚拟机安装openwrt</title>
     <link href="https://blog.camelz.site/posts/d9897655.html"/>
     <id>https://blog.camelz.site/posts/d9897655.html</id>
     <published>2025-03-22T14:25:13.000Z</published>
-    <updated>2025-03-22T14:44:40.382Z</updated>
+    <updated>2025-03-22T14:49:30.101Z</updated>
     
     
       
@@ -549,35 +576,6 @@
     <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
     <category term="CSS全局变量" scheme="https://blog.camelz.site/tags/CSS%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>butterfly即刻短文-版本2（recent-post页选项）</title>
-    <link href="https://blog.camelz.site/posts/91bee617.html"/>
-    <id>https://blog.camelz.site/posts/91bee617.html</id>
-    <published>2024-10-12T00:23:38.000Z</published>
-    <updated>2024-10-28T12:45:27.363Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 效果图 &lt;/summary&gt;
-              &lt;div class=&#39;content&#39;&gt;
-              &lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
-    
-    <category term="即刻短文" scheme="https://blog.camelz.site/tags/%E5%8D%B3%E5%88%BB%E7%9F%AD%E6%96%87/"/>
     
   </entry>
   
