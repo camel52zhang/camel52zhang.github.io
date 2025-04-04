@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.site/"/>
-  <updated>2025-03-27T14:54:59.415Z</updated>
+  <updated>2025-04-04T09:17:34.536Z</updated>
   <id>https://blog.camelz.site/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>利用docker的1panel面板结合lucky反代搭建TypeCho博客</title>
+    <link href="https://blog.camelz.site/posts/97c8b7bc.html"/>
+    <id>https://blog.camelz.site/posts/97c8b7bc.html</id>
+    <published>2025-04-04T08:52:02.000Z</published>
+    <updated>2025-04-04T09:17:34.536Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;1，群晖或者飞牛安排docker&lt;/p&gt;
+&lt;p&gt;2，docker安装1panel&lt;/p&gt;
+&lt;p&gt;3，群晖或者飞牛安装&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="docker" scheme="https://blog.camelz.site/categories/docker/"/>
+    
+    
+    <category term="docker" scheme="https://blog.camelz.site/tags/docker/"/>
+    
+    <category term="1panel" scheme="https://blog.camelz.site/tags/1panel/"/>
+    
+    <category term="lucky" scheme="https://blog.camelz.site/tags/lucky/"/>
+    
+    <category term="TypeCho" scheme="https://blog.camelz.site/tags/TypeCho/"/>
+    
+  </entry>
+  
+  <entry>
     <title>通过qemu-img工具转换镜像格式</title>
     <link href="https://blog.camelz.site/posts/cb4a7023.html"/>
     <id>https://blog.camelz.site/posts/cb4a7023.html</id>
     <published>2025-03-27T14:35:02.000Z</published>
-    <updated>2025-03-27T14:54:59.415Z</updated>
+    <updated>2025-03-27T14:55:44.216Z</updated>
     
     
       
@@ -548,34 +581,6 @@
     <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
     
     <category term="外挂标签" scheme="https://blog.camelz.site/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>butterfly自定义全局css变量</title>
-    <link href="https://blog.camelz.site/posts/a86931ab.html"/>
-    <id>https://blog.camelz.site/posts/a86931ab.html</id>
-    <published>2024-10-12T00:26:34.000Z</published>
-    <updated>2024-10-22T15:12:45.532Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;保存以下代码在&lt;code&gt;custom.css&lt;/code&gt;内侧，没得话自己创建，目录在&lt;code&gt;&#92;source&#92;css&#92;&lt;/code&gt;内&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
-        
-      
-    
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
-    
-    
-    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
-    
-    <category term="CSS全局变量" scheme="https://blog.camelz.site/tags/CSS%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/"/>
     
   </entry>
   

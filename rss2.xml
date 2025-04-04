@@ -15,8 +15,43 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Thu, 27 Mar 2025 14:54:59 GMT</pubDate>
+    <pubDate>Fri, 04 Apr 2025 09:17:34 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>利用docker的1panel面板结合lucky反代搭建TypeCho博客</title>
+      <link>https://blog.camelz.site/posts/97c8b7bc.html</link>
+      <guid>https://blog.camelz.site/posts/97c8b7bc.html</guid>
+      <pubDate>Fri, 04 Apr 2025 08:52:02 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;1，群晖或者飞牛安排docker&lt;/p&gt;
+&lt;p&gt;2，docker安装1panel&lt;/p&gt;
+&lt;p&gt;3，群晖或者飞牛安装&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/docker/">docker</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/docker/">docker</category>
+      
+      <category domain="https://blog.camelz.site/tags/1panel/">1panel</category>
+      
+      <category domain="https://blog.camelz.site/tags/lucky/">lucky</category>
+      
+      <category domain="https://blog.camelz.site/tags/TypeCho/">TypeCho</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/97c8b7bc.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>通过qemu-img工具转换镜像格式</title>
@@ -588,36 +623,6 @@
       
       
       <comments>https://blog.camelz.site/posts/47675117.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>butterfly自定义全局css变量</title>
-      <link>https://blog.camelz.site/posts/a86931ab.html</link>
-      <guid>https://blog.camelz.site/posts/a86931ab.html</guid>
-      <pubDate>Sat, 12 Oct 2024 00:26:34 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;保存以下代码在&lt;code&gt;custom.css&lt;/code&gt;内侧，没得话自己创建，目录在&lt;code&gt;&#92;source&#92;css&#92;&lt;/code&gt;内&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/butterfly/">butterfly</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/butterfly/">butterfly</category>
-      
-      <category domain="https://blog.camelz.site/tags/CSS%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/">CSS全局变量</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/a86931ab.html#disqus_thread</comments>
       
     </item>
     
