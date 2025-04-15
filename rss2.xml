@@ -15,8 +15,78 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Fri, 04 Apr 2025 15:08:35 GMT</pubDate>
+    <pubDate>Tue, 15 Apr 2025 11:18:55 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>利用谷歌colab获取节点</title>
+      <link>https://blog.camelz.site/posts/56304609.html</link>
+      <guid>https://blog.camelz.site/posts/56304609.html</guid>
+      <pubDate>Tue, 15 Apr 2025 08:14:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;首先你需要有一个谷歌账号，没有账号的小伙伴可以自行去申请一个，方法很简单！&lt;br&gt;作者GitHub仓库地址：&lt;a href=&quot;https://github.com/wzdnzd/aggregator&quot;&gt;点此打开&lt;/a&gt;&lt;br&gt;谷歌colab：&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/VPN/">VPN</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/%E8%8A%82%E7%82%B9/">节点</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E8%B0%B7%E6%AD%8C/">谷歌</category>
+      
+      <category domain="https://blog.camelz.site/tags/colab/">colab</category>
+      
+      <category domain="https://blog.camelz.site/tags/VPN/">VPN</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/56304609.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>激活windows&amp;offices工具MAS(Microsoft-Activation-Scripts)</title>
+      <link>https://blog.camelz.site/posts/3559b199.html</link>
+      <guid>https://blog.camelz.site/posts/3559b199.html</guid>
+      <pubDate>Tue, 15 Apr 2025 04:27:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 align=&quot;center&quot;&gt;Microsoft  Activation  Scripts (MAS)&lt;/h1&gt;
+
+&lt;p align=&quot;center&quot;&gt;开源 Windows 和 Office 激活器，具有 HWID、Ohook、TSforge、KMS38 和在线 KMS</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/windows/">windows</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/%E6%BF%80%E6%B4%BB/">激活</category>
+      
+      <category domain="https://blog.camelz.site/tags/MAS/">MAS</category>
+      
+      <category domain="https://blog.camelz.site/tags/windows/">windows</category>
+      
+      <category domain="https://blog.camelz.site/tags/offices/">offices</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E7%A0%B4%E8%A7%A3/">破解</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/3559b199.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>利用docker的1panel面板结合lucky反代搭建TypeCho博客</title>
@@ -562,67 +632,6 @@
       
       
       <comments>https://blog.camelz.site/posts/b8ed315a.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>butterfly调整整体页面距浏览器顶端的间距</title>
-      <link>https://blog.camelz.site/posts/49c7b675.html</link>
-      <guid>https://blog.camelz.site/posts/49c7b675.html</guid>
-      <pubDate>Sat, 12 Oct 2024 05:23:18 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 效果图 &lt;/summary&gt;
-              &lt;div class=&#39;content&#39;&gt;
-              &lt;p&gt;&lt;img</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/butterfly/">butterfly</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/butterfly/">butterfly</category>
-      
-      <category domain="https://blog.camelz.site/tags/%E9%A1%B5%E9%9D%A2%E8%B7%9D%E6%B5%8F%E8%A7%88%E5%99%A8%E9%A1%B6%E7%AB%AF%E7%9A%84%E9%97%B4%E8%B7%9D/">页面距浏览器顶端的间距</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/49c7b675.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>butterfly外挂标签{% wow%}报错的解决方案</title>
-      <link>https://blog.camelz.site/posts/47675117.html</link>
-      <guid>https://blog.camelz.site/posts/47675117.html</guid>
-      <pubDate>Sat, 12 Oct 2024 02:57:34 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;blockquote&gt;
-&lt;p&gt;安装外挂标签&lt;a href=&quot;https://akilar.top/&quot;&gt;店长&lt;/a&gt;的&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/butterfly/">butterfly</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/butterfly/">butterfly</category>
-      
-      <category domain="https://blog.camelz.site/tags/%E5%A4%96%E6%8C%82%E6%A0%87%E7%AD%BE/">外挂标签</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/47675117.html#disqus_thread</comments>
       
     </item>
     
