@@ -15,8 +15,69 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Tue, 15 Apr 2025 11:18:55 GMT</pubDate>
+    <pubDate>Mon, 21 Apr 2025 13:37:48 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>群晖1panel安装ssl证书certimate</title>
+      <link>https://blog.camelz.site/posts/dafaec11.html</link>
+      <guid>https://blog.camelz.site/posts/dafaec11.html</guid>
+      <pubDate>Mon, 21 Apr 2025 13:37:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;1,创建&lt;code&gt;certimate&lt;/code&gt;的&lt;code&gt;data&lt;/code&gt;文件需要挂载的文件夹&lt;br&gt;我喜欢创建在&lt;code&gt;docker&lt;/code&gt;目录下，进入&lt;code&gt;docker&lt;/code&gt;文件，新增&lt;code&gt;certimate&lt;/code&gt;文件</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/1panel/">1panel</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/1panel/">1panel</category>
+      
+      <category domain="https://blog.camelz.site/tags/ssl%E8%AF%81%E4%B9%A6/">ssl证书</category>
+      
+      <category domain="https://blog.camelz.site/tags/certimate/">certimate</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/dafaec11.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>docker安装1panel教程并配置mysql和openresty</title>
+      <link>https://blog.camelz.site/posts/32c0427e.html</link>
+      <guid>https://blog.camelz.site/posts/32c0427e.html</guid>
+      <pubDate>Mon, 21 Apr 2025 13:33:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;参考&lt;a href=&quot;https://1panel.cn/docs/installation/online_installation/&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/1panel/">1panel</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/docker/">docker</category>
+      
+      <category domain="https://blog.camelz.site/tags/1panel/">1panel</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/32c0427e.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>利用谷歌colab获取节点</title>
@@ -38,13 +99,13 @@
       <category domain="https://blog.camelz.site/categories/VPN/">VPN</category>
       
       
-      <category domain="https://blog.camelz.site/tags/VPN/">VPN</category>
-      
       <category domain="https://blog.camelz.site/tags/%E8%8A%82%E7%82%B9/">节点</category>
       
       <category domain="https://blog.camelz.site/tags/%E8%B0%B7%E6%AD%8C/">谷歌</category>
       
       <category domain="https://blog.camelz.site/tags/colab/">colab</category>
+      
+      <category domain="https://blog.camelz.site/tags/VPN/">VPN</category>
       
       
       <comments>https://blog.camelz.site/posts/56304609.html#disqus_thread</comments>
@@ -572,66 +633,6 @@
       
       
       <comments>https://blog.camelz.site/posts/efe4e1c0.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>butterfly主题-添加页数跳转</title>
-      <link>https://blog.camelz.site/posts/8977abb0.html</link>
-      <guid>https://blog.camelz.site/posts/8977abb0.html</guid>
-      <pubDate>Mon, 21 Oct 2024 07:19:44 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 效果图 &lt;/summary&gt;
-              &lt;div class=&#39;content&#39;&gt;
-              &lt;p&gt;&lt;img</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/butterfly/">butterfly</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/butterfly/">butterfly</category>
-      
-      <category domain="https://blog.camelz.site/tags/%E6%B7%BB%E5%8A%A0%E9%A1%B5%E6%95%B0%E8%B7%B3%E8%BD%AC/">添加页数跳转</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/8977abb0.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Butterfly主题 自定义 Loading 加载动画</title>
-      <link>https://blog.camelz.site/posts/b8ed315a.html</link>
-      <guid>https://blog.camelz.site/posts/b8ed315a.html</guid>
-      <pubDate>Thu, 17 Oct 2024 04:01:16 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 查看Loading 加载动画效果图 &lt;/summary&gt;
-              &lt;div class=&#39;content&#39;&gt;
-              &lt;p&gt;&lt;img</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/butterfly/">butterfly</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/butterfly/">butterfly</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/b8ed315a.html#disqus_thread</comments>
       
     </item>
     
