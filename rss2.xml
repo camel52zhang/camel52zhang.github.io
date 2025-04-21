@@ -59,8 +59,7 @@
         
           
           
-      <description>&lt;p&gt;参考&lt;a href=&quot;https://1panel.cn/docs/installation/online_installation/&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot;</description>
+      <description>&lt;p&gt;1,确保群晖已经安装docker&lt;br&gt;2，安装 1Panel&lt;br&gt;选的官方的ssh安装方式，使用SSH工具登录，确保root登录，假如不是，在命令行输入&lt;br&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</description>
           
         
       
@@ -89,8 +88,8 @@
         
           
           
-      <description>&lt;p&gt;参考&lt;a href=&quot;https://www.fomal.cc/posts/e593433d.html&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;解决ssh: connect to host</description>
+      <description>&lt;p&gt;执行以下命令&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td</description>
           
         
       
@@ -129,13 +128,13 @@
       <category domain="https://blog.camelz.site/categories/VPN/">VPN</category>
       
       
-      <category domain="https://blog.camelz.site/tags/VPN/">VPN</category>
-      
       <category domain="https://blog.camelz.site/tags/%E8%8A%82%E7%82%B9/">节点</category>
       
       <category domain="https://blog.camelz.site/tags/%E8%B0%B7%E6%AD%8C/">谷歌</category>
       
       <category domain="https://blog.camelz.site/tags/colab/">colab</category>
+      
+      <category domain="https://blog.camelz.site/tags/VPN/">VPN</category>
       
       
       <comments>https://blog.camelz.site/posts/56304609.html#disqus_thread</comments>

@@ -50,15 +50,14 @@
     <link href="https://blog.camelz.site/posts/32c0427e.html"/>
     <id>https://blog.camelz.site/posts/32c0427e.html</id>
     <published>2025-04-21T13:33:08.000Z</published>
-    <updated>2025-04-21T13:39:37.705Z</updated>
+    <updated>2025-04-21T13:47:50.175Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;参考&lt;a href=&quot;https://1panel.cn/docs/installation/online_installation/&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot;</summary>
+    <summary type="html">&lt;p&gt;1,确保群晖已经安装docker&lt;br&gt;2，安装 1Panel&lt;br&gt;选的官方的ssh安装方式，使用SSH工具登录，确保root登录，假如不是，在命令行输入&lt;br&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
         
       
     
@@ -78,15 +77,15 @@
     <link href="https://blog.camelz.site/posts/8fa19b10.html"/>
     <id>https://blog.camelz.site/posts/8fa19b10.html</id>
     <published>2025-04-21T13:16:08.000Z</published>
-    <updated>2025-04-21T13:43:40.424Z</updated>
+    <updated>2025-04-21T13:47:21.684Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;p&gt;参考&lt;a href=&quot;https://www.fomal.cc/posts/e593433d.html&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
-&lt;div class=&quot;tag link&quot;&gt;&lt;a class=&quot;link-card&quot; title=&quot;解决ssh: connect to host</summary>
+    <summary type="html">&lt;p&gt;执行以下命令&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td</summary>
         
       
     
@@ -122,13 +121,13 @@
     <category term="VPN" scheme="https://blog.camelz.site/categories/VPN/"/>
     
     
-    <category term="VPN" scheme="https://blog.camelz.site/tags/VPN/"/>
-    
     <category term="节点" scheme="https://blog.camelz.site/tags/%E8%8A%82%E7%82%B9/"/>
     
     <category term="谷歌" scheme="https://blog.camelz.site/tags/%E8%B0%B7%E6%AD%8C/"/>
     
     <category term="colab" scheme="https://blog.camelz.site/tags/colab/"/>
+    
+    <category term="VPN" scheme="https://blog.camelz.site/tags/VPN/"/>
     
   </entry>
   
