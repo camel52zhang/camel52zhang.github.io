@@ -15,8 +15,99 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Mon, 21 Apr 2025 15:15:52 GMT</pubDate>
+    <pubDate>Wed, 30 Apr 2025 12:09:38 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>github项目：自动获取优选IP</title>
+      <link>https://blog.camelz.site/posts/ad7605c0.html</link>
+      <guid>https://blog.camelz.site/posts/ad7605c0.html</guid>
+      <pubDate>Wed, 30 Apr 2025 12:07:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;1，在&lt;code&gt;github&lt;/code&gt;里创建项目，例如&lt;code&gt;yxip&lt;/code&gt;&lt;br&gt;2，在项目&lt;code&gt;yxip&lt;/code&gt;里创建文件&lt;code&gt;collect_ips.py&lt;/code&gt;,填入以下内容&lt;/p&gt;
+&lt;figure</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/github/">github</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/github/">github</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E4%BC%98%E9%80%89IP/">优选IP</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/ad7605c0.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>利用CF的Pages创建BPB面板</title>
+      <link>https://blog.camelz.site/posts/c68b2b09.html</link>
+      <guid>https://blog.camelz.site/posts/c68b2b09.html</guid>
+      <pubDate>Wed, 30 Apr 2025 12:02:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;利用&lt;code&gt;BPB Panel&lt;/code&gt; 部署&lt;code&gt;Cloudflare Workers&lt;/code&gt; 或&lt;code&gt;Pages&lt;/code&gt; 的代理面板项目，可以轻松建立免费</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/CF/">CF</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/Pages/">Pages</category>
+      
+      <category domain="https://blog.camelz.site/tags/CF/">CF</category>
+      
+      <category domain="https://blog.camelz.site/tags/BPB-Panel/">BPB Panel</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/c68b2b09.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>OpenWrt解决【/tmp/openclash_last_version】下载失败</title>
+      <link>https://blog.camelz.site/posts/c20b00fc.html</link>
+      <guid>https://blog.camelz.site/posts/c20b00fc.html</guid>
+      <pubDate>Wed, 30 Apr 2025 09:56:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;第一次进入&lt;code&gt;openwrt&lt;/code&gt;里安装的&lt;code&gt;openclash&lt;/code&gt;进行内核更新出现以下错误：&lt;/p&gt;
+&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/openclash/">openclash</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/openwrt/">openwrt</category>
+      
+      <category domain="https://blog.camelz.site/tags/openclash/">openclash</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/c20b00fc.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>群晖1panel安装ssl证书certd</title>
@@ -162,13 +253,13 @@
       <category domain="https://blog.camelz.site/categories/VPN/">VPN</category>
       
       
+      <category domain="https://blog.camelz.site/tags/VPN/">VPN</category>
+      
       <category domain="https://blog.camelz.site/tags/%E8%8A%82%E7%82%B9/">节点</category>
       
       <category domain="https://blog.camelz.site/tags/%E8%B0%B7%E6%AD%8C/">谷歌</category>
       
       <category domain="https://blog.camelz.site/tags/colab/">colab</category>
-      
-      <category domain="https://blog.camelz.site/tags/VPN/">VPN</category>
       
       
       <comments>https://blog.camelz.site/posts/56304609.html#disqus_thread</comments>
@@ -549,95 +640,6 @@
       
       
       <comments>https://blog.camelz.site/posts/1c069524.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Docker配置域名Nginx Proxy Manager反向代理服务器</title>
-      <link>https://blog.camelz.site/posts/f005a5ce.html</link>
-      <guid>https://blog.camelz.site/posts/f005a5ce.html</guid>
-      <pubDate>Mon, 11 Nov 2024 12:58:02 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h2 id=&quot;Docker配置域名Nginx-Proxy-Manager反向代理服务器官方说明&quot;&gt;&lt;a href=&quot;#Docker配置域名Nginx-Proxy-Manager反向代理服务器官方说明&quot; class=&quot;headerlink&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/docker/">docker</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/docker/">docker</category>
-      
-      <category domain="https://blog.camelz.site/tags/Nginx/">Nginx</category>
-      
-      <category domain="https://blog.camelz.site/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/">反向代理</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/f005a5ce.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>OpenWrt安装docker-compose，顺便部署dockge</title>
-      <link>https://blog.camelz.site/posts/22106a2e.html</link>
-      <guid>https://blog.camelz.site/posts/22106a2e.html</guid>
-      <pubDate>Mon, 11 Nov 2024 12:44:02 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h1 id=&quot;OpenWrt安装docker-compose官方说明&quot;&gt;&lt;a href=&quot;#OpenWrt安装docker-compose官方说明&quot; class=&quot;headerlink&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/docker/">docker</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/docker/">docker</category>
-      
-      <category domain="https://blog.camelz.site/tags/openwrt/">openwrt</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/22106a2e.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Sun-Panel部署</title>
-      <link>https://blog.camelz.site/posts/c52c49fc.html</link>
-      <guid>https://blog.camelz.site/posts/c52c49fc.html</guid>
-      <pubDate>Sat, 09 Nov 2024 13:10:02 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;Sun-Panel部署官方说明&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/Docker/">Docker</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/Docker/">Docker</category>
-      
-      <category domain="https://blog.camelz.site/tags/Sun-Panel/">Sun-Panel</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/c52c49fc.html#disqus_thread</comments>
       
     </item>
     
