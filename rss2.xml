@@ -15,8 +15,41 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Sun, 04 May 2025 07:27:18 GMT</pubDate>
+    <pubDate>Tue, 03 Jun 2025 14:47:02 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>PVE - allinone教程：OpenWrt, 核显SR-IOV, 飞牛fnOS, Windows10</title>
+      <link>https://blog.camelz.site/posts/38518c2f.html</link>
+      <guid>https://blog.camelz.site/posts/38518c2f.html</guid>
+      <pubDate>Tue, 03 Jun 2025 14:45:02 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;PVE-allinone教程：OpenWrt-核显SR-IOV-飞牛fnOS-Windows10&quot;&gt;&lt;a href=&quot;#PVE-allinone教程：OpenWrt-核显SR-IOV-飞牛fnOS-Windows10&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/PVE/">PVE</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/PVE/">PVE</category>
+      
+      <category domain="https://blog.camelz.site/tags/allinone/">allinone</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E6%A0%B8%E6%98%BESR-IOV/">核显SR-IOV</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E9%A3%9E%E7%89%9BfnOS/">飞牛fnOS</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/38518c2f.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>极路由1s (HC5661A)刷机教程</title>
@@ -613,36 +646,6 @@
       
       
       <comments>https://blog.camelz.site/posts/38f2e281.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Openwrt一键配置openclash</title>
-      <link>https://blog.camelz.site/posts/958bc3fc.html</link>
-      <guid>https://blog.camelz.site/posts/958bc3fc.html</guid>
-      <pubDate>Thu, 28 Nov 2024 13:53:02 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;参考大佬&lt;a href=&quot;https://www.youtube.com/watch?v=Hm47TyJqVdc&amp;amp;t=0s&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
-&lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 效果预览</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/%E8%B7%AF%E7%94%B1%E5%99%A8/">路由器</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/openwrt/">openwrt</category>
-      
-      <category domain="https://blog.camelz.site/tags/openclash/">openclash</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/958bc3fc.html#disqus_thread</comments>
       
     </item>
     
