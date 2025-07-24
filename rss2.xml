@@ -15,8 +15,67 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Tue, 03 Jun 2025 14:47:02 GMT</pubDate>
+    <pubDate>Thu, 24 Jul 2025 14:20:40 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Win11/Win10共享打印机0x00000709报错解决方案</title>
+      <link>https://blog.camelz.site/posts/87d013f1.html</link>
+      <guid>https://blog.camelz.site/posts/87d013f1.html</guid>
+      <pubDate>Thu, 24 Jul 2025 14:15:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;Win11/Win10共享打印机0x00000709报错解决方案&lt;/p&gt;
+&lt;p&gt;知识点分析&lt;br&gt;Win10和Win11在共享打印机时，经常会出现0x00000709报错。&lt;br&gt;以下介绍几种方案，可以解决大部分情况问题。&lt;br&gt;操作步骤&lt;br&gt;首先，共享打印机，建议两边机</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/%E6%89%93%E5%8D%B0%E6%9C%BA/">打印机</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/%E5%85%B1%E4%BA%AB%E6%89%93%E5%8D%B0%E6%9C%BA/">共享打印机</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E6%89%93%E5%8D%B0%E6%9C%BA%E5%85%B1%E4%BA%AB/">打印机共享</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/87d013f1.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>河南城乡医保怎么网上停保？惠州参保登记</title>
+      <link>https://blog.camelz.site/posts/a839d117.html</link>
+      <guid>https://blog.camelz.site/posts/a839d117.html</guid>
+      <pubDate>Thu, 24 Jul 2025 14:00:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;河南城乡医保怎么网上停保？惠州参保登记&quot;&gt;&lt;a href=&quot;#河南城乡医保怎么网上停保？惠州参保登记&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/%E5%8C%BB%E4%BF%9D/">医保</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/%E6%B2%B3%E5%8D%97%E5%8C%BB%E4%BF%9D/">河南医保</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E6%83%A0%E5%B7%9E%E5%8C%BB%E4%BF%9D/">惠州医保</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/a839d117.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>PVE - allinone教程：OpenWrt, 核显SR-IOV, 飞牛fnOS, Windows10</title>
@@ -124,7 +183,8 @@
         
           
           
-      <description>&lt;p&gt;利用&lt;code&gt;BPB Panel&lt;/code&gt; 部署&lt;code&gt;Cloudflare Workers&lt;/code&gt; 或&lt;code&gt;Pages&lt;/code&gt; 的代理面板项目，可以轻松建立免费</description>
+      <description>&lt;p&gt;利用BPB Panel 部署Cloudflare Workers 或 Pages 的代理面板项目，可以轻松建立免费 VPN，因CF对代理项目审查较严格，所以需要需要对源码进行自定义加密混淆，生成不同的混淆代码，绕过CF的限制。&lt;/p&gt;
+&lt;h2 id=&quot;方法一&quot;&gt;&lt;a</description>
           
         
       
@@ -580,72 +640,6 @@
       
       
       <comments>https://blog.camelz.site/posts/511bdd90.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>PicGo+R2+Typora配置说明</title>
-      <link>https://blog.camelz.site/posts/63875613.html</link>
-      <guid>https://blog.camelz.site/posts/63875613.html</guid>
-      <pubDate>Wed, 18 Dec 2024 15:05:02 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;PicGo+R2+Typora配置说明&lt;/p&gt;
-&lt;p&gt;部署好R2存储桶后安装PicGo，下载安装地址&lt;/p&gt;
-&lt;p&gt;&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/butterfly/">butterfly</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/PicGo/">PicGo</category>
-      
-      <category domain="https://blog.camelz.site/tags/R2/">R2</category>
-      
-      <category domain="https://blog.camelz.site/tags/Typora/">Typora</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/63875613.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>cloudflare利用Zero Trust里的tunnels实现内网穿透</title>
-      <link>https://blog.camelz.site/posts/38f2e281.html</link>
-      <guid>https://blog.camelz.site/posts/38f2e281.html</guid>
-      <pubDate>Fri, 13 Dec 2024 03:44:08 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description> &lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 界面预览 &lt;/summary&gt;
-              &lt;div class=&#39;content&#39;&gt;
-              &lt;p&gt;&lt;img</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/docker/">docker</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/docker/">docker</category>
-      
-      <category domain="https://blog.camelz.site/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/">内网穿透</category>
-      
-      <category domain="https://blog.camelz.site/tags/cloudflare-tunnels/">cloudflare tunnels</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/38f2e281.html#disqus_thread</comments>
       
     </item>
     
