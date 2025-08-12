@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.site/"/>
-  <updated>2025-07-24T14:20:40.864Z</updated>
+  <updated>2025-08-12T13:50:48.806Z</updated>
   <id>https://blog.camelz.site/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>群晖套件web station搭建动态网站（typecho博客）教程</title>
+    <link href="https://blog.camelz.site/posts/8671440.html"/>
+    <id>https://blog.camelz.site/posts/8671440.html</id>
+    <published>2025-08-08T12:02:08.000Z</published>
+    <updated>2025-08-12T13:50:48.806Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;群晖套件web station搭建动态网站（typecho博客）教程&lt;/p&gt;
+&lt;p&gt;1，确保以下几个套件有安装并记录MariaDB配置的是用户名和密码：root/123456!qwerR，这个用户名和密码也是phpMyAdmin的用户名和密码&lt;/p&gt;
+&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="群晖" scheme="https://blog.camelz.site/categories/%E7%BE%A4%E6%99%96/"/>
+    
+    
+    <category term="群晖" scheme="https://blog.camelz.site/tags/%E7%BE%A4%E6%99%96/"/>
+    
+    <category term="typecho" scheme="https://blog.camelz.site/tags/typecho/"/>
+    
+    <category term="web station" scheme="https://blog.camelz.site/tags/web-station/"/>
+    
+  </entry>
   
   <entry>
     <title>Win11/Win10共享打印机0x00000709报错解决方案</title>
@@ -166,7 +197,7 @@
     <link href="https://blog.camelz.site/posts/c68b2b09.html"/>
     <id>https://blog.camelz.site/posts/c68b2b09.html</id>
     <published>2025-04-30T12:02:08.000Z</published>
-    <updated>2025-07-24T14:23:32.466Z</updated>
+    <updated>2025-08-12T13:57:12.915Z</updated>
     
     
       
@@ -180,12 +211,12 @@
     
     
     
-    <category term="CF" scheme="https://blog.camelz.site/categories/CF/"/>
+    <category term="VPN" scheme="https://blog.camelz.site/categories/VPN/"/>
     
     
-    <category term="Pages" scheme="https://blog.camelz.site/tags/Pages/"/>
+    <category term="BPB面板" scheme="https://blog.camelz.site/tags/BPB%E9%9D%A2%E6%9D%BF/"/>
     
-    <category term="CF" scheme="https://blog.camelz.site/tags/CF/"/>
+    <category term="VPN" scheme="https://blog.camelz.site/tags/VPN/"/>
     
     <category term="BPB Panel" scheme="https://blog.camelz.site/tags/BPB-Panel/"/>
     
@@ -356,13 +387,13 @@
     <category term="VPN" scheme="https://blog.camelz.site/categories/VPN/"/>
     
     
+    <category term="VPN" scheme="https://blog.camelz.site/tags/VPN/"/>
+    
     <category term="节点" scheme="https://blog.camelz.site/tags/%E8%8A%82%E7%82%B9/"/>
     
     <category term="谷歌" scheme="https://blog.camelz.site/tags/%E8%B0%B7%E6%AD%8C/"/>
     
     <category term="colab" scheme="https://blog.camelz.site/tags/colab/"/>
-    
-    <category term="VPN" scheme="https://blog.camelz.site/tags/VPN/"/>
     
   </entry>
   
@@ -569,35 +600,6 @@
     <category term="Butterfly" scheme="https://blog.camelz.site/tags/Butterfly/"/>
     
     <category term="Deepseek" scheme="https://blog.camelz.site/tags/Deepseek/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Butterfly 主题添加随机图 API 支持</title>
-    <link href="https://blog.camelz.site/posts/511bdd90.html"/>
-    <id>https://blog.camelz.site/posts/511bdd90.html</id>
-    <published>2024-12-25T13:10:02.000Z</published>
-    <updated>2025-01-05T14:18:10.270Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 界面预览 &lt;/summary&gt;
-              &lt;div class=&#39;content&#39;&gt;
-              &lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="Butterfly" scheme="https://blog.camelz.site/categories/Butterfly/"/>
-    
-    
-    <category term="Butterfly" scheme="https://blog.camelz.site/tags/Butterfly/"/>
-    
-    <category term="随机图 API" scheme="https://blog.camelz.site/tags/%E9%9A%8F%E6%9C%BA%E5%9B%BE-API/"/>
     
   </entry>
   
