@@ -848,21 +848,7 @@
 
   
   <url>
-    <loc>https://blog.camelz.site/tags/butterfly/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.camelz.site/tags/Adobe-acrobat/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/cloudns/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -876,13 +862,6 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/%E9%9A%8F%E6%9C%BA%E5%9B%BE-API/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.camelz.site/tags/Deepseek/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -890,14 +869,7 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/HEVC/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/%E5%9B%BE%E7%89%87%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F/</loc>
+    <loc>https://blog.camelz.site/tags/cloudns/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -925,6 +897,27 @@
   </url>
   
   <url>
+    <loc>https://blog.camelz.site/tags/HEVC/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/%E5%9B%BE%E7%89%87%E8%A7%86%E9%A2%91%E6%89%A9%E5%B1%95%E7%A8%8B%E5%BA%8F/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/%E9%9A%8F%E6%9C%BA%E5%9B%BE-API/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.camelz.site/tags/Hexo/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -932,14 +925,21 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/Next/</loc>
+    <loc>https://blog.camelz.site/tags/Hexo-next/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/Hexo-next/</loc>
+    <loc>https://blog.camelz.site/tags/butterfly/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/Next/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -960,20 +960,6 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/%E6%89%A9%E5%AE%B9/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/hexo/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.camelz.site/tags/PVE/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -982,27 +968,6 @@
   
   <url>
     <loc>https://blog.camelz.site/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/allinone/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/%E6%A0%B8%E6%98%BESR-IOV/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/%E9%A3%9E%E7%89%9BfnOS/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1024,6 +989,13 @@
   
   <url>
     <loc>https://blog.camelz.site/tags/Typora/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/hexo/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1058,6 +1030,27 @@
   </url>
   
   <url>
+    <loc>https://blog.camelz.site/tags/allinone/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/%E6%A0%B8%E6%98%BESR-IOV/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/%E9%A3%9E%E7%89%9BfnOS/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.camelz.site/tags/Serv00/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -1066,6 +1059,13 @@
   
   <url>
     <loc>https://blog.camelz.site/tags/Halo/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/%E6%89%A9%E5%AE%B9/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1100,14 +1100,14 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/Ubuntu/</loc>
+    <loc>https://blog.camelz.site/tags/Windows/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/Windows/</loc>
+    <loc>https://blog.camelz.site/tags/Ubuntu/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1149,6 +1149,13 @@
   </url>
   
   <url>
+    <loc>https://blog.camelz.site/tags/%E5%8D%B3%E5%88%BB%E7%9F%AD%E6%96%87/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.camelz.site/tags/%E6%A0%87%E7%AD%BE%E5%A4%96%E6%8C%82/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -1170,14 +1177,14 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/%E5%8D%B3%E5%88%BB%E7%9F%AD%E6%96%87/</loc>
+    <loc>https://blog.camelz.site/tags/CSS%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/CSS%E5%85%A8%E5%B1%80%E5%8F%98%E9%87%8F/</loc>
+    <loc>https://blog.camelz.site/tags/%E9%A1%B5%E9%9D%A2%E8%B7%9D%E6%B5%8F%E8%A7%88%E5%99%A8%E9%A1%B6%E7%AB%AF%E7%9A%84%E9%97%B4%E8%B7%9D/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1205,13 +1212,6 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/git-bush/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.camelz.site/tags/idm/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -1219,28 +1219,7 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/my-photos/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/%E5%8A%A0%E5%AF%86%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/v2rayN/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/VPN/</loc>
+    <loc>https://blog.camelz.site/tags/git-bush/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1248,20 +1227,6 @@
   
   <url>
     <loc>https://blog.camelz.site/tags/google-chrome-%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/BPB%E9%9D%A2%E6%9D%BF/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/BPB-Panel/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1282,7 +1247,35 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/%E7%BA%AF%E5%87%80%E7%B3%BB%E7%BB%9F/</loc>
+    <loc>https://blog.camelz.site/tags/my-photos/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/%E5%8A%A0%E5%AF%86%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/BPB%E9%9D%A2%E6%9D%BF/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/VPN/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/BPB-Panel/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1310,14 +1303,7 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/wireguard-VPN/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/Wireguard/</loc>
+    <loc>https://blog.camelz.site/tags/%E7%BA%AF%E5%87%80%E7%B3%BB%E7%BB%9F/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1338,14 +1324,7 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/%E6%B2%B3%E5%8D%97%E5%8C%BB%E4%BF%9D/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/%E6%83%A0%E5%B7%9E%E5%8C%BB%E4%BF%9D/</loc>
+    <loc>https://blog.camelz.site/tags/v2rayN/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1387,21 +1366,14 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/%E7%88%AA%E4%BA%91/</loc>
+    <loc>https://blog.camelz.site/tags/%E6%B2%B3%E5%8D%97%E5%8C%BB%E4%BF%9D/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/3x-UI/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/vless/</loc>
+    <loc>https://blog.camelz.site/tags/%E6%83%A0%E5%B7%9E%E5%8C%BB%E4%BF%9D/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1422,21 +1394,21 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/%E7%BE%A4%E6%99%96/</loc>
+    <loc>https://blog.camelz.site/tags/%E7%88%AA%E4%BA%91/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/typecho/</loc>
+    <loc>https://blog.camelz.site/tags/3x-UI/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/tags/web-station/</loc>
+    <loc>https://blog.camelz.site/tags/vless/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1464,6 +1436,48 @@
   </url>
   
   <url>
+    <loc>https://blog.camelz.site/tags/%E9%A3%9E%E7%89%9B/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/%E7%BE%A4%E6%99%96/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/typecho/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/web-station/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/wireguard-VPN/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/tags/Wireguard/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.camelz.site/tags/vmdk/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -1477,28 +1491,7 @@
     <priority>0.2</priority>
   </url>
   
-  <url>
-    <loc>https://blog.camelz.site/tags/%E9%A3%9E%E7%89%9B/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.camelz.site/tags/%E9%A1%B5%E9%9D%A2%E8%B7%9D%E6%B5%8F%E8%A7%88%E5%99%A8%E9%A1%B6%E7%AB%AF%E7%9A%84%E9%97%B4%E8%B7%9D/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
 
-  
-  <url>
-    <loc>https://blog.camelz.site/categories/butterfly/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://blog.camelz.site/categories/Windows/</loc>
@@ -1508,14 +1501,14 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/categories/cloudns/</loc>
+    <loc>https://blog.camelz.site/categories/Butterfly/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/categories/Butterfly/</loc>
+    <loc>https://blog.camelz.site/categories/cloudns/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1530,6 +1523,13 @@
   
   <url>
     <loc>https://blog.camelz.site/categories/Hexo/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/categories/butterfly/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1606,13 +1606,6 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/categories/%E5%8C%BB%E4%BF%9D/</loc>
-    <lastmod>2025-09-02</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.camelz.site/categories/windows/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
@@ -1620,7 +1613,7 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/categories/%E7%BE%A4%E6%99%96/</loc>
+    <loc>https://blog.camelz.site/categories/%E5%8C%BB%E4%BF%9D/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1634,14 +1627,21 @@
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/categories/%E8%BD%AC%E6%8D%A2%E9%95%9C%E5%83%8F%E6%A0%BC%E5%BC%8F/</loc>
+    <loc>https://blog.camelz.site/categories/openwrt/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://blog.camelz.site/categories/openwrt/</loc>
+    <loc>https://blog.camelz.site/categories/%E7%BE%A4%E6%99%96/</loc>
+    <lastmod>2025-09-02</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.camelz.site/categories/%E8%BD%AC%E6%8D%A2%E9%95%9C%E5%83%8F%E6%A0%BC%E5%BC%8F/</loc>
     <lastmod>2025-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
