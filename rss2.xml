@@ -15,8 +15,127 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Tue, 12 Aug 2025 14:01:58 GMT</pubDate>
+    <pubDate>Tue, 02 Sep 2025 14:43:11 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Win11/Win10共享打印机0x00000709报错解决方案，打印机连接</title>
+      <link>https://blog.camelz.site/posts/de7b2178.html</link>
+      <guid>https://blog.camelz.site/posts/de7b2178.html</guid>
+      <pubDate>Tue, 02 Sep 2025 14:19:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;Win11/Win10共享打印机0x00000709报错解决方案，打印机连接&lt;/p&gt;
+&lt;p&gt;Win10和Win11在共享打印机时，经常会出现0x00000709报错。&lt;br&gt;以下介绍几种方案，可以解决大部分情况问题。&lt;/p&gt;
+&lt;p&gt;操作步骤&lt;br&gt;首先，共享打印机，建议两边</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/Windows/">Windows</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/Windows/">Windows</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E5%85%B1%E4%BA%AB%E6%89%93%E5%8D%B0%E6%9C%BA/">共享打印机</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/de7b2178.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>爪云利用3x-UI部署vless</title>
+      <link>https://blog.camelz.site/posts/921d79ca.html</link>
+      <guid>https://blog.camelz.site/posts/921d79ca.html</guid>
+      <pubDate>Tue, 02 Sep 2025 14:18:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;登录爪云&lt;a href=&quot;https://us-west-1.run.claw.cloud/&quot;&gt;https://us-west-1.run.claw.cloud/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;配置如下：&lt;br&gt;&lt;img</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/VPN/">VPN</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/%E7%88%AA%E4%BA%91/">爪云</category>
+      
+      <category domain="https://blog.camelz.site/tags/3x-UI/">3x-UI</category>
+      
+      <category domain="https://blog.camelz.site/tags/vless/">vless</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/921d79ca.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>v2rayN路由规则设置</title>
+      <link>https://blog.camelz.site/posts/536cb693.html</link>
+      <guid>https://blog.camelz.site/posts/536cb693.html</guid>
+      <pubDate>Tue, 02 Sep 2025 14:15:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;在设置-路由设置-双击&lt;code&gt;v3-绕过大陆（whitelist）&lt;/code&gt;-双击&lt;code&gt;绕过局域网IP&lt;/code&gt;-在&lt;code&gt;Domain&lt;/code&gt;内添加以下内容，确定即可&lt;br&gt;`&lt;br&gt;DOMAIN-SUFFIX,lelez.site,direc</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/VPN/">VPN</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/v2rayN/">v2rayN</category>
+      
+      <category domain="https://blog.camelz.site/tags/VPN/">VPN</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/536cb693.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Serv00重置教程</title>
+      <link>https://blog.camelz.site/posts/7bb0fc64.html</link>
+      <guid>https://blog.camelz.site/posts/7bb0fc64.html</guid>
+      <pubDate>Tue, 02 Sep 2025 14:14:08 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h1 id=&quot;serv00重置-恢复如初-清理-回到刚注册初始状态&quot;&gt;&lt;a href=&quot;#serv00重置-恢复如初-清理-回到刚注册初始状态&quot; class=&quot;headerlink&quot; title=&quot;serv00重置 恢复如初 清理</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/Serv00/">Serv00</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/Serv00/">Serv00</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/7bb0fc64.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>群晖套件web station搭建动态网站（typecho博客）教程</title>
@@ -227,9 +346,9 @@
       <category domain="https://blog.camelz.site/categories/VPN/">VPN</category>
       
       
-      <category domain="https://blog.camelz.site/tags/BPB%E9%9D%A2%E6%9D%BF/">BPB面板</category>
-      
       <category domain="https://blog.camelz.site/tags/VPN/">VPN</category>
+      
+      <category domain="https://blog.camelz.site/tags/BPB%E9%9D%A2%E6%9D%BF/">BPB面板</category>
       
       <category domain="https://blog.camelz.site/tags/BPB-Panel/">BPB Panel</category>
       
@@ -523,125 +642,6 @@
       
       
       <comments>https://blog.camelz.site/posts/cb4a7023.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>飞牛os虚拟机安装openwrt</title>
-      <link>https://blog.camelz.site/posts/d9897655.html</link>
-      <guid>https://blog.camelz.site/posts/d9897655.html</guid>
-      <pubDate>Sat, 22 Mar 2025 14:25:13 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;出此教程的原因是飞牛暂时不支持&lt;code&gt;img&lt;/code&gt;格式的&lt;code&gt;openwrt&lt;/code&gt;，而当前的公用&lt;code&gt;openwrt&lt;/code&gt;基本都是img格式的&lt;br&gt;1，下载&lt;code&gt;openwrt&lt;/code&gt;的&lt;code&gt;img.gz&lt;/cod</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/openwrt/">openwrt</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/openwrt/">openwrt</category>
-      
-      <category domain="https://blog.camelz.site/tags/%E9%A3%9E%E7%89%9B/">飞牛</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/d9897655.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Cloudns托管CF双向解析</title>
-      <link>https://blog.camelz.site/posts/816dd3ed.html</link>
-      <guid>https://blog.camelz.site/posts/816dd3ed.html</guid>
-      <pubDate>Sun, 02 Mar 2025 05:32:08 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;注册域名地址&lt;a href=&quot;https://www.cloudns.net/&quot;&gt;https://www.cloudns.net/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;第一步：申请域名并托管 cloudns侧，申请的域名xxxx.cloudns.ch&lt;/p&gt;
-&lt;p&gt;2条记录：</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/cloudns/">cloudns</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/cloudns/">cloudns</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/816dd3ed.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Serv00搭建halo及Serv00重置教程</title>
-      <link>https://blog.camelz.site/posts/b69919b3.html</link>
-      <guid>https://blog.camelz.site/posts/b69919b3.html</guid>
-      <pubDate>Sun, 02 Mar 2025 01:09:08 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;首先在&lt;a href=&quot;https://www.serv00.com&quot;&gt;Serv00&lt;/a&gt;注册一个账号&lt;/p&gt;
-&lt;h1 id=&quot;Serv00搭建halo&quot;&gt;&lt;a href=&quot;#Serv00搭建halo&quot; class=&quot;headerlink&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/Serv00/">Serv00</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/Serv00/">Serv00</category>
-      
-      <category domain="https://blog.camelz.site/tags/Halo/">Halo</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/b69919b3.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>Butterfly主题利用deepseek的api添加文章摘要模块</title>
-      <link>https://blog.camelz.site/posts/1f85d020.html</link>
-      <guid>https://blog.camelz.site/posts/1f85d020.html</guid>
-      <pubDate>Thu, 02 Jan 2025 04:27:08 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description> &lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 界面预览 &lt;/summary&gt;
-              &lt;div class=&#39;content&#39;&gt;
-              &lt;p&gt;&lt;img</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/Butterfly/">Butterfly</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/Butterfly/">Butterfly</category>
-      
-      <category domain="https://blog.camelz.site/tags/Deepseek/">Deepseek</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/1f85d020.html#disqus_thread</comments>
       
     </item>
     

@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.site/"/>
-  <updated>2025-08-12T14:01:58.001Z</updated>
+  <updated>2025-09-02T14:43:11.239Z</updated>
   <id>https://blog.camelz.site/</id>
   
   <author>
@@ -15,6 +15,117 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Win11/Win10共享打印机0x00000709报错解决方案，打印机连接</title>
+    <link href="https://blog.camelz.site/posts/de7b2178.html"/>
+    <id>https://blog.camelz.site/posts/de7b2178.html</id>
+    <published>2025-09-02T14:19:08.000Z</published>
+    <updated>2025-09-02T14:43:11.239Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Win11/Win10共享打印机0x00000709报错解决方案，打印机连接&lt;/p&gt;
+&lt;p&gt;Win10和Win11在共享打印机时，经常会出现0x00000709报错。&lt;br&gt;以下介绍几种方案，可以解决大部分情况问题。&lt;/p&gt;
+&lt;p&gt;操作步骤&lt;br&gt;首先，共享打印机，建议两边</summary>
+        
+      
+    
+    
+    
+    <category term="Windows" scheme="https://blog.camelz.site/categories/Windows/"/>
+    
+    
+    <category term="Windows" scheme="https://blog.camelz.site/tags/Windows/"/>
+    
+    <category term="共享打印机" scheme="https://blog.camelz.site/tags/%E5%85%B1%E4%BA%AB%E6%89%93%E5%8D%B0%E6%9C%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>爪云利用3x-UI部署vless</title>
+    <link href="https://blog.camelz.site/posts/921d79ca.html"/>
+    <id>https://blog.camelz.site/posts/921d79ca.html</id>
+    <published>2025-09-02T14:18:08.000Z</published>
+    <updated>2025-09-02T14:41:31.123Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;登录爪云&lt;a href=&quot;https://us-west-1.run.claw.cloud/&quot;&gt;https://us-west-1.run.claw.cloud/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;配置如下：&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="VPN" scheme="https://blog.camelz.site/categories/VPN/"/>
+    
+    
+    <category term="爪云" scheme="https://blog.camelz.site/tags/%E7%88%AA%E4%BA%91/"/>
+    
+    <category term="3x-UI" scheme="https://blog.camelz.site/tags/3x-UI/"/>
+    
+    <category term="vless" scheme="https://blog.camelz.site/tags/vless/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>v2rayN路由规则设置</title>
+    <link href="https://blog.camelz.site/posts/536cb693.html"/>
+    <id>https://blog.camelz.site/posts/536cb693.html</id>
+    <published>2025-09-02T14:15:08.000Z</published>
+    <updated>2025-09-02T14:37:48.869Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;在设置-路由设置-双击&lt;code&gt;v3-绕过大陆（whitelist）&lt;/code&gt;-双击&lt;code&gt;绕过局域网IP&lt;/code&gt;-在&lt;code&gt;Domain&lt;/code&gt;内添加以下内容，确定即可&lt;br&gt;`&lt;br&gt;DOMAIN-SUFFIX,lelez.site,direc</summary>
+        
+      
+    
+    
+    
+    <category term="VPN" scheme="https://blog.camelz.site/categories/VPN/"/>
+    
+    
+    <category term="v2rayN" scheme="https://blog.camelz.site/tags/v2rayN/"/>
+    
+    <category term="VPN" scheme="https://blog.camelz.site/tags/VPN/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Serv00重置教程</title>
+    <link href="https://blog.camelz.site/posts/7bb0fc64.html"/>
+    <id>https://blog.camelz.site/posts/7bb0fc64.html</id>
+    <published>2025-09-02T14:14:08.000Z</published>
+    <updated>2025-09-02T14:35:48.062Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;serv00重置-恢复如初-清理-回到刚注册初始状态&quot;&gt;&lt;a href=&quot;#serv00重置-恢复如初-清理-回到刚注册初始状态&quot; class=&quot;headerlink&quot; title=&quot;serv00重置 恢复如初 清理</summary>
+        
+      
+    
+    
+    
+    <category term="Serv00" scheme="https://blog.camelz.site/categories/Serv00/"/>
+    
+    
+    <category term="Serv00" scheme="https://blog.camelz.site/tags/Serv00/"/>
+    
+  </entry>
   
   <entry>
     <title>群晖套件web station搭建动态网站（typecho博客）教程</title>
@@ -107,7 +218,7 @@
     <link href="https://blog.camelz.site/posts/38518c2f.html"/>
     <id>https://blog.camelz.site/posts/38518c2f.html</id>
     <published>2025-06-03T14:45:02.000Z</published>
-    <updated>2025-06-03T14:47:02.942Z</updated>
+    <updated>2025-09-02T14:32:47.316Z</updated>
     
     
       
@@ -214,9 +325,9 @@
     <category term="VPN" scheme="https://blog.camelz.site/categories/VPN/"/>
     
     
-    <category term="BPB面板" scheme="https://blog.camelz.site/tags/BPB%E9%9D%A2%E6%9D%BF/"/>
-    
     <category term="VPN" scheme="https://blog.camelz.site/tags/VPN/"/>
+    
+    <category term="BPB面板" scheme="https://blog.camelz.site/tags/BPB%E9%9D%A2%E6%9D%BF/"/>
     
     <category term="BPB Panel" scheme="https://blog.camelz.site/tags/BPB-Panel/"/>
     
@@ -489,117 +600,6 @@
     <category term="vmdk" scheme="https://blog.camelz.site/tags/vmdk/"/>
     
     <category term="img" scheme="https://blog.camelz.site/tags/img/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>飞牛os虚拟机安装openwrt</title>
-    <link href="https://blog.camelz.site/posts/d9897655.html"/>
-    <id>https://blog.camelz.site/posts/d9897655.html</id>
-    <published>2025-03-22T14:25:13.000Z</published>
-    <updated>2025-03-22T14:49:30.101Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;出此教程的原因是飞牛暂时不支持&lt;code&gt;img&lt;/code&gt;格式的&lt;code&gt;openwrt&lt;/code&gt;，而当前的公用&lt;code&gt;openwrt&lt;/code&gt;基本都是img格式的&lt;br&gt;1，下载&lt;code&gt;openwrt&lt;/code&gt;的&lt;code&gt;img.gz&lt;/cod</summary>
-        
-      
-    
-    
-    
-    <category term="openwrt" scheme="https://blog.camelz.site/categories/openwrt/"/>
-    
-    
-    <category term="openwrt" scheme="https://blog.camelz.site/tags/openwrt/"/>
-    
-    <category term="飞牛" scheme="https://blog.camelz.site/tags/%E9%A3%9E%E7%89%9B/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Cloudns托管CF双向解析</title>
-    <link href="https://blog.camelz.site/posts/816dd3ed.html"/>
-    <id>https://blog.camelz.site/posts/816dd3ed.html</id>
-    <published>2025-03-02T05:32:08.000Z</published>
-    <updated>2025-03-02T05:48:02.656Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;注册域名地址&lt;a href=&quot;https://www.cloudns.net/&quot;&gt;https://www.cloudns.net/&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;第一步：申请域名并托管 cloudns侧，申请的域名xxxx.cloudns.ch&lt;/p&gt;
-&lt;p&gt;2条记录：</summary>
-        
-      
-    
-    
-    
-    <category term="cloudns" scheme="https://blog.camelz.site/categories/cloudns/"/>
-    
-    
-    <category term="cloudns" scheme="https://blog.camelz.site/tags/cloudns/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Serv00搭建halo及Serv00重置教程</title>
-    <link href="https://blog.camelz.site/posts/b69919b3.html"/>
-    <id>https://blog.camelz.site/posts/b69919b3.html</id>
-    <published>2025-03-02T01:09:08.000Z</published>
-    <updated>2025-03-02T04:38:58.258Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;首先在&lt;a href=&quot;https://www.serv00.com&quot;&gt;Serv00&lt;/a&gt;注册一个账号&lt;/p&gt;
-&lt;h1 id=&quot;Serv00搭建halo&quot;&gt;&lt;a href=&quot;#Serv00搭建halo&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Serv00" scheme="https://blog.camelz.site/categories/Serv00/"/>
-    
-    
-    <category term="Serv00" scheme="https://blog.camelz.site/tags/Serv00/"/>
-    
-    <category term="Halo" scheme="https://blog.camelz.site/tags/Halo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Butterfly主题利用deepseek的api添加文章摘要模块</title>
-    <link href="https://blog.camelz.site/posts/1f85d020.html"/>
-    <id>https://blog.camelz.site/posts/1f85d020.html</id>
-    <published>2025-01-02T04:27:08.000Z</published>
-    <updated>2025-01-05T14:19:34.720Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html"> &lt;details class=&quot;folding-tag&quot; blue&gt;&lt;summary&gt; 界面预览 &lt;/summary&gt;
-              &lt;div class=&#39;content&#39;&gt;
-              &lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="Butterfly" scheme="https://blog.camelz.site/categories/Butterfly/"/>
-    
-    
-    <category term="Butterfly" scheme="https://blog.camelz.site/tags/Butterfly/"/>
-    
-    <category term="Deepseek" scheme="https://blog.camelz.site/tags/Deepseek/"/>
     
   </entry>
   
