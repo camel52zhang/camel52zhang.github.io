@@ -123,26 +123,26 @@ div#content-inner.layout {
 }
 
 div#recent-posts.recent-posts {
-  max-width: 1400px;
+  min-width: 0;
   flex: 1;
 }
 
 div#main_top.main_top {
-  width: calc(100% - 0%); /* initial width when aside is visible */
+  width: calc(100% - 0%); /* aside 可见时的初始宽度 */
 }
 
 @media (max-width: 1300px) {
   div#main_top.main_top {
-    width: 100%; /* adjust width when aside is hidden */
+    width: 100%; /* aside 隐藏时调整宽度 */
   }
 }
 
-/* Hide aside for demonstration */
+/* 隐藏 aside 进行演示 */
 div#aside-content.aside-content.hidden {
   display: none;
 }
 
-/* Adjust .recent-post-items width when aside is hidden */
+/* 隐藏 aside 时调整 .recent-post-items 宽度 */
 div#recent-posts.recent-posts.nc.adjust {
   width: 77%;
 }
