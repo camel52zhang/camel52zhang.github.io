@@ -15,8 +15,70 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Sun, 28 Sep 2025 06:48:10 GMT</pubDate>
+    <pubDate>Sun, 28 Sep 2025 07:25:35 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Ubuntu 上安装 Docker 和 Docker Compose</title>
+      <link>https://blog.camelz.site/posts/adf27a5f.html</link>
+      <guid>https://blog.camelz.site/posts/adf27a5f.html</guid>
+      <pubDate>Sun, 28 Sep 2025 07:11:02 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;方法一&quot;&gt;&lt;a href=&quot;#方法一&quot; class=&quot;headerlink&quot; title=&quot;方法一&quot;&gt;&lt;/a&gt;方法一&lt;/h3&gt;&lt;p&gt;在 Ubuntu 上安装 Docker 和 Docker Compose</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/Ubuntu/">Ubuntu</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/docker/">docker</category>
+      
+      <category domain="https://blog.camelz.site/tags/Ubuntu/">Ubuntu</category>
+      
+      <category domain="https://blog.camelz.site/tags/Docker-Compose/">Docker Compose</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/adf27a5f.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>爪云Clawcloud搭建VPS, 实现SSH 远程登录并搭建easytier</title>
+      <link>https://blog.camelz.site/posts/b408481d.html</link>
+      <guid>https://blog.camelz.site/posts/b408481d.html</guid>
+      <pubDate>Sun, 28 Sep 2025 06:57:02 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;在爪云创建应用部署VPS&quot;&gt;&lt;a href=&quot;#在爪云创建应用部署VPS&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/EasyTier/">EasyTier</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/EasyTier/">EasyTier</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/">内网穿透</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E7%88%AA%E4%BA%91Clawcloud/">爪云Clawcloud</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/b408481d.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>EasyTier利用飞牛自建中转&amp;P2P打洞服务器及配置客户端</title>
@@ -104,9 +166,9 @@
       <category domain="https://blog.camelz.site/categories/Windows/">Windows</category>
       
       
-      <category domain="https://blog.camelz.site/tags/Windows/">Windows</category>
-      
       <category domain="https://blog.camelz.site/tags/%E5%85%B1%E4%BA%AB%E6%89%93%E5%8D%B0%E6%9C%BA/">共享打印机</category>
+      
+      <category domain="https://blog.camelz.site/tags/Windows/">Windows</category>
       
       
       <comments>https://blog.camelz.site/posts/de7b2178.html#disqus_thread</comments>
@@ -165,9 +227,9 @@
       <category domain="https://blog.camelz.site/categories/VPN/">VPN</category>
       
       
-      <category domain="https://blog.camelz.site/tags/VPN/">VPN</category>
-      
       <category domain="https://blog.camelz.site/tags/v2rayN/">v2rayN</category>
+      
+      <category domain="https://blog.camelz.site/tags/VPN/">VPN</category>
       
       
       <comments>https://blog.camelz.site/posts/536cb693.html#disqus_thread</comments>
@@ -572,76 +634,6 @@
       
       
       <comments>https://blog.camelz.site/posts/8fa19b10.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>利用谷歌colab获取节点</title>
-      <link>https://blog.camelz.site/posts/56304609.html</link>
-      <guid>https://blog.camelz.site/posts/56304609.html</guid>
-      <pubDate>Tue, 15 Apr 2025 08:14:08 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;首先你需要有一个谷歌账号，没有账号的小伙伴可以自行去申请一个，方法很简单！&lt;br&gt;作者GitHub仓库地址：&lt;a href=&quot;https://github.com/wzdnzd/aggregator&quot;&gt;点此打开&lt;/a&gt;&lt;br&gt;谷歌colab：&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/VPN/">VPN</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/%E8%8A%82%E7%82%B9/">节点</category>
-      
-      <category domain="https://blog.camelz.site/tags/%E8%B0%B7%E6%AD%8C/">谷歌</category>
-      
-      <category domain="https://blog.camelz.site/tags/colab/">colab</category>
-      
-      <category domain="https://blog.camelz.site/tags/VPN/">VPN</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/56304609.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>激活windows&amp;offices工具MAS(Microsoft-Activation-Scripts)</title>
-      <link>https://blog.camelz.site/posts/3559b199.html</link>
-      <guid>https://blog.camelz.site/posts/3559b199.html</guid>
-      <pubDate>Tue, 15 Apr 2025 04:27:08 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h1 align=&quot;center&quot;&gt;Microsoft  Activation  Scripts (MAS)&lt;/h1&gt;
-
-&lt;p align=&quot;center&quot;&gt;开源 Windows 和 Office 激活器，具有 HWID、Ohook、TSforge、KMS38 和在线 KMS</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/windows/">windows</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/%E6%BF%80%E6%B4%BB/">激活</category>
-      
-      <category domain="https://blog.camelz.site/tags/MAS/">MAS</category>
-      
-      <category domain="https://blog.camelz.site/tags/windows/">windows</category>
-      
-      <category domain="https://blog.camelz.site/tags/offices/">offices</category>
-      
-      <category domain="https://blog.camelz.site/tags/%E7%A0%B4%E8%A7%A3/">破解</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/3559b199.html#disqus_thread</comments>
       
     </item>
     

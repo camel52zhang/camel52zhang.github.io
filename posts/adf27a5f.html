@@ -1,0 +1,419 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Ubuntu 上安装 Docker 和 Docker Compose | 駝駱仧🐫</title><meta name="author" content="駝駱仧"><meta name="copyright" content="駝駱仧"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="方法一在 Ubuntu 上安装 Docker 和 Docker Compose 是一个常见的操作。以下是基于最新稳定版本的详细步骤（适用于 Ubuntu 18.04 及以上版本，包括 20.04, 22.04, 24.04）。  第一步：安装 Docker1. 更新系统包列表bash 深色版本 1sudo apt update 2. 安装必要的依赖包bash 深色版本 1sudo apt inst">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ubuntu 上安装 Docker 和 Docker Compose">
+<meta property="og:url" content="https://blog.camelz.site/posts/adf27a5f.html">
+<meta property="og:site_name" content="駝駱仧🐫">
+<meta property="og:description" content="方法一在 Ubuntu 上安装 Docker 和 Docker Compose 是一个常见的操作。以下是基于最新稳定版本的详细步骤（适用于 Ubuntu 18.04 及以上版本，包括 20.04, 22.04, 24.04）。  第一步：安装 Docker1. 更新系统包列表bash 深色版本 1sudo apt update 2. 安装必要的依赖包bash 深色版本 1sudo apt inst">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://api.r10086.com/%E6%A8%B1%E9%81%93%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%8E%A5%E5%8F%A3.php?%E5%9B%BE%E7%89%87%E7%B3%BB%E5%88%97=%E9%A3%8E%E6%99%AF%E7%B3%BB%E5%88%978&%E5%8F%82%E6%95%B0=json?6059">
+<meta property="article:published_time" content="2025-09-28T07:11:02.000Z">
+<meta property="article:modified_time" content="2025-09-28T07:25:35.920Z">
+<meta property="article:author" content="駝駱仧">
+<meta property="article:tag" content="docker">
+<meta property="article:tag" content="Ubuntu">
+<meta property="article:tag" content="Docker Compose">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://api.r10086.com/%E6%A8%B1%E9%81%93%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%8E%A5%E5%8F%A3.php?%E5%9B%BE%E7%89%87%E7%B3%BB%E5%88%97=%E9%A3%8E%E6%99%AF%E7%B3%BB%E5%88%978&%E5%8F%82%E6%95%B0=json?6059"><link rel="shortcut icon" href="/img/linshi.jpg"><link rel="canonical" href="https://blog.camelz.site/posts/adf27a5f.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="VuT0IlLcEpM1Za0xMbzTPQdK0jy2-s5VIJoHeqEQp-4"/><meta name="baidu-site-verification" content="codeva-kWZIwX0QDv"/><meta name="msvalidate.01" content="1A742B3C385AA3F31CB0F780FA81BAFE"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Ubuntu 上安装 Docker 和 Docker Compose',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2025-09-28 15:25:35'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/essay_page.css"><link rel="stylesheet" href="/css/home_essay_bar.css"><link rel="stylesheet" href="/css/swiper.min.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-card-history/baiduhistory/css/main.css"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="駝駱仧🐫" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="駝駱仧🐫" type="application/rss+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><img class="load-image" src="/img/avatar-camel.webp" alt=""/></div><script async="async">(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+  window.addEventListener('load',() => { preloader.endLoading() })
+  setTimeout(function(){preloader.endLoading();}, 4000);   // 超时4秒钟自动退出loading动画
+
+  if (true) {
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+  }
+})()</script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar-camel.webp" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">84</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">96</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">25</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-folder"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 全部文章</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 文章分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 文章标签</span></a></li><li><a class="site-page child" href="/random/"><i class="fa-fw fa fa-random"></i><span> 随机文章</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-play-circle"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-user-plus"></i><span> 社交</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友人帐</span></a></li><li><a class="site-page child" href="/comments/"><i class="fa-fw fa fa-envelope-open"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-drivers-license"></i><span> 关于</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></li><li><a class="site-page child" href="/essay/"><i class="fa-fw far fa-comments"></i><span> 碎碎念</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?6059')"><nav id="nav"><span id="blog-info"><a href="/" title="駝駱仧🐫"><span class="site-name">駝駱仧🐫</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-folder"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 全部文章</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 文章分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 文章标签</span></a></li><li><a class="site-page child" href="/random/"><i class="fa-fw fa fa-random"></i><span> 随机文章</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-play-circle"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-user-plus"></i><span> 社交</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友人帐</span></a></li><li><a class="site-page child" href="/comments/"><i class="fa-fw fa fa-envelope-open"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-drivers-license"></i><span> 关于</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></li><li><a class="site-page child" href="/essay/"><i class="fa-fw far fa-comments"></i><span> 碎碎念</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Ubuntu 上安装 Docker 和 Docker Compose</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-09-28T07:11:02.000Z" title="发表于 2025-09-28 15:11:02">2025-09-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-09-28T07:25:35.920Z" title="更新于 2025-09-28 15:25:35">2025-09-28</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Ubuntu/">Ubuntu</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Ubuntu 上安装 Docker 和 Docker Compose"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main id="blog-container"></main><div class="layout" id="content-inner"><div id="post"><!-- 文章内容--><article class="post-content" id="article-container"><h3 id="方法一"><a href="#方法一" class="headerlink" title="方法一"></a>方法一</h3><p>在 Ubuntu 上安装 Docker 和 Docker Compose 是一个常见的操作。以下是基于最新稳定版本的详细步骤（适用于 Ubuntu 18.04 及以上版本，包括 20.04, 22.04, 24.04）。</p>
+<hr>
+<h4 id="第一步：安装-Docker"><a href="#第一步：安装-Docker" class="headerlink" title="第一步：安装 Docker"></a><strong>第一步：安装 Docker</strong></h4><h5 id="1-更新系统包列表"><a href="#1-更新系统包列表" class="headerlink" title="1. 更新系统包列表"></a>1. 更新系统包列表</h5><p>bash</p>
+<p>深色版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br></pre></td></tr></table></figure>
+<h5 id="2-安装必要的依赖包"><a href="#2-安装必要的依赖包" class="headerlink" title="2. 安装必要的依赖包"></a>2. 安装必要的依赖包</h5><p>bash</p>
+<p>深色版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install apt-transport-https ca-certificates curl gnupg lsb-release</span><br></pre></td></tr></table></figure>
+<h5 id="3-添加-Docker-的官方-GPG-密钥"><a href="#3-添加-Docker-的官方-GPG-密钥" class="headerlink" title="3. 添加 Docker 的官方 GPG 密钥"></a>3. 添加 Docker 的官方 GPG 密钥</h5><p>bash</p>
+<p>深色版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker.gpg</span><br></pre></td></tr></table></figure>
+<h5 id="4-添加-Docker-的-APT-软件源"><a href="#4-添加-Docker-的-APT-软件源" class="headerlink" title="4. 添加 Docker 的 APT 软件源"></a>4. 添加 Docker 的 APT 软件源</h5><p>bash</p>
+<p>深色版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo &quot;deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable&quot; | sudo tee /etc/apt/sources.list.d/docker.list &gt; /dev/null</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>注意</strong>：<code>$(lsb_release -cs)</code> 会自动获取你的 Ubuntu 版本代号（如 jammy, focal, noble 等）。</p>
+</blockquote>
+<h5 id="5-更新-APT-包索引"><a href="#5-更新-APT-包索引" class="headerlink" title="5. 更新 APT 包索引"></a>5. 更新 APT 包索引</h5><p>bash</p>
+<p>深色版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt update</span><br></pre></td></tr></table></figure>
+<h5 id="6-安装-Docker-Engine"><a href="#6-安装-Docker-Engine" class="headerlink" title="6. 安装 Docker Engine"></a>6. 安装 Docker Engine</h5><p>bash</p>
+<p>深色版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>这会安装 Docker 引擎、CLI、containerd 和官方插件（包括 <code>docker-compose</code> 插件）。</p>
+</blockquote>
+<h5 id="7-验证-Docker-是否安装成功"><a href="#7-验证-Docker-是否安装成功" class="headerlink" title="7. 验证 Docker 是否安装成功"></a>7. 验证 Docker 是否安装成功</h5><p>bash</p>
+<p>深色版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker --version</span><br></pre></td></tr></table></figure>
+<p>输出应类似：</p>
+<p>深色版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Docker version 24.0.7, build afdd53b</span><br></pre></td></tr></table></figure>
+<h5 id="8-（可选）让当前用户无需-sudo-使用-Docker"><a href="#8-（可选）让当前用户无需-sudo-使用-Docker" class="headerlink" title="8. （可选）让当前用户无需 sudo 使用 Docker"></a>8. （可选）让当前用户无需 <code>sudo</code> 使用 Docker</h5><p>bash</p>
+<p>深色版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo usermod -aG docker $USER</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p><strong>注意</strong>：执行后需<strong>重新登录</strong>或重启终端，使用户组变更生效。</p>
+</blockquote>
+<hr>
+<h4 id="第二步：安装-Docker-Compose（如果未通过插件安装）"><a href="#第二步：安装-Docker-Compose（如果未通过插件安装）" class="headerlink" title="第二步：安装 Docker Compose（如果未通过插件安装）"></a><strong>第二步：安装 Docker Compose（如果未通过插件安装）</strong></h4><p>从 Docker 20.10+ 开始，推荐使用 <code>docker-compose-plugin</code>，它允许你直接使用 <code>docker compose</code> 命令（注意中间是空格，不是短横线）。</p>
+<h5 id="✅-推荐方式：使用插件（已安装）"><a href="#✅-推荐方式：使用插件（已安装）" class="headerlink" title="✅ 推荐方式：使用插件（已安装）"></a>✅ 推荐方式：使用插件（已安装）</h5><p>bash</p>
+<p>深色版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker compose version</span><br></pre></td></tr></table></figure>
+<p>如果上一步已安装 <code>docker-compose-plugin</code>，你应该能看到版本信息。</p>
+<blockquote>
+<p>使用方式：<code>docker compose up</code>, <code>docker compose ps</code>, <code>docker compose down</code> 等。</p>
+</blockquote>
+<h5 id="❌-传统方式（不推荐，仅作备选）"><a href="#❌-传统方式（不推荐，仅作备选）" class="headerlink" title="❌ 传统方式（不推荐，仅作备选）"></a>❌ 传统方式（不推荐，仅作备选）</h5><p>如果你需要独立的 <code>docker-compose</code> 二进制文件（旧方式）：</p>
+<p>bash</p>
+<p>深色版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"># 下载最新版</span><br><span class="line">sudo curl -L &quot;https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)&quot; -o /usr/local/bin/docker-compose</span><br><span class="line"></span><br><span class="line"># 赋予可执行权限</span><br><span class="line">sudo chmod +x /usr/local/bin/docker-compose</span><br><span class="line"></span><br><span class="line"># 验证</span><br><span class="line">docker-compose --version</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>注意：这种方式已逐渐被 <code>docker compose</code> 插件取代。</p>
+</blockquote>
+<hr>
+<h4 id="第三步：启动并启用-Docker-服务"><a href="#第三步：启动并启用-Docker-服务" class="headerlink" title="第三步：启动并启用 Docker 服务"></a><strong>第三步：启动并启用 Docker 服务</strong></h4><p>bash</p>
+<p>深色版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># 启动 Docker 服务</span><br><span class="line">sudo systemctl start docker</span><br><span class="line"></span><br><span class="line"># 设置开机自启</span><br><span class="line">sudo systemctl enable docker</span><br></pre></td></tr></table></figure>
+<hr>
+<h4 id="第四步：测试运行"><a href="#第四步：测试运行" class="headerlink" title="第四步：测试运行"></a><strong>第四步：测试运行</strong></h4><p>bash</p>
+<p>深色版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker run hello-world</span><br></pre></td></tr></table></figure>
+<p>如果看到欢迎信息，说明安装成功。</p>
+<hr>
+<h4 id="常见问题"><a href="#常见问题" class="headerlink" title="常见问题"></a><strong>常见问题</strong></h4><ul>
+<li><strong>权限问题</strong>：确保用户已加入 <code>docker</code> 组，并重新登录。</li>
+<li><strong>源错误</strong>：检查 Ubuntu 版本代号是否支持（如 <code>noble</code> 是 24.04）。</li>
+<li><strong>网络问题</strong>：国内用户可考虑使用镜像源（如阿里云、中科大源）。</li>
+</ul>
+<hr>
+<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a><strong>总结</strong></h4><div class="table-container">
+<table>
+<thead>
+<tr>
+<th>工具</th>
+<th>推荐命令</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Docker</td>
+<td><code>docker --version</code></td>
+</tr>
+<tr>
+<td>Docker Compose</td>
+<td><code>docker compose version</code>（注意是空格）</td>
+</tr>
+</tbody>
+</table>
+</div>
+<blockquote>
+<p>✅ 建议使用 <code>docker compose</code>（插件形式），而非旧的 <code>docker-compose</code>（带短横线）。</p>
+</blockquote>
+<p>如有特定版本需求，可指定安装版本，例如：</p>
+<p>bash</p>
+<p>深色版本</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">apt install docker-ce=5:24.0.7-1~ubuntu.22.04~jammy</span><br></pre></td></tr></table></figure>
+<p>祝你安装顺利！</p>
+<h4 id="一些问题的解决办法"><a href="#一些问题的解决办法" class="headerlink" title="一些问题的解决办法"></a>一些问题的解决办法</h4><p>拉取错误的解决办法，类似如下错误<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Unable to find image &#x27;linuxserver/mariadb:latest&#x27; locally</span><br><span class="line">docker: Error response from daemon: Head &quot;https://registry-1.docker.io/v2/linuxserver/mariadb/manifests/latest&quot;: EOF.</span><br></pre></td></tr></table></figure><br>说明 Docker 无法从 Docker Hub 拉取镜像，根本原因是： 网络问题，你的路由器无法正常访问 registry-1.docker.io（Docker Hub）<br>解决方案：<br>步骤1，使用国内镜像加速器<br>添加 Docker 镜像加速器（如阿里云、网易、腾讯等）</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"># 编辑或创建 Docker 配置文件</span><br><span class="line">mkdir -p /etc/docker</span><br><span class="line"></span><br><span class="line">cat &gt; /etc/docker/daemon.json &lt;&lt; &#x27;EOF&#x27;</span><br><span class="line">&#123;</span><br><span class="line">  &quot;registry-mirrors&quot;: [</span><br><span class="line">    &quot;https://mirror.ccs.tencentyun.com&quot;,</span><br><span class="line">    &quot;https://hub-mirror.c.163.com&quot;,</span><br><span class="line">    &quot;https://reg-mirror.qiniu.com&quot;</span><br><span class="line">  ],</span><br><span class="line">  &quot;insecure-registries&quot;: [],</span><br><span class="line">  &quot;max-concurrent-downloads&quot;: 3,</span><br><span class="line">  &quot;data-root&quot;: &quot;/var/lib/docker&quot;</span><br><span class="line">&#125;</span><br><span class="line">EOF</span><br></pre></td></tr></table></figure>
+<p>步骤2，确保 /var/lib/docker 目录存在<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mkdir -p /var/lib/docker</span><br></pre></td></tr></table></figure><br>步骤3， 重启 Docker 服务<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/init.d/docker restart</span><br></pre></td></tr></table></figure><br>步骤4，检查状态<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/etc/init.d/docker status</span><br></pre></td></tr></table></figure><br>如果看到 running，说明成功了！</p>
+<p>步骤5，验证 Docker 是否正常<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker info</span><br></pre></td></tr></table></figure><br>你应该能看到：<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Registry Mirrors:</span><br><span class="line">  https://mirror.ccs.tencentyun.com</span><br><span class="line">  https://hub-mirror.c.163.com</span><br><span class="line">  https://reg-mirror.qiniu.com</span><br></pre></td></tr></table></figure><br>说明镜像加速已生效<br>验证 daemon.json 是否合法<br>运行以下命令检查文件内容：<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat /etc/docker/daemon.json</span><br></pre></td></tr></table></figure><br>输出应该是：<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;registry-mirrors&quot;: [</span><br><span class="line">    &quot;https://mirror.ccs.tencentyun.com&quot;,</span><br><span class="line">    &quot;https://hub-mirror.c.163.com&quot;,</span><br><span class="line">    &quot;https://reg-mirror.qiniu.com&quot;</span><br><span class="line">  ],</span><br><span class="line">  &quot;insecure-registries&quot;: [],</span><br><span class="line">  &quot;max-concurrent-downloads&quot;: 3,</span><br><span class="line">  &quot;compress&quot;: true,</span><br><span class="line">  &quot;data-root&quot;: &quot;/var/lib/docker&quot;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h3 id="方法二"><a href="#方法二" class="headerlink" title="方法二"></a>方法二</h3><p>一键安装脚本<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"># 登录root</span><br><span class="line">sudo -i</span><br><span class="line"># 更新</span><br><span class="line">apt update</span><br><span class="line"># 升级</span><br><span class="line">apt upgrade</span><br><span class="line"># 按照工具curl和vim</span><br><span class="line">apt install -y curl vim</span><br><span class="line"># 官方脚本, 指定使用Aliyun加速, root权限执行</span><br><span class="line">curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun</span><br><span class="line"># 查看安装的docker版本</span><br><span class="line">docker --version</span><br></pre></td></tr></table></figure></p>
+<p>普通用户授权docker权限<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># 注意登录用户身份</span><br><span class="line">sudo usermod -aG docker $USER  # 需要登出再重新登录才生效(实测需要重启生效)</span><br><span class="line"># 没有生效前 id 与 id $USER 显示不一致</span><br><span class="line">id $USER 或 cat /etc/group | grep docker  # 查看</span><br><span class="line"></span><br><span class="line">newgrp - docker # 更新用户组 很重要(临时生效)</span><br><span class="line">docker ps    # 测试docker命令是否可以使用sudo正常使用</span><br></pre></td></tr></table></figure><br>(可选)配置国内源<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"># 配置aliyun镜像加速</span><br><span class="line">mkdir -p /etc/docker</span><br><span class="line">tee /etc/docker/daemon.json &lt;&lt;-&#x27;EOF&#x27;</span><br><span class="line">&#123;</span><br><span class="line">  &quot;registry-mirrors&quot;: [&quot;https://docker.1ms.run&quot;, &quot;https://docker.m.daocloud.io&quot;]</span><br><span class="line">&#125;</span><br><span class="line">EOF</span><br><span class="line">systemctl daemon-reload</span><br><span class="line">systemctl restart docker</span><br></pre></td></tr></table></figure><br>测试源是否能用<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 测试镜像拉取&amp;容器运行</span><br><span class="line">docker run hello-world</span><br></pre></td></tr></table></figure></p>
+<p>安装docker compose<br>参见官方文档: <a target="_blank" rel="noopener" href="https://docs.docker.com/compose/install/linux/#install-using-the-repository">https://docs.docker.com/compose/install/linux/#install-using-the-repository</a><br>针对linux平台, 仓库安装脚本如下<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"># Debian/Ubuntu</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install docker-compose-plugin</span><br><span class="line"></span><br><span class="line"># RPM</span><br><span class="line">sudo yum update</span><br><span class="line">sudo yum install docker-compose-plugin</span><br><span class="line"></span><br><span class="line"># 验证</span><br><span class="line">docker compose version</span><br><span class="line"></span><br><span class="line">docker --version</span><br><span class="line"></span><br><span class="line">docker info</span><br></pre></td></tr></table></figure></p>
+<p>按照portainer管理工具<br>参考链接<a target="_blank" rel="noopener" href="https://docs.portainer.io/start/install-ce/server/docker/linux">https://docs.portainer.io/start/install-ce/server/docker/linux</a><br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"># 1. 拉取镜像</span><br><span class="line">docker pull portainer/portainer-ce:latest</span><br><span class="line"></span><br><span class="line"># 2.创建磁盘卷(可选)</span><br><span class="line">docker volume create portainer_data</span><br><span class="line"></span><br><span class="line"># 3. 创建容器</span><br><span class="line"># 端口组合二选一即可, 粘贴代码前注意先删除 自#之后的注释, 避免格式问题</span><br><span class="line">docker run -d --name portainer --restart=always \</span><br><span class="line">-p 8000:8000 -p 9443:9443 \ # https使用, 仅使用http的话可以尝试注释掉</span><br><span class="line">-p 9000:9000 \ # 使用传统的http端口 </span><br><span class="line">-v /var/run/docker.sock:/var/run/docker.sock \</span><br><span class="line">-v portainer_data:/data portainer/portainer-ce:latest</span><br></pre></td></tr></table></figure><br>汉化版本<br>作者地址：<a target="_blank" rel="noopener" href="https://hub.docker.com/r/6053537/portainer-ce">https://hub.docker.com/r/6053537/portainer-ce</a><br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">docker volume create portainer_data</span><br><span class="line"></span><br><span class="line">docker run -d --name portainer-zh --restart=always \</span><br><span class="line">-p 9000:9000 \</span><br><span class="line">-v /var/run/docker.sock:/var/run/docker.sock \</span><br><span class="line">-v portainer_data:/data  6053537/portainer-ce:latest</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p>以上摘抄至<a target="_blank" rel="noopener" href="https://zoe.red/2024/174.html">https://zoe.red/2024/174.html</a> ，感谢大佬</p>
+</blockquote>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://blog.camelz.site">駝駱仧</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://blog.camelz.site/posts/adf27a5f.html">https://blog.camelz.site/posts/adf27a5f.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.camelz.site" target="_blank">駝駱仧🐫</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/docker/">docker</a><a class="post-meta__tags" href="/tags/Ubuntu/">Ubuntu</a><a class="post-meta__tags" href="/tags/Docker-Compose/">Docker Compose</a></div><div class="post_share"><div class="social-share" data-image="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?6059" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/posts/b408481d.html" title="爪云Clawcloud搭建VPS, 实现SSH 远程登录并搭建easytier"><img class="cover" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?4911" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">爪云Clawcloud搭建VPS, 实现SSH 远程登录并搭建easytier</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/posts/33652a34.html" title="Ubuntu利用docker compose搭建Typecho博客"><img class="cover" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&参数=json?7227" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2025-09-28</div><div class="title">Ubuntu利用docker compose搭建Typecho博客</div></div></a></div><div><a href="/posts/f005a5ce.html" title="Docker配置域名Nginx Proxy Manager反向代理服务器"><img class="cover" src="https://pic-bed1.xiagao.site//2024/202411180017890.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-11</div><div class="title">Docker配置域名Nginx Proxy Manager反向代理服务器</div></div></a></div><div><a href="/posts/22106a2e.html" title="OpenWrt安装docker-compose，顺便部署dockge"><img class="cover" src="https://pic-bed1.xiagao.site//2024/202411180014338.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-11</div><div class="title">OpenWrt安装docker-compose，顺便部署dockge</div></div></a></div><div><a href="/posts/38f2e281.html" title="cloudflare利用Zero Trust里的tunnels实现内网穿透"><img class="cover" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&参数=json?8178" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-13</div><div class="title">cloudflare利用Zero Trust里的tunnels实现内网穿透</div></div></a></div><div><a href="/posts/32c0427e.html" title="docker安装1panel教程并配置mysql和openresty"><img class="cover" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&参数=json?1209" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2025-04-21</div><div class="title">docker安装1panel教程并配置mysql和openresty</div></div></a></div><div><a href="/posts/97c8b7bc.html" title="利用docker的1panel面板结合lucky反代搭建TypeCho博客"><img class="cover" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&参数=json?2999" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2025-04-04</div><div class="title">利用docker的1panel面板结合lucky反代搭建TypeCho博客</div></div></a></div></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar-camel.webp" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">駝駱仧</div><div class="author-info__description">没事瞎胡搞，越搞越明了🌤！</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">84</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">96</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">25</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/camel52zhang"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/camel52zhang" target="_blank" title="Github"><i class="fab fa-github" style="color: #ff9900;"></i></a><a class="social-icon" href="mailto:eric_zhng@hotmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">本Blog基于butterfly 4.13.0</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%B3%95%E4%B8%80"><span class="toc-number">1.</span> <span class="toc-text">方法一</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5%EF%BC%9A%E5%AE%89%E8%A3%85-Docker"><span class="toc-number">1.1.</span> <span class="toc-text">第一步：安装 Docker</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#1-%E6%9B%B4%E6%96%B0%E7%B3%BB%E7%BB%9F%E5%8C%85%E5%88%97%E8%A1%A8"><span class="toc-number">1.1.1.</span> <span class="toc-text">1. 更新系统包列表</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-%E5%AE%89%E8%A3%85%E5%BF%85%E8%A6%81%E7%9A%84%E4%BE%9D%E8%B5%96%E5%8C%85"><span class="toc-number">1.1.2.</span> <span class="toc-text">2. 安装必要的依赖包</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3-%E6%B7%BB%E5%8A%A0-Docker-%E7%9A%84%E5%AE%98%E6%96%B9-GPG-%E5%AF%86%E9%92%A5"><span class="toc-number">1.1.3.</span> <span class="toc-text">3. 添加 Docker 的官方 GPG 密钥</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4-%E6%B7%BB%E5%8A%A0-Docker-%E7%9A%84-APT-%E8%BD%AF%E4%BB%B6%E6%BA%90"><span class="toc-number">1.1.4.</span> <span class="toc-text">4. 添加 Docker 的 APT 软件源</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#5-%E6%9B%B4%E6%96%B0-APT-%E5%8C%85%E7%B4%A2%E5%BC%95"><span class="toc-number">1.1.5.</span> <span class="toc-text">5. 更新 APT 包索引</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#6-%E5%AE%89%E8%A3%85-Docker-Engine"><span class="toc-number">1.1.6.</span> <span class="toc-text">6. 安装 Docker Engine</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#7-%E9%AA%8C%E8%AF%81-Docker-%E6%98%AF%E5%90%A6%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F"><span class="toc-number">1.1.7.</span> <span class="toc-text">7. 验证 Docker 是否安装成功</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#8-%EF%BC%88%E5%8F%AF%E9%80%89%EF%BC%89%E8%AE%A9%E5%BD%93%E5%89%8D%E7%94%A8%E6%88%B7%E6%97%A0%E9%9C%80-sudo-%E4%BD%BF%E7%94%A8-Docker"><span class="toc-number">1.1.8.</span> <span class="toc-text">8. （可选）让当前用户无需 sudo 使用 Docker</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5%EF%BC%9A%E5%AE%89%E8%A3%85-Docker-Compose%EF%BC%88%E5%A6%82%E6%9E%9C%E6%9C%AA%E9%80%9A%E8%BF%87%E6%8F%92%E4%BB%B6%E5%AE%89%E8%A3%85%EF%BC%89"><span class="toc-number">1.2.</span> <span class="toc-text">第二步：安装 Docker Compose（如果未通过插件安装）</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#%E2%9C%85-%E6%8E%A8%E8%8D%90%E6%96%B9%E5%BC%8F%EF%BC%9A%E4%BD%BF%E7%94%A8%E6%8F%92%E4%BB%B6%EF%BC%88%E5%B7%B2%E5%AE%89%E8%A3%85%EF%BC%89"><span class="toc-number">1.2.1.</span> <span class="toc-text">✅ 推荐方式：使用插件（已安装）</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#%E2%9D%8C-%E4%BC%A0%E7%BB%9F%E6%96%B9%E5%BC%8F%EF%BC%88%E4%B8%8D%E6%8E%A8%E8%8D%90%EF%BC%8C%E4%BB%85%E4%BD%9C%E5%A4%87%E9%80%89%EF%BC%89"><span class="toc-number">1.2.2.</span> <span class="toc-text">❌ 传统方式（不推荐，仅作备选）</span></a></li></ol></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E4%B8%89%E6%AD%A5%EF%BC%9A%E5%90%AF%E5%8A%A8%E5%B9%B6%E5%90%AF%E7%94%A8-Docker-%E6%9C%8D%E5%8A%A1"><span class="toc-number">1.3.</span> <span class="toc-text">第三步：启动并启用 Docker 服务</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E7%AC%AC%E5%9B%9B%E6%AD%A5%EF%BC%9A%E6%B5%8B%E8%AF%95%E8%BF%90%E8%A1%8C"><span class="toc-number">1.4.</span> <span class="toc-text">第四步：测试运行</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98"><span class="toc-number">1.5.</span> <span class="toc-text">常见问题</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">1.6.</span> <span class="toc-text">总结</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E9%97%AE%E9%A2%98%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95"><span class="toc-number">1.7.</span> <span class="toc-text">一些问题的解决办法</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%96%B9%E6%B3%95%E4%BA%8C"><span class="toc-number">2.</span> <span class="toc-text">方法二</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/adf27a5f.html" title="Ubuntu 上安装 Docker 和 Docker Compose"><img src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?6059" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Ubuntu 上安装 Docker 和 Docker Compose"/></a><div class="content"><a class="title" href="/posts/adf27a5f.html" title="Ubuntu 上安装 Docker 和 Docker Compose">Ubuntu 上安装 Docker 和 Docker Compose</a><time datetime="2025-09-28T07:11:02.000Z" title="发表于 2025-09-28 15:11:02">2025-09-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/b408481d.html" title="爪云Clawcloud搭建VPS, 实现SSH 远程登录并搭建easytier"><img src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?4911" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="爪云Clawcloud搭建VPS, 实现SSH 远程登录并搭建easytier"/></a><div class="content"><a class="title" href="/posts/b408481d.html" title="爪云Clawcloud搭建VPS, 实现SSH 远程登录并搭建easytier">爪云Clawcloud搭建VPS, 实现SSH 远程登录并搭建easytier</a><time datetime="2025-09-28T06:57:02.000Z" title="发表于 2025-09-28 14:57:02">2025-09-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/315b0652.html" title="EasyTier利用飞牛自建中转&amp;P2P打洞服务器及配置客户端"><img src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?5636" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="EasyTier利用飞牛自建中转&amp;P2P打洞服务器及配置客户端"/></a><div class="content"><a class="title" href="/posts/315b0652.html" title="EasyTier利用飞牛自建中转&amp;P2P打洞服务器及配置客户端">EasyTier利用飞牛自建中转&amp;P2P打洞服务器及配置客户端</a><time datetime="2025-09-28T06:47:02.000Z" title="发表于 2025-09-28 14:47:02">2025-09-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/33652a34.html" title="Ubuntu利用docker compose搭建Typecho博客"><img src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?7227" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Ubuntu利用docker compose搭建Typecho博客"/></a><div class="content"><a class="title" href="/posts/33652a34.html" title="Ubuntu利用docker compose搭建Typecho博客">Ubuntu利用docker compose搭建Typecho博客</a><time datetime="2025-09-28T06:23:02.000Z" title="发表于 2025-09-28 14:23:02">2025-09-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/de7b2178.html" title="Win11/Win10共享打印机0x00000709报错解决方案，打印机连接"><img src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?7186" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Win11/Win10共享打印机0x00000709报错解决方案，打印机连接"/></a><div class="content"><a class="title" href="/posts/de7b2178.html" title="Win11/Win10共享打印机0x00000709报错解决方案，打印机连接">Win11/Win10共享打印机0x00000709报错解决方案，打印机连接</a><time datetime="2025-09-02T14:19:08.000Z" title="发表于 2025-09-02 22:19:08">2025-09-02</time></div></div></div></div></div></div></div><footer id="footer" style="background: transparent !important;"><div id="footer-wrap"><div class="copyright">&copy;2024 - 2025 By 駝駱仧</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><div id="runtime"></div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button class="share" type="button" title="分享链接" onclick="share()"><i class="fas fa-share-nodes"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button><button id="go-down" type="button" title="直达底部" onclick="btf.scrollToDest(document.body.scrollHeight, 500)"><i class="fas fa-arrow-down"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>(() => {
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://twikoo.xiagao.site/',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'https://twikoo.xiagao.site/',
+      region: '',
+      onCommentLoaded: () => {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+
+    
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') setTimeout(init,0)
+    else getScript('https://gcore.jsdelivr.net/npm/twikoo@1.6.38/dist/twikoo.all.min.js').then(init)
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script></div><script data-pjax type="text/javascript" src="/js/waterfall.js"></script><script data-pjax type="text/javascript" src="/js/essay.js"></script><script data-pjax src="/js/swiper.min.js"></script><script async data-pjax src="/js/custom.js"></script><script async data-pjax src="/js/clipboard.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/metingjs/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener
+  btf.removeGlobalFnEvent('pjax')
+  btf.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.13.0"></script></div></div><!-- hexo injector body_end start --> <script data-pjax>if(document.getElementById('recent-posts') && (location.pathname ==='/'|| '/' ==='all')){
+    var parent = document.getElementById('recent-posts');
+    var child = '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet"><div class="magnet_item"><a class="magnet_link" href="https://blog.camelz.site/categories/butterfly/"><div class="magnet_link_context" style=""><span style="font-weight:500;flex:1">🦋 butterfly魔改 (30)</span><span style="padding:0px 4px;border-radius: 8px;"><i class="fas fa-arrow-circle-right"></i></span></div></a></div><div class="magnet_item"><a class="magnet_link" href="https://blog.camelz.site/categories/PVE-虚拟机/"><div class="magnet_link_context" style=""><span style="font-weight:500;flex:1">♈ PVE-虚拟机相关 (2)</span><span style="padding:0px 4px;border-radius: 8px;"><i class="fas fa-arrow-circle-right"></i></span></div></a></div><div class="magnet_item"><a class="magnet_link" href="https://blog.camelz.site/categories/路由器/"><div class="magnet_link_context" style=""><span style="font-weight:500;flex:1">📶 普通路由器及OpenWrt路由 (5)</span><span style="padding:0px 4px;border-radius: 8px;"><i class="fas fa-arrow-circle-right"></i></span></div></a></div><div class="magnet_item"><a class="magnet_link" href="https://blog.camelz.site/categories/Windows/"><div class="magnet_link_context" style=""><span style="font-weight:500;flex:1">🌓 Windows相关 (9)</span><span style="padding:0px 4px;border-radius: 8px;"><i class="fas fa-arrow-circle-right"></i></span></div></a></div><a class="magnet_link_more"  href="https://blog.camelz.site/categories" style="flex:1;text-align: center;margin-bottom: 10px;">查看更多...</a></div></div>';
+    console.log('已挂载magnet')
+    parent.insertAdjacentHTML("afterbegin",child)}
+     </script><style>#catalog_magnet{flex-wrap: wrap;display: flex;width:100%;justify-content:space-between;padding: 10px 10px 0 10px;align-content: flex-start;}.magnet_item{flex-basis: calc(50% - 5px);background: #f2f2f2;margin-bottom: 10px;border-radius: 8px;transition: all 0.2s ease-in-out;}.magnet_item:hover{background: #b30070}.magnet_link_more{color:#555}.magnet_link{color:black}.magnet_link:hover{color:white}@media screen and (max-width: 600px) {.magnet_item {flex-basis: 100%;}}.magnet_link_context{display:flex;padding: 10px;font-size:16px;transition: all 0.2s ease-in-out;}.magnet_link_context:hover{padding: 10px 20px;}</style>
+    <style></style><script data-pjax>function history_calendar_injector_config(){
+                var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+                var item_html = '<div class="card-widget card-history"><div class="card-content"><div class="item-headline"><i class="fas fa-clock fa-spin"></i><span>那年今日</span></div><div id="history-baidu" style="height: 100px;overflow: hidden"><div class="history_swiper-container" id="history-container" style="width: 100%;height: 100%"><div class="swiper-wrapper" id="history_container_wrapper" style="height:20px"></div></div></div></div>';
+                console.log('已挂载history_calendar')
+                // parent_div_git.innerHTML=item_html+parent_div_git.innerHTML // 无报错，但不影响使用(支持pjax跳转)
+                parent_div_git.insertAdjacentHTML("afterbegin",item_html) // 有报错，但不影响使用(支持pjax跳转)
+            }if( document.getElementsByClassName('sticky_layout')[0] && (location.pathname ==='all'|| 'all' ==='all')){
+
+            history_calendar_injector_config()
+        } </script><script data-pjax  src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script><script data-pjax src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-card-history/baiduhistory/js/main.js"></script><script data-pjax>
+  function butterfly_swiper_injector_config(){
+    var parent_div_git = document.getElementById('recent-posts');
+    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/38f2e281.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?8178" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2024-12-13</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/38f2e281.html&quot;);" href="javascript:void(0);" alt="">cloudflare利用Zero Trust里的tunnels实现内网穿透</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/38f2e281.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/feecee7e.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="https://pic-bed1.xiagao.site//2024/image-20240718230842971.png" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2024-08-27</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/feecee7e.html&quot;);" href="javascript:void(0);" alt="">收藏的Windows操作系统和软件网</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/feecee7e.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/b69919b3.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?8826" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-03-02</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/b69919b3.html&quot;);" href="javascript:void(0);" alt="">Serv00搭建halo及Serv00重置教程</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/b69919b3.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/38518c2f.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?7552" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-06-03</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/38518c2f.html&quot;);" href="javascript:void(0);" alt="">PVE - allinone教程：OpenWrt, 核显SR-IOV, 飞牛fnOS, Windows10</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/38518c2f.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/b2104617.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="https://pic-bed1.xiagao.site//2024/image-20240718230329504.png" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2024-09-09</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/b2104617.html&quot;);" href="javascript:void(0);" alt="">PVE扩容和直通代码及硬盘直通</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/b2104617.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/ccff7fa3.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="https://pic-bed1.xiagao.site//2024/image-20240719204425987.png" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2024-10-10</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/ccff7fa3.html&quot;);" href="javascript:void(0);" alt="">butterfly添加首页轮播图</a><div class="blog-slider__text">描述点啥呢？</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/ccff7fa3.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    console.log('已挂载butterfly_swiper')
+    parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  var elist = 'undefined'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_swiper_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_swiper_injector_config();
+  }
+  </script><script defer src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js"></script><script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><!-- hexo injector body_end end --></body></html>
