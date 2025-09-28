@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.site/"/>
-  <updated>2025-09-28T07:25:35.920Z</updated>
+  <updated>2025-09-28T07:42:23.015Z</updated>
   <id>https://blog.camelz.site/</id>
   
   <author>
@@ -17,11 +17,64 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>一些CSS规则-解决屏幕溢出</title>
+    <link href="https://blog.camelz.site/posts/90450b30.html"/>
+    <id>https://blog.camelz.site/posts/90450b30.html</id>
+    <published>2025-09-28T07:38:02.000Z</published>
+    <updated>2025-09-28T07:42:23.015Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;宽度防溢出&lt;br&gt;&lt;img src=&quot;https://blog.lelez.site/usr/uploads/2025/09/2451783832.png&quot; alt=&quot;2025-09-02T07:43:14.png&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;原始代码&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/categories/butterfly/"/>
+    
+    
+    <category term="butterfly" scheme="https://blog.camelz.site/tags/butterfly/"/>
+    
+    <category term="CSS" scheme="https://blog.camelz.site/tags/CSS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PVE修改IP地址</title>
+    <link href="https://blog.camelz.site/posts/d99990df.html"/>
+    <id>https://blog.camelz.site/posts/d99990df.html</id>
+    <published>2025-09-28T07:33:02.000Z</published>
+    <updated>2025-09-28T07:37:02.491Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1，修改PVE地址&quot;&gt;&lt;a href=&quot;#1，修改PVE地址&quot; class=&quot;headerlink&quot; title=&quot;1，修改PVE地址&quot;&gt;&lt;/a&gt;1，修改PVE地址&lt;/h2&gt;&lt;p&gt;进入PVE&amp;gt;_Shell，输入以下命令&lt;br&gt;&lt;figure</summary>
+        
+      
+    
+    
+    
+    <category term="PVE" scheme="https://blog.camelz.site/categories/PVE/"/>
+    
+    
+    <category term="PVE" scheme="https://blog.camelz.site/tags/PVE/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Ubuntu 上安装 Docker 和 Docker Compose</title>
     <link href="https://blog.camelz.site/posts/adf27a5f.html"/>
     <id>https://blog.camelz.site/posts/adf27a5f.html</id>
     <published>2025-09-28T07:11:02.000Z</published>
-    <updated>2025-09-28T07:25:35.920Z</updated>
+    <updated>2025-09-28T07:27:51.030Z</updated>
     
     
       
@@ -50,7 +103,7 @@
     <link href="https://blog.camelz.site/posts/b408481d.html"/>
     <id>https://blog.camelz.site/posts/b408481d.html</id>
     <published>2025-09-28T06:57:02.000Z</published>
-    <updated>2025-09-28T07:03:40.425Z</updated>
+    <updated>2025-09-28T07:27:51.031Z</updated>
     
     
       
@@ -537,61 +590,6 @@
     <category term="ssl证书" scheme="https://blog.camelz.site/tags/ssl%E8%AF%81%E4%B9%A6/"/>
     
     <category term="certimate" scheme="https://blog.camelz.site/tags/certimate/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>docker安装1panel教程并配置mysql和openresty</title>
-    <link href="https://blog.camelz.site/posts/32c0427e.html"/>
-    <id>https://blog.camelz.site/posts/32c0427e.html</id>
-    <published>2025-04-21T13:33:08.000Z</published>
-    <updated>2025-04-21T13:47:50.175Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;1,确保群晖已经安装docker&lt;br&gt;2，安装 1Panel&lt;br&gt;选的官方的ssh安装方式，使用SSH工具登录，确保root登录，假如不是，在命令行输入&lt;br&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</summary>
-        
-      
-    
-    
-    
-    <category term="1panel" scheme="https://blog.camelz.site/categories/1panel/"/>
-    
-    
-    <category term="docker" scheme="https://blog.camelz.site/tags/docker/"/>
-    
-    <category term="1panel" scheme="https://blog.camelz.site/tags/1panel/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>github解决ssh:connect to host github.com port 22:Connection refused</title>
-    <link href="https://blog.camelz.site/posts/8fa19b10.html"/>
-    <id>https://blog.camelz.site/posts/8fa19b10.html</id>
-    <published>2025-04-21T13:16:08.000Z</published>
-    <updated>2025-04-21T13:47:21.684Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;执行以下命令&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td</summary>
-        
-      
-    
-    
-    
-    <category term="github" scheme="https://blog.camelz.site/categories/github/"/>
-    
-    
-    <category term="github" scheme="https://blog.camelz.site/tags/github/"/>
-    
-    <category term="git bush" scheme="https://blog.camelz.site/tags/git-bush/"/>
     
   </entry>
   

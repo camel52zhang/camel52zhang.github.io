@@ -15,8 +15,65 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Sun, 28 Sep 2025 07:25:35 GMT</pubDate>
+    <pubDate>Sun, 28 Sep 2025 07:42:23 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>一些CSS规则-解决屏幕溢出</title>
+      <link>https://blog.camelz.site/posts/90450b30.html</link>
+      <guid>https://blog.camelz.site/posts/90450b30.html</guid>
+      <pubDate>Sun, 28 Sep 2025 07:38:02 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;p&gt;宽度防溢出&lt;br&gt;&lt;img src=&quot;https://blog.lelez.site/usr/uploads/2025/09/2451783832.png&quot; alt=&quot;2025-09-02T07:43:14.png&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;原始代码&quot;&gt;&lt;a</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/butterfly/">butterfly</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/butterfly/">butterfly</category>
+      
+      <category domain="https://blog.camelz.site/tags/CSS/">CSS</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/90450b30.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>PVE修改IP地址</title>
+      <link>https://blog.camelz.site/posts/d99990df.html</link>
+      <guid>https://blog.camelz.site/posts/d99990df.html</guid>
+      <pubDate>Sun, 28 Sep 2025 07:33:02 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;1，修改PVE地址&quot;&gt;&lt;a href=&quot;#1，修改PVE地址&quot; class=&quot;headerlink&quot; title=&quot;1，修改PVE地址&quot;&gt;&lt;/a&gt;1，修改PVE地址&lt;/h2&gt;&lt;p&gt;进入PVE&amp;gt;_Shell，输入以下命令&lt;br&gt;&lt;figure</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/PVE/">PVE</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/PVE/">PVE</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/d99990df.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Ubuntu 上安装 Docker 和 Docker Compose</title>
@@ -575,65 +632,6 @@
       
       
       <comments>https://blog.camelz.site/posts/dafaec11.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>docker安装1panel教程并配置mysql和openresty</title>
-      <link>https://blog.camelz.site/posts/32c0427e.html</link>
-      <guid>https://blog.camelz.site/posts/32c0427e.html</guid>
-      <pubDate>Mon, 21 Apr 2025 13:33:08 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;1,确保群晖已经安装docker&lt;br&gt;2，安装 1Panel&lt;br&gt;选的官方的ssh安装方式，使用SSH工具登录，确保root登录，假如不是，在命令行输入&lt;br&gt;&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/1panel/">1panel</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/docker/">docker</category>
-      
-      <category domain="https://blog.camelz.site/tags/1panel/">1panel</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/32c0427e.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>github解决ssh:connect to host github.com port 22:Connection refused</title>
-      <link>https://blog.camelz.site/posts/8fa19b10.html</link>
-      <guid>https://blog.camelz.site/posts/8fa19b10.html</guid>
-      <pubDate>Mon, 21 Apr 2025 13:16:08 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;执行以下命令&lt;/p&gt;
-&lt;figure class=&quot;highlight plaintext&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/github/">github</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/github/">github</category>
-      
-      <category domain="https://blog.camelz.site/tags/git-bush/">git bush</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/8fa19b10.html#disqus_thread</comments>
       
     </item>
     
