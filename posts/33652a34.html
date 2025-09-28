@@ -1,0 +1,372 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Ubuntu利用docker compose搭建Typecho博客 | 駝駱仧🐫</title><meta name="author" content="駝駱仧"><meta name="copyright" content="駝駱仧"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="登录Ubuntu 使用SSH工具登录Ubuntu的root用户  1sudo -i 创建文件夹 创建相关文件夹并赋予777权限  123456mkdir -m 777 -p typecho&#x2F;nginx&#x2F;conf.dmkdir -m 777 -p typecho&#x2F;nginx&#x2F;certsmkdir -m 777 -p typecho&#x2F;nginx&#x2F;appmkdir -m 777 -p typecho&#x2F;m">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ubuntu利用docker compose搭建Typecho博客">
+<meta property="og:url" content="https://blog.camelz.site/posts/33652a34.html">
+<meta property="og:site_name" content="駝駱仧🐫">
+<meta property="og:description" content="登录Ubuntu 使用SSH工具登录Ubuntu的root用户  1sudo -i 创建文件夹 创建相关文件夹并赋予777权限  123456mkdir -m 777 -p typecho&#x2F;nginx&#x2F;conf.dmkdir -m 777 -p typecho&#x2F;nginx&#x2F;certsmkdir -m 777 -p typecho&#x2F;nginx&#x2F;appmkdir -m 777 -p typecho&#x2F;m">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://api.r10086.com/%E6%A8%B1%E9%81%93%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%8E%A5%E5%8F%A3.php?%E5%9B%BE%E7%89%87%E7%B3%BB%E5%88%97=%E9%A3%8E%E6%99%AF%E7%B3%BB%E5%88%978&%E5%8F%82%E6%95%B0=json?1458">
+<meta property="article:published_time" content="2025-09-28T06:23:02.000Z">
+<meta property="article:modified_time" content="2025-09-28T06:23:47.484Z">
+<meta property="article:author" content="駝駱仧">
+<meta property="article:tag" content="docker">
+<meta property="article:tag" content="Nginx">
+<meta property="article:tag" content="Ubuntu">
+<meta property="article:tag" content="Typecho">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://api.r10086.com/%E6%A8%B1%E9%81%93%E9%9A%8F%E6%9C%BA%E5%9B%BE%E7%89%87api%E6%8E%A5%E5%8F%A3.php?%E5%9B%BE%E7%89%87%E7%B3%BB%E5%88%97=%E9%A3%8E%E6%99%AF%E7%B3%BB%E5%88%978&%E5%8F%82%E6%95%B0=json?1458"><link rel="shortcut icon" href="/img/linshi.jpg"><link rel="canonical" href="https://blog.camelz.site/posts/33652a34.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="VuT0IlLcEpM1Za0xMbzTPQdK0jy2-s5VIJoHeqEQp-4"/><meta name="baidu-site-verification" content="codeva-kWZIwX0QDv"/><meta name="msvalidate.01" content="1A742B3C385AA3F31CB0F780FA81BAFE"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: true,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Ubuntu利用docker compose搭建Typecho博客',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2025-09-28 14:23:47'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="/css/essay_page.css"><link rel="stylesheet" href="/css/home_essay_bar.css"><link rel="stylesheet" href="/css/swiper.min.css"><!-- hexo injector head_end start --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-card-history/baiduhistory/css/main.css"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/font-awesome-animation.min.css" media="defer" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/tag_plugins.css" media="defer" onload="this.media='all'"><script src="https://npm.elemecdn.com/hexo-butterfly-tag-plugins-plus@latest/lib/assets/carousel-touch.js"></script><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiperstyle.css" media="print" onload="this.media='all'"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="駝駱仧🐫" type="application/atom+xml">
+<link rel="alternate" href="/rss2.xml" title="駝駱仧🐫" type="application/rss+xml">
+</head><body><div id="loading-box"><div class="loading-left-bg"></div><div class="loading-right-bg"></div><img class="load-image" src="/img/avatar-camel.webp" alt=""/></div><script async="async">(()=>{
+  const $loadingBox = document.getElementById('loading-box')
+  const $body = document.body
+  const preloader = {
+    endLoading: () => {
+      $body.style.overflow = ''
+      $loadingBox.classList.add('loaded')
+    },
+    initLoading: () => {
+      $body.style.overflow = 'hidden'
+      $loadingBox.classList.remove('loaded')
+    }
+  }
+
+  preloader.initLoading()
+  window.addEventListener('load',() => { preloader.endLoading() })
+  setTimeout(function(){preloader.endLoading();}, 4000);   // 超时4秒钟自动退出loading动画
+
+  if (true) {
+    document.addEventListener('pjax:send', () => { preloader.initLoading() })
+    document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+  }
+})()</script><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/avatar-camel.webp" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">82</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">94</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">24</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-folder"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 全部文章</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 文章分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 文章标签</span></a></li><li><a class="site-page child" href="/random/"><i class="fa-fw fa fa-random"></i><span> 随机文章</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-play-circle"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-user-plus"></i><span> 社交</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友人帐</span></a></li><li><a class="site-page child" href="/comments/"><i class="fa-fw fa fa-envelope-open"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-drivers-license"></i><span> 关于</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></li><li><a class="site-page child" href="/essay/"><i class="fa-fw far fa-comments"></i><span> 碎碎念</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?1458')"><nav id="nav"><span id="blog-info"><a href="/" title="駝駱仧🐫"><span class="site-name">駝駱仧🐫</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-folder"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 全部文章</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 文章分类</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 文章标签</span></a></li><li><a class="site-page child" href="/random/"><i class="fa-fw fa fa-random"></i><span> 随机文章</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-play-circle"></i><span> 娱乐</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/music/"><i class="fa-fw fas fa-music"></i><span> Music</span></a></li><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-video"></i><span> Movie</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-user-plus"></i><span> 社交</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友人帐</span></a></li><li><a class="site-page child" href="/comments/"><i class="fa-fw fa fa-envelope-open"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-drivers-license"></i><span> 关于</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></li><li><a class="site-page child" href="/essay/"><i class="fa-fw far fa-comments"></i><span> 碎碎念</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Ubuntu利用docker compose搭建Typecho博客</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2025-09-28T06:23:02.000Z" title="发表于 2025-09-28 14:23:02">2025-09-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2025-09-28T06:23:47.484Z" title="更新于 2025-09-28 14:23:47">2025-09-28</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Typecho/">Typecho</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Ubuntu利用docker compose搭建Typecho博客"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div></header><main id="blog-container"></main><div class="layout" id="content-inner"><div id="post"><!-- 文章内容--><article class="post-content" id="article-container"><h3 id="登录Ubuntu"><a href="#登录Ubuntu" class="headerlink" title="登录Ubuntu"></a>登录Ubuntu</h3><ul>
+<li>使用SSH工具登录Ubuntu的root用户</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo -i</span><br></pre></td></tr></table></figure>
+<h3 id="创建文件夹"><a href="#创建文件夹" class="headerlink" title="创建文件夹"></a>创建文件夹</h3><ul>
+<li>创建相关文件夹并赋予777权限</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">mkdir -m 777 -p typecho/nginx/conf.d</span><br><span class="line">mkdir -m 777 -p typecho/nginx/certs</span><br><span class="line">mkdir -m 777 -p typecho/nginx/app</span><br><span class="line">mkdir -m 777 -p typecho/mariadb</span><br><span class="line">mkdir -m 777 -p typecho/usr</span><br><span class="line">mkdir -m 777 -p typecho/uploads</span><br></pre></td></tr></table></figure>
+<h3 id="配置ddns-go"><a href="#配置ddns-go" class="headerlink" title="配置ddns-go"></a>配置ddns-go</h3><ul>
+<li>建立相关文件夹</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># 先确保目录存在（如果已存在可跳过）</span><br><span class="line">mkdir -p ~/ddns-go</span><br><span class="line"></span><br><span class="line"># 然后赋予权限（不需要sudo）</span><br><span class="line">chmod 777 ~/ddns-go</span><br><span class="line">或者直接使用绝对路径：</span><br><span class="line">chmod 777 /home/zhang-u/ddns-go</span><br></pre></td></tr></table></figure>
+<ul>
+<li>拉取并运行ddns-go</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker run -d --name ddns-go --restart=always -p 9876:9876 --net=host -v ~/ddns-go:/root jeessy/ddns-go</span><br></pre></td></tr></table></figure>
+<ul>
+<li>登录并配置ddns-go</li>
+</ul>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">登录地址：http://你Ubuntu的IP地址:9876，例如http://192.168.200.25:9876</span><br><span class="line">登录后先配置用户名和密码</span><br><span class="line">配置域名和解析方式，我的域名是blog.lelez.site</span><br></pre></td></tr></table></figure>
+<h3 id="上传证书文件"><a href="#上传证书文件" class="headerlink" title="上传证书文件"></a>上传证书文件</h3><p>先上传证书到ubutu的一个文件夹，然后拷贝证书文件到建立的文件夹<code>typecho/nginx/certs</code>内</p>
+<p>例如先用SSH工具上传到<code>/home/zhang-u/下载</code>，然后执行拷贝</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&gt; cp /home/zhang-u/下载/_.lelez.site.key ~/typecho/nginx/certs</span><br><span class="line">&gt; cp /home/zhang-u/下载/_.lelez.site.crt ~/typecho/nginx/certs</span><br></pre></td></tr></table></figure>
+<h3 id="配置typecho-conf"><a href="#配置typecho-conf" class="headerlink" title="配置typecho.conf"></a>配置typecho.conf</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"># HTTPS 配置</span><br><span class="line">server &#123;</span><br><span class="line">    listen 443 ssl http2;</span><br><span class="line">    server_name blog.lelez.site;</span><br><span class="line"></span><br><span class="line">    # SSL 证书 (放到 /home/zhang-u/typecho/nginx/certs/)</span><br><span class="line">    ssl_certificate     /etc/nginx/certs/_.lelez.site.crt;</span><br><span class="line">    ssl_certificate_key /etc/nginx/certs/_.lelez.site.key;</span><br><span class="line"></span><br><span class="line">    # TLS 推荐配置</span><br><span class="line">    ssl_protocols TLSv1.2 TLSv1.3;</span><br><span class="line">    ssl_ciphers &#x27;TLS_AES_256_GCM_SHA384:TLS_CHACHA20_POLY1305_SHA256:TLS_AES_128_GCM_SHA256&#x27;;</span><br><span class="line">    ssl_prefer_server_ciphers on;</span><br><span class="line"></span><br><span class="line">    # 日志（可选）</span><br><span class="line">    access_log /var/log/nginx/typecho_access.log;</span><br><span class="line">    error_log  /var/log/nginx/typecho_error.log;</span><br><span class="line"></span><br><span class="line">    # 反向代理到 typecho 容器 (走 mynet 网络)</span><br><span class="line">    location / &#123;</span><br><span class="line">        proxy_pass http://typecho:80;   # 注意：这里用的是 docker 服务名 typecho</span><br><span class="line">        proxy_http_version 1.1;</span><br><span class="line">        proxy_set_header Host $host;</span><br><span class="line">        proxy_set_header X-Real-IP $remote_addr;</span><br><span class="line">        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;</span><br><span class="line">        proxy_set_header X-Forwarded-Proto $scheme;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    # 静态文件缓存（可选优化）</span><br><span class="line">    location ~* \.(jpg|jpeg|gif|png|webp|ico|css|js|woff|woff2|ttf|svg|eot|mp4|avi|mov)$ &#123;</span><br><span class="line">        expires 30d;</span><br><span class="line">        access_log off;</span><br><span class="line">        proxy_pass http://typecho:80;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<ul>
+<li>上传<code>typecho.conf</code>到<code>~/typecho/nginx/conf.d</code>内</li>
+</ul>
+<p>先上传<code>typecho.conf</code>到<code>Ubuntu</code>的<code>/home/zhang-u/下载</code>文件夹，并拷贝这个文件到<code>typecho/nginx/conf.d</code>内</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp /home/zhang-u/下载/typecho.conf ~/typecho/nginx/conf.d</span><br></pre></td></tr></table></figure>
+<p>上传后假如需要修改，用下边的命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano ~/typecho/nginx/conf.d/typecho.conf</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>在里边修改后按ctrl+x，然后回车，然后yes保存退出</p>
+<p>或者ctrl+o后回车，然后yes保存退出</p>
+</blockquote>
+<h3 id="配置docker-compose-yml"><a href="#配置docker-compose-yml" class="headerlink" title="配置docker-compose.yml"></a>配置docker-compose.yml</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br></pre></td><td class="code"><pre><span class="line"># version: &#x27;3.8&#x27;</span><br><span class="line"></span><br><span class="line">services:</span><br><span class="line">  mariadb:</span><br><span class="line">    image: linuxserver/mariadb</span><br><span class="line">    container_name: mariadb</span><br><span class="line">    environment:</span><br><span class="line">      - PUID=1000</span><br><span class="line">      - PGID=1001</span><br><span class="line">      - MYSQL_ROOT_PASSWORD=110119asdF!</span><br><span class="line">      - MYSQL_DATABASE=typecho</span><br><span class="line">      - MYSQL_USER=typecho</span><br><span class="line">      - MYSQL_PASSWORD=TypechoPass123!</span><br><span class="line">      - TZ=Asia/Shanghai</span><br><span class="line">    volumes:</span><br><span class="line">      - /home/zhang-u/typecho/mariadb/config:/config</span><br><span class="line">    ports:</span><br><span class="line">      - 43306:3306</span><br><span class="line">    networks:</span><br><span class="line">      - mynet</span><br><span class="line">    restart: unless-stopped</span><br><span class="line"></span><br><span class="line">  adminer:</span><br><span class="line">    image: adminer:latest</span><br><span class="line">    container_name: adminer</span><br><span class="line">    environment:</span><br><span class="line">      - ADMINER_DEFAULT_SERVER=mariadb</span><br><span class="line">    ports:</span><br><span class="line">      - 48079:8080</span><br><span class="line">    networks:</span><br><span class="line">      - mynet</span><br><span class="line">    depends_on:</span><br><span class="line">      - mariadb</span><br><span class="line">    restart: unless-stopped</span><br><span class="line">    </span><br><span class="line">  typecho:</span><br><span class="line">    image: joyqi/typecho:nightly-php8.2-apache</span><br><span class="line">    container_name: typecho-server</span><br><span class="line">    restart: unless-stopped</span><br><span class="line">    environment:</span><br><span class="line">      - TYPECHO_SITE_URL=https://blog.lelez.site/</span><br><span class="line">      - TYPECHO_DB_ADAPTER=Pdo_Mysql</span><br><span class="line">      - TYPECHO_DB_HOST=mariadb</span><br><span class="line">      - TYPECHO_DB_PORT=3306</span><br><span class="line">      - TYPECHO_DB_NAME=typecho</span><br><span class="line">      - TYPECHO_DB_USER=typecho</span><br><span class="line">      - TYPECHO_DB_PASSWORD=TypechoPass123!</span><br><span class="line">      - TYPECHO_REWRITE=1</span><br><span class="line">    ports:</span><br><span class="line">      - 48080:80</span><br><span class="line">    networks:</span><br><span class="line">      - mynet</span><br><span class="line">    depends_on:</span><br><span class="line">      - mariadb</span><br><span class="line">    volumes:</span><br><span class="line">      - /home/zhang-u/typecho/usr:/app/usr</span><br><span class="line">      - /home/zhang-u/typecho/uploads:/app/usr/uploads</span><br><span class="line"></span><br><span class="line">  nginx:</span><br><span class="line">    image: nginx:latest</span><br><span class="line">    container_name: nginx</span><br><span class="line">    ports:</span><br><span class="line">      - 80:80</span><br><span class="line">      - 443:443</span><br><span class="line">    volumes:</span><br><span class="line">      - /home/zhang-u/typecho/nginx/conf.d:/etc/nginx/conf.d</span><br><span class="line">      - /home/zhang-u/typecho/nginx/certs:/etc/nginx/certs</span><br><span class="line">    networks:</span><br><span class="line">      - mynet</span><br><span class="line">    depends_on:</span><br><span class="line">      - typecho</span><br><span class="line">    restart: unless-stopped</span><br><span class="line"></span><br><span class="line">networks:</span><br><span class="line">  mynet:</span><br><span class="line">    name: mynet</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>注意我docker compose里的配置全部写成了绝对路径<code>/home/zhang-u/typecho/</code>，而不是短路径<code>~/typecho/</code></p>
+</blockquote>
+<p>先上传<code>docker-compose.yml</code>到<code>Ubuntu</code>的<code>/home/zhang-u/下载</code>文件夹，并拷贝这个文件到<code>typecho/</code>内</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cp /home/zhang-u/下载/docker-compose.yml ~/typecho</span><br></pre></td></tr></table></figure>
+<p>上传后假如需要修改，用下边的命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">nano ~/typecho/docker-compose.yml</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>在里边修改后按ctrl+x，然后回车，然后yes保存退出</p>
+<p>或者ctrl+o后回车，然后yes保存退出</p>
+</blockquote>
+<h3 id="运行"><a href="#运行" class="headerlink" title="运行"></a>运行</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker compose up -d</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>假如报错说权限问题，请执行以下命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo chown -R www-data:www-data /home/zhang-u/typecho/uploads</span><br><span class="line">sudo chown -R www-data:www-data /home/zhang-u/typecho/usr</span><br></pre></td></tr></table></figure>
+</li>
+</ul>
+<blockquote>
+<p>权限通常是因为<strong>Typecho 容器里的 Apache/PHP 是以 <code>www-data</code> 用户运行</strong>，所以宿主机挂载的目录必须属于 <code>www-data</code> 才能写</p>
+</blockquote>
+<h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><p>任何修改要使其生效，修改后去执行下边命令</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker compose down</span><br><span class="line">docker compose up -d</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>以上命令需在docker-compose.yml文件所在目录执行才能生效</p>
+</blockquote>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://blog.camelz.site">駝駱仧</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://blog.camelz.site/posts/33652a34.html">https://blog.camelz.site/posts/33652a34.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://blog.camelz.site" target="_blank">駝駱仧🐫</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/docker/">docker</a><a class="post-meta__tags" href="/tags/Nginx/">Nginx</a><a class="post-meta__tags" href="/tags/Ubuntu/">Ubuntu</a><a class="post-meta__tags" href="/tags/Typecho/">Typecho</a></div><div class="post_share"><div class="social-share" data-image="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?1458" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/315b0652.html" title="EasyTier利用飞牛自建中转&amp;P2P打洞服务器及配置客户端"><img class="cover" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?4847" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">EasyTier利用飞牛自建中转&amp;P2P打洞服务器及配置客户端</div></div></a></div><div class="next-post pull-right"><a href="/posts/de7b2178.html" title="Win11/Win10共享打印机0x00000709报错解决方案，打印机连接"><img class="cover" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?8073" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Win11/Win10共享打印机0x00000709报错解决方案，打印机连接</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/posts/f005a5ce.html" title="Docker配置域名Nginx Proxy Manager反向代理服务器"><img class="cover" src="https://pic-bed1.xiagao.site//2024/202411180017890.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-11</div><div class="title">Docker配置域名Nginx Proxy Manager反向代理服务器</div></div></a></div><div><a href="/posts/22106a2e.html" title="OpenWrt安装docker-compose，顺便部署dockge"><img class="cover" src="https://pic-bed1.xiagao.site//2024/202411180014338.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-11</div><div class="title">OpenWrt安装docker-compose，顺便部署dockge</div></div></a></div><div><a href="/posts/38f2e281.html" title="cloudflare利用Zero Trust里的tunnels实现内网穿透"><img class="cover" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&参数=json?5701" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-12-13</div><div class="title">cloudflare利用Zero Trust里的tunnels实现内网穿透</div></div></a></div><div><a href="/posts/32c0427e.html" title="docker安装1panel教程并配置mysql和openresty"><img class="cover" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&参数=json?448" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2025-04-21</div><div class="title">docker安装1panel教程并配置mysql和openresty</div></div></a></div><div><a href="/posts/97c8b7bc.html" title="利用docker的1panel面板结合lucky反代搭建TypeCho博客"><img class="cover" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&参数=json?9364" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2025-04-04</div><div class="title">利用docker的1panel面板结合lucky反代搭建TypeCho博客</div></div></a></div><div><a href="/posts/fe3bcbbf.html" title="自制订阅转换2024"><img class="cover" src="https://pic-bed1.xiagao.site//2024/202411091542962.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-11-09</div><div class="title">自制订阅转换2024</div></div></a></div></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/avatar-camel.webp" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">駝駱仧</div><div class="author-info__description">没事瞎胡搞，越搞越明了🌤！</div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">82</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">94</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">24</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/camel52zhang"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/camel52zhang" target="_blank" title="Github"><i class="fab fa-github" style="color: #ff9900;"></i></a><a class="social-icon" href="mailto:eric_zhng@hotmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">本Blog基于butterfly 4.13.0</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%99%BB%E5%BD%95Ubuntu"><span class="toc-number">1.</span> <span class="toc-text">登录Ubuntu</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%88%9B%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="toc-number">2.</span> <span class="toc-text">创建文件夹</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEddns-go"><span class="toc-number">3.</span> <span class="toc-text">配置ddns-go</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8A%E4%BC%A0%E8%AF%81%E4%B9%A6%E6%96%87%E4%BB%B6"><span class="toc-number">4.</span> <span class="toc-text">上传证书文件</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEtypecho-conf"><span class="toc-number">5.</span> <span class="toc-text">配置typecho.conf</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%85%8D%E7%BD%AEdocker-compose-yml"><span class="toc-number">6.</span> <span class="toc-text">配置docker-compose.yml</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%90%E8%A1%8C"><span class="toc-number">7.</span> <span class="toc-text">运行</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B6%E4%BB%96"><span class="toc-number">8.</span> <span class="toc-text">其他</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/posts/315b0652.html" title="EasyTier利用飞牛自建中转&amp;P2P打洞服务器及配置客户端"><img src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?4847" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="EasyTier利用飞牛自建中转&amp;P2P打洞服务器及配置客户端"/></a><div class="content"><a class="title" href="/posts/315b0652.html" title="EasyTier利用飞牛自建中转&amp;P2P打洞服务器及配置客户端">EasyTier利用飞牛自建中转&amp;P2P打洞服务器及配置客户端</a><time datetime="2025-09-28T06:47:02.000Z" title="发表于 2025-09-28 14:47:02">2025-09-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/33652a34.html" title="Ubuntu利用docker compose搭建Typecho博客"><img src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?1458" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Ubuntu利用docker compose搭建Typecho博客"/></a><div class="content"><a class="title" href="/posts/33652a34.html" title="Ubuntu利用docker compose搭建Typecho博客">Ubuntu利用docker compose搭建Typecho博客</a><time datetime="2025-09-28T06:23:02.000Z" title="发表于 2025-09-28 14:23:02">2025-09-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/de7b2178.html" title="Win11/Win10共享打印机0x00000709报错解决方案，打印机连接"><img src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?8073" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Win11/Win10共享打印机0x00000709报错解决方案，打印机连接"/></a><div class="content"><a class="title" href="/posts/de7b2178.html" title="Win11/Win10共享打印机0x00000709报错解决方案，打印机连接">Win11/Win10共享打印机0x00000709报错解决方案，打印机连接</a><time datetime="2025-09-02T14:19:08.000Z" title="发表于 2025-09-02 22:19:08">2025-09-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/921d79ca.html" title="爪云利用3x-UI部署vless"><img src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?1815" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="爪云利用3x-UI部署vless"/></a><div class="content"><a class="title" href="/posts/921d79ca.html" title="爪云利用3x-UI部署vless">爪云利用3x-UI部署vless</a><time datetime="2025-09-02T14:18:08.000Z" title="发表于 2025-09-02 22:18:08">2025-09-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/posts/536cb693.html" title="v2rayN路由规则设置"><img src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?2594" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="v2rayN路由规则设置"/></a><div class="content"><a class="title" href="/posts/536cb693.html" title="v2rayN路由规则设置">v2rayN路由规则设置</a><time datetime="2025-09-02T14:15:08.000Z" title="发表于 2025-09-02 22:15:08">2025-09-02</time></div></div></div></div></div></div></div><footer id="footer" style="background: transparent !important;"><div id="footer-wrap"><div class="copyright">&copy;2024 - 2025 By 駝駱仧</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><div id="runtime"></div></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button class="share" type="button" title="分享链接" onclick="share()"><i class="fas fa-share-nodes"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button><button id="go-down" type="button" title="直达底部" onclick="btf.scrollToDest(document.body.scrollHeight, 500)"><i class="fas fa-arrow-down"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>(() => {
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://twikoo.xiagao.site/',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'https://twikoo.xiagao.site/',
+      region: '',
+      onCommentLoaded: () => {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+
+    
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') setTimeout(init,0)
+    else getScript('https://gcore.jsdelivr.net/npm/twikoo@1.6.38/dist/twikoo.all.min.js').then(init)
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script></div><script data-pjax type="text/javascript" src="/js/waterfall.js"></script><script data-pjax type="text/javascript" src="/js/essay.js"></script><script data-pjax src="/js/swiper.min.js"></script><script async data-pjax src="/js/custom.js"></script><script async data-pjax src="/js/clipboard.min.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/metingjs/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener
+  btf.removeGlobalFnEvent('pjax')
+  btf.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js?v=4.13.0"></script></div></div><!-- hexo injector body_end start --> <script data-pjax>if(document.getElementById('recent-posts') && (location.pathname ==='/'|| '/' ==='all')){
+    var parent = document.getElementById('recent-posts');
+    var child = '<div class="recent-post-item" style="width:100%;height: auto"><div id="catalog_magnet"><div class="magnet_item"><a class="magnet_link" href="https://blog.camelz.site/categories/butterfly/"><div class="magnet_link_context" style=""><span style="font-weight:500;flex:1">🦋 butterfly魔改 (30)</span><span style="padding:0px 4px;border-radius: 8px;"><i class="fas fa-arrow-circle-right"></i></span></div></a></div><div class="magnet_item"><a class="magnet_link" href="https://blog.camelz.site/categories/PVE-虚拟机/"><div class="magnet_link_context" style=""><span style="font-weight:500;flex:1">♈ PVE-虚拟机相关 (2)</span><span style="padding:0px 4px;border-radius: 8px;"><i class="fas fa-arrow-circle-right"></i></span></div></a></div><div class="magnet_item"><a class="magnet_link" href="https://blog.camelz.site/categories/路由器/"><div class="magnet_link_context" style=""><span style="font-weight:500;flex:1">📶 普通路由器及OpenWrt路由 (5)</span><span style="padding:0px 4px;border-radius: 8px;"><i class="fas fa-arrow-circle-right"></i></span></div></a></div><div class="magnet_item"><a class="magnet_link" href="https://blog.camelz.site/categories/Windows/"><div class="magnet_link_context" style=""><span style="font-weight:500;flex:1">🌓 Windows相关 (9)</span><span style="padding:0px 4px;border-radius: 8px;"><i class="fas fa-arrow-circle-right"></i></span></div></a></div><a class="magnet_link_more"  href="https://blog.camelz.site/categories" style="flex:1;text-align: center;margin-bottom: 10px;">查看更多...</a></div></div>';
+    console.log('已挂载magnet')
+    parent.insertAdjacentHTML("afterbegin",child)}
+     </script><style>#catalog_magnet{flex-wrap: wrap;display: flex;width:100%;justify-content:space-between;padding: 10px 10px 0 10px;align-content: flex-start;}.magnet_item{flex-basis: calc(50% - 5px);background: #f2f2f2;margin-bottom: 10px;border-radius: 8px;transition: all 0.2s ease-in-out;}.magnet_item:hover{background: #b30070}.magnet_link_more{color:#555}.magnet_link{color:black}.magnet_link:hover{color:white}@media screen and (max-width: 600px) {.magnet_item {flex-basis: 100%;}}.magnet_link_context{display:flex;padding: 10px;font-size:16px;transition: all 0.2s ease-in-out;}.magnet_link_context:hover{padding: 10px 20px;}</style>
+    <style></style><script data-pjax>function history_calendar_injector_config(){
+                var parent_div_git = document.getElementsByClassName('sticky_layout')[0];
+                var item_html = '<div class="card-widget card-history"><div class="card-content"><div class="item-headline"><i class="fas fa-clock fa-spin"></i><span>那年今日</span></div><div id="history-baidu" style="height: 100px;overflow: hidden"><div class="history_swiper-container" id="history-container" style="width: 100%;height: 100%"><div class="swiper-wrapper" id="history_container_wrapper" style="height:20px"></div></div></div></div>';
+                console.log('已挂载history_calendar')
+                // parent_div_git.innerHTML=item_html+parent_div_git.innerHTML // 无报错，但不影响使用(支持pjax跳转)
+                parent_div_git.insertAdjacentHTML("afterbegin",item_html) // 有报错，但不影响使用(支持pjax跳转)
+            }if( document.getElementsByClassName('sticky_layout')[0] && (location.pathname ==='all'|| 'all' ==='all')){
+
+            history_calendar_injector_config()
+        } </script><script data-pjax  src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script><script data-pjax src="https://cdn.jsdelivr.net/gh/Zfour/Butterfly-card-history/baiduhistory/js/main.js"></script><script async src="//at.alicdn.com/t/font_2032782_8d5kxvn09md.js"></script><script data-pjax>
+  function butterfly_swiper_injector_config(){
+    var parent_div_git = document.getElementById('recent-posts');
+    var item_html = '<div class="recent-post-item" style="height: auto;width: 100%"><div class="blog-slider swiper-container-fade swiper-container-horizontal" id="swiper_container"><div class="blog-slider__wrp swiper-wrapper" style="transition-duration: 0ms;"><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/38f2e281.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?5701" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2024-12-13</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/38f2e281.html&quot;);" href="javascript:void(0);" alt="">cloudflare利用Zero Trust里的tunnels实现内网穿透</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/38f2e281.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/feecee7e.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="https://pic-bed1.xiagao.site//2024/image-20240718230842971.png" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2024-08-27</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/feecee7e.html&quot;);" href="javascript:void(0);" alt="">收藏的Windows操作系统和软件网</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/feecee7e.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/b69919b3.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?3893" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-03-02</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/b69919b3.html&quot;);" href="javascript:void(0);" alt="">Serv00搭建halo及Serv00重置教程</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/b69919b3.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/38518c2f.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="https://api.r10086.com/樱道随机图片api接口.php?图片系列=风景系列8&amp;参数=json?3522" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2025-06-03</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/38518c2f.html&quot;);" href="javascript:void(0);" alt="">PVE - allinone教程：OpenWrt, 核显SR-IOV, 飞牛fnOS, Windows10</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/38518c2f.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/b2104617.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="https://pic-bed1.xiagao.site//2024/image-20240718230329504.png" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2024-09-09</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/b2104617.html&quot;);" href="javascript:void(0);" alt="">PVE扩容和直通代码及硬盘直通</a><div class="blog-slider__text">再怎么看我也不知道怎么描述它的啦！</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/b2104617.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div><div class="blog-slider__item swiper-slide" style="width: 750px; opacity: 1; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"><a class="blog-slider__img" onclick="pjax.loadUrl(&quot;posts/ccff7fa3.html&quot;);" href="javascript:void(0);" alt=""><img width="48" height="48" src="https://pic-bed1.xiagao.site//2024/image-20240719204425987.png" alt="" onerror="this.src=https://unpkg.zhimg.com/akilar-candyassets/image/loading.gif; this.onerror = null;"/></a><div class="blog-slider__content"><span class="blog-slider__code">2024-10-10</span><a class="blog-slider__title" onclick="pjax.loadUrl(&quot;posts/ccff7fa3.html&quot;);" href="javascript:void(0);" alt="">butterfly添加首页轮播图</a><div class="blog-slider__text">描述点啥呢？</div><a class="blog-slider__button" onclick="pjax.loadUrl(&quot;posts/ccff7fa3.html&quot;);" href="javascript:void(0);" alt="">详情       </a></div></div></div><div class="blog-slider__pagination swiper-pagination-clickable swiper-pagination-bullets"></div></div></div>';
+    console.log('已挂载butterfly_swiper')
+    parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+    }
+  var elist = 'undefined'.split(',');
+  var cpage = location.pathname;
+  var epage = 'all';
+  var flag = 0;
+
+  for (var i=0;i<elist.length;i++){
+    if (cpage.includes(elist[i])){
+      flag++;
+    }
+  }
+
+  if ((epage ==='all')&&(flag == 0)){
+    butterfly_swiper_injector_config();
+  }
+  else if (epage === cpage){
+    butterfly_swiper_injector_config();
+  }
+  </script><script defer src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper.min.js"></script><script defer data-pjax src="https://npm.elemecdn.com/hexo-butterfly-swiper/lib/swiper_init.js"></script><!-- hexo injector body_end end --></body></html>

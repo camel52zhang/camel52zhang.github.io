@@ -6,7 +6,7 @@
   <link href="https://blog.camelz.site/atom.xml" rel="self"/>
   
   <link href="https://blog.camelz.site/"/>
-  <updated>2025-09-02T14:44:45.943Z</updated>
+  <updated>2025-09-28T06:48:10.810Z</updated>
   <id>https://blog.camelz.site/</id>
   
   <author>
@@ -15,6 +15,66 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>EasyTier利用飞牛自建中转&amp;P2P打洞服务器及配置客户端</title>
+    <link href="https://blog.camelz.site/posts/315b0652.html"/>
+    <id>https://blog.camelz.site/posts/315b0652.html</id>
+    <published>2025-09-28T06:47:02.000Z</published>
+    <updated>2025-09-28T06:48:10.810Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;配置服务端&quot;&gt;&lt;a href=&quot;#配置服务端&quot; class=&quot;headerlink&quot; title=&quot;配置服务端&quot;&gt;&lt;/a&gt;配置服务端&lt;/h2&gt;&lt;h3 id=&quot;1，添加配置文件&quot;&gt;&lt;a href=&quot;#1，添加配置文件&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="EasyTier" scheme="https://blog.camelz.site/categories/EasyTier/"/>
+    
+    
+    <category term="飞牛" scheme="https://blog.camelz.site/tags/%E9%A3%9E%E7%89%9B/"/>
+    
+    <category term="EasyTier" scheme="https://blog.camelz.site/tags/EasyTier/"/>
+    
+    <category term="内网穿透" scheme="https://blog.camelz.site/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Ubuntu利用docker compose搭建Typecho博客</title>
+    <link href="https://blog.camelz.site/posts/33652a34.html"/>
+    <id>https://blog.camelz.site/posts/33652a34.html</id>
+    <published>2025-09-28T06:23:02.000Z</published>
+    <updated>2025-09-28T06:23:47.484Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;登录Ubuntu&quot;&gt;&lt;a href=&quot;#登录Ubuntu&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Typecho" scheme="https://blog.camelz.site/categories/Typecho/"/>
+    
+    
+    <category term="docker" scheme="https://blog.camelz.site/tags/docker/"/>
+    
+    <category term="Nginx" scheme="https://blog.camelz.site/tags/Nginx/"/>
+    
+    <category term="Ubuntu" scheme="https://blog.camelz.site/tags/Ubuntu/"/>
+    
+    <category term="Typecho" scheme="https://blog.camelz.site/tags/Typecho/"/>
+    
+  </entry>
   
   <entry>
     <title>Win11/Win10共享打印机0x00000709报错解决方案，打印机连接</title>
@@ -39,9 +99,9 @@
     <category term="Windows" scheme="https://blog.camelz.site/categories/Windows/"/>
     
     
-    <category term="共享打印机" scheme="https://blog.camelz.site/tags/%E5%85%B1%E4%BA%AB%E6%89%93%E5%8D%B0%E6%9C%BA/"/>
-    
     <category term="Windows" scheme="https://blog.camelz.site/tags/Windows/"/>
+    
+    <category term="共享打印机" scheme="https://blog.camelz.site/tags/%E5%85%B1%E4%BA%AB%E6%89%93%E5%8D%B0%E6%9C%BA/"/>
     
   </entry>
   
@@ -96,9 +156,9 @@
     <category term="VPN" scheme="https://blog.camelz.site/categories/VPN/"/>
     
     
-    <category term="v2rayN" scheme="https://blog.camelz.site/tags/v2rayN/"/>
-    
     <category term="VPN" scheme="https://blog.camelz.site/tags/VPN/"/>
+    
+    <category term="v2rayN" scheme="https://blog.camelz.site/tags/v2rayN/"/>
     
   </entry>
   
@@ -498,13 +558,13 @@
     <category term="VPN" scheme="https://blog.camelz.site/categories/VPN/"/>
     
     
-    <category term="VPN" scheme="https://blog.camelz.site/tags/VPN/"/>
-    
     <category term="节点" scheme="https://blog.camelz.site/tags/%E8%8A%82%E7%82%B9/"/>
     
     <category term="谷歌" scheme="https://blog.camelz.site/tags/%E8%B0%B7%E6%AD%8C/"/>
     
     <category term="colab" scheme="https://blog.camelz.site/tags/colab/"/>
+    
+    <category term="VPN" scheme="https://blog.camelz.site/tags/VPN/"/>
     
   </entry>
   
@@ -540,66 +600,6 @@
     <category term="offices" scheme="https://blog.camelz.site/tags/offices/"/>
     
     <category term="破解" scheme="https://blog.camelz.site/tags/%E7%A0%B4%E8%A7%A3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>利用docker的1panel面板结合lucky反代搭建TypeCho博客</title>
-    <link href="https://blog.camelz.site/posts/97c8b7bc.html"/>
-    <id>https://blog.camelz.site/posts/97c8b7bc.html</id>
-    <published>2025-04-04T08:52:02.000Z</published>
-    <updated>2025-04-04T15:08:35.977Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;1，群晖或者飞牛安排docker&lt;/p&gt;
-&lt;p&gt;2，docker安装1panel&lt;/p&gt;
-&lt;p&gt;3，群晖或者飞牛安装&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="docker" scheme="https://blog.camelz.site/categories/docker/"/>
-    
-    
-    <category term="docker" scheme="https://blog.camelz.site/tags/docker/"/>
-    
-    <category term="1panel" scheme="https://blog.camelz.site/tags/1panel/"/>
-    
-    <category term="lucky" scheme="https://blog.camelz.site/tags/lucky/"/>
-    
-    <category term="TypeCho" scheme="https://blog.camelz.site/tags/TypeCho/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>通过qemu-img工具转换镜像格式</title>
-    <link href="https://blog.camelz.site/posts/cb4a7023.html"/>
-    <id>https://blog.camelz.site/posts/cb4a7023.html</id>
-    <published>2025-03-27T14:35:02.000Z</published>
-    <updated>2025-03-27T14:55:44.216Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;通过qemu-img工具转换镜像格式&quot;&gt;&lt;a href=&quot;#通过qemu-img工具转换镜像格式&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="转换镜像格式" scheme="https://blog.camelz.site/categories/%E8%BD%AC%E6%8D%A2%E9%95%9C%E5%83%8F%E6%A0%BC%E5%BC%8F/"/>
-    
-    
-    <category term="vmdk" scheme="https://blog.camelz.site/tags/vmdk/"/>
-    
-    <category term="img" scheme="https://blog.camelz.site/tags/img/"/>
     
   </entry>
   

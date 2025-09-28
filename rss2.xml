@@ -15,8 +15,72 @@
     <atom:link href="https://blog.camelz.site/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>没事瞎胡搞，越搞越明了🌤！</description>
-    <pubDate>Tue, 02 Sep 2025 14:44:45 GMT</pubDate>
+    <pubDate>Sun, 28 Sep 2025 06:48:10 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>EasyTier利用飞牛自建中转&amp;P2P打洞服务器及配置客户端</title>
+      <link>https://blog.camelz.site/posts/315b0652.html</link>
+      <guid>https://blog.camelz.site/posts/315b0652.html</guid>
+      <pubDate>Sun, 28 Sep 2025 06:47:02 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;配置服务端&quot;&gt;&lt;a href=&quot;#配置服务端&quot; class=&quot;headerlink&quot; title=&quot;配置服务端&quot;&gt;&lt;/a&gt;配置服务端&lt;/h2&gt;&lt;h3 id=&quot;1，添加配置文件&quot;&gt;&lt;a href=&quot;#1，添加配置文件&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/EasyTier/">EasyTier</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/%E9%A3%9E%E7%89%9B/">飞牛</category>
+      
+      <category domain="https://blog.camelz.site/tags/EasyTier/">EasyTier</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F/">内网穿透</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/315b0652.html#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Ubuntu利用docker compose搭建Typecho博客</title>
+      <link>https://blog.camelz.site/posts/33652a34.html</link>
+      <guid>https://blog.camelz.site/posts/33652a34.html</guid>
+      <pubDate>Sun, 28 Sep 2025 06:23:02 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h3 id=&quot;登录Ubuntu&quot;&gt;&lt;a href=&quot;#登录Ubuntu&quot; class=&quot;headerlink&quot;</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://blog.camelz.site/categories/Typecho/">Typecho</category>
+      
+      
+      <category domain="https://blog.camelz.site/tags/docker/">docker</category>
+      
+      <category domain="https://blog.camelz.site/tags/Nginx/">Nginx</category>
+      
+      <category domain="https://blog.camelz.site/tags/Ubuntu/">Ubuntu</category>
+      
+      <category domain="https://blog.camelz.site/tags/Typecho/">Typecho</category>
+      
+      
+      <comments>https://blog.camelz.site/posts/33652a34.html#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Win11/Win10共享打印机0x00000709报错解决方案，打印机连接</title>
@@ -40,9 +104,9 @@
       <category domain="https://blog.camelz.site/categories/Windows/">Windows</category>
       
       
-      <category domain="https://blog.camelz.site/tags/%E5%85%B1%E4%BA%AB%E6%89%93%E5%8D%B0%E6%9C%BA/">共享打印机</category>
-      
       <category domain="https://blog.camelz.site/tags/Windows/">Windows</category>
+      
+      <category domain="https://blog.camelz.site/tags/%E5%85%B1%E4%BA%AB%E6%89%93%E5%8D%B0%E6%9C%BA/">共享打印机</category>
       
       
       <comments>https://blog.camelz.site/posts/de7b2178.html#disqus_thread</comments>
@@ -101,9 +165,9 @@
       <category domain="https://blog.camelz.site/categories/VPN/">VPN</category>
       
       
-      <category domain="https://blog.camelz.site/tags/v2rayN/">v2rayN</category>
-      
       <category domain="https://blog.camelz.site/tags/VPN/">VPN</category>
+      
+      <category domain="https://blog.camelz.site/tags/v2rayN/">v2rayN</category>
       
       
       <comments>https://blog.camelz.site/posts/536cb693.html#disqus_thread</comments>
@@ -531,13 +595,13 @@
       <category domain="https://blog.camelz.site/categories/VPN/">VPN</category>
       
       
-      <category domain="https://blog.camelz.site/tags/VPN/">VPN</category>
-      
       <category domain="https://blog.camelz.site/tags/%E8%8A%82%E7%82%B9/">节点</category>
       
       <category domain="https://blog.camelz.site/tags/%E8%B0%B7%E6%AD%8C/">谷歌</category>
       
       <category domain="https://blog.camelz.site/tags/colab/">colab</category>
+      
+      <category domain="https://blog.camelz.site/tags/VPN/">VPN</category>
       
       
       <comments>https://blog.camelz.site/posts/56304609.html#disqus_thread</comments>
@@ -578,70 +642,6 @@
       
       
       <comments>https://blog.camelz.site/posts/3559b199.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>利用docker的1panel面板结合lucky反代搭建TypeCho博客</title>
-      <link>https://blog.camelz.site/posts/97c8b7bc.html</link>
-      <guid>https://blog.camelz.site/posts/97c8b7bc.html</guid>
-      <pubDate>Fri, 04 Apr 2025 08:52:02 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;p&gt;1，群晖或者飞牛安排docker&lt;/p&gt;
-&lt;p&gt;2，docker安装1panel&lt;/p&gt;
-&lt;p&gt;3，群晖或者飞牛安装&lt;a</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/docker/">docker</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/docker/">docker</category>
-      
-      <category domain="https://blog.camelz.site/tags/1panel/">1panel</category>
-      
-      <category domain="https://blog.camelz.site/tags/lucky/">lucky</category>
-      
-      <category domain="https://blog.camelz.site/tags/TypeCho/">TypeCho</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/97c8b7bc.html#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>通过qemu-img工具转换镜像格式</title>
-      <link>https://blog.camelz.site/posts/cb4a7023.html</link>
-      <guid>https://blog.camelz.site/posts/cb4a7023.html</guid>
-      <pubDate>Thu, 27 Mar 2025 14:35:02 GMT</pubDate>
-      
-        
-        
-          
-          
-      <description>&lt;h1 id=&quot;通过qemu-img工具转换镜像格式&quot;&gt;&lt;a href=&quot;#通过qemu-img工具转换镜像格式&quot; class=&quot;headerlink&quot;</description>
-          
-        
-      
-      
-      
-      
-      <category domain="https://blog.camelz.site/categories/%E8%BD%AC%E6%8D%A2%E9%95%9C%E5%83%8F%E6%A0%BC%E5%BC%8F/">转换镜像格式</category>
-      
-      
-      <category domain="https://blog.camelz.site/tags/vmdk/">vmdk</category>
-      
-      <category domain="https://blog.camelz.site/tags/img/">img</category>
-      
-      
-      <comments>https://blog.camelz.site/posts/cb4a7023.html#disqus_thread</comments>
       
     </item>
     
